@@ -1,0 +1,11 @@
+"measure","measure","test csv measure upload 1-with-invalid-formats"
+
+"item invalid","door","test csv component upload 1-with-invalid-formats",'N','Yes',2,2,'door manufacturer','door model','Swinging','Aluminum','Single Clear',1984
+measure,"door","test csv measure upload 2-with-invalid-formats"
+component,"door","test csv component upload 2-with-invalid-formats",'N','Yes',2,2,'door manufacturer','door model','Swinging','Aluminum','Single Clear',1984
+component,door,"test csv component upload 3-with-invalid-formats",'N','Yes',2,2,'door manufacturer','door model','Swinging','Aluminum'
+measure,measure,"test csv measure upload 3-with-invalid-formats"
+"component",door,"test csv component upload 4-with-invalid-formats",'N','Yes',2,2,'door manufacturer door manufacturer door manufacturer door manufacturer door manufacturer door manufacturer door manufacturer door manufacturer door manufacturer door manufacturer door manufacturer door manufacturer door manufacturer door manufacturer door manufacturer door manufacturer door manufacturer door manufacturer ','door model','Swinging','Aluminum','Single Clear Single Clear Single Clear Single Clear Single Clear Single Clear Single Clear Single Clear Single Clear Single Clear Single Clear Single Clear Single Clear Single Clear Single Clear Single Clear Single Clear Single Clear Single Clear Single Clear Single Clear Single Clear Single Clear ',1984
+
+"measure",measure,"test csv measure upload 4-with-invalid-formats"
+

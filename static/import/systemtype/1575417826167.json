@@ -1,0 +1,1016 @@
+[
+    {
+        "name": "2 Pipe Fan Coil Unit",
+        "sections": [
+            {
+                "name": "Condenser Water",
+                "category": "COOLING",
+                "application": null,
+                "technology": null,
+                "order": 1
+            },
+            {
+                "name": "Condenser Water Pumps",
+                "category": "COOLING",
+                "application": "CONDENSER_WATER_PUMP",
+                "technology": null,
+                "order": 2
+            },
+            {
+                "name": "Chillers",
+                "category": "COOLING",
+                "application": "CHILLER",
+                "technology": null,
+                "order": 3
+            },
+            {
+                "name": "Chilled Water Pumps",
+                "category": "COOLING",
+                "application": "CHILLED_WATER_PUMP",
+                "technology": null,
+                "order": 4
+            },
+            {
+                "name": "Boilers",
+                "category": "HEATING",
+                "application": "BOILER",
+                "technology": "HOT_WATER_BOILER",
+                "order": 5
+            },
+            {
+                "name": "Hot Water Pumps",
+                "category": "HEATING",
+                "application": "HOT_WATER_PUMP",
+                "technology": null,
+                "order": 6
+            },
+            {
+                "name": "Fan Coil Unit",
+                "category": "HEATING_AND_COOLING",
+                "application": "FAN_COIL_UNIT",
+                "technology": null,
+                "order": 7
+            },
+            {
+                "name": "Thermostat",
+                "category": "CONTROLS",
+                "application": null,
+                "technology": null,
+                "order": 8
+            }
+        ],
+        "projects": [],
+        "imageUrls": [],
+        "order": 1
+    },
+    {
+        "name": "4 Pipe Fan Coil Unit",
+        "sections": [
+            {
+                "name": "Condenser Water",
+                "category": "COOLING",
+                "application": null,
+                "technology": null,
+                "order": 1
+            },
+            {
+                "name": "Condenser Water Pumps",
+                "category": "COOLING",
+                "application": "CONDENSER_WATER_PUMP",
+                "technology": null,
+                "order": 2
+            },
+            {
+                "name": "Chillers",
+                "category": "COOLING",
+                "application": "CHILLER",
+                "technology": null,
+                "order": 3
+            },
+            {
+                "name": "Chilled Water Pumps",
+                "category": "COOLING",
+                "application": "CHILLED_WATER_PUMP",
+                "technology": null,
+                "order": 4
+            },
+            {
+                "name": "Boilers",
+                "category": "HEATING",
+                "application": "BOILER",
+                "technology": "HOT_WATER_BOILER",
+                "order": 5
+            },
+            {
+                "name": "Hot Water Pumps",
+                "category": "HEATING",
+                "application": "HOT_WATER_PUMP",
+                "technology": null,
+                "order": 6
+            },
+            {
+                "name": "Fan Coil Unit",
+                "category": "HEATING_AND_COOLING",
+                "application": "FAN_COIL_UNIT",
+                "technology": null,
+                "order": 7
+            },
+            {
+                "name": "Thermostat",
+                "category": "CONTROLS",
+                "application": null,
+                "technology": null,
+                "order": 8
+            }
+        ],
+        "projects": [],
+        "imageUrls": [],
+        "order": 2
+    },
+    {
+        "name": "CAV w/ Chilled Water & Gas/Elec Heat",
+        "sections": [
+            {
+                "name": "Condenser Water",
+                "category": "COOLING",
+                "application": null,
+                "technology": null,
+                "order": 1
+            },
+            {
+                "name": "Condenser Water Pumps",
+                "category": "COOLING",
+                "application": "CONDENSER_WATER_PUMP",
+                "technology": null,
+                "order": 2
+            },
+            {
+                "name": "Chillers",
+                "category": "COOLING",
+                "application": "CHILLER",
+                "technology": null,
+                "order": 3
+            },
+            {
+                "name": "Chilled Water Pumps",
+                "category": "COOLING",
+                "application": "CHILLED_WATER_PUMP",
+                "technology": null,
+                "order": 4
+            },
+            {
+                "name": "Air Handling Unit",
+                "category": "HEATING_AND_COOLING",
+                "application": "AIR_HANDLING_UNIT",
+                "technology": null,
+                "order": 5
+            },
+            {
+                "name": "Terminal Units",
+                "category": "AIR_DISTRIBUTION",
+                "application": "CAV",
+                "technology": null,
+                "order": 6
+            },
+            {
+                "name": "Controls",
+                "category": "CONTROLS",
+                "application": "BUILDING_AUTOMATION_SYSTEM",
+                "technology": null,
+                "order": 7
+            }
+        ],
+        "projects": [],
+        "imageUrls": [],
+        "order": 3
+    },
+    {
+        "name": "CAV w/ Chilled & Hot Water",
+        "sections": [
+            {
+                "name": "Condenser Water",
+                "category": "COOLING",
+                "application": null,
+                "technology": null,
+                "order": 1
+            },
+            {
+                "name": "Condenser Water Pumps",
+                "category": "COOLING",
+                "application": "CONDENSER_WATER_PUMP",
+                "technology": null,
+                "order": 2
+            },
+            {
+                "name": "Chillers",
+                "category": "COOLING",
+                "application": "CHILLER",
+                "technology": null,
+                "order": 3
+            },
+            {
+                "name": "Chilled Water Pumps",
+                "category": "COOLING",
+                "application": "CONDENSER_WATER_PUMP",
+                "technology": null,
+                "order": 4
+            },
+            {
+                "name": "Air Handling Unit",
+                "category": "HEATING_AND_COOLING",
+                "application": "AIR_HANDLING_UNIT",
+                "technology": null,
+                "order": 5
+            },
+            {
+                "name": "Terminal Units",
+                "category": "AIR_DISTRIBUTION",
+                "application": "CAV",
+                "technology": null,
+                "order": 6
+            },
+            {
+                "name": "Controls",
+                "category": "CONTROLS",
+                "application": "BUILDING_AUTOMATION_SYSTEM",
+                "technology": null,
+                "order": 7
+            }
+        ],
+        "projects": [],
+        "imageUrls": [],
+        "order": 4
+    },
+    {
+        "name": "CAV w/ DX Cooling & Gas/Elec Heat",
+        "sections": [
+            {
+                "name": "Air Handling Unit",
+                "category": "HEATING_AND_COOLING",
+                "application": "AIR_HANDLING_UNIT",
+                "technology": null,
+                "order": 1
+            },
+            {
+                "name": "Terminal Units",
+                "category": "AIR_DISTRIBUTION",
+                "application": "CAV",
+                "technology": null,
+                "order": 2
+            },
+            {
+                "name": "Controls",
+                "category": "CONTROLS",
+                "application": "BUILDING_AUTOMATION_SYSTEM",
+                "technology": null,
+                "order": 3
+            }
+        ],
+        "projects": [],
+        "imageUrls": [],
+        "order": 5
+    },
+    {
+        "name": "CAV w/ DX Cooling & Hot Water Heat",
+        "sections": [
+            {
+                "name": "Boilers",
+                "category": "HEATING",
+                "application": "BOILER",
+                "technology": "HOT_WATER_BOILER",
+                "order": 1
+            },
+            {
+                "name": "Hot Water Pumps",
+                "category": "HEATING",
+                "application": "HOT_WATER_PUMP",
+                "technology": null,
+                "order": 2
+            },
+            {
+                "name": "Air Handling Unit",
+                "category": "HEATING_AND_COOLING",
+                "application": "AIR_HANDLING_UNIT",
+                "technology": null,
+                "order": 3
+            },
+            {
+                "name": "Terminal Units",
+                "category": "AIR_DISTRIBUTION",
+                "application": "CAV",
+                "technology": null,
+                "order": 4
+            },
+            {
+                "name": "Controls",
+                "category": "CONTROLS",
+                "application": "BUILDING_AUTOMATION_SYSTEM",
+                "technology": null,
+                "order": 5
+            }
+        ],
+        "projects": [],
+        "imageUrls": [],
+        "order": 6
+    },
+    {
+        "name": "CAV w/ Gas/Elec Heat",
+        "sections": [
+            {
+                "name": "Air Handling Unit",
+                "category": "HEATING_AND_COOLING",
+                "application": "AIR_HANDLING_UNIT",
+                "technology": null,
+                "order": 1
+            },
+            {
+                "name": "Terminal Units",
+                "category": "AIR_DISTRIBUTION",
+                "application": "CAV",
+                "technology": null,
+                "order": 2
+            },
+            {
+                "name": "Controls",
+                "category": "CONTROLS",
+                "application": "BUILDING_AUTOMATION_SYSTEM",
+                "technology": null,
+                "order": 3
+            }
+        ],
+        "projects": [],
+        "imageUrls": [],
+        "order": 7
+    },
+    {
+        "name": "CAV w/ Hot Water Heat",
+        "sections": [
+            {
+                "name": "Boilers",
+                "category": "HEATING",
+                "application": "BOILER",
+                "technology": "HOT_WATER_BOILER",
+                "order": 1
+            },
+            {
+                "name": "Hot Water Pumps",
+                "category": "HEATING",
+                "application": "HOT_WATER_PUMP",
+                "technology": null,
+                "order": 2
+            },
+            {
+                "name": "Air Handling Unit",
+                "category": "HEATING_AND_COOLING",
+                "application": "AIR_HANDLING_UNIT",
+                "technology": null,
+                "order": 3
+            },
+            {
+                "name": "Terminal Units",
+                "category": "AIR_DISTRIBUTION",
+                "application": "CAV",
+                "technology": null,
+                "order": 4
+            },
+            {
+                "name": "Controls",
+                "category": "CONTROLS",
+                "application": "BUILDING_AUTOMATION_SYSTEM",
+                "technology": null,
+                "order": 5
+            }
+        ],
+        "projects": [],
+        "imageUrls": [],
+        "order": 8
+    },
+    {
+        "name": "VAV w/ Chilled Water & Gas/Elec. Heat",
+        "sections": [
+            {
+                "name": "Condenser Water",
+                "category": "COOLING",
+                "application": null,
+                "technology": null,
+                "order": 1
+            },
+            {
+                "name": "Condenser Water Pumps",
+                "category": "COOLING",
+                "application": "CONDENSER_WATER_PUMP",
+                "technology": null,
+                "order": 2
+            },
+            {
+                "name": "Chillers",
+                "category": "COOLING",
+                "application": "CHILLER",
+                "technology": null,
+                "order": 3
+            },
+            {
+                "name": "Chilled Water Pumps",
+                "category": "COOLING",
+                "application": "CHILLED_WATER_PUMP",
+                "technology": null,
+                "order": 4
+            },
+            {
+                "name": "Air Handling Unit",
+                "category": "HEATING_AND_COOLING",
+                "application": "AIR_HANDLING_UNIT",
+                "technology": null,
+                "order": 5
+            },
+            {
+                "name": "Terminal Units",
+                "category": "AIR_DISTRIBUTION",
+                "application": "CAV",
+                "technology": null,
+                "order": 6
+            },
+            {
+                "name": "Controls",
+                "category": "CONTROLS",
+                "application": "BUILDING_AUTOMATION_SYSTEM",
+                "technology": null,
+                "order": 7
+            }
+        ],
+        "projects": [],
+        "imageUrls": [],
+        "order": 9
+    },
+    {
+        "name": "VAV w/ Chilled & Hot Water",
+        "sections": [
+            {
+                "name": "Condenser Water",
+                "category": "COOLING",
+                "application": null,
+                "technology": null,
+                "order": 1
+            },
+            {
+                "name": "Condenser Water Pumps",
+                "category": "COOLING",
+                "application": "CONDENSER_WATER_PUMP",
+                "technology": null,
+                "order": 2
+            },
+            {
+                "name": "Chillers",
+                "category": "COOLING",
+                "application": "CHILLER",
+                "technology": null,
+                "order": 3
+            },
+            {
+                "name": "Chilled Water Pumps",
+                "category": "COOLING",
+                "application": "CONDENSER_WATER_PUMP",
+                "technology": null,
+                "order": 4
+            },
+            {
+                "name": "Air Handling Unit",
+                "category": "HEATING_AND_COOLING",
+                "application": "AIR_HANDLING_UNIT",
+                "technology": null,
+                "order": 5
+            },
+            {
+                "name": "Terminal Units",
+                "category": "AIR_DISTRIBUTION",
+                "application": "CAV",
+                "technology": null,
+                "order": 6
+            },
+            {
+                "name": "Controls",
+                "category": "CONTROLS",
+                "application": "BUILDING_AUTOMATION_SYSTEM",
+                "technology": null,
+                "order": 7
+            }
+        ],
+        "projects": [],
+        "imageUrls": [],
+        "order": 10
+    },
+    {
+        "name": "VAV w/ DX Cooling & Gas/Elec. Heat",
+        "sections": [
+            {
+                "name": "Air Handling Unit",
+                "category": "HEATING_AND_COOLING",
+                "application": "AIR_HANDLING_UNIT",
+                "technology": null,
+                "order": 1
+            },
+            {
+                "name": "Terminal Units",
+                "category": "AIR_DISTRIBUTION",
+                "application": "CAV",
+                "technology": null,
+                "order": 2
+            },
+            {
+                "name": "Controls",
+                "category": "CONTROLS",
+                "application": "BUILDING_AUTOMATION_SYSTEM",
+                "technology": null,
+                "order": 3
+            }
+        ],
+        "projects": [],
+        "imageUrls": [],
+        "order": 11
+    },
+    {
+        "name": "VAV w/ DX Cooling & Hot Water Heat",
+        "sections": [
+            {
+                "name": "Boilers",
+                "category": "HEATING",
+                "application": "BOILER",
+                "technology": "HOT_WATER_BOILER",
+                "order": 1
+            },
+            {
+                "name": "Hot Water Pumps",
+                "category": "HEATING",
+                "application": "HOT_WATER_PUMP",
+                "technology": null,
+                "order": 2
+            },
+            {
+                "name": "Air Handling Unit",
+                "category": "HEATING_AND_COOLING",
+                "application": "AIR_HANDLING_UNIT",
+                "technology": null,
+                "order": 3
+            },
+            {
+                "name": "Terminal Units",
+                "category": "AIR_DISTRIBUTION",
+                "application": "CAV",
+                "technology": null,
+                "order": 4
+            },
+            {
+                "name": "Controls",
+                "category": "CONTROLS",
+                "application": "BUILDING_AUTOMATION_SYSTEM",
+                "technology": null,
+                "order": 5
+            }
+        ],
+        "projects": [],
+        "imageUrls": [],
+        "order": 12
+    },
+    {
+        "name": "VAV w/ Gas/Elec. Heat",
+        "sections": [
+            {
+                "name": "Air Handling Unit",
+                "category": "HEATING_AND_COOLING",
+                "application": "AIR_HANDLING_UNIT",
+                "technology": null,
+                "order": 1
+            },
+            {
+                "name": "Terminal Units",
+                "category": "AIR_DISTRIBUTION",
+                "application": "CAV",
+                "technology": null,
+                "order": 2
+            },
+            {
+                "name": "Controls",
+                "category": "CONTROLS",
+                "application": "BUILDING_AUTOMATION_SYSTEM",
+                "technology": null,
+                "order": 3
+            }
+        ],
+        "projects": [],
+        "imageUrls": [],
+        "order": 13
+    },
+    {
+        "name": "VAV w/ Hot Water Heat",
+        "sections": [
+            {
+                "name": "Boilers",
+                "category": "HEATING",
+                "application": "BOILER",
+                "technology": "HOT_WATER_BOILER",
+                "order": 1
+            },
+            {
+                "name": "Hot Water Pumps",
+                "category": "HEATING",
+                "application": "HOT_WATER_PUMP",
+                "technology": null,
+                "order": 2
+            },
+            {
+                "name": "Air Handling Unit",
+                "category": "HEATING_AND_COOLING",
+                "application": "AIR_HANDLING_UNIT",
+                "technology": null,
+                "order": 3
+            },
+            {
+                "name": "Terminal Units",
+                "category": "AIR_DISTRIBUTION",
+                "application": "CAV",
+                "technology": null,
+                "order": 4
+            },
+            {
+                "name": "Controls",
+                "category": "CONTROLS",
+                "application": "BUILDING_AUTOMATION_SYSTEM",
+                "technology": null,
+                "order": 5
+            }
+        ],
+        "projects": [],
+        "imageUrls": [],
+        "order": 14
+    },
+    {
+        "name": "Ductless Mini-Split AC System",
+        "sections": [
+            {
+                "name": "Cooling",
+                "category": "COOLING",
+                "application": "AIR_CONDITIONER",
+                "technology": "SPLIT_DX_AIR_CONDITIONER",
+                "order": 1
+            },
+            {
+                "name": "Thermostat",
+                "category": "CONTROLS",
+                "application": null,
+                "technology": null,
+                "order": 2
+            }
+        ],
+        "projects": [],
+        "imageUrls": [],
+        "order": 15
+    },
+    {
+        "name": "Ductless Mini-Split Heat Pump System",
+        "sections": [
+            {
+                "name": "Heat Pump",
+                "category": "HEATING_AND_COOLING",
+                "application": "HEAT_PUMP",
+                "technology": "SPLIT_HEAT_PUMP",
+                "order": 1
+            },
+            {
+                "name": "Thermostat",
+                "category": "CONTROLS",
+                "application": null,
+                "technology": null,
+                "order": 2
+            }
+        ],
+        "projects": [],
+        "imageUrls": [],
+        "order": 16
+    },
+    {
+        "name": "Packaged DOAS",
+        "sections": [
+            {
+                "name": "DOAS Unit",
+                "category": "AIR_DISTRIBUTION",
+                "application": "DEDICATED_OUTDOOR_AIR_SYSTEM",
+                "technology": null,
+                "order": 1
+            },
+            {
+                "name": "Thermostat",
+                "category": "CONTROLS",
+                "application": null,
+                "technology": null,
+                "order": 2
+            }
+        ],
+        "projects": [],
+        "imageUrls": [],
+        "order": 17
+    },
+    {
+        "name": "Packaged Rooftop Air Conditioner",
+        "sections": [
+            {
+                "name": "Air Conditioner",
+                "category": "COOLING",
+                "application": "AIR_CONDITIONER",
+                "technology": null,
+                "order": 1
+            },
+            {
+                "name": "Thermostat",
+                "category": "CONTROLS",
+                "application": null,
+                "technology": null,
+                "order": 2
+            }
+        ],
+        "projects": [],
+        "imageUrls": [],
+        "order": 18
+    },
+    {
+        "name": "Packaged Rooftop Heat Pump",
+        "sections": [
+            {
+                "name": "Heat Pump",
+                "category": "HEATING_AND_COOLING",
+                "application": "HEAT_PUMP",
+                "technology": null,
+                "order": 1
+            },
+            {
+                "name": "Thermostat",
+                "category": "CONTROLS",
+                "application": null,
+                "technology": null,
+                "order": 2
+            }
+        ],
+        "projects": [],
+        "imageUrls": [],
+        "order": 19
+    },
+    {
+        "name": "Packaged Rooftop VAV w/ Elec. Reheat",
+        "sections": [
+            {
+                "name": "Condenser",
+                "category": "COOLING",
+                "application": null,
+                "technology": null,
+                "order": 1
+            },
+            {
+                "name": "Air Handling Unit",
+                "category": "HEATING_AND_COOLING",
+                "application": "AIR_HANDLING_UNIT",
+                "technology": null,
+                "order": 2
+            },
+            {
+                "name": "Terminal Units",
+                "category": "AIR_DISTRIBUTION",
+                "application": "VAV",
+                "technology": null,
+                "order": 3
+            },
+            {
+                "name": "Controls",
+                "category": "CONTROLS",
+                "application": "BUILDING_AUTOMATION_SYSTEM",
+                "technology": null,
+                "order": 4
+            }
+        ],
+        "projects": [],
+        "imageUrls": [],
+        "order": 20
+    },
+    {
+        "name": "Packaged Rooftop VAV w/ Hot Water Reheat",
+        "sections": [
+            {
+                "name": "Condenser",
+                "category": "COOLING",
+                "application": null,
+                "technology": null,
+                "order": 1
+            },
+            {
+                "name": "Boilers",
+                "category": "HEATING",
+                "application": "BOILER",
+                "technology": "HOT_WATER_BOILER",
+                "order": 2
+            },
+            {
+                "name": "Hot Water Pumps",
+                "category": "HEATING",
+                "application": "HOT_WATER_PUMP",
+                "technology": null,
+                "order": 3
+            },
+            {
+                "name": "Air Handling Unit",
+                "category": "HEATING_AND_COOLING",
+                "application": "AIR_HANDLING_UNIT",
+                "technology": null,
+                "order": 4
+            },
+            {
+                "name": "Terminal Units",
+                "category": "AIR_DISTRIBUTION",
+                "application": "VAV",
+                "technology": null,
+                "order": 5
+            },
+            {
+                "name": "Controls",
+                "category": "CONTROLS",
+                "application": "BUILDING_AUTOMATION_SYSTEM",
+                "technology": null,
+                "order": 6
+            }
+        ],
+        "projects": [],
+        "imageUrls": [],
+        "order": 21
+    },
+    {
+        "name": "Packaged Single Zone Split System",
+        "sections": [
+            {
+                "name": "Air Conditioner",
+                "category": "COOLING",
+                "application": "AIR_CONDITIONER",
+                "technology": "SPLIT_DX_AIR_CONDITIONER",
+                "order": 1
+            },
+            {
+                "name": "Furnace",
+                "category": "HEATING",
+                "application": "FURNACE",
+                "technology": null,
+                "order": 2
+            },
+            {
+                "name": "Registers/Diffusers",
+                "category": "AIR_DISTRIBUTION",
+                "application": "REGISTER",
+                "technology": null,
+                "order": 3
+            },
+            {
+                "name": "Thermostat",
+                "category": "CONTROLS",
+                "application": null,
+                "technology": null,
+                "order": 4
+            }
+        ],
+        "projects": [],
+        "imageUrls": [],
+        "order": 22
+    },
+    {
+        "name": "Packaged Terminal Air Conditioner",
+        "sections": [
+            {
+                "name": "Air Conditioner",
+                "category": "COOLING",
+                "application": "AIR_CONDITIONER",
+                "technology": null,
+                "order": 1
+            },
+            {
+                "name": "Thermostat",
+                "category": "CONTROLS",
+                "application": null,
+                "technology": null,
+                "order": 2
+            }
+        ],
+        "projects": [],
+        "imageUrls": [],
+        "order": 23
+    },
+    {
+        "name": "Packaged Terminal Heat Pump",
+        "sections": [
+            {
+                "name": "Heat Pump",
+                "category": "HEATING_AND_COOLING",
+                "application": "HEAT_PUMP",
+                "technology": null,
+                "order": 1
+            },
+            {
+                "name": "Thermostat",
+                "category": "CONTROLS",
+                "application": null,
+                "technology": null,
+                "order": 2
+            }
+        ],
+        "projects": [],
+        "imageUrls": [],
+        "order": 24
+    },
+    {
+        "name": "VRF System",
+        "sections": [
+            {
+                "name": "Outdoor Units",
+                "category": "HEATING_AND_COOLING",
+                "application": "VARIABLE_REFRIGERANT_FLOW",
+                "technology": "VRF_OUTDOOR_UNIT",
+                "order": 1
+            },
+            {
+                "name": "Indoor Units",
+                "category": "HEATING_AND_COOLING",
+                "application": "VARIABLE_REFRIGERANT_FLOW",
+                "technology": "VRF_INDOOR_UNIT",
+                "order": 2
+            },
+            {
+                "name": "Controls",
+                "category": "CONTROLS",
+                "application": null,
+                "technology": null,
+                "order": 3
+            }
+        ],
+        "projects": [],
+        "imageUrls": [],
+        "order": 25
+    },
+    {
+        "name": "Hot Water Baseboards/Radiators",
+        "sections": [
+            {
+                "name": "Boilers",
+                "category": "HEATING",
+                "application": "BOILER",
+                "technology": "HOT_WATER_BOILER",
+                "order": 1
+            },
+            {
+                "name": "Hot Water Pumps",
+                "category": "HEATING",
+                "application": "HOT_WATER_PUMP",
+                "technology": null,
+                "order": 2
+            },
+            {
+                "name": "Baseboards/Radiators",
+                "category": "HEATING",
+                "application": null,
+                "technology": null,
+                "order": 3
+            },
+            {
+                "name": "Thermostat",
+                "category": "CONTROLS",
+                "application": null,
+                "technology": null,
+                "order": 4
+            }
+        ],
+        "projects": [],
+        "imageUrls": [],
+        "order": 26
+    },
+    {
+        "name": "Steam Radiators",
+        "sections": [
+            {
+                "name": "Boilers",
+                "category": "HEATING",
+                "application": "BOILER",
+                "technology": "STEAM_BOILER",
+                "order": 1
+            },
+            {
+                "name": "Radiators",
+                "category": "HEATING",
+                "application": "RADIANT",
+                "technology": "RADIATOR",
+                "order": 2
+            },
+            {
+                "name": "Thermostat",
+                "category": "CONTROLS",
+                "application": null,
+                "technology": null,
+                "order": 3
+            }
+        ],
+        "projects": [],
+        "imageUrls": [],
+        "order": 27
+    }
+]

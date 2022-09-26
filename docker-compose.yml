@@ -1,0 +1,50 @@
+version: "2"
+services:
+  web:
+    build:
+      context: ./nginx
+      dockerfile: Dockerfile-nginx
+    links:
+      - node-api
+    ports:
+      - "443:443"
+      - "80:80"
+    environment:
+      - VIRTUAL_HOST=*
+      - VIRTUAL_HOST_WEIGHT=1
+    depends_on:
+      - node-api
+  mongo-middleware:
+    image: mongo:4.2
+    ports:
+      - "27017:27017"
+    volumes:
+      - ../mongo-data:/data/db
+  node-api:
+    image: node-api:latest
+    build: .
+    links:
+      - mongo-middleware
+    depends_on:
+      - mongo-middleware
+    ports:
+      - "8080:80"
+      - "9229:9229"
+    env_file:
+      - .env
+    environment:
+      - VIRTUAL_HOST=*/api/*
+      - VIRTUAL_HOST_WEIGHT=3
+      - PORT=80
+      - HOST=http://localhost
+      - ROUTE_PREFIX=api/
+      - NODE_ENV=development
+    command: ../node_modules/.bin/nodemon -L --inspect=0.0.0.0:9229 ./server.js
+    volumes:
+      - .:/opt/node_app/app:delegated
+      - ./package.json:/opt/node_app/package.json
+      - ./yarn.lock:/opt/node_app/yarn.lock
+      - notused:/opt/node_app/app/node_modules
+
+volumes:
+  notused:

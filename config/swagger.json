@@ -1,0 +1,151 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "version": "1.0.0",
+    "title": "Simuwatt Node API"
+  },
+  "host": "localhost:3000",
+  "basePath": "/api",
+  "tags": [
+    {
+      "name": "Projects",
+      "description": "API for projects"
+    }
+  ],
+  "schemes": [
+    "http",
+    "https"
+  ],
+  "consumes": [
+    "application/json"
+  ],
+  "produces": [
+    "application/json"
+  ],
+  "paths": {
+    "/organization/{organizationId}/project": {
+      "post": {
+        "tags": [
+          "Projects"
+        ],
+        "description": "Create new project in the organization",
+        "parameters": [
+          {
+            "name": "project",
+            "in": "body",
+            "description": "Project that we want to create",
+            "schema": {
+              "$ref": "#/definitions/Project"
+            }
+          }
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "New project is created",
+            "schema": {
+              "$ref": "#/definitions/Project"
+            }
+          }
+        }
+      },
+      "get": {
+        "tags": [
+          "Projects"
+        ],
+        "summary": "Get all projects in this organization",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/definitions/Projects"
+            }
+          }
+        }
+      }
+    },
+    "/building/{buildingId}/project/{projectId}": {
+      "put": {
+        "tags": [
+          "Projects"
+        ],
+        "description": "Add existing project to a building",
+        "parameters": [
+          {
+            "name": "project",
+            "in": "body",
+            "description": "Project that we want to add",
+            "schema": {
+              "$ref": "#/definitions/Project"
+            }
+          }
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "Project is added",
+            "schema": {
+              "$ref": "#/definitions/Project"
+            }
+          }
+        }
+      }
+    },
+    "/building/{buildingId}/project/{projectId}/run": {
+      "put": {
+        "tags": [
+          "Projects"
+        ],
+        "description": "Run analysis on a building project",
+        "parameters": [
+          {
+            "name": "project",
+            "in": "body",
+            "description": "Project that we want to analyze",
+            "schema": {
+              "$ref": "#/definitions/Project"
+            }
+          }
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "Project is analyzed",
+            "schema": {
+              "$ref": "#/definitions/Project"
+            }
+          }
+        }
+      }
+    }
+  },
+  "definitions": {
+    "Project": {
+      "required": [
+        "email",
+        "_id"
+      ],
+      "properties": {
+        "project": {
+          "type": "object",
+          "properties": {
+            "_id": {
+              "type": "string"
+            }
+          },
+          "uniqueItems": true
+        }
+      }
+    },
+    "Projects": {
+      "type": "array",
+      "$ref": "#/definitions/Project"
+    }
+  }
+}

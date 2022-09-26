@@ -1,0 +1,163 @@
+[
+  {
+    "name": "Public Fan All Fields 1",
+    "comment": "Fan Comment",
+    "conditionRating": "Excellent - Plan Preventative Maintenance",
+    "info": {
+      "configurationData": {
+        "dischargeDamper": "Yes",
+        "fansConfigurator": "Blow-Thru",
+        "driveType": "Belt",
+        "fansControlType": "Dampers",
+        "totalStaticPressure": "34"
+      },
+      "motorData": {
+        "powerFactor": "33",
+        "amps": "32",
+        "phase": "31",
+        "volts": "30",
+        "efficiency": "29",
+        "synchronousSpeed": "28",
+        "speed": "27",
+        "ratedPower": "26",
+        "model": "Motor Model",
+        "yearBuilt": "1984",
+        "manufacturer": "Motor Manufacturer"
+      },
+      "data": {
+        "efficiency": "25",
+        "airFloatRate": "24",
+        "typeFan": "Airfoil",
+        "model": "Fan Model",
+        "yearBuilt": "1984",
+        "manufacturer": "Fan Manufacturer"
+      }
+    },
+    "motorSerialNumbers": [
+      {
+        "value": "23"
+      }
+    ],
+    "serialNumbers": [
+      {
+        "value": "22"
+      }
+    ]
+  },
+  {
+    "name": "Public Fan All Fields 2",
+    "comment": "Fan Comment",
+    "conditionRating": "Excellent - Plan Preventative Maintenance",
+    "info": {
+      "configurationData": {
+        "dischargeDamper": "Yes",
+        "fansConfigurator": "Blow-Thru",
+        "driveType": "Belt",
+        "fansControlType": "Dampers",
+        "totalStaticPressure": "34"
+      },
+      "motorData": {
+        "powerFactor": "33",
+        "amps": "32",
+        "phase": "31",
+        "volts": "30",
+        "efficiency": "29",
+        "synchronousSpeed": "28",
+        "speed": "27",
+        "ratedPower": "26",
+        "model": "Motor Model",
+        "yearBuilt": "1984",
+        "manufacturer": "Motor Manufacturer"
+      },
+      "data": {
+        "efficiency": "25",
+        "airFloatRate": "24",
+        "typeFan": "Airfoil",
+        "model": "Fan Model",
+        "yearBuilt": "1984",
+        "manufacturer": "Fan Manufacturer"
+      }
+    },
+    "motorSerialNumbers": [
+      {
+        "value": "23"
+      }
+    ],
+    "serialNumbers": [
+      {
+        "value": "22"
+      }
+    ]
+  },
+  {
+    "name": "Public Fan 1",
+    "comment": "Fan Comment",
+    "conditionRating": "Excellent - Plan Preventative Maintenance",
+    "info": {
+      "configurationData": {
+        "dischargeDamper": "Yes",
+        "fansConfigurator": "Blow-Thru",
+        "driveType": "Belt",
+        "fansControlType": "Dampers",
+        "totalStaticPressure": "34"
+      },
+      "motorData": {
+        "powerFactor": "33",
+        "amps": "32",
+        "model": "Motor Model",
+        "yearBuilt": "1984",
+        "manufacturer": "Motor Manufacturer"
+      },
+      "data": {
+        "efficiency": "25",
+        "airFloatRate": "24",
+        "typeFan": "Airfoil",
+        "manufacturer": "Fan Manufacturer"
+      }
+    },
+    "motorSerialNumbers": [
+      {
+        "value": "23"
+      }
+    ],
+    "serialNumbers": [
+      {
+        "value": "22"
+      }
+    ]
+  },
+  {
+    "name": "Public Fan 2",
+    "comment": "Fan Comment",
+    "conditionRating": "Excellent - Plan Preventative Maintenance",
+    "info": {
+      "configurationData": {
+        "dischargeDamper": "Yes",
+        "fansConfigurator": "Blow-Thru",
+        "driveType": "Belt",
+        "fansControlType": "Dampers",
+        "totalStaticPressure": "34"
+      },
+      "motorData": {
+        "speed": "27",
+        "ratedPower": "26",
+        "model": "Motor Model",
+        "yearBuilt": "1984",
+        "manufacturer": "Motor Manufacturer"
+      },
+      "data": {
+        "efficiency": "25",
+        "airFloatRate": "24",
+        "typeFan": "Airfoil",
+        "model": "Fan Model",
+        "yearBuilt": "1984",
+        "manufacturer": "Fan Manufacturer"
+      }
+    },
+    "serialNumbers": [
+      {
+        "value": "22"
+      }
+    ]
+  }
+]

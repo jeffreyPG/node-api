@@ -1,0 +1,71 @@
+type Location {
+  _id: ID!
+  usetype: String
+  spaceType: String
+  name: String
+  floor: String 
+  conditioning: String
+  user : String
+  area: String
+  length : String
+  width : String
+  height : String
+  createdAt: String
+  updatedAt: String
+  createdByUserId: LocationUser
+}
+
+type LocationUser {
+  name: String
+}
+
+input FetchLocationInput {
+  _id: ID!
+}
+
+input SearchLocationsInput {
+  name: String
+  usetype: String
+}
+
+input CreateLocationInput {
+  usetype: String
+  spaceType: String
+  name: String
+  floor: Int 
+  conditioning: String
+  user : String
+  area: Float
+  length : Float
+  width : Float
+  height : Float
+}
+
+input DeleteLocationInput {
+  _id: ID!
+}
+
+input UpdateLocationInput {
+  _id: ID!
+  name: String
+  floor: Int
+  usetype: String
+  spaceType: String
+  conditioning: String
+  user : String
+  area: Float
+  length : Float
+  width : Float
+  height : Float
+}
+
+extend type Query {
+  location(location: FetchLocationInput!): Location!
+  locations(locations: SearchLocationsInput, search: SearchInput): [Location]
+}
+
+extend type Mutation {
+  createLocation(location: CreateLocationInput): Location!
+  deleteLocation(location: DeleteLocationInput): Location!
+  updateLocation(location: UpdateLocationInput): Location!
+}

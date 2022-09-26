@@ -1,0 +1,66 @@
+[
+  {
+    "name": "Public Process Load All Fields 1",
+    "comment": "Process Load Comment",
+    "conditionRating": "Excellent - Plan Preventative Maintenance",
+    "processLoadData": {
+      "energyStarRated": "true",
+      "refrigerantType": "R12",
+      "percentRadiant": "26",
+      "percentLost": "25",
+      "percentLatent": "24",
+      "efficiency": "23",
+      "units": "kW",
+      "capacity": "22",
+      "fuelType": "Natural Gas",
+      "yearBuilt": "1984",
+      "model": "Process Load Model",
+      "manufacturer": "Process Load Manufacturer"
+    }
+  },
+  {
+    "name": "Public Process Load All Fields 2",
+    "comment": "Process Load Comment",
+    "conditionRating": "Excellent - Plan Preventative Maintenance",
+    "processLoadData": {
+      "energyStarRated": "true",
+      "refrigerantType": "R12",
+      "percentRadiant": "26",
+      "percentLost": "25",
+      "percentLatent": "24",
+      "efficiency": "23",
+      "units": "kW",
+      "capacity": "22",
+      "fuelType": "Natural Gas",
+      "yearBuilt": "1984",
+      "model": "Process Load Model",
+      "manufacturer": "Process Load Manufacturer"
+    }
+  },
+  {
+    "name": "Public Process Load 1",
+    "comment": "Process Load Comment",
+    "conditionRating": "Excellent - Plan Preventative Maintenance",
+    "processLoadData": {
+      "energyStarRated": "true",
+      "refrigerantType": "R12",
+      "percentRadiant": "26",
+      "percentLost": "25",
+      "fuelType": "Natural Gas",
+      "yearBuilt": "1984",
+      "model": "Process Load Model",
+      "manufacturer": "Process Load Manufacturer"
+    }
+  },
+  {
+    "name": "Public Process Load 2",
+    "comment": "Process Load Comment",
+    "conditionRating": "Excellent - Plan Preventative Maintenance",
+    "processLoadData": {
+      "energyStarRated": "true",
+      "refrigerantType": "R12",
+      "model": "Process Load Model",
+      "manufacturer": "Process Load Manufacturer"
+    }
+  }
+]

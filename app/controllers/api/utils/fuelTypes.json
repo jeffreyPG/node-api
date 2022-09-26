@@ -1,0 +1,11 @@
+{
+    "electric": "Electricity",
+    "natural-gas": "Natural Gas",
+    "water": "Water",
+    "steam": "Steam",
+    "fuel-oil-2": "Fuel Oil 2",
+    "fuel-oil-4": "Fuel Oil 4",
+    "fuel-oil-5-6": "Fuel Oil 5 & 6",
+    "diesel": "Diesel",
+    "other": "Other"
+}

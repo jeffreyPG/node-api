@@ -1,0 +1,2010 @@
+[
+    {
+        "_id": {
+            "$oid": "5d9d0e249c5faeaebefd9a38"
+        },
+        "category": {
+            "displayName": "Lighting",
+            "value": "LIGHTING"
+        },
+        "application": {
+            "displayName": "Fixture",
+            "value": "FIXTURE"
+        },
+        "technology": {
+            "displayName": "Troffer/Grid Ceiling",
+            "value": "TROFFER_GRID_CEILING"
+        },
+        "estLife": 20,
+        "lifeTimeSrc": "BOMA",
+        "type": {
+            "value": "LIGHTING|FIXTURE|TROFFER_GRID_CEILING",
+            "displayName": "Lighting Fixture (Troffer/Grid Ceiling)"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "5d9d0e249c5faeaebefd9a39"
+        },
+        "category": {
+            "displayName": "Lighting",
+            "value": "LIGHTING"
+        },
+        "application": {
+            "displayName": "Fixture",
+            "value": "FIXTURE"
+        },
+        "technology": {
+            "displayName": "Area/Roadway",
+            "value": "AREA_ROADWAY"
+        },
+        "estLife": 20,
+        "lifeTimeSrc": "BOMA",
+        "type": {
+            "value": "LIGHTING|FIXTURE|AREA_ROADWAY",
+            "displayName": "Lighting Fixture (Area/Roadway)"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "5d9d0e249c5faeaebefd9a3a"
+        },
+        "category": {
+            "displayName": "Lighting",
+            "value": "LIGHTING"
+        },
+        "application": {
+            "displayName": "Fixture",
+            "value": "FIXTURE"
+        },
+        "technology": {
+            "displayName": "High Bay/Low Bay",
+            "value": "HIGH_BAY_LOW_BAY"
+        },
+        "estLife": 20,
+        "lifeTimeSrc": "BOMA",
+        "type": {
+            "value": "LIGHTING|FIXTURE|HIGH_BAY_LOW_BAY",
+            "displayName": "Lighting Fixture (High Bay/Low Bay)"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "5d9d0e249c5faeaebefd9a3b"
+        },
+        "category": {
+            "displayName": "Lighting",
+            "value": "LIGHTING"
+        },
+        "application": {
+            "displayName": "Fixture",
+            "value": "FIXTURE"
+        },
+        "technology": {
+            "displayName": "Wall Pack",
+            "value": "WALL_PACK"
+        },
+        "estLife": 20,
+        "lifeTimeSrc": "BOMA",
+        "type": {
+            "value": "LIGHTING|FIXTURE|WALL_PACK",
+            "displayName": "Lighting Fixture (Wallpack)"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "5d9d0e249c5faeaebefd9a3c"
+        },
+        "category": {
+            "displayName": "Lighting",
+            "value": "LIGHTING"
+        },
+        "application": {
+            "displayName": "Fixture",
+            "value": "FIXTURE"
+        },
+        "technology": {
+            "displayName": "Downlight",
+            "value": "DOWNLIGHT"
+        },
+        "estLife": 20,
+        "lifeTimeSrc": "BOMA",
+        "type": {
+            "value": "LIGHTING|FIXTURE|DOWNLIGHT",
+            "displayName": "Lighting Fixture (Downlight)"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "5d9d0e249c5faeaebefd9a3d"
+        },
+        "category": {
+            "displayName": "Lighting",
+            "value": "LIGHTING"
+        },
+        "application": {
+            "displayName": "Fixture",
+            "value": "FIXTURE"
+        },
+        "technology": {
+            "displayName": "Parking Garage",
+            "value": "PARKING_GARAGE"
+        },
+        "estLife": 20,
+        "lifeTimeSrc": "BOMA",
+        "type": {
+            "value": "LIGHTING|FIXTURE|PARKING_GARAGE",
+            "displayName": "Lighting Fixture (Parking Garage)"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "5d9d0e249c5faeaebefd9a3e"
+        },
+        "category": {
+            "displayName": "Lighting",
+            "value": "LIGHTING"
+        },
+        "application": {
+            "displayName": "Fixture",
+            "value": "FIXTURE"
+        },
+        "technology": {
+            "displayName": "High Intensity Discharge",
+            "value": "HIGH_INTENSITY_DISCHARGE"
+        },
+        "estLife": 20,
+        "lifeTimeSrc": "BOMA",
+        "type": {
+            "value": "LIGHTING|FIXTURE|HIGH_INTENSITY_DISCHARGE",
+            "displayName": "Lighting Fixture (High Intensity Discharge)"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "5d9d0e249c5faeaebefd9a3f"
+        },
+        "category": {
+            "displayName": "Lighting",
+            "value": "LIGHTING"
+        },
+        "application": {
+            "displayName": "Fixture",
+            "value": "FIXTURE"
+        },
+        "technology": {
+            "displayName": "Bollard",
+            "value": "BOLLARD"
+        },
+        "estLife": 20,
+        "lifeTimeSrc": "BOMA",
+        "type": {
+            "value": "LIGHTING|FIXTURE|BOLLARD",
+            "displayName": "Lighting Fixture (Bollard)"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "5d9d0e249c5faeaebefd9a40"
+        },
+        "category": {
+            "displayName": "Lighting",
+            "value": "LIGHTING"
+        },
+        "application": {
+            "displayName": "Fixture",
+            "value": "FIXTURE"
+        },
+        "technology": {
+            "displayName": "Canopy",
+            "value": "CANOPY"
+        },
+        "estLife": 20,
+        "lifeTimeSrc": "BOMA",
+        "type": {
+            "value": "LIGHTING|FIXTURE|CANOPY",
+            "displayName": "Lighting Fixture (Canopy)"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "5d9d0e249c5faeaebefd9a41"
+        },
+        "category": {
+            "displayName": "Lighting",
+            "value": "LIGHTING"
+        },
+        "application": {
+            "displayName": "Fixture",
+            "value": "FIXTURE"
+        },
+        "technology": {
+            "displayName": "Industrial",
+            "value": "INDUSTRIAL"
+        },
+        "estLife": 20,
+        "lifeTimeSrc": "BOMA",
+        "type": {
+            "value": "LIGHTING|FIXTURE|INDUSTRIAL",
+            "displayName": "Lighting Fixture (Industrial)"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "5d9d0e249c5faeaebefd9a42"
+        },
+        "category": {
+            "displayName": "Lighting",
+            "value": "LIGHTING"
+        },
+        "application": {
+            "displayName": "Fixture",
+            "value": "FIXTURE"
+        },
+        "technology": {
+            "displayName": "Display Case",
+            "value": "DISPLAY_CASE"
+        },
+        "estLife": 20,
+        "lifeTimeSrc": "BOMA",
+        "type": {
+            "value": "LIGHTING|FIXTURE|DISPLAY_CASE",
+            "displayName": "Lighting Fixture (Display Case)"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "5d9d0e249c5faeaebefd9a43"
+        },
+        "category": {
+            "displayName": "Lighting",
+            "value": "LIGHTING"
+        },
+        "application": {
+            "displayName": "Fixture",
+            "value": "FIXTURE"
+        },
+        "technology": {
+            "displayName": "Wallwash",
+            "value": "WALLWASH"
+        },
+        "estLife": 20,
+        "lifeTimeSrc": "BOMA",
+        "type": {
+            "value": "LIGHTING|FIXTURE|WALLWASH",
+            "displayName": "Lighting Fixture (Wallwash)"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "5d9d0e249c5faeaebefd9a44"
+        },
+        "category": {
+            "displayName": "Lighting",
+            "value": "LIGHTING"
+        },
+        "application": {
+            "displayName": "Fixture",
+            "value": "FIXTURE"
+        },
+        "technology": {
+            "displayName": "Cove",
+            "value": "COVE"
+        },
+        "estLife": 20,
+        "lifeTimeSrc": "BOMA",
+        "type": {
+            "value": "LIGHTING|FIXTURE|COVE",
+            "displayName": "Lighting Fixture (Cove)"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "5d9d0e249c5faeaebefd9a45"
+        },
+        "category": {
+            "displayName": "Lighting",
+            "value": "LIGHTING"
+        },
+        "application": {
+            "displayName": "Fixture",
+            "value": "FIXTURE"
+        },
+        "technology": {
+            "displayName": "Directional",
+            "value": "DIRECTIONAL"
+        },
+        "estLife": 20,
+        "lifeTimeSrc": "BOMA",
+        "type": {
+            "value": "LIGHTING|FIXTURE|DIRECTIONAL",
+            "displayName": "Lighting Fixture (Directional)"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "5d9d0e249c5faeaebefd9a46"
+        },
+        "category": {
+            "displayName": "Lighting",
+            "value": "LIGHTING"
+        },
+        "application": {
+            "displayName": "Fixture",
+            "value": "FIXTURE"
+        },
+        "technology": {
+            "displayName": "Canopy",
+            "value": "CANOPY"
+        },
+        "estLife": 20,
+        "lifeTimeSrc": "BOMA",
+        "type": {
+            "displayName": "Lighting",
+            "value": "LIGHTING"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "5d9d0e249c5faeaebefd9a47"
+        },
+        "category": {
+            "displayName": "Lighting",
+            "value": "LIGHTING"
+        },
+        "application": {
+            "displayName": "Fixture",
+            "value": "FIXTURE"
+        },
+        "technology": {
+            "displayName": "Exit Sign",
+            "value": "EXIT_SIGN"
+        },
+        "estLife": 20,
+        "lifeTimeSrc": "BOMA",
+        "type": {
+            "value": "LIGHTING|FIXTURE|EXIT_SIGN",
+            "displayName": "Lighting Fixture (Exit Sign)"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "5d9d0e249c5faeaebefd9a48"
+        },
+        "category": {
+            "displayName": "Lighting",
+            "value": "LIGHTING"
+        },
+        "application": {
+            "displayName": "Fixture",
+            "value": "FIXTURE"
+        },
+        "technology": {
+            "displayName": null,
+            "value": null
+        },
+        "estLife": 20,
+        "lifeTimeSrc": "BOMA",
+        "type": {
+            "displayName": "Lighting",
+            "value": "LIGHTING"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "5d9d0e249c5faeaebefd9a49"
+        },
+        "category": {
+            "displayName": "Lighting",
+            "value": "LIGHTING"
+        },
+        "application": {
+            "displayName": "Fixture",
+            "value": "FIXTURE"
+        },
+        "technology": {
+            "displayName": "Desk/Task",
+            "value": "DESK_TASK"
+        },
+        "estLife": 20,
+        "lifeTimeSrc": "BOMA",
+        "type": {
+            "value": "LIGHTING|FIXTURE|DESK_TASK",
+            "displayName": "Lighting Fixture (Desk/Task)"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "5d9d0e249c5faeaebefd9a4a"
+        },
+        "category": {
+            "displayName": "Lighting",
+            "value": "LIGHTING"
+        },
+        "application": {
+            "displayName": "Fixture",
+            "value": "FIXTURE"
+        },
+        "technology": {
+            "displayName": "Decorative",
+            "value": "DECORATIVE"
+        },
+        "estLife": 20,
+        "lifeTimeSrc": "BOMA",
+        "type": {
+            "value": "LIGHTING|FIXTURE|DECORATIVE",
+            "displayName": "Lighting Fixture (Decorative)"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "5d9d0e249c5faeaebefd9a4b"
+        },
+        "category": {
+            "displayName": "Lighting",
+            "value": "LIGHTING"
+        },
+        "application": {
+            "displayName": "Lamp",
+            "value": "LAMP"
+        },
+        "technology": {
+            "displayName": "Linear Fluorescent",
+            "value": "LINEAR_FLUORESCENT"
+        },
+        "estLife": 20,
+        "lifeTimeSrc": "BOMA",
+        "type": {
+            "value": "LIGHTING|LAMP|LINEAR_FLUORESCENT",
+            "displayName": "Lighting Lamp (Linear Fluorescent)"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "5d9d0e249c5faeaebefd9a4c"
+        },
+        "category": {
+            "displayName": "Lighting",
+            "value": "LIGHTING"
+        },
+        "application": {
+            "displayName": "Lamp",
+            "value": "LAMP"
+        },
+        "technology": {
+            "displayName": "Incandescent",
+            "value": "INCANDESCENT"
+        },
+        "estLife": 20,
+        "lifeTimeSrc": "BOMA",
+        "type": {
+            "value": "LIGHTING|LAMP|INCANDESCENT",
+            "displayName": "Lighting Lamp (Incandescent)"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "5d9d0e249c5faeaebefd9a4d"
+        },
+        "category": {
+            "displayName": "Lighting",
+            "value": "LIGHTING"
+        },
+        "application": {
+            "displayName": "Lamp",
+            "value": "LAMP"
+        },
+        "technology": {
+            "displayName": "Circline Fluorescent",
+            "value": "CIRCLINE_FLUORESCENT"
+        },
+        "estLife": 20,
+        "lifeTimeSrc": "BOMA",
+        "type": {
+            "value": "LIGHTING|LAMP|CIRCLINE_FLUORESCENT",
+            "displayName": "Lighting Lamp (Circline Fluorescent)"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "5d9d0e249c5faeaebefd9a4e"
+        },
+        "category": {
+            "displayName": "Lighting",
+            "value": "LIGHTING"
+        },
+        "application": {
+            "displayName": "Lamp",
+            "value": "LAMP"
+        },
+        "technology": {
+            "displayName": "U-Shape Fluorescent",
+            "value": "U_SHAPE_FLUORESCENT"
+        },
+        "estLife": 20,
+        "lifeTimeSrc": "BOMA",
+        "type": {
+            "value": "LIGHTING|LAMP|U_SHAPE_FLUORESCENT",
+            "displayName": "Lighting Lamp (U Shape Fluorescent)"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "5d9d0e249c5faeaebefd9a4f"
+        },
+        "category": {
+            "displayName": "Lighting",
+            "value": "LIGHTING"
+        },
+        "application": {
+            "displayName": "Lamp",
+            "value": "LAMP"
+        },
+        "technology": {
+            "displayName": "CFL",
+            "value": "CFL"
+        },
+        "estLife": 20,
+        "type": {
+            "value": "LIGHTING|LAMP|CFL",
+            "displayName": "Lighting Lamp (CFL)"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "5d9d0e249c5faeaebefd9a50"
+        },
+        "category": {
+            "displayName": "Lighting",
+            "value": "LIGHTING"
+        },
+        "application": {
+            "displayName": "Retrofit Kit",
+            "value": "RETROFIT_KIT"
+        },
+        "technology": {
+            "displayName": "Area/Roadway",
+            "value": "AREA_ROADWAY"
+        },
+        "estLife": 20,
+        "type": {
+            "value": "LIGHTING|RETROFIT_KIT|AREA_ROADWAY",
+            "displayName": "Lighting Retrofit Kit (Area/Roadway)"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "5d9d0e249c5faeaebefd9a51"
+        },
+        "category": {
+            "displayName": "Lighting",
+            "value": "LIGHTING"
+        },
+        "application": {
+            "displayName": "Lamp",
+            "value": "LAMP"
+        },
+        "technology": {
+            "displayName": "LED",
+            "value": "LED"
+        },
+        "estLife": 20,
+        "lifeTimeSrc": "BOMA",
+        "type": {
+            "value": "LIGHTING|LAMP|LED",
+            "displayName": "Lighting Lamp (LED)"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "5d9d0e249c5faeaebefd9a52"
+        },
+        "category": {
+            "displayName": "Lighting",
+            "value": "LIGHTING"
+        },
+        "application": {
+            "displayName": "Retrofit Kit",
+            "value": "RETROFIT_KIT"
+        },
+        "technology": {
+            "displayName": "Downlight",
+            "value": "DOWNLIGHT"
+        },
+        "estLife": 20,
+        "lifeTimeSrc": "BOMA",
+        "type": {
+            "value": "LIGHTING|RETROFIT_KIT|DOWNLIGHT",
+            "displayName": "Lighting Retrofit Kit (Downlight)"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "5d9d0e249c5faeaebefd9a53"
+        },
+        "category": {
+            "displayName": "Lighting",
+            "value": "LIGHTING"
+        },
+        "application": {
+            "displayName": "Retrofit Kit",
+            "value": "RETROFIT_KIT"
+        },
+        "technology": {
+            "displayName": "Troffer/Grid Ceiling",
+            "value": "TROFFER_GRID_CEILING"
+        },
+        "estLife": 20,
+        "lifeTimeSrc": "BOMA",
+        "type": {
+            "value": "LIGHTING|RETROFIT_KIT|TROFFER_GRID_CEILING",
+            "displayName": "Lighting Retrofit Kit (Troffer/Grid Ceiling)"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "5d9d0e249c5faeaebefd9a54"
+        },
+        "category": {
+            "displayName": "Lighting",
+            "value": "LIGHTING"
+        },
+        "application": {
+            "displayName": "Retrofit Kit",
+            "value": "RETROFIT_KIT"
+        },
+        "technology": {
+            "displayName": "Bollard",
+            "value": "BOLLARD"
+        },
+        "estLife": 20,
+        "lifeTimeSrc": "BOMA",
+        "type": {
+            "value": "LIGHTING|RETROFIT_KIT|BOLLARD",
+            "displayName": "Lighting Retrofit Kit (Bollard)"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "5d9d0e249c5faeaebefd9a55"
+        },
+        "category": {
+            "displayName": "Lighting",
+            "value": "LIGHTING"
+        },
+        "application": {
+            "displayName": "Lamp",
+            "value": "LAMP"
+        },
+        "technology": {
+            "displayName": "High Intensity Discharge",
+            "value": "HIGH_INTENSITY_DISCHARGE"
+        },
+        "estLife": 20,
+        "type": {
+            "value": "LIGHTING|LAMP|HIGH_INTENSITY_DISCHARGE",
+            "displayName": "Lighting Lamp (High Intensity Discharge)"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "5d9d0e249c5faeaebefd9a56"
+        },
+        "category": {
+            "displayName": "Lighting",
+            "value": "LIGHTING"
+        },
+        "application": {
+            "displayName": "Retrofit Kit",
+            "value": "RETROFIT_KIT"
+        },
+        "technology": {
+            "displayName": "Industrial",
+            "value": "INDUSTRIAL"
+        },
+        "estLife": 20,
+        "lifeTimeSrc": "BOMA",
+        "type": {
+            "value": "LIGHTING|RETROFIT_KIT|INDUSTRIAL",
+            "displayName": "Lighting Retrofit Kit (Industrial)"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "5d9d0e249c5faeaebefd9a57"
+        },
+        "category": {
+            "displayName": "Heating",
+            "value": "HEATING"
+        },
+        "application": {
+            "displayName": "Radiant",
+            "value": "RADIANT"
+        },
+        "technology": {
+            "displayName": "Radiator",
+            "value": "RADIATOR"
+        },
+        "estLife": 15,
+        "lifeTimeSrc": "BOMA",
+        "type": {
+            "displayName": "Finned Tube Radiation",
+            "value": "FINNED_TUBE_RADIATION"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "5d9d0e249c5faeaebefd9a58"
+        },
+        "category": {
+            "displayName": "Heating",
+            "value": "HEATING"
+        },
+        "application": {
+            "displayName": "Boiler",
+            "value": "BOILER"
+        },
+        "technology": {
+            "displayName": "Hot Water Boiler",
+            "value": "HOT_WATER_BOILER"
+        },
+        "estLife": 26,
+        "lifeTimeSrc": "BOMA",
+        "type": {
+            "displayName": "Boiler",
+            "value": "BOILER"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "5d9d0e249c5faeaebefd9a59"
+        },
+        "category": {
+            "displayName": "Heating",
+            "value": "HEATING"
+        },
+        "application": {
+            "displayName": "Boiler",
+            "value": "BOILER"
+        },
+        "technology": {
+            "value": null,
+            "displayName": null
+        },
+        "estLife": 26.833,
+        "lifeTimeSrc": "BOMA",
+        "type": {
+            "displayName": "Boiler",
+            "value": "BOILER"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "5d9d0e249c5faeaebefd9a5a"
+        },
+        "category": {
+            "displayName": "Heating",
+            "value": "HEATING"
+        },
+        "application": {
+            "displayName": "Boiler",
+            "value": "BOILER"
+        },
+        "technology": {
+            "displayName": "Steam Boiler",
+            "value": "STEAM_BOILER"
+        },
+        "estLife": 27.666,
+        "lifeTimeSrc": "BOMA",
+        "type": {
+            "displayName": "Boiler",
+            "value": "BOILER"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "5d9d0e249c5faeaebefd9a5b"
+        },
+        "category": {
+            "displayName": "Heating",
+            "value": "HEATING"
+        },
+        "application": {
+            "displayName": "Furnace",
+            "value": "FURNACE"
+        },
+        "technology": {
+            "displayName": null,
+            "value": null
+        },
+        "estLife": 17,
+        "lifeTimeSrc": "BOMA",
+        "type": {
+            "displayName": "Furnace",
+            "value": "FURNACE"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "5d9d0e249c5faeaebefd9a5c"
+        },
+        "category": {
+            "displayName": "Heating & Cooling",
+            "value": "HEATING_AND_COOLING"
+        },
+        "application": {
+            "displayName": "Fan Coil Unit",
+            "value": "FAN_COIL_UNIT"
+        },
+        "technology": {
+            "displayName": "Fan Coil 4 Pipe",
+            "value": "FAN_COIL_4_PIPE"
+        },
+        "estLife": 20,
+        "lifeTimeSrc": "BOMA",
+        "type": {
+            "displayName": "Fan Coil Unit",
+            "value": "FAN_COIL_UNIT"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "5d9d0e249c5faeaebefd9a5d"
+        },
+        "category": {
+            "displayName": "Lighting",
+            "value": "LIGHTING"
+        },
+        "application": {
+            "displayName": "Lamp",
+            "value": "LAMP"
+        },
+        "technology": {
+            "displayName": "Halogen",
+            "value": "HALOGEN"
+        },
+        "estLife": 20,
+        "lifeTimeSrc": "BOMA",
+        "type": {
+            "value": "LIGHTING|LAMP|HALOGEN",
+            "displayName": "Lighting Lamp (Halogen)"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "5d9d0e249c5faeaebefd9a5e"
+        },
+        "category": {
+            "displayName": "Cooling",
+            "value": "COOLING"
+        },
+        "application": {
+            "displayName": "Air Conditioner",
+            "value": "AIR_CONDITIONER"
+        },
+        "technology": {
+            "displayName": "Computer Room Air Conditioner (CRAC)",
+            "value": "COMPUTER_ROOM_AIR_CONDITIONER_CRAC"
+        },
+        "estLife": 15,
+        "lifeTimeSrc": "BOMA",
+        "type": {
+            "displayName": "CRAC",
+            "value": "CRAC"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "5d9d0e249c5faeaebefd9a5f"
+        },
+        "category": {
+            "displayName": "Cooling",
+            "value": "COOLING"
+        },
+        "application": {
+            "displayName": "Air Conditioner",
+            "value": "AIR_CONDITIONER"
+        },
+        "technology": {
+            "displayName": "Packaged Terminal Air Conditioner (PTAC)",
+            "value": "PACKAGED_TERMINAL_AIR_CONDITIONER_PTAC"
+        },
+        "estLife": 15,
+        "lifeTimeSrc": "BOMA",
+        "type": {
+            "displayName": "PTAC",
+            "value": "PTAC"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "5d9d0e249c5faeaebefd9a60"
+        },
+        "category": {
+            "displayName": "Heating & Cooling",
+            "value": "HEATING_AND_COOLING"
+        },
+        "application": {
+            "displayName": "Heat Pump",
+            "value": "HEAT_PUMP"
+        },
+        "technology": {
+            "displayName": "Split Heat Pump",
+            "value": "SPLIT_HEAT_PUMP"
+        },
+        "estLife": 12,
+        "lifeTimeSrc": "BOMA",
+        "type": {
+            "displayName": "Mini-Split & Multi-Split HP",
+            "value": "MINI_SPLIT_AND_MULTI_SPLIT_HP"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "5d9d0e249c5faeaebefd9a61"
+        },
+        "category": {
+            "displayName": "Heating & Cooling",
+            "value": "HEATING_AND_COOLING"
+        },
+        "application": {
+            "displayName": "Heat Pump",
+            "value": "HEAT_PUMP"
+        },
+        "technology": {
+            "displayName": "Single Package Vertical Heat Pump",
+            "value": "SINGLE_PACKAGE_VERTICAL_HEAT_PUMP"
+        },
+        "estLife": 15,
+        "lifeTimeSrc": "BOMA",
+        "type": {
+            "displayName": "Single Pkg Vertical Heat Pump",
+            "value": "SINGLE_PKG_VERTICAL_HEAT_PUMP"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "5d9d0e249c5faeaebefd9a62"
+        },
+        "category": {
+            "displayName": "Cooling",
+            "value": "COOLING"
+        },
+        "application": {
+            "displayName": "Air Conditioner",
+            "value": "AIR_CONDITIONER"
+        },
+        "technology": {
+            "displayName": "Single Package Vertical Air Conditioner",
+            "value": "SINGLE_PACKAGE_VERTICAL_AIR_CONDITIONER"
+        },
+        "estLife": 15,
+        "lifeTimeSrc": "BOMA",
+        "type": {
+            "displayName": "Single Pkg Vertical AC",
+            "value": "SINGLE_PKG_VERTICAL_AC"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "5d9d0e249c5faeaebefd9a63"
+        },
+        "category": {
+            "displayName": "Heating & Cooling",
+            "value": "HEATING_AND_COOLING"
+        },
+        "application": {
+            "displayName": "Heat Pump",
+            "value": "HEAT_PUMP"
+        },
+        "technology": {
+            "displayName": "Packaged Terminal Heat Pump (PTHP)",
+            "value": "PACKAGED_TERMINAL_HEAT_PUMP_PTHP"
+        },
+        "estLife": 15,
+        "lifeTimeSrc": "BOMA",
+        "type": {
+            "displayName": "PTHP",
+            "value": "PTHP"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "5d9d0e249c5faeaebefd9a64"
+        },
+        "category": {
+            "displayName": "Cooling",
+            "value": "COOLING"
+        },
+        "application": {
+            "displayName": "Air Conditioner",
+            "value": "AIR_CONDITIONER"
+        },
+        "technology": {
+            "displayName": "Packaged/Unitary DX RTU",
+            "value": "PACKAGED_UNITARY_DX_RTU"
+        },
+        "type": {
+            "displayName": "Unitary AC",
+            "value": "UNITARY_AC"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "5d9d0e249c5faeaebefd9a67"
+        },
+        "category": {
+            "displayName": "Cooling",
+            "value": "COOLING"
+        },
+        "application": {
+            "displayName": "Air Conditioner",
+            "value": "AIR_CONDITIONER"
+        },
+        "technology": {
+            "displayName": "Split DX Air Conditioner",
+            "value": "SPLIT_DX_AIR_CONDITIONER"
+        },
+        "estLife": 15,
+        "lifeTimeSrc": "BOMA",
+        "type": {
+            "displayName": "Mini-Split & Multi-Split AC",
+            "value": "MINI_SPLIT_AND_MULTI_SPLIT_AC"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "5d9d0e249c5faeaebefd9a69"
+        },
+        "category": {
+            "displayName": "Lighting",
+            "value": "LIGHTING"
+        },
+        "application": {
+            "displayName": "Retrofit Kit",
+            "value": "RETROFIT_KIT"
+        },
+        "technology": {
+            "displayName": "Linear",
+            "value": "LINEAR"
+        },
+        "estLife": 20,
+        "lifeTimeSrc": "BOMA",
+        "type": {
+            "value": "LIGHTING|RETROFIT_KIT|LINEAR",
+            "displayName": "Lighting Retrofit Kit (Linear)"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "5d9d0e249c5faeaebefd9a6d"
+        },
+        "category": {
+            "displayName": "Air Distribution",
+            "value": "AIR_DISTRIBUTION"
+        },
+        "application": {
+            "displayName": "VAV",
+            "value": "VAV"
+        },
+        "technology": {
+            "displayName": "VAV Fan Powered",
+            "value": "VAV_FAN_POWERED"
+        },
+        "estLife": 17,
+        "lifeTimeSrc": "BOMA",
+        "type": {
+            "displayName": "VAV Fan Powered",
+            "value": "VAV_FAN_POWERED"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "5d9d0e249c5faeaebefd9a6e"
+        },
+        "category": {
+            "displayName": "Air Distribution",
+            "value": "AIR_DISTRIBUTION"
+        },
+        "application": {
+            "displayName": "VAV",
+            "value": "VAV"
+        },
+        "technology": {
+            "displayName": "VAV Non Fan Powered",
+            "value": "VAV_NON_FAN_POWERED"
+        },
+        "estLife": 25,
+        "lifeTimeSrc": "BOMA",
+        "type": {
+            "displayName": "VAV Non Fan Powered",
+            "value": "VAV_NON_FAN_POWERED"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "5d9d0e249c5faeaebefd9a6f"
+        },
+        "category": {
+            "displayName": "Water Heating",
+            "value": "WATER_HEATING"
+        },
+        "application": {
+            "displayName": "Hot Water Heater",
+            "value": "HOT_WATER_HEATER"
+        },
+        "technology": {
+            "displayName": null,
+            "value": null
+        },
+        "type": {
+            "displayName": "Hot Water Heater",
+            "value": "HOT_WATER_HEATER"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "5d9d0e249c5faeaebefd9a70"
+        },
+        "category": {
+            "displayName": "Air Distribution",
+            "value": "AIR_DISTRIBUTION"
+        },
+        "application": {
+            "displayName": "VAV",
+            "value": "VAV"
+        },
+        "technology": {
+            "displayName": "VAV Modulating Diffusers",
+            "value": "VAV_MODULATING_DIFFUSERS"
+        },
+        "type": {
+            "displayName": "VAV Modulating Diffuser",
+            "value": "VAV_MODULATING_DIFFUSER"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "5d9d0e249c5faeaebefd9a71"
+        },
+        "category": {
+            "displayName": "Air Distribution",
+            "value": "AIR_DISTRIBUTION"
+        },
+        "application": {
+            "displayName": "Exhaust Fan",
+            "value": "EXHAUST_FAN"
+        },
+        "technology": {
+            "displayName": null,
+            "value": null
+        },
+        "estLife": 20,
+        "lifeTimeSrc": "BOMA",
+        "type": {
+            "displayName": "Exhaust Fan",
+            "value": "EXHAUST_FAN"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "5d9d0e249c5faeaebefd9a72"
+        },
+        "category": {
+            "displayName": "Cooling",
+            "value": "COOLING"
+        },
+        "application": {
+            "displayName": "Chiller",
+            "value": "CHILLER"
+        },
+        "technology": {
+            "displayName": "Water Cooled Chiller",
+            "value": "WATER_COOLED_CHILLER"
+        },
+        "type": {
+            "displayName": "Water Cooled Chiller",
+            "value": "WATER_COOLED_CHILLER"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "5d9d0e249c5faeaebefd9a73"
+        },
+        "category": {
+            "displayName": "Cooling",
+            "value": "COOLING"
+        },
+        "application": {
+            "displayName": "Chiller",
+            "value": "CHILLER"
+        },
+        "technology": {
+            "displayName": "Absorption Chiller",
+            "value": "ABSORPTION_CHILLER"
+        },
+        "estLife": 30,
+        "lifeTimeSrc": "BOMA",
+        "type": {
+            "displayName": "Absorption Chiller",
+            "value": "ABSORPTION_CHILLER"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "5d9d0e249c5faeaebefd9a74"
+        },
+        "category": {
+            "displayName": "Heating",
+            "value": "HEATING"
+        },
+        "application": {
+            "displayName": "Hot Water Pump",
+            "value": "HOT_WATER_PUMP"
+        },
+        "technology": {
+            "displayName": null,
+            "value": null
+        },
+        "estLife": 25,
+        "type": {
+            "displayName": "Hot Water Pump",
+            "value": "HOT_WATER_PUMP"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "5d9d0e249c5faeaebefd9a75"
+        },
+        "category": {
+            "displayName": "Cooling",
+            "value": "COOLING"
+        },
+        "application": {
+            "displayName": "Chiller",
+            "value": "CHILLER"
+        },
+        "technology": {
+            "displayName": "Air Cooled Chiller",
+            "value": "AIR_COOLED_CHILLER"
+        },
+        "type": {
+            "displayName": "Air Cooled Chiller",
+            "value": "AIR_COOLED_CHILLER"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "5d9d0e249c5faeaebefd9a76"
+        },
+        "category": {
+            "displayName": "Cooling",
+            "value": "COOLING"
+        },
+        "application": {
+            "displayName": "Condenser Water Pump",
+            "value": "CONDENSER_WATER_PUMP"
+        },
+        "technology": {
+            "displayName": null,
+            "value": null
+        },
+        "estLife": 15,
+        "lifeTimeSrc": "BOMA",
+        "type": {
+            "displayName": "Condenser Water Pump",
+            "value": "CONDENSER_WATER_PUMP"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "5d9d0e249c5faeaebefd9a77"
+        },
+        "category": {
+            "displayName": "Cooling",
+            "value": "COOLING"
+        },
+        "application": {
+            "displayName": "Chilled Water Pump",
+            "value": "CHILLED_WATER_PUMP"
+        },
+        "technology": {
+            "displayName": null,
+            "value": null
+        },
+        "estLife": 25,
+        "lifeTimeSrc": "BOMA",
+        "type": {
+            "displayName": "Chilled Water Pump",
+            "value": "CHILLED_WATER_PUMP"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "5d9d0e249c5faeaebefd9a78"
+        },
+        "category": {
+            "displayName": "Process",
+            "value": "PROCESS"
+        },
+        "application": {
+            "displayName": "Motor",
+            "value": "PROCESS_MOTOR"
+        },
+        "technology": {
+            "displayName": null,
+            "value": null
+        },
+        "estLife": 21.5,
+        "lifeTimeSrc": "BOMA",
+        "type": {
+            "displayName": "Motor",
+            "value": "MOTOR"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "5d9d0e249c5faeaebefd9a79"
+        },
+        "category": {
+            "displayName": "Cooling",
+            "value": "COOLING"
+        },
+        "application": {
+            "displayName": "Condenser",
+            "value": "CONDENSER"
+        },
+        "technology": {
+            "displayName": "Air-Cooled Condenser",
+            "value": "AIR_COOLED_CONDENSER"
+        },
+        "estLife": 20,
+        "lifeTimeSrc": "BOMA",
+        "type": {
+            "displayName": "Air-Cooled Condenser",
+            "value": "AIR_COOLED_CONDENSER"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "5d9d0e249c5faeaebefd9a7a"
+        },
+        "category": {
+            "displayName": "Ventilation",
+            "value": "VENTILATION"
+        },
+        "application": {
+            "displayName": "Fan",
+            "value": "FAN"
+        },
+        "technology": {
+            "displayName": null,
+            "value": null
+        },
+        "estLife": 20,
+        "lifeTimeSrc": "BOMA",
+        "type": {
+            "displayName": "Fan",
+            "value": "FAN"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "5d9d0e249c5faeaebefd9a7b"
+        },
+        "category": {
+            "displayName": "Kitchen",
+            "value": "KITCHEN"
+        },
+        "application": {
+            "displayName": "Ice Machine",
+            "value": "ICE_MACHINE"
+        },
+        "technology": {
+            "displayName": null,
+            "value": null
+        },
+        "type": {
+            "displayName": "Ice Machine",
+            "value": "ICE_MACHINE"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "5d9d0e249c5faeaebefd9a7c"
+        },
+        "category": {
+            "displayName": "Kitchen",
+            "value": "KITCHEN"
+        },
+        "application": {
+            "displayName": "Cooking",
+            "value": "COOKING"
+        },
+        "technology": {
+            "displayName": null,
+            "value": null
+        },
+        "type": {
+            "displayName": "Cooking",
+            "value": "COOKING"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "5d9d0e249c5faeaebefd9a7d"
+        },
+        "category": {
+            "displayName": "Heating",
+            "value": "HEATING"
+        },
+        "application": {
+            "displayName": "Radiant",
+            "value": "RADIANT"
+        },
+        "technology": {
+            "displayName": "Infrared Heater",
+            "value": "INFRARED_HEATER"
+        },
+        "estLife": 13,
+        "lifeTimeSrc": "BOMA",
+        "type": {
+            "displayName": "Infrared Heater",
+            "value": "INFRARED_HEATER"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "5d9d0e249c5faeaebefd9a7e"
+        },
+        "category": {
+            "displayName": "Kitchen",
+            "value": "KITCHEN"
+        },
+        "application": {
+            "displayName": "Cooking",
+            "value": "COOKING"
+        },
+        "technology": {
+            "displayName": "Convection oven",
+            "value": "CONVECTION_OVEN"
+        },
+        "type": {
+            "displayName": "Cooking",
+            "value": "COOKING"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "5d9d0e249c5faeaebefd9a7f"
+        },
+        "category": {
+            "displayName": "Kitchen",
+            "value": "KITCHEN"
+        },
+        "application": {
+            "displayName": "Cooking",
+            "value": "COOKING"
+        },
+        "technology": {
+            "displayName": "Hot top range",
+            "value": "HOT_TOP_RANGE"
+        },
+        "type": {
+            "displayName": "Cooking",
+            "value": "COOKING"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "5d9d0e249c5faeaebefd9a80"
+        },
+        "category": {
+            "displayName": "Kitchen",
+            "value": "KITCHEN"
+        },
+        "application": {
+            "displayName": "Cooking",
+            "value": "COOKING"
+        },
+        "technology": {
+            "displayName": "Microwave oven",
+            "value": "MICROWAVE_OVEN"
+        },
+        "type": {
+            "displayName": "Cooking",
+            "value": "COOKING"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "5d9d0e249c5faeaebefd9a81"
+        },
+        "category": {
+            "displayName": "Kitchen",
+            "value": "KITCHEN"
+        },
+        "application": {
+            "displayName": "Cooking",
+            "value": "COOKING"
+        },
+        "technology": {
+            "displayName": "Range oven",
+            "value": "RANGE_OVEN"
+        },
+        "type": {
+            "displayName": "Cooking",
+            "value": "COOKING"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "5d9d0e249c5faeaebefd9a82"
+        },
+        "category": {
+            "displayName": "Kitchen",
+            "value": "KITCHEN"
+        },
+        "application": {
+            "displayName": "Cooking",
+            "value": "COOKING"
+        },
+        "technology": {
+            "displayName": "Open burner range",
+            "value": "OPEN_BURNER_RANGE"
+        },
+        "type": {
+            "displayName": "Cooking",
+            "value": "COOKING"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "5d9d0e249c5faeaebefd9a83"
+        },
+        "category": {
+            "displayName": "Laundry",
+            "value": "LAUNDRY"
+        },
+        "application": {
+            "displayName": "Washer",
+            "value": "WASHER"
+        },
+        "technology": {
+            "displayName": null,
+            "value": null
+        },
+        "estLife": 11,
+        "lifeTimeSrc": "EnergyStar",
+        "type": {
+            "displayName": "Clothes Washer",
+            "value": "CLOTHES_WASHER"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "5d9d0e249c5faeaebefd9a84"
+        },
+        "category": {
+            "displayName": "Laundry",
+            "value": "LAUNDRY"
+        },
+        "application": {
+            "displayName": "Dryer",
+            "value": "DRYER"
+        },
+        "technology": {
+            "displayName": null,
+            "value": null
+        },
+        "estLife": 12,
+        "lifeTimeSrc": "EnergyStar",
+        "type": {
+            "displayName": "Clothes Dryer",
+            "value": "CLOTHES_DRYER"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "5d9d0e249c5faeaebefd9a85"
+        },
+        "category": {
+            "displayName": "Kitchen",
+            "value": "KITCHEN"
+        },
+        "application": {
+            "displayName": "Dishwasher",
+            "value": "DISHWASHER"
+        },
+        "technology": {
+            "displayName": null,
+            "value": null
+        },
+        "estLife": 10,
+        "lifeTimeSrc": "EnergyStar",
+        "type": {
+            "displayName": "Dishwasher",
+            "value": "DISHWASHER"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "5d9d0e249c5faeaebefd9a86"
+        },
+        "category": {
+            "displayName": "Laundry",
+            "value": "LAUNDRY"
+        },
+        "application": {
+            "displayName": "Combination",
+            "value": "COMBINATION"
+        },
+        "technology": {
+            "displayName": null,
+            "value": null
+        },
+        "estLife": 11,
+        "lifeTimeSrc": "EnergyStar",
+        "type": {
+            "displayName": "Clothes Washer Dryer Combo",
+            "value": "CLOTHES_WASHER_DRYER_COMBO"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "5db84b48eeee3f3520659fbb"
+        },
+        "category": {
+            "displayName": "Plug Load",
+            "value": "PLUG_LOAD"
+        },
+        "application": {
+            "displayName": null,
+            "value": null
+        },
+        "technology": {
+            "displayName": null,
+            "value": null
+        },
+        "type": {
+            "displayName": "Plug Load",
+            "value": "PLUG_LOAD"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "5db84b48eeee3f3520659fbc"
+        },
+        "category": {
+            "displayName": "Process",
+            "value": "PROCESS"
+        },
+        "application": {
+            "displayName": null,
+            "value": null
+        },
+        "technology": {
+            "displayName": null,
+            "value": null
+        },
+        "type": {
+            "displayName": "Process Load",
+            "value": "PROCESS_LOAD"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "5db84b48eeee3f3520659fbd"
+        },
+        "category": {
+            "displayName": "Thermostat",
+            "value": "THERMOSTAT"
+        },
+        "application": {
+            "displayName": null,
+            "value": null
+        },
+        "technology": {
+            "displayName": null,
+            "value": null
+        },
+        "type": {
+            "displayName": "Thermostat",
+            "value": "THERMOSTAT"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "5db84b48eeee3f3520659fbe"
+        },
+        "category": {
+            "displayName": "Process",
+            "value": "PROCESS"
+        },
+        "application": {
+            "displayName": "Compressed Air",
+            "value": "COMPRESSED_AIR"
+        },
+        "technology": {
+            "displayName": null,
+            "value": null
+        },
+        "type": {
+            "displayName": "Air Compressor",
+            "value": "AIR_COMPRESSOR"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "5dc9dc05d6e34edcb5e90fa0"
+        },
+        "category": {
+            "displayName": "Heating & Cooling",
+            "value": "HEATING_AND_COOLING"
+        },
+        "application": {
+            "displayName": "Air Handling Unit",
+            "value": "AIR_HANDLING_UNIT"
+        },
+        "technology": {
+            "displayName": null,
+            "value": null
+        },
+        "type": {
+            "displayName": "Air Handling Unit",
+            "value": "AIR_HANDLING_UNIT"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "5dc9dc07d6e34edcb5e90fa6"
+        },
+        "category": {
+            "displayName": "Cooling",
+            "value": "COOLING"
+        },
+        "application": {
+            "displayName": "Cooling Tower",
+            "value": "COOLING_TOWER"
+        },
+        "technology": {
+            "displayName": "Wet Cooling Tower",
+            "value": "WET_COOLING_TOWER"
+        },
+        "type": {
+            "displayName": "Cooling Tower",
+            "value": "COOLING_TOWER"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "5dc9dc07d6e34edcb5e90fa7"
+        },
+        "category": {
+            "displayName": "Cooling",
+            "value": "COOLING"
+        },
+        "application": {
+            "displayName": "Cooling Tower",
+            "value": "COOLING_TOWER"
+        },
+        "technology": {
+            "displayName": "Fluid Cooling Tower",
+            "value": "FLUID_COOLING_TOWER"
+        },
+        "type": {
+            "displayName": "Cooling Tower",
+            "value": "COOLING_TOWER"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "5dc9dc07d6e34edcb5e90fa8"
+        },
+        "category": {
+            "displayName": "Cooling",
+            "value": "COOLING"
+        },
+        "application": {
+            "displayName": "Cooling Tower",
+            "value": "COOLING_TOWER"
+        },
+        "technology": {
+            "displayName": "Dry Cooling Tower",
+            "value": "DRY_COOLING_TOWER"
+        },
+        "type": {
+            "displayName": "Cooling Tower",
+            "value": "COOLING_TOWER"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "5dd6da101bb34859d2c2c376"
+        },
+        "category": {
+            "displayName": "Process",
+            "value": "PROCESS"
+        },
+        "application": {
+            "displayName": "Conveyance",
+            "value": "CONVEYANCE"
+        },
+        "technology": {
+            "displayName": "Elevator",
+            "value": "ELEVATOR"
+        },
+        "type": {
+            "displayName": "Elevator",
+            "value": "ELEVATOR"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "5dd6da101bb34859d2c2c377"
+        },
+        "category": {
+            "displayName": "Air Distribution",
+            "value": "AIR_DISTRIBUTION"
+        },
+        "application": {
+            "displayName": "Dedicated Outdoor Air System (DOAS)",
+            "value": "DEDICATED_OUTDOOR_AIR_SYSTEM"
+        },
+        "technology": {
+            "displayName": null,
+            "value": null
+        },
+        "type": {
+            "displayName": "Dedicated Outdoor Air System",
+            "value": "DOAS"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "5dd6da101bb34859d2c2c378"
+        },
+        "category": {
+            "displayName": "Controls",
+            "value": "CONTROLS"
+        },
+        "application": {
+            "displayName": "Building Automation System",
+            "value": "BUILDING_AUTOMATION_SYSTEM"
+        },
+        "technology": {
+            "displayName": null,
+            "value": null
+        },
+        "type": {
+            "displayName": "Building Automation System",
+            "value": "BAS"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "5ddd68af20b637d4ed9640a1"
+        },
+        "category": {
+            "displayName": "Air Distribution",
+            "value": "AIR_DISTRIBUTION"
+        },
+        "application": {
+            "displayName": "CAV",
+            "value": "CAV"
+        },
+        "technology": {
+            "displayName": "CAV Terminal Box",
+            "value": "CAV_TERMINAL_BOX"
+        },
+        "type": {
+            "displayName": "CAV",
+            "value": "CAV"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "5ddd68af20b637d4ed9640a2"
+        },
+        "category": {
+            "displayName": "Air Distribution",
+            "value": "AIR_DISTRIBUTION"
+        },
+        "application": {
+            "displayName": "Register",
+            "value": "REGISTER"
+        },
+        "technology": {
+            "displayName": "Automatically Controlled Register",
+            "value": "AUTO_CNTRL_REGISTER"
+        },
+        "type": {
+            "displayName": "Register",
+            "value": "REGISTER"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "5ddd68af20b637d4ed9640a3"
+        },
+        "category": {
+            "displayName": "Air Distribution",
+            "value": "AIR_DISTRIBUTION"
+        },
+        "application": {
+            "displayName": "Register",
+            "value": "REGISTER"
+        },
+        "technology": {
+            "displayName": "Manually Controlled Register",
+            "value": "MANUAL_CNTRL_REGISTER"
+        },
+        "type": {
+            "displayName": "Register",
+            "value": "REGISTER"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "5ddd68af20b637d4ed9640a4"
+        },
+        "category": {
+            "displayName": "Air Distribution",
+            "value": "AIR_DISTRIBUTION"
+        },
+        "application": {
+            "displayName": "Register",
+            "value": "REGISTER"
+        },
+        "technology": {
+            "displayName": "Uncontrolled Register",
+            "value": "UNCONTROLLED_REGISTER"
+        },
+        "type": {
+            "displayName": "Register",
+            "value": "REGISTER"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "5de58a6896bb237380fb6565"
+        },
+        "category": {
+            "displayName": "Heating & Cooling",
+            "value": "HEATING_AND_COOLING"
+        },
+        "application": {
+            "displayName": "Variable Refrigerant Flow (VRF)",
+            "value": "VARIABLE_REFRIGERANT_FLOW"
+        },
+        "technology": {
+            "displayName": "VRF Indoor Unit",
+            "value": "VRF_INDOOR_UNIT"
+        },
+        "type": {
+            "displayName": "VRF Indoor Unit",
+            "value": "VRF_INDOOR_UNIT"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "5de58a6896bb237380fb6566"
+        },
+        "category": {
+            "displayName": "Heating & Cooling",
+            "value": "HEATING_AND_COOLING"
+        },
+        "application": {
+            "displayName": "Variable Refrigerant Flow (VRF)",
+            "value": "VARIABLE_REFRIGERANT_FLOW"
+        },
+        "technology": {
+            "displayName": "VRF Outdoor Unit",
+            "value": "VRF_OUTDOOR_UNIT"
+        },
+        "type": {
+            "displayName": "VRF Outdoor Unit",
+            "value": "VRF_OUTDOOR_UNIT"
+        }
+    }
+]

@@ -1,0 +1,259 @@
+[
+  {
+    "name": "Public Terminal Baseboard All Fields 1",
+    "comment": "Terminal Comment",
+    "conditionRating": "Excellent - Plan Preventative Maintenance",
+    "type": "baseboard",
+    "componentSpecificData": {
+      "heating": {
+        "measuredEWT": "32",
+        "designEWT": "31",
+        "valveType": "3-Way",
+        "heatDelivery": "Forced Air",
+        "combustionMethod": "37",
+        "thermalEfficiency": "39",
+        "capacityUnits": "Btu",
+        "capacity": "38",
+        "measuredPressureDrop": "36",
+        "designPressureDrop": "35",
+        "terminalsDesignFlowRateUnits": "GPM",
+        "designFlowRate": "34",
+        "medium": "33",
+        "heatSource": "Hot Water"
+      },
+      "terminalData": {
+        "measuredAmps": "26",
+        "designAmps": "25",
+        "volts": "24",
+        "measuredPower": "23",
+        "designPower": "22",
+        "finsPerFoot": "30",
+        "heightIn": "9",
+        "heightFt": "29",
+        "widthIn": "9",
+        "widthFt": "28",
+        "lengthIn": "9",
+        "lengthFt": "27",
+        "controlType": "DDC",
+        "heatingSetpoint": "60",
+        "model": "Terminal Model",
+        "manufacturer": "Terminal Manufacturer"
+      }
+    }
+  },
+  {
+    "name": "Public Terminal Baseboard 1",
+    "comment": "Terminal Comment",
+    "conditionRating": "Excellent - Plan Preventative Maintenance",
+    "type": "baseboard",
+    "componentSpecificData": {
+      "heating": {
+        "measuredEWT": "32",
+        "designEWT": "31",
+        "valveType": "3-Way",
+        "designPressureDrop": "35",
+        "terminalsDesignFlowRateUnits": "GPM",
+        "designFlowRate": "34",
+        "medium": "33",
+        "heatSource": "Hot Water"
+      },
+      "terminalData": {
+        "measuredAmps": "26",
+        "designAmps": "25",
+        "volts": "24",
+        "lengthFt": "27",
+        "controlType": "DDC",
+        "heatingSetpoint": "60",
+        "model": "Terminal Model",
+        "manufacturer": "Terminal Manufacturer"
+      }
+    }
+  },
+  {
+    "name": "Public Terminal Radiator All Fields 1",
+    "comment": "Terminal Comment",
+    "conditionRating": "Excellent - Plan Preventative Maintenance",
+    "type": "radiator",
+    "componentSpecificData": {
+      "heating": {
+        "terminalsDesignFlowRateUnits": "GPM",
+        "thermalEfficiency": "37",
+        "capacityUnits": "Btuh",
+        "capacity": "36",
+        "heatDelivery": "Radiant",
+        "combustionMethod": "35",
+        "measuredPressureDrop": "34",
+        "designPressureDrop": "33",
+        "designFlowRate": "32",
+        "medium": "31",
+        "heatSource": "Electric"
+      },
+      "terminalData": {
+        "finsPerFoot": "30",
+        "heightIn": "9",
+        "heightFt": "29",
+        "widthIn": "9",
+        "widthFt": "28",
+        "lengthIn": "9",
+        "lengthFt": "27",
+        "measuredAmps": "26",
+        "designAmps": "25",
+        "volts": "24",
+        "measuredPower": "23",
+        "designPower": "22",
+        "controlType": "DDC",
+        "heatingSetpoint": "60",
+        "model": "Terminal Model",
+        "manufacturer": "Terminal Manufacturer"
+      }
+    }
+  },
+  {
+    "name": "Public Terminal Radiator 1",
+    "comment": "Terminal Comment",
+    "conditionRating": "Excellent - Plan Preventative Maintenance",
+    "type": "radiator",
+    "componentSpecificData": {
+      "heating": {
+        "terminalsDesignFlowRateUnits": "GPM",
+        "thermalEfficiency": "37",
+        "capacityUnits": "Btuh",
+        "medium": "31",
+        "heatSource": "Electric"
+      },
+      "terminalData": {
+        "finsPerFoot": "30",
+        "heightIn": "9",
+        "heightFt": "29",
+        "widthIn": "9",
+        "widthFt": "28",
+        "lengthIn": "9",
+        "lengthFt": "27",
+        "measuredAmps": "26",
+        "model": "Terminal Model",
+        "manufacturer": "Terminal Manufacturer"
+      }
+    }
+  },
+  {
+    "name": "Public Terminal Convector All Fields 1",
+    "comment": "Terminal Comment",
+    "conditionRating": "Excellent - Plan Preventative Maintenance",
+    "type": "convector",
+    "componentSpecificData": {
+      "heating": {
+        "terminalsDesignFlowRateUnits": "GPM",
+        "thermalEfficiency": "37",
+        "capacityUnits": "Btuh",
+        "capacity": "36",
+        "heatDelivery": "Convection",
+        "combustionMethod": "35",
+        "measuredPressureDrop": "34",
+        "designPressureDrop": "33",
+        "designFlowRate": "32",
+        "medium": "31",
+        "heatSource": "Natural Gas"
+      },
+      "terminalData": {
+        "finsPerFoot": "30",
+        "heightIn": "9",
+        "heightFt": "29",
+        "widthIn": "9",
+        "widthFt": "28",
+        "lengthIn": "9",
+        "lengthFt": "27",
+        "measuredAmps": "26",
+        "designAmps": "25",
+        "volts": "24",
+        "measuredPower": "23",
+        "designPower": "22",
+        "controlType": "DDC",
+        "heatingSetpoint": "60",
+        "model": "Terminal Model",
+        "manufacturer": "Terminal Manufacturer"
+      }
+    }
+  },
+  {
+    "name": "Public Terminal Convector 1",
+    "comment": "Terminal Comment",
+    "conditionRating": "Excellent - Plan Preventative Maintenance",
+    "type": "convector",
+    "componentSpecificData": {
+      "heating": {
+        "terminalsDesignFlowRateUnits": "GPM",
+        "thermalEfficiency": "37",
+        "capacityUnits": "Btuh",
+        "medium": "31",
+        "heatSource": "Natural Gas"
+      },
+      "terminalData": {
+        "finsPerFoot": "30",
+        "heightIn": "9",
+        "heightFt": "29",
+        "model": "Terminal Model",
+        "manufacturer": "Terminal Manufacturer"
+      }
+    }
+  },
+  {
+    "name": "Public Terminal Infrared All Fields 1",
+    "comment": "Terminal Comment",
+    "conditionRating": "Excellent - Plan Preventative Maintenance",
+    "type": "infraredHeater",
+    "componentSpecificData": {
+      "heating": {
+        "terminalsDesignFlowRateUnits": "lb/h",
+        "thermalEfficiency": "37",
+        "capacityUnits": "W",
+        "capacity": "36",
+        "heatDelivery": "Convection",
+        "combustionMethod": "35",
+        "measuredPressureDrop": "34",
+        "designPressureDrop": "33",
+        "designFlowRate": "32",
+        "medium": "31",
+        "heatSource": "Liquid Propane Gas"
+      },
+      "terminalData": {
+        "finsPerFoot": "30",
+        "heightIn": "9",
+        "heightFt": "29",
+        "widthIn": "9",
+        "widthFt": "28",
+        "lengthIn": "9",
+        "lengthFt": "27",
+        "measuredAmps": "26",
+        "designAmps": "25",
+        "volts": "24",
+        "measuredPower": "23",
+        "designPower": "22",
+        "controlType": "Room Thermostat",
+        "heatingSetpoint": "63",
+        "model": "Terminal Model",
+        "manufacturer": "Terminal Manufacturer"
+      }
+    }
+  },
+  {
+    "name": "Public Terminal Infrared 1",
+    "comment": "Terminal Comment",
+    "conditionRating": "Excellent - Plan Preventative Maintenance",
+    "type": "infraredHeater",
+    "componentSpecificData": {
+      "heating": {
+        "terminalsDesignFlowRateUnits": "lb/h",
+        "medium": "31",
+        "heatSource": "Liquid Propane Gas"
+      },
+      "terminalData": {
+        "finsPerFoot": "30",
+        "heightIn": "9",
+        "heightFt": "29",
+        "heatingSetpoint": "63",
+        "model": "Terminal Model",
+        "manufacturer": "Terminal Manufacturer"
+      }
+    }
+  }
+]

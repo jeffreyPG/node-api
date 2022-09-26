@@ -1,0 +1,246 @@
+type Project {
+  _id: ID!
+  name: String!
+  displayName: String!
+  originalDisplayName: String!
+  source: String
+  eaDisplayName: String
+  eaSavedToLibrary: Boolean
+  eaAttachedTo: [String]
+  location: [String]
+  description: String
+  fuel: String
+  created: String
+  project_category: String
+  project_application: String
+  project_technology: String
+  applicable_building_types: [String]
+  category: String
+  fields: [ProjectField]
+  initialValues: ProjectInitialValues
+  incentive: ProjectIncentive
+  imageUrls: [String]
+  organizationFirebaseId: String
+  isComplete: Boolean
+  createdByUserId: ID
+  updated: String
+}
+
+type ProjectInitialValues {
+  commissioning: Int
+  construction_management: Int
+  description: String
+  design_fees: Int
+  displayName: String
+  input: Int
+  installation_factors: Int
+  labor_cost: Int
+  location: [String]
+  maintenance_savings: Int
+  material_cost: Int
+  name: String
+  new_location: String
+  permits: Int
+  profit: Int
+  project_cost: Int
+  selectedImages: [String]
+  taxes: Int
+  temporary_services: Int
+  test_and_balancing: Int
+  utility_service_upgrades: Int
+}
+
+type ProjectField {
+  type: String
+  label: String
+  name: String
+  description: String
+  existing: Boolean
+  replacement: Boolean
+  options: [ProjectFieldOption]
+  firebase_input: String
+}
+
+type ProjectFieldOption {
+  label: String
+  value: String
+}
+
+type ProjectIncentive {
+  input_units: String
+  input_map: String
+  unit_rate: Int
+  incentive_type: String
+  design_requirements: String
+  existing_requirements: String
+  rebate_code: String
+  utility_company: String
+  state: [String]
+  input_description: String
+  input_label: String
+}
+
+type ProjectCategorization {
+  applications: [String]
+  categories: [String]
+  technologies: [String]
+}
+
+input ProjectCategorizationInput {
+  project_application: String
+  project_category: String
+  project_technology: String
+}
+
+input ProjectFieldInput {
+  type: String
+  label: String
+  name: String
+  description: String
+  existing: Boolean
+  replacement: Boolean
+  options: [ProjectFieldOptionInput]
+  firebase_input: String
+}
+
+input ProjectFieldOptionInput {
+  label: String
+  value: String
+}
+
+input ProjectIncentiveInput {
+  input_units: String
+  input_map: String
+  unit_rate: Int
+  incentive_type: String
+  design_requirements: String
+  existing_requirements: String
+  rebate_code: String
+  utility_company: String
+  state: [String]
+  input_description: String
+  input_label: String
+}
+
+input ProjectInitialValuesInput {
+  commissioning: Int
+  construction_management: Int
+  description: String
+  design_fees: Int
+  displayName: String
+  input: Int
+  installation_factors: Int
+  labor_cost: Int
+  location: [String]
+  maintenance_savings: Int
+  material_cost: Int
+  name: String
+  new_location: String
+  permits: Int
+  profit: Int
+  project_cost: Int
+  selectedImages: [String]
+  taxes: Int
+  temporary_services: Int
+  test_and_balancing: Int
+  utility_service_upgrades: Int
+}
+
+input CreateProjectInput {
+  name: String
+  displayName: String
+  originalDisplayName: String
+  source: String
+  eaDisplayName: String
+  eaSavedToLibrary: Boolean
+  eaAttachedTo: [String]
+  location: [String]
+  description: String
+  fuel: String
+  created: String
+  project_category: String
+  project_application: String
+  project_technology: String
+  applicable_building_types: [String]
+  category: String
+  fields: [ProjectFieldInput]
+  initialValues: ProjectInitialValuesInput
+  incentive: ProjectIncentiveInput
+  imageUrls: [String]
+  organizationFirebaseId: String
+  isComplete: Boolean
+  createdByUserId: ID
+  updated: String
+}
+
+input FetchProjectInput {
+  _id: ID!
+}
+
+input UpdateProjectInput {
+  _id: ID!
+  name: String
+  displayName: String
+  originalDisplayName: String
+  source: String
+  eaDisplayName: String
+  eaSavedToLibrary: Boolean
+  eaAttachedTo: [String]
+  location: [String]
+  description: String
+  fuel: String
+  created: String
+  project_category: String
+  project_application: String
+  project_technology: String
+  applicable_building_types: [String]
+  category: String
+  fields: [ProjectFieldInput]
+  initialValues: ProjectInitialValuesInput
+  incentive: ProjectIncentiveInput
+  imageUrls: [String]
+  organizationFirebaseId: String
+  isComplete: Boolean
+  createdByUserId: ID
+  updated: String
+}
+
+input DeleteProjectInput {
+  _id: ID!
+}
+
+input SearchProjectInput {
+  name: String
+  displayName: String
+  originalDisplayName: String
+  source: String
+  eaDisplayName: String
+  eaSavedToLibrary: Boolean
+  description: String
+  fuel: String
+  created: String
+  project_category: String
+  project_application: String
+  project_technology: String
+  category: String
+  initialValues: ProjectInitialValuesInput
+  incentive: ProjectIncentiveInput
+  organizationFirebaseId: String
+  isComplete: Boolean
+  createdByUserId: ID
+  updated: String
+}
+
+extend type Query {
+  project(project: FetchProjectInput): Project!
+  projects(project: SearchProjectInput, search: SearchInput): [Project]
+  projectCategorization(
+    categorization: ProjectCategorizationInput
+  ): ProjectCategorization
+}
+
+extend type Mutation {
+  createProject(project: CreateProjectInput): Project!
+  updateProject(project: UpdateProjectInput): Project!
+  deleteProject(project: DeleteProjectInput): Project!
+}

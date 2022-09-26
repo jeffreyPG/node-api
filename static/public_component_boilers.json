@@ -1,0 +1,153 @@
+[
+  {
+    "name": "Public Boiler All Fields 1",
+    "comment": "Boiler Comment",
+    "conditionRating": "Excellent - Plan Preventative Maintenance",
+    "info": {
+      "configurationData": {
+        "accessories": {
+          "items": {
+            "Draft Control": "true",
+            "Oxygen Trim Control": "true"
+          }
+        },
+        "pipingInsulated": "Yes",
+        "insulationJacket": "Yes",
+        "steamPressure": "30",
+        "lwt": "29",
+        "ewt": "28"
+      },
+      "data": {
+        "turndownRatio": "27",
+        "combustionEfficiency": "26",
+        "thermalEfficiency": "25",
+        "unitsHeater": "Btu",
+        "inputCapacity": "24",
+        "feedwater": "Condensate Return",
+        "condensingOperation": "Yes",
+        "draftType": "Natural Draft",
+        "glycol": "23",
+        "fluidType": "Water",
+        "fuelTypeBoiler": "Natural Gas",
+        "typeBoiler": "Scotch Marine",
+        "model": "Boiler Model",
+        "yearBuilt": "1984",
+        "manufacturer": "Boiler Manufacturer"
+      }
+    },
+    "serialNumbers": [
+      {
+        "value": "22"
+      }
+    ]
+  },
+  {
+    "name": "Public Boiler 1",
+    "comment": "Boiler Comment",
+    "conditionRating": "Excellent - Plan Preventative Maintenance",
+    "info": {
+      "configurationData": {
+        "accessories": {
+          "items": {
+            "Draft Control": "true",
+            "Oxygen Trim Control": "true"
+          }
+        },
+        "pipingInsulated": "Yes",
+        "insulationJacket": "Yes",
+        "steamPressure": "30",
+        "lwt": "29",
+        "ewt": "28"
+      },
+      "data": {
+        "turndownRatio": "27",
+        "combustionEfficiency": "26",
+        "thermalEfficiency": "25",
+        "unitsHeater": "Btu",
+        "inputCapacity": "24",
+        "feedwater": "Condensate Return",
+        "condensingOperation": "Yes",
+        "draftType": "Natural Draft",
+        "glycol": "23",
+        "fluidType": "Water",
+        "fuelTypeBoiler": "Natural Gas",
+        "typeBoiler": "Scotch Marine",
+        "model": "Boiler Model",
+        "yearBuilt": "1984",
+        "manufacturer": "Boiler Manufacturer"
+      }
+    },
+    "serialNumbers": [
+      {
+        "value": "22"
+      }
+    ]
+  },
+  {
+    "name": "Public Boiler 2",
+    "comment": "Boiler Comment",
+    "conditionRating": "Excellent - Plan Preventative Maintenance",
+    "info": {
+      "configurationData": {
+        "accessories": {
+          "items": {
+            "Draft Control": "true",
+            "Oxygen Trim Control": "true"
+          }
+        },
+        "pipingInsulated": "Yes",
+        "insulationJacket": "Yes",
+        "steamPressure": "30",
+        "lwt": "29",
+        "ewt": "28"
+      },
+      "data": {
+        "turndownRatio": "27",
+        "combustionEfficiency": "26",
+        "thermalEfficiency": "25",
+        "typeBoiler": "Scotch Marine",
+        "model": "Boiler Model",
+        "yearBuilt": "1984",
+        "manufacturer": "Boiler Manufacturer"
+      }
+    },
+    "serialNumbers": [
+      {
+        "value": "22"
+      }
+    ]
+  },
+  {
+    "name": "Public Boiler 3",
+    "comment": "Boiler Comment",
+    "conditionRating": "Excellent - Plan Preventative Maintenance",
+    "info": {
+      "configurationData": {
+        "accessories": {
+          "items": {
+            "Draft Control": "true",
+            "Oxygen Trim Control": "true"
+          }
+        }
+      },
+      "data": {
+        "inputCapacity": "24",
+        "feedwater": "Condensate Return",
+        "condensingOperation": "Yes",
+        "draftType": "Natural Draft",
+        "glycol": "23",
+        "fluidType": "Water",
+        "fuelTypeBoiler": "Natural Gas",
+        "typeBoiler": "Scotch Marine",
+        "model": "Boiler Model",
+        "yearBuilt": "1984",
+        "manufacturer": "Boiler Manufacturer"
+      }
+    },
+    "serialNumbers": [
+      {
+        "value": "22"
+      }
+    ]
+  }
+]

@@ -1,0 +1,132 @@
+type BuildingEquipment {
+  _id: ID!
+  building: Building
+  libraryEquipment: Equipment
+  configs: [CustomEquipmentConfig]
+  maintenances: [CustomEquipmentMaintenance]
+  images: [String]
+  comments: String
+  location: Location
+  projects: [Project]
+  operations: [ID]
+  quantity: Int
+  operation: CustomEquipmentOperation
+  createdByUser: BuildingEquipmentUser
+  createdAt: String
+  updatedAt: String
+}
+
+type BuildingEquipmentUser {
+  name: String
+}
+
+
+type RemoveBuildingEquipmentsPayload {
+  deletedIds: [ID]
+}
+
+type CustomEquipmentConfig {
+  field: String!
+  value: String
+}
+
+type CustomEquipmentMaintenance {
+  field: String!
+  value: String
+}
+
+type CustomEquipmentOperation {
+  id: String
+  name: String
+}
+
+input CustomEquipmentConfigInput {
+  field: String!
+  value: String
+}
+
+input CustomEquipmentMaintenanceInput {
+  field: String!
+  value: String
+}
+
+input CustomEquipmentOperationInput {
+  id: String
+  name: String
+}
+
+input addBuildingEquipmentInput {
+  buildingId: ID!
+  comments: String
+  configs: [CustomEquipmentConfigInput]
+  maintenances: [CustomEquipmentMaintenanceInput]
+  libraryEquipmentId: ID!
+  images: [String]
+  location: ID
+  operations: [ID]
+  projects: [ID]
+  quantity: Int
+  operation: CustomEquipmentOperationInput
+}
+
+input copyBuildingEquipmentInput {
+  building: ID!
+  _id: ID!
+}
+
+input removeBuildingEquipmentInput {
+  building: ID!
+  _id: ID!
+}
+
+input removeBuildingEquipmentsInput {
+  building: ID!
+  buildingEquipmentIds: [ID]!
+}
+
+input updateBuildingEquipmentInput {
+  _id: ID!
+  comments: String
+  configs: [CustomEquipmentConfigInput]
+  maintenances: [CustomEquipmentMaintenanceInput]
+  images: [String]
+  location: ID
+  operations: [ID]
+  projects: [ID]
+  quantity: Int
+  operation: CustomEquipmentOperationInput
+  libraryEquipmentId: ID
+}
+
+input RecentEquipmentInput {
+  application: String
+  category: String
+  technology: String
+}
+
+extend type Query {
+  buildingEquipment(buildingId: ID!): [BuildingEquipment]!
+  searchBuildingEquipment(
+    buildingId: ID!
+    equipment: SearchEquipmentInput
+    search: SearchInput
+  ): [BuildingEquipment]!
+  recentBuildingEquipment(
+    buildingId: ID!
+    recentEquipment: RecentEquipmentInput
+  ): [Equipment]!
+}
+
+extend type Mutation {
+  addBuildingEquipment(input: addBuildingEquipmentInput!): BuildingEquipment!
+  copyBuildingEquipment(input: copyBuildingEquipmentInput!): BuildingEquipment!
+  removeBuildingEquipment(
+    input: removeBuildingEquipmentInput!
+  ): BuildingEquipment!
+  removeBuildingEquipments(
+    input: removeBuildingEquipmentsInput!
+  ): RemoveBuildingEquipmentsPayload!
+  updateBuildingEquipment(
+    input: updateBuildingEquipmentInput!
+  ): BuildingEquipment!
+}

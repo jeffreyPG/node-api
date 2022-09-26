@@ -1,0 +1,4317 @@
+[{
+  "_id": {
+    "$oid": "5a8e5d242ff0d7005868d271"
+  },
+  "name": "Reduce Stack Effect",
+  "measure": {
+    "ecm": {
+      "description": "Reduce the stack effect though passive strategies",
+      "name": "Reduce Stack Effect",
+      "attachedTo": [
+        "building"
+      ]
+    },
+    "name": "Reduce Stack Effect"
+  },
+  "created": {
+    "$date": "2018-02-22T06:03:16.591Z"
+  },
+  "config": {
+    "projectType": "building"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "5a8e5d242ff0d7005868d272"
+  },
+  "name": "Install CHP",
+  "measure": {
+    "ecm": {
+      "description": "Install cogeneration system",
+      "name": "Install CHP",
+      "attachedTo": [
+        "building"
+      ]
+    },
+    "name": "Install CHP"
+  },
+  "created": {
+    "$date": "2018-02-22T06:03:16.601Z"
+  },
+  "config": {
+    "projectType": "building"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "5a8e5d242ff0d7005868d273"
+  },
+  "name": "Install Geothermal",
+  "measure": {
+    "ecm": {
+      "description": "Install geothermal system",
+      "name": "Install Geothermal",
+      "attachedTo": [
+        "building"
+      ]
+    },
+    "name": "Install Geothermal"
+  },
+  "created": {
+    "$date": "2018-02-22T06:03:16.602Z"
+  },
+  "config": {
+    "projectType": "building"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "5a8e5d242ff0d7005868d274"
+  },
+  "name": "Upgrade Electrical System",
+  "measure": {
+    "ecm": {
+      "description": "Replace electrical system with more efficient options",
+      "name": "Upgrade Electrical System",
+      "attachedTo": [
+        "building",
+        "levels",
+        "spaces"
+      ]
+    },
+    "name": "Upgrade Electrical System"
+  },
+  "created": {
+    "$date": "2018-02-22T06:03:16.603Z"
+  },
+  "config": {
+    "projectType": "building"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "5a8e5d242ff0d7005868d275"
+  },
+  "name": "Replace with High Efficiency Transformer",
+  "measure": {
+    "ecm": {
+      "description": "Replace with High Efficiency Transformer",
+      "name": "Replace with High Efficiency Transformer",
+      "attachedTo": [
+        "building"
+      ]
+    },
+    "name": "Replace with High Efficiency Transformer"
+  },
+  "created": {
+    "$date": "2018-02-22T06:03:16.603Z"
+  },
+  "config": {
+    "projectType": "building"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "5a8e5d242ff0d7005868d276"
+  },
+  "name": "Install Photovoltaic (PV) System",
+  "measure": {
+    "ecm": {
+      "description": "Install photovoltaic system for in-house electricity generation",
+      "name": "Install Photovoltaic (PV) System",
+      "attachedTo": [
+        "building"
+      ]
+    },
+    "name": "Install Photovoltaic (PV) System"
+  },
+  "created": {
+    "$date": "2018-02-22T06:03:16.604Z"
+  },
+  "config": {
+    "projectType": "building"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "5a8e5d242ff0d7005868d277"
+  },
+  "name": "Install Pool Cover",
+  "measure": {
+    "ecm": {
+      "description": "Install pool covers to reduce vaporization",
+      "name": "Install Pool Cover",
+      "attachedTo": [
+        "building",
+        "spaces"
+      ]
+    },
+    "name": "Install Pool Cover"
+  },
+  "created": {
+    "$date": "2018-02-22T06:03:16.605Z"
+  },
+  "config": {
+    "projectType": "building"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "5a8e5d242ff0d7005868d278"
+  },
+  "name": "Replace Lamp(s) with LED",
+  "measure": {
+    "ecm": {
+      "description": "Replace existing lamp(s) with LED lamps",
+      "name": "Replace Lamp(s) with LED",
+      "attachedTo": [
+        "levels",
+        "spaces",
+        "lightfixtures"
+      ]
+    },
+    "name": "Replace Lamp(s) with LED"
+  },
+  "created": {
+    "$date": "2018-02-22T06:03:16.606Z"
+  },
+  "config": {
+    "projectType": "building"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "5a8e5d242ff0d7005868d279"
+  },
+  "name": "Replace Lamp(s) with T5",
+  "measure": {
+    "ecm": {
+      "description": "Replace existing lamp(s) with T5 lamps",
+      "name": "Replace Lamp(s) with T5",
+      "attachedTo": [
+        "levels",
+        "spaces",
+        "lightfixtures"
+      ]
+    },
+    "name": "Replace Lamp(s) with T5"
+  },
+  "created": {
+    "$date": "2018-02-22T06:03:16.607Z"
+  },
+  "config": {
+    "projectType": "building"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "5a8e5d242ff0d7005868d27a"
+  },
+  "name": "Replace Lamp(s) with T8",
+  "measure": {
+    "ecm": {
+      "description": "Replace existing lamp(s) with T8 lamps",
+      "name": "Replace Lamp(s) with T8",
+      "attachedTo": [
+        "levels",
+        "spaces",
+        "lightfixtures"
+      ]
+    },
+    "name": "Replace Lamp(s) with T8"
+  },
+  "created": {
+    "$date": "2018-02-22T06:03:16.607Z"
+  },
+  "config": {
+    "projectType": "building"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "5a8e5d242ff0d7005868d27b"
+  },
+  "name": "Install Lighting Occupancy Sensors",
+  "measure": {
+    "ecm": {
+      "description": "Install occupancy sensors",
+      "name": "Install Lighting Occupancy Sensors",
+      "attachedTo": [
+        "levels",
+        "spaces",
+        "lightfixtures"
+      ]
+    },
+    "name": "Install Lighting Occupancy Sensors"
+  },
+  "created": {
+    "$date": "2018-02-22T06:03:16.608Z"
+  },
+  "config": {
+    "projectType": "building"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "5a8e5d242ff0d7005868d27c"
+  },
+  "name": "Install Bi-Level Lighting",
+  "measure": {
+    "ecm": {
+      "description": "Install bi-level lighting",
+      "name": "Install Bi-Level Lighting",
+      "attachedTo": [
+        "levels",
+        "spaces",
+        "lightfixtures"
+      ]
+    },
+    "name": "Install Bi-Level Lighting"
+  },
+  "created": {
+    "$date": "2018-02-22T06:03:16.608Z"
+  },
+  "config": {
+    "projectType": "building"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "5a8e5d242ff0d7005868d27d"
+  },
+  "name": "Install Daylighting Control",
+  "measure": {
+    "ecm": {
+      "description": "Install daylighting controls",
+      "name": "Install Daylighting Control",
+      "attachedTo": [
+        "levels",
+        "spaces",
+        "lightfixtures"
+      ]
+    },
+    "name": "Install Daylighting Control"
+  },
+  "created": {
+    "$date": "2018-02-22T06:03:16.609Z"
+  },
+  "config": {
+    "projectType": "building"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "5a8e5d242ff0d7005868d27e"
+  },
+  "name": "Replace with Energy Star Appliances",
+  "measure": {
+    "ecm": {
+      "description": "Replace appliances and computers with Energy Star models (front loading washers, refrigerators, window-AC or split system, printers, computers, etc.)",
+      "name": "Replace with Energy Star Appliances",
+      "attachedTo": [
+        "levels",
+        "spaces",
+        "plugloads"
+      ]
+    },
+    "name": "Replace with Energy Star Appliances"
+  },
+  "created": {
+    "$date": "2018-02-22T06:03:16.609Z"
+  },
+  "config": {
+    "projectType": "building"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "5a8e5d242ff0d7005868d27f"
+  },
+  "name": "Install controls for plug load equipment",
+  "measure": {
+    "ecm": {
+      "description": "Install occupancy sensors and controls on plug load equipment to reduce equipment operation hours",
+      "name": "Install controls for plug load equipment",
+      "attachedTo": [
+        "levels",
+        "spaces",
+        "plugloads"
+      ]
+    },
+    "name": "Install controls for plug load equipment"
+  },
+  "created": {
+    "$date": "2018-02-22T06:03:16.610Z"
+  },
+  "config": {
+    "projectType": "building"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "5a8e5d242ff0d7005868d280"
+  },
+  "name": "Plug Load Management",
+  "measure": {
+    "ecm": {
+      "description": "Plug load management",
+      "name": "Plug Load Management",
+      "attachedTo": [
+        "levels",
+        "spaces",
+        "plugloads"
+      ]
+    },
+    "name": "Plug Load Management"
+  },
+  "created": {
+    "$date": "2018-02-22T06:03:16.611Z"
+  },
+  "config": {
+    "projectType": "building"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "5a8e5d242ff0d7005868d281"
+  },
+  "name": "Install Computer Power Management System",
+  "measure": {
+    "ecm": {
+      "description": "Install Computer Power Management System",
+      "name": "Install Computer Power Management System",
+      "attachedTo": [
+        "levels",
+        "spaces",
+        "plugloads"
+      ]
+    },
+    "name": "Install Computer Power Management System"
+  },
+  "created": {
+    "$date": "2018-02-22T06:03:16.611Z"
+  },
+  "config": {
+    "projectType": "building"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "5a8e5d242ff0d7005868d282"
+  },
+  "name": "Desktop Computer Virtualization",
+  "measure": {
+    "ecm": {
+      "description": "Desktop Computer Virtualization",
+      "name": "Desktop Computer Virtualization",
+      "attachedTo": [
+        "levels",
+        "spaces",
+        "plugloads"
+      ]
+    },
+    "name": "Desktop Computer Virtualization"
+  },
+  "created": {
+    "$date": "2018-02-22T06:03:16.612Z"
+  },
+  "config": {
+    "projectType": "building"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "5a8e5d242ff0d7005868d283"
+  },
+  "name": "Install schedule timer plug strips",
+  "measure": {
+    "ecm": {
+      "description": "Install schedule timer plug strips",
+      "name": "Install schedule timer plug strips",
+      "attachedTo": [
+        "levels",
+        "spaces",
+        "plugloads"
+      ]
+    },
+    "name": "Install schedule timer plug strips"
+  },
+  "created": {
+    "$date": "2018-02-22T06:03:16.612Z"
+  },
+  "config": {
+    "projectType": "building"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "5a8e5d242ff0d7005868d284"
+  },
+  "name": "Network Infrastructure",
+  "measure": {
+    "ecm": {
+      "description": "Network Infrastructure",
+      "name": "Network Infrastructure",
+      "attachedTo": [
+        "levels",
+        "spaces",
+        "plugloads",
+        "processloads"
+      ]
+    },
+    "name": "Network Infrastructure"
+  },
+  "created": {
+    "$date": "2018-02-22T06:03:16.613Z"
+  },
+  "config": {
+    "projectType": "building"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "5a8e5d242ff0d7005868d285"
+  },
+  "name": "Install Vending Misers",
+  "measure": {
+    "ecm": {
+      "description": "Install Vending Misers",
+      "name": "Install Vending Misers",
+      "attachedTo": [
+        "levels",
+        "spaces",
+        "plugloads"
+      ]
+    },
+    "name": "Install Vending Misers"
+  },
+  "created": {
+    "$date": "2018-02-22T06:03:16.614Z"
+  },
+  "config": {
+    "projectType": "building"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "5a8e5d242ff0d7005868d286"
+  },
+  "name": "Replace Desktop Computers with Laptops",
+  "measure": {
+    "ecm": {
+      "description": "Replace Desktop Computers with Laptops",
+      "name": "Replace Desktop Computers with Laptops",
+      "attachedTo": [
+        "levels",
+        "spaces",
+        "plugloads"
+      ]
+    },
+    "name": "Replace Desktop Computers with Laptops"
+  },
+  "created": {
+    "$date": "2018-02-22T06:03:16.615Z"
+  },
+  "config": {
+    "projectType": "building"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "5a8e5d242ff0d7005868d287"
+  },
+  "name": "Replace with Reflective Roof or Green Roof",
+  "measure": {
+    "ecm": {
+      "description": "Install green roof or reflective coating",
+      "name": "Replace with Reflective Roof or Green Roof",
+      "attachedTo": [
+        "building",
+        "levels",
+        "spaces",
+        "constructions"
+      ]
+    },
+    "name": "Replace with Reflective Roof or Green Roof"
+  },
+  "created": {
+    "$date": "2018-02-22T06:03:16.616Z"
+  },
+  "config": {
+    "projectType": "building"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "5a8e5d242ff0d7005868d288"
+  },
+  "name": "Add Insulation to Envelope",
+  "measure": {
+    "ecm": {
+      "description": "Install or add wall or roof insulation to improve their thermal resistant",
+      "name": "Add Insulation to Envelope",
+      "attachedTo": [
+        "levels",
+        "spaces",
+        "constructions"
+      ]
+    },
+    "name": "Add Insulation to Envelope"
+  },
+  "created": {
+    "$date": "2018-02-22T06:03:16.617Z"
+  },
+  "config": {
+    "projectType": "building"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "5a8e5d242ff0d7005868d289"
+  },
+  "name": "Weatherization",
+  "measure": {
+    "ecm": {
+      "description": "Weatherize the building envelope",
+      "name": "Weatherization",
+      "attachedTo": [
+        "levels",
+        "spaces",
+        "constructions",
+        "windows",
+        "doors"
+      ]
+    },
+    "name": "Weatherization"
+  },
+  "created": {
+    "$date": "2018-02-22T06:03:16.618Z"
+  },
+  "config": {
+    "projectType": "building"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "5a8e5d242ff0d7005868d28a"
+  },
+  "name": "Replace with Double Pane, Low-E, Argon Windows",
+  "measure": {
+    "ecm": {
+      "description": "Replace windows with double pane, low-emissivity, thermal broken, argon filled, low assembly U-value (0.4 or less) windows.",
+      "name": "Replace with Double Pane, Low-E, Argon Windows",
+      "attachedTo": [
+        "levels",
+        "spaces",
+        "windows"
+      ]
+    },
+    "name": "Replace with Double Pane, Low-E, Argon Windows"
+  },
+  "created": {
+    "$date": "2018-02-22T06:03:16.618Z"
+  },
+  "config": {
+    "projectType": "building"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "5a8e5d242ff0d7005868d28b"
+  },
+  "name": "Install Solar Film on Windows",
+  "measure": {
+    "ecm": {
+      "description": "Install Solar Film on Windows",
+      "name": "Install Solar Film on Windows",
+      "attachedTo": [
+        "levels",
+        "spaces",
+        "windows"
+      ]
+    },
+    "name": "Install Solar Film on Windows"
+  },
+  "created": {
+    "$date": "2018-02-22T06:03:16.618Z"
+  },
+  "config": {
+    "projectType": "building"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "5a8e5d242ff0d7005868d28c"
+  },
+  "name": "Install Skylights/ Solar Tubes",
+  "measure": {
+    "ecm": {
+      "description": "Install Skylights/ Solar Tubes",
+      "name": "Install Skylights/ Solar Tubes",
+      "attachedTo": [
+        "levels",
+        "spaces",
+        "windows"
+      ]
+    },
+    "name": "Install Skylights/ Solar Tubes"
+  },
+  "created": {
+    "$date": "2018-02-22T06:03:16.619Z"
+  },
+  "config": {
+    "projectType": "building"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "5a8e5d242ff0d7005868d28d"
+  },
+  "name": "Replace Door with Insulated Types",
+  "measure": {
+    "ecm": {
+      "description": "Replace door with insulated types.",
+      "name": "Replace Door with Insulated Types",
+      "attachedTo": [
+        "levels",
+        "spaces",
+        "doors"
+      ]
+    },
+    "name": "Replace Door with Insulated Types"
+  },
+  "created": {
+    "$date": "2018-02-22T06:03:16.619Z"
+  },
+  "config": {
+    "projectType": "building"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "5a8e5d242ff0d7005868d28e"
+  },
+  "name": "Replace with Rapid Roll-up Doors",
+  "measure": {
+    "ecm": {
+      "description": "Replace existing garage doors with rapid roll-up doors",
+      "name": "Replace with Rapid Roll-up Doors",
+      "attachedTo": [
+        "levels",
+        "spaces",
+        "doors"
+      ]
+    },
+    "name": "Replace with Rapid Roll-up Doors"
+  },
+  "created": {
+    "$date": "2018-02-22T06:03:16.620Z"
+  },
+  "config": {
+    "projectType": "building"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "5a8e5d242ff0d7005868d28f"
+  },
+  "name": "Replace with Rapid Roll-up Garage Doors",
+  "measure": {
+    "ecm": {
+      "description": "Install rapid roll-up garage door to reduce heat loss",
+      "name": "Replace with Rapid Roll-up Garage Doors ",
+      "attachedTo": [
+        "levels",
+        "spaces",
+        "doors"
+      ]
+    },
+    "name": "Replace with Rapid Roll-up Garage Doors "
+  },
+  "created": {
+    "$date": "2018-02-22T06:03:16.620Z"
+  },
+  "config": {
+    "projectType": "building"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "5a8e5d242ff0d7005868d290"
+  },
+  "name": "Install Sink Aerators",
+  "measure": {
+    "ecm": {
+      "description": "Install sink aerators (2.0 gpm or less)",
+      "name": "Install Sink Aerators",
+      "attachedTo": [
+        "levels",
+        "spaces",
+        "waterfixtures"
+      ]
+    },
+    "name": "Install Sink Aerators"
+  },
+  "created": {
+    "$date": "2018-02-22T06:03:16.621Z"
+  },
+  "config": {
+    "projectType": "building"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "5a8e5d242ff0d7005868d291"
+  },
+  "name": "Install Low Flow Shower Heads",
+  "measure": {
+    "ecm": {
+      "description": "Install shower heads (1 gpm or less)",
+      "name": "Install Low Flow Shower Heads",
+      "attachedTo": [
+        "levels",
+        "spaces",
+        "waterfixtures"
+      ]
+    },
+    "name": "Install Low Flow Shower Heads"
+  },
+  "created": {
+    "$date": "2018-02-22T06:03:16.622Z"
+  },
+  "config": {
+    "projectType": "building"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "5a8e5d242ff0d7005868d292"
+  },
+  "name": "Install Low Flow Toilets",
+  "measure": {
+    "ecm": {
+      "description": "Install low flow toilets",
+      "name": "Install Low Flow Toilets",
+      "attachedTo": [
+        "levels",
+        "spaces",
+        "waterfixtures"
+      ]
+    },
+    "name": "Install Low Flow Toilets"
+  },
+  "created": {
+    "$date": "2018-02-22T06:03:16.623Z"
+  },
+  "config": {
+    "projectType": "building"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "5a8e5d242ff0d7005868d293"
+  },
+  "name": "Install Temperature/ Smoke Controlled Dampers",
+  "measure": {
+    "ecm": {
+      "description": "Reduce in/exfiltration of elevator shaft by installing temperature or smoke controlled motorized dampers",
+      "name": "Install Temperature/ Smoke Controlled Dampers",
+      "attachedTo": [
+        "building",
+        "levels",
+        "spaces",
+        "zones"
+      ]
+    },
+    "name": "Install Temperature/ Smoke Controlled Dampers"
+  },
+  "created": {
+    "$date": "2018-02-22T06:03:16.623Z"
+  },
+  "config": {
+    "projectType": "building"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "5a8e5d242ff0d7005868d294"
+  },
+  "name": "Install Destratification Fans",
+  "measure": {
+    "ecm": {
+      "description": "Install Destratification Fans",
+      "name": "Install Destratification Fans",
+      "attachedTo": [
+        "building",
+        "levels",
+        "spaces",
+        "zones"
+      ]
+    },
+    "name": "Install Destratification Fans"
+  },
+  "created": {
+    "$date": "2018-02-22T06:03:16.624Z"
+  },
+  "config": {
+    "projectType": "building"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "5a8e5d242ff0d7005868d295"
+  },
+  "name": "Install Programmable Thermostats",
+  "measure": {
+    "ecm": {
+      "description": "Install programmable thermostats",
+      "name": "Install Programmable Thermostats",
+      "attachedTo": [
+        "building",
+        "zones",
+        "terminals",
+        "boilers",
+        "chillers",
+        "customsystemsair"
+      ]
+    },
+    "name": "Install Programmable Thermostats"
+  },
+  "created": {
+    "$date": "2018-02-22T06:03:16.624Z"
+  },
+  "config": {
+    "projectType": "building"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "5a8e5d242ff0d7005868d296"
+  },
+  "name": "Implement Thermostat Setbacks at Night",
+  "measure": {
+    "ecm": {
+      "description": "Implement Thermostat Setbacks at Night",
+      "name": "Implement Thermostat Setbacks at Night",
+      "attachedTo": [
+        "building",
+        "levels",
+        "spaces",
+        "zones"
+      ]
+    },
+    "name": "Implement Thermostat Setbacks at Night"
+  },
+  "created": {
+    "$date": "2018-02-22T06:03:16.625Z"
+  },
+  "config": {
+    "projectType": "building"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "5a8e5d242ff0d7005868d297"
+  },
+  "name": "Install Thermostatic Radiator Valves (TRVs)",
+  "measure": {
+    "ecm": {
+      "description": "Install thermostatic radiator valves (TRVs)",
+      "name": "Install Thermostatic Radiator Valves (TRVs)",
+      "attachedTo": [
+        "zones",
+        "terminals"
+      ]
+    },
+    "name": "Install Thermostatic Radiator Valves (TRVs)"
+  },
+  "created": {
+    "$date": "2018-02-22T06:03:16.625Z"
+  },
+  "config": {
+    "projectType": "building"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "5a8e5d242ff0d7005868d298"
+  },
+  "name": "Install Heat Recovery Ventilators",
+  "measure": {
+    "ecm": {
+      "description": "Install Energy or Heat Recovery Ventilators to recover thermal/cooling load from exhaust ventilation",
+      "name": "Install Heat Recovery Ventilators",
+      "attachedTo": [
+        "zones",
+        "customsystemsair",
+        "fans"
+      ]
+    },
+    "name": "Install Heat Recovery Ventilators"
+  },
+  "created": {
+    "$date": "2018-02-22T06:03:16.626Z"
+  },
+  "config": {
+    "projectType": "building"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "5a8e5d242ff0d7005868d299"
+  },
+  "name": "Install Demand Controlled Ventilation",
+  "measure": {
+    "ecm": {
+      "description": "Install DCV in areas of variable occupancy",
+      "name": "Install Demand Controlled Ventilation",
+      "attachedTo": [
+        "zones",
+        "customsystemsair"
+      ]
+    },
+    "name": "Install Demand Controlled Ventilation"
+  },
+  "created": {
+    "$date": "2018-02-22T06:03:16.626Z"
+  },
+  "config": {
+    "projectType": "building"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "5a8e5d242ff0d7005868d29a"
+  },
+  "name": "Install Bipolar Ionization System in Return Air Ducts",
+  "measure": {
+    "ecm": {
+      "description": "Install Bipolar Ionization System in Return Air Ducts",
+      "name": "Install Bipolar Ionization System in Return Air Ducts",
+      "attachedTo": [
+        "zones",
+        "customsystemsair"
+      ]
+    },
+    "name": "Install Bipolar Ionization System in Return Air Ducts"
+  },
+  "created": {
+    "$date": "2018-02-22T06:03:16.627Z"
+  },
+  "config": {
+    "projectType": "building"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "5a8e5d242ff0d7005868d29b"
+  },
+  "name": "Full Mechanical Retrofit",
+  "measure": {
+    "ecm": {
+      "description": "Full Mechanical Retrofit",
+      "name": "Full Mechanical Retrofit",
+      "attachedTo": [
+        "building",
+        "zones",
+        "cw",
+        "chw",
+        "hw",
+        "swh",
+        "customsystemschw",
+        "customsystemshw",
+        "customsystemsair",
+        "terminals"
+      ]
+    },
+    "name": "Full Mechanical Retrofit"
+  },
+  "created": {
+    "$date": "2018-02-22T06:03:16.627Z"
+  },
+  "config": {
+    "projectType": "building"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "5a8e5d242ff0d7005868d29c"
+  },
+  "name": "Decentralize HVAC",
+  "measure": {
+    "ecm": {
+      "description": "Decentralize HVAC",
+      "name": "Decentralize HVAC",
+      "attachedTo": [
+        "zones",
+        "cw",
+        "chw",
+        "hw",
+        "swh",
+        "customsystemschw",
+        "customsystemshw",
+        "customsystemsair",
+        "terminals"
+      ]
+    },
+    "name": "Decentralize HVAC"
+  },
+  "created": {
+    "$date": "2018-02-22T06:03:16.628Z"
+  },
+  "config": {
+    "projectType": "building"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "5a8e5d242ff0d7005868d29d"
+  },
+  "name": "Install BMS Controls",
+  "measure": {
+    "ecm": {
+      "description": "Install advanced energy management system or BMS for heating, ventilation and/or cooling control",
+      "name": "Install BMS Controls",
+      "attachedTo": [
+        "building",
+        "zones",
+        "cw",
+        "chw",
+        "hw",
+        "swh",
+        "customsystemsair",
+        "customsystemshw",
+        "customsystemschw",
+        "terminals"
+      ]
+    },
+    "name": "Install BMS Controls"
+  },
+  "created": {
+    "$date": "2018-02-22T06:03:16.629Z"
+  },
+  "config": {
+    "projectType": "building"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "5a8e5d242ff0d7005868d29e"
+  },
+  "name": "Install DDC Controls",
+  "measure": {
+    "ecm": {
+      "description": "Replace pneumatic compressed air devices with electronic thermostats and actuators",
+      "name": "Install DDC Controls",
+      "attachedTo": [
+        "building",
+        "zones",
+        "cw",
+        "chw",
+        "hw",
+        "swh",
+        "customsystemsair",
+        "customsystemshw",
+        "customsystemschw",
+        "terminals"
+      ]
+    },
+    "name": "Install DDC Controls"
+  },
+  "created": {
+    "$date": "2018-02-22T06:03:16.629Z"
+  },
+  "config": {
+    "projectType": "building"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "5a8e5d242ff0d7005868d29f"
+  },
+  "name": "Optimize Start/Stop Programming",
+  "measure": {
+    "ecm": {
+      "description": "Optimize Start/Stop Programming",
+      "name": "Optimize Start/Stop Programming",
+      "attachedTo": [
+        "building",
+        "zones",
+        "cw",
+        "chw",
+        "hw",
+        "swh",
+        "customsystemsair",
+        "customsystemshw",
+        "customsystemschw",
+        "terminals"
+      ]
+    },
+    "name": "Optimize Start/Stop Programming"
+  },
+  "created": {
+    "$date": "2018-02-22T06:03:16.630Z"
+  },
+  "config": {
+    "projectType": "building"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "5a8e5d242ff0d7005868d2a0"
+  },
+  "name": "Install VFD to Motor",
+  "measure": {
+    "ecm": {
+      "description": "Install VFD to control pump/fan motors",
+      "name": "Install VFD to Motor",
+      "attachedTo": [
+        "cw",
+        "chw",
+        "hw",
+        "swh",
+        "pumps",
+        "customsystemsair",
+        "customsystemshw",
+        "customsystemschw",
+        "fans",
+        "packagedunits",
+        "terminals",
+        "processloads"
+      ]
+    },
+    "name": "Install VFD to Motor"
+  },
+  "created": {
+    "$date": "2018-02-22T06:03:16.630Z"
+  },
+  "config": {
+    "projectType": "building"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "5a8e5d242ff0d7005868d2a1"
+  },
+  "name": "Replace with Premium Efficiency Motor",
+  "measure": {
+    "ecm": {
+      "description": "Replace standard efficiency motors with Premium Efficiency units",
+      "name": "Replace with Premium Efficiency Motor",
+      "attachedTo": [
+        "cw",
+        "chw",
+        "hw",
+        "swh",
+        "pumps",
+        "customsystemsair",
+        "customsystemshw",
+        "customsystemschw",
+        "fans",
+        "packagedunits",
+        "terminals",
+        "processloads"
+      ]
+    },
+    "name": "Replace with Premium Efficiency Motor"
+  },
+  "created": {
+    "$date": "2018-02-22T06:03:16.631Z"
+  },
+  "config": {
+    "projectType": "building"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "5a8e5d242ff0d7005868d2a2"
+  },
+  "name": "Replace Motor Belt",
+  "measure": {
+    "ecm": {
+      "description": "Replace Motor Belt",
+      "name": "Replace Motor Belt",
+      "attachedTo": [
+        "cw",
+        "chw",
+        "hw",
+        "swh",
+        "pumps",
+        "customsystemsair",
+        "customsystemshw",
+        "customsystemschw",
+        "fans",
+        "packagedunits",
+        "terminals",
+        "processloads"
+      ]
+    },
+    "name": "Replace Motor Belt"
+  },
+  "created": {
+    "$date": "2018-02-22T06:03:16.631Z"
+  },
+  "config": {
+    "projectType": "building"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "5a8e5d242ff0d7005868d2a3"
+  },
+  "name": "Replace Motor Belts with Cogged V-Belts",
+  "measure": {
+    "ecm": {
+      "description": "Replace Motor Belts with Cogged V-Belts",
+      "name": "Replace Motor Belts with Cogged V-Belts",
+      "attachedTo": [
+        "cw",
+        "chw",
+        "hw",
+        "swh",
+        "pumps",
+        "customsystemsair",
+        "customsystemshw",
+        "customsystemschw",
+        "fans",
+        "packagedunits",
+        "terminals",
+        "processloads"
+      ]
+    },
+    "name": "Replace Motor Belts with Cogged V-Belts"
+  },
+  "created": {
+    "$date": "2018-02-22T06:03:16.632Z"
+  },
+  "config": {
+    "projectType": "building"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "5a8e5d242ff0d7005868d2a4"
+  },
+  "name": "Replace Fan with More Efficient Unit",
+  "measure": {
+    "ecm": {
+      "description": "Replace fan with more efficient units including Premium Efficiency motors",
+      "name": "Replace Fan with More Efficient Unit",
+      "attachedTo": [
+        "cw",
+        "coolingtowers",
+        "customsystemsair",
+        "customsystemschw",
+        "packagedunits",
+        "fans",
+        "terminals"
+      ]
+    },
+    "name": "Replace Fan with More Efficient Unit"
+  },
+  "created": {
+    "$date": "2018-02-22T06:03:16.632Z"
+  },
+  "config": {
+    "projectType": "building"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "5a8e5d242ff0d7005868d2a5"
+  },
+  "name": "Replace Pump with More Efficient Unit",
+  "measure": {
+    "ecm": {
+      "description": "Replace pump with more efficient units including Premium Efficiency motors",
+      "name": "Replace Pump with More Efficient Unit",
+      "attachedTo": [
+        "cw",
+        "chw",
+        "hw",
+        "swh",
+        "customsystemschw",
+        "customsystemshw",
+        "pumps"
+      ]
+    },
+    "name": "Replace Pump with More Efficient Unit"
+  },
+  "created": {
+    "$date": "2018-02-22T06:03:16.632Z"
+  },
+  "config": {
+    "projectType": "building"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "5a8e5d242ff0d7005868d2a6"
+  },
+  "name": "Convert Constant Volume (CV) Pumping System to Variable Volume (VV)",
+  "measure": {
+    "ecm": {
+      "description": "Convert Constant Volume (CV) Pumping System to Variable Volume (VV)",
+      "name": "Convert Constant Volume (CV) Pumping System to Variable Volume (VV)",
+      "attachedTo": [
+        "cw",
+        "chw",
+        "hw",
+        "swh",
+        "customsystemschw",
+        "customsystemshw",
+        "pumps"
+      ]
+    },
+    "name": "Convert Constant Volume (CV) Pumping System to Variable Volume (VV)"
+  },
+  "created": {
+    "$date": "2018-02-22T06:03:16.633Z"
+  },
+  "config": {
+    "projectType": "building"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "5a8e5d242ff0d7005868d2a7"
+  },
+  "name": "CHW Plant Optimization",
+  "measure": {
+    "ecm": {
+      "description": "CHW Plant Optimization",
+      "name": "CHW Plant Optimization",
+      "attachedTo": [
+        "cw",
+        "chw",
+        "customsystemschw",
+        "customsystemsair",
+        "coolingcoils"
+      ]
+    },
+    "name": "CHW Plant Optimization"
+  },
+  "created": {
+    "$date": "2018-02-22T06:03:16.633Z"
+  },
+  "config": {
+    "projectType": "building"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "5a8e5d242ff0d7005868d2a8"
+  },
+  "name": "Refurbish Cooling Tower",
+  "measure": {
+    "ecm": {
+      "description": "Refurbish Cooling Tower",
+      "name": "Refurbish Cooling Tower",
+      "attachedTo": [
+        "cw",
+        "customsystemschw",
+        "coolingtowers"
+      ]
+    },
+    "name": "Refurbish Cooling Tower"
+  },
+  "created": {
+    "$date": "2018-02-22T06:03:16.634Z"
+  },
+  "config": {
+    "projectType": "building"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "5a8e5d242ff0d7005868d2a9"
+  },
+  "name": "Replace Cooling Tower",
+  "measure": {
+    "ecm": {
+      "description": "Replace Cooling Tower",
+      "name": "Replace Cooling Tower",
+      "attachedTo": [
+        "cw",
+        "customsystemschw",
+        "coolingtowers"
+      ]
+    },
+    "name": "Replace Cooling Tower"
+  },
+  "created": {
+    "$date": "2018-02-22T06:03:16.634Z"
+  },
+  "config": {
+    "projectType": "building"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "5a8e5d242ff0d7005868d2aa"
+  },
+  "name": "Install Water Sub-Meter on Cooling Tower",
+  "measure": {
+    "ecm": {
+      "description": "Install Water Sub-Meter on Cooling Tower",
+      "name": "Install Water Sub-Meter on Cooling Tower",
+      "attachedTo": [
+        "cw",
+        "customsystemschw",
+        "coolingtowers"
+      ]
+    },
+    "name": "Install Water Sub-Meter on Cooling Tower"
+  },
+  "created": {
+    "$date": "2018-02-22T06:03:16.635Z"
+  },
+  "config": {
+    "projectType": "building"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "5a8e5d242ff0d7005868d2ab"
+  },
+  "name": "Replace Chiller with High Efficiency Unit",
+  "measure": {
+    "ecm": {
+      "description": "Replace chiller with the most efficient units available on the market",
+      "name": "Replace Chiller with High Efficiency Unit",
+      "attachedTo": [
+        "chw",
+        "chillers",
+        "customsystemschw",
+        "processloads"
+      ]
+    },
+    "name": "Replace Chiller with High Efficiency Unit"
+  },
+  "created": {
+    "$date": "2018-02-22T06:03:16.635Z"
+  },
+  "config": {
+    "projectType": "building"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "5a8e5d242ff0d7005868d2ac"
+  },
+  "name": "Install Waterside Economizer",
+  "measure": {
+    "ecm": {
+      "description": "Install waterside economizer to reduce energy",
+      "name": "Install Waterside Economizer",
+      "attachedTo": [
+        "chw",
+        "customsystemschw",
+        "packagedunits"
+      ]
+    },
+    "name": "Install Waterside Economizer"
+  },
+  "created": {
+    "$date": "2018-02-22T06:03:16.636Z"
+  },
+  "config": {
+    "projectType": "building"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "5a8e5d242ff0d7005868d2ad"
+  },
+  "name": "Replace with Gas-Fired Engine-Driven Chiller",
+  "measure": {
+    "ecm": {
+      "description": "Install gas driven chillers",
+      "name": "Replace with Gas-Fired Engine-Driven Chiller",
+      "attachedTo": [
+        "chw",
+        "customsystemschw",
+        "chillers"
+      ]
+    },
+    "name": "Replace with Gas-Fired Engine-Driven Chiller"
+  },
+  "created": {
+    "$date": "2018-02-22T06:03:16.637Z"
+  },
+  "config": {
+    "projectType": "building"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "5a8e5d242ff0d7005868d2ae"
+  },
+  "name": "Replace with Absorption Chiller",
+  "measure": {
+    "ecm": {
+      "description": "Install absorption chillers to reduce peak demand",
+      "name": "Replace with Absorption Chiller",
+      "attachedTo": [
+        "chw",
+        "customsystemschw",
+        "chillers"
+      ]
+    },
+    "name": "Replace with Absorption Chiller"
+  },
+  "created": {
+    "$date": "2018-02-22T06:03:16.637Z"
+  },
+  "config": {
+    "projectType": "building"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "5a8e5d242ff0d7005868d2af"
+  },
+  "name": "Install Heat Timer for Boiler",
+  "measure": {
+    "ecm": {
+      "description": "Install heat timer for boiler",
+      "name": "Install Heat Timer for Boiler",
+      "attachedTo": [
+        "hw",
+        "customsystemshw",
+        "boilers"
+      ]
+    },
+    "name": "Install Heat Timer for Boiler"
+  },
+  "created": {
+    "$date": "2018-02-22T06:03:16.638Z"
+  },
+  "config": {
+    "projectType": "building"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "5a8e5d242ff0d7005868d2b0"
+  },
+  "name": "Replace Boiler with High Thermal Efficiency Unit",
+  "measure": {
+    "ecm": {
+      "description": "Replace boiler with higher thermal efficiency boiler (84% or greater for steam and 87% or greater or condensing for hot water) equipped with duel fuel burner (Natural Gas and No.1 Oil) of turndown ratio of 13:1 or greater",
+      "name": "Replace Boiler with High Thermal Efficiency Unit",
+      "attachedTo": [
+        "hw",
+        "customsystemshw",
+        "boilers"
+      ]
+    },
+    "name": "Replace Boiler with High Thermal Efficiency Unit"
+  },
+  "created": {
+    "$date": "2018-02-22T06:03:16.638Z"
+  },
+  "config": {
+    "projectType": "building"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "5a8e5d242ff0d7005868d2b1"
+  },
+  "name": "Install Outdoor Reset for Boiler",
+  "measure": {
+    "ecm": {
+      "description": "Install outdoor reset control for boiler",
+      "name": "Install Outdoor Reset for Boiler",
+      "attachedTo": [
+        "hw",
+        "customsystemshw",
+        "boilers"
+      ]
+    },
+    "name": "Install Outdoor Reset for Boiler"
+  },
+  "created": {
+    "$date": "2018-02-22T06:03:16.639Z"
+  },
+  "config": {
+    "projectType": "building"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "5a8e5d242ff0d7005868d2b2"
+  },
+  "name": "Insulate Storage/Receiver/Expansion Tank",
+  "measure": {
+    "ecm": {
+      "description": "Insulate HW storage/receiver/expansion/condensate tank",
+      "name": "Insulate Storage/Receiver/Expansion Tank",
+      "attachedTo": [
+        "hw",
+        "customsystemshw",
+        "boilers"
+      ]
+    },
+    "name": "Insulate Storage/Receiver/Expansion Tank"
+  },
+  "created": {
+    "$date": "2018-02-22T06:03:16.640Z"
+  },
+  "config": {
+    "projectType": "building"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "5a8e5d242ff0d7005868d2b3"
+  },
+  "name": "Convert to Dual Fuel (No. 2 Oil and Natural Gas)",
+  "measure": {
+    "ecm": {
+      "description": "Convert from electricity or No. 6 Oil to dual fuel (No. 2 Oil and Natural Gas) the heating system",
+      "name": "Convert to Dual Fuel (No. 2 Oil and Natural Gas)",
+      "attachedTo": [
+        "hw",
+        "customsystemshw",
+        "boilers"
+      ]
+    },
+    "name": "Convert to Dual Fuel (No. 2 Oil and Natural Gas)"
+  },
+  "created": {
+    "$date": "2018-02-22T06:03:16.641Z"
+  },
+  "config": {
+    "projectType": "building"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "5a8e5d242ff0d7005868d2b4"
+  },
+  "name": "Convert Steam Heating to Hydronic Heating",
+  "measure": {
+    "ecm": {
+      "description": "Convert steam heating system to HW through heat exchanger installation or boiler replacement",
+      "name": "Convert Steam Heating to Hydronic Heating",
+      "attachedTo": [
+        "hw",
+        "customsystemshw",
+        "boilers"
+      ]
+    },
+    "name": "Convert Steam Heating to Hydronic Heating"
+  },
+  "created": {
+    "$date": "2018-02-22T06:03:16.641Z"
+  },
+  "config": {
+    "projectType": "building"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "5a8e5d242ff0d7005868d2b5"
+  },
+  "name": "Replace Burner and Controllers, Connect to BAS",
+  "measure": {
+    "ecm": {
+      "description": "Replace Burner and Controllers, Connect to BAS",
+      "name": "Replace Burner and Controllers, Connect to BAS",
+      "attachedTo": [
+        "hw",
+        "customsystemshw",
+        "boilers"
+      ]
+    },
+    "name": "Replace Burner and Controllers, Connect to BAS"
+  },
+  "created": {
+    "$date": "2018-02-22T06:03:16.642Z"
+  },
+  "config": {
+    "projectType": "building"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "5a8e5d242ff0d7005868d2b6"
+  },
+  "name": "Replace Burner with Dual Fuel (No. 2 Oil and Natural Gas)",
+  "measure": {
+    "ecm": {
+      "description": "Replace the burner with a dual fuel(No. 2 Oil and Natural Gas) burner of turndown ratio of 13:1 or greater",
+      "name": "Replace Burner with Dual Fuel (No. 2 Oil and Natural Gas)",
+      "attachedTo": [
+        "hw",
+        "customsystemshw",
+        "boilers"
+      ]
+    },
+    "name": "Replace Burner with Dual Fuel (No. 2 Oil and Natural Gas)"
+  },
+  "created": {
+    "$date": "2018-02-22T06:03:16.642Z"
+  },
+  "config": {
+    "projectType": "building"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "5a8e5d242ff0d7005868d2b7"
+  },
+  "name": "Condensate Recovery",
+  "measure": {
+    "ecm": {
+      "description": "Install heat exchangers to recover the thermal load of condensate in building served by steam.",
+      "name": "Condensate Recovery",
+      "attachedTo": [
+        "hw",
+        "customsystemshw",
+        "boilers",
+        "swh",
+        "dhws",
+        "terminals"
+      ]
+    },
+    "name": "Condensate Recovery"
+  },
+  "created": {
+    "$date": "2018-02-22T06:03:16.643Z"
+  },
+  "config": {
+    "projectType": "building"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "5a8e5d242ff0d7005868d2b8"
+  },
+  "name": "Replace DHW Heater with High Efficiency Unit",
+  "measure": {
+    "ecm": {
+      "description": "Replace DHW heater with higher thermal efficiency unit (87% or greater or condensing) equipped with burner of turndown ratio of 13:1 or greater.",
+      "name": "Replace DHW Heater with High Efficiency Unit",
+      "attachedTo": [
+        "swh",
+        "dhws"
+      ]
+    },
+    "name": "Replace DHW Heater with High Efficiency Unit"
+  },
+  "created": {
+    "$date": "2018-02-22T06:03:16.643Z"
+  },
+  "config": {
+    "projectType": "building"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "5a8e5d242ff0d7005868d2b9"
+  },
+  "name": "Replace DHW Heater with Natural Gas Heater",
+  "measure": {
+    "ecm": {
+      "description": "Replace DHW Heater with Natural Gas Heater",
+      "name": "Replace DHW Heater with Natural Gas Heater",
+      "attachedTo": [
+        "swh",
+        "dhws"
+      ]
+    },
+    "name": "Replace DHW Heater with Natural Gas Heater"
+  },
+  "created": {
+    "$date": "2018-02-22T06:03:16.644Z"
+  },
+  "config": {
+    "projectType": "building"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "5a8e5d242ff0d7005868d2ba"
+  },
+  "name": "Install Solar Thermal System",
+  "measure": {
+    "ecm": {
+      "description": "Install solar thermal system for DHW",
+      "name": "Install Solar Thermal System",
+      "attachedTo": [
+        "swh",
+        "dhws"
+      ]
+    },
+    "name": "Install Solar Thermal System"
+  },
+  "created": {
+    "$date": "2018-02-22T06:03:16.644Z"
+  },
+  "config": {
+    "projectType": "building"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "5a8e5d242ff0d7005868d2bb"
+  },
+  "name": "Replace DX Unit with High Efficiency Unit",
+  "measure": {
+    "ecm": {
+      "description": "Replace DX cooling units with the most efficient units available in the market (the highest EER, COP) and environmentally friendly refrigerant.",
+      "name": "Replace DX Unit with High Efficiency Unit",
+      "attachedTo": [
+        "customsystemsair",
+        "coolingcoils",
+        "customsystemschw",
+        "packagedunits",
+        "terminals"
+      ]
+    },
+    "name": "Replace DX Unit with High Efficiency Unit"
+  },
+  "created": {
+    "$date": "2018-02-22T06:03:16.645Z"
+  },
+  "config": {
+    "projectType": "building"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "5a8e5d242ff0d7005868d2bc"
+  },
+  "name": "Replace CAV System with VAV System",
+  "measure": {
+    "ecm": {
+      "description": "Replace CAV System with VAV System",
+      "name": "Replace CAV System with VAV System",
+      "attachedTo": [
+        "customsystemsair",
+        "zones",
+        "terminals"
+      ]
+    },
+    "name": "Replace CAV System with VAV System"
+  },
+  "created": {
+    "$date": "2018-02-22T06:03:16.645Z"
+  },
+  "config": {
+    "projectType": "building"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "5a8e5d242ff0d7005868d2bd"
+  },
+  "name": "Install Efficient Air Filters",
+  "measure": {
+    "ecm": {
+      "description": "Install efficient air filters for HVAC ",
+      "name": "Install Efficient Air Filters",
+      "attachedTo": [
+        "customsystemsair",
+        "packagedunits",
+        "terminals"
+      ]
+    },
+    "name": "Install Efficient Air Filters"
+  },
+  "created": {
+    "$date": "2018-02-22T06:03:16.645Z"
+  },
+  "config": {
+    "projectType": "building"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "5a8e5d242ff0d7005868d2be"
+  },
+  "name": "Replace Evap Cooler with High Efficiency Unit",
+  "measure": {
+    "ecm": {
+      "description": "Replace Evap Cooler with High Efficiency Unit",
+      "name": "Replace Evap Cooler with High Efficiency Unit",
+      "attachedTo": [
+        "customsystemsair",
+        "evapcoolers",
+        "packagedunits",
+        "terminals"
+      ]
+    },
+    "name": "Replace Evap Cooler with High Efficiency Unit"
+  },
+  "created": {
+    "$date": "2018-02-22T06:03:16.646Z"
+  },
+  "config": {
+    "projectType": "building"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "5a8e5d242ff0d7005868d2bf"
+  },
+  "name": "Install Airside Economizer",
+  "measure": {
+    "ecm": {
+      "description": "Install airside economizer to reduce energy",
+      "name": "Install Airside Economizer",
+      "attachedTo": [
+        "customsystemsair",
+        "packagedunits"
+      ]
+    },
+    "name": "Install Airside Economizer"
+  },
+  "created": {
+    "$date": "2018-02-22T06:03:16.646Z"
+  },
+  "config": {
+    "projectType": "building"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "5a8e5d242ff0d7005868d2c0"
+  },
+  "name": "Replace Energy Recovery Unit (ERU)",
+  "measure": {
+    "ecm": {
+      "description": "Replace Energy Recovery Unit (ERU)",
+      "name": "Replace Energy Recovery Unit (ERU)",
+      "attachedTo": [
+        "customsystemsair",
+        "packagedunits"
+      ]
+    },
+    "name": "Replace Energy Recovery Unit (ERU)"
+  },
+  "created": {
+    "$date": "2018-02-22T06:03:16.647Z"
+  },
+  "config": {
+    "projectType": "building"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "5a8e5d242ff0d7005868d2c1"
+  },
+  "name": "Install Enthalpy Heat Recovery Wheel",
+  "measure": {
+    "ecm": {
+      "description": "Upgrade to Enthalpy Heat Recovery Wheel",
+      "name": "Install Enthalpy Heat Recovery Wheel",
+      "attachedTo": [
+        "customsystemsair",
+        "packagedunits"
+      ]
+    },
+    "name": "Install Enthalpy Heat Recovery Wheel"
+  },
+  "created": {
+    "$date": "2018-02-22T06:03:16.648Z"
+  },
+  "config": {
+    "projectType": "building"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "5a8e5d242ff0d7005868d2c2"
+  },
+  "name": "Install Static Pressure Reset Control",
+  "measure": {
+    "ecm": {
+      "description": "Install Static Pressure Reset Control",
+      "name": "Install Static Pressure Reset Control",
+      "attachedTo": [
+        "customsystemsair",
+        "packagedunits"
+      ]
+    },
+    "name": "Install Static Pressure Reset Control"
+  },
+  "created": {
+    "$date": "2018-02-22T06:03:16.648Z"
+  },
+  "config": {
+    "projectType": "building"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "5a8e5d242ff0d7005868d2c3"
+  },
+  "name": "Install Ventilation Controls",
+  "measure": {
+    "ecm": {
+      "description": "Install timers or programmable control for supply and/or exhaust fans",
+      "name": "Install Ventilation Controls",
+      "attachedTo": [
+        "customsystemsair",
+        "packagedunits",
+        "fans",
+        "terminals"
+      ]
+    },
+    "name": "Install Ventilation Controls"
+  },
+  "created": {
+    "$date": "2018-02-22T06:03:16.649Z"
+  },
+  "config": {
+    "projectType": "building"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "5a8e5d242ff0d7005868d2c4"
+  },
+  "name": "Replace Packaged Unit with High Efficiency Unit",
+  "measure": {
+    "ecm": {
+      "description": "Replace RTU cooling units with the most efficient units available in the market (the highest EER, COP) and environmentally friendly refrigerant.",
+      "name": "Replace Packaged Unit with High Efficiency Unit",
+      "attachedTo": [
+        "packagedunits"
+      ]
+    },
+    "name": "Replace Packaged Unit with High Efficiency Unit"
+  },
+  "created": {
+    "$date": "2018-02-22T06:03:16.649Z"
+  },
+  "config": {
+    "projectType": "building"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "5a8e5d242ff0d7005868d2c5"
+  },
+  "name": "Replace Unit Heaters with Infrared Heaters",
+  "measure": {
+    "ecm": {
+      "description": "Replace Unit Heaters with Infrared Heaters",
+      "name": "Replace Unit Heaters with Infrared Heaters",
+      "attachedTo": [
+        "zones",
+        "terminals"
+      ]
+    },
+    "name": "Replace Unit Heaters with Infrared Heaters"
+  },
+  "created": {
+    "$date": "2018-02-22T06:03:16.650Z"
+  },
+  "config": {
+    "projectType": "building"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "5a8e5d242ff0d7005868d2c6"
+  },
+  "name": "Install Mini-Split in Server Room",
+  "measure": {
+    "ecm": {
+      "description": "Install Mini-Split in Server Room",
+      "name": "Install Mini-Split in Server Room",
+      "attachedTo": [
+        "levels",
+        "spaces",
+        "zones",
+        "packagedunits",
+        "terminals"
+      ]
+    },
+    "name": "Install Mini-Split in Server Room"
+  },
+  "created": {
+    "$date": "2018-02-22T06:03:16.651Z"
+  },
+  "config": {
+    "projectType": "building"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "5a8e5d242ff0d7005868d2c7"
+  },
+  "name": "Replace with VRF Heat Pump",
+  "measure": {
+    "ecm": {
+      "description": "Install variable refrigerant flow heat pumps",
+      "name": "Replace with VRF Heat Pump",
+      "attachedTo": [
+        "packagedunits",
+        "terminals"
+      ]
+    },
+    "name": "Replace with VRF Heat Pump"
+  },
+  "created": {
+    "$date": "2018-02-22T06:03:16.651Z"
+  },
+  "config": {
+    "projectType": "building"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "5a8e5d242ff0d7005868d2c8"
+  },
+  "name": "Replace VAV Box",
+  "measure": {
+    "ecm": {
+      "description": "Replace VAV Box",
+      "name": "Replace VAV Box",
+      "attachedTo": [
+        "zones",
+        "customsystemsair",
+        "terminals"
+      ]
+    },
+    "name": "Replace VAV Box"
+  },
+  "created": {
+    "$date": "2018-02-22T06:03:16.651Z"
+  },
+  "config": {
+    "projectType": "building"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "5a8e5d242ff0d7005868d2c9"
+  },
+  "name": "Replace Motor Bearings",
+  "measure": {
+    "ecm": {
+      "description": "Replace Motor Bearings",
+      "name": "Replace Motor Bearings",
+      "attachedTo": [
+        "cw",
+        "chw",
+        "hw",
+        "swh",
+        "pumps",
+        "customsystemsair",
+        "customsystemshw",
+        "customsystemschw",
+        "fans",
+        "packagedunits",
+        "terminals",
+        "processloads"
+      ]
+    },
+    "name": "Replace Motor Bearings"
+  },
+  "created": {
+    "$date": "2018-02-22T06:03:16.652Z"
+  },
+  "config": {
+    "projectType": "building"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "5a8e5d242ff0d7005868d2ca"
+  },
+  "name": "Clean Motor",
+  "measure": {
+    "ecm": {
+      "description": "Clean Motor",
+      "name": "Clean Motor",
+      "attachedTo": [
+        "cw",
+        "chw",
+        "hw",
+        "swh",
+        "pumps",
+        "customsystemsair",
+        "customsystemshw",
+        "customsystemschw",
+        "fans",
+        "packagedunits",
+        "terminals",
+        "processloads"
+      ]
+    },
+    "name": "Clean Motor"
+  },
+  "created": {
+    "$date": "2018-02-22T06:03:16.652Z"
+  },
+  "config": {
+    "projectType": "building"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "5a8e5d242ff0d7005868d2cb"
+  },
+  "name": "Repair, Replace or Calibrate Actuator",
+  "measure": {
+    "ecm": {
+      "description": "Repair, replace or calibrate actuator",
+      "name": "Repair, Replace or Calibrate Actuator",
+      "attachedTo": [
+        "customsystemsair",
+        "terminals"
+      ]
+    },
+    "name": "Repair, Replace or Calibrate Actuator"
+  },
+  "created": {
+    "$date": "2018-02-22T06:03:16.653Z"
+  },
+  "config": {
+    "projectType": "building"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "5a8e5d242ff0d7005868d2cc"
+  },
+  "name": "Repair, Replace or Calibrate Thermostat",
+  "measure": {
+    "ecm": {
+      "description": "Repair, replace or calibrate thermostat",
+      "name": "Repair, Replace or Calibrate Thermostat",
+      "attachedTo": [
+        "zones",
+        "terminals"
+      ]
+    },
+    "name": "Repair, Replace or Calibrate Thermostat"
+  },
+  "created": {
+    "$date": "2018-02-22T06:03:16.653Z"
+  },
+  "config": {
+    "projectType": "building"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "5a8e5d242ff0d7005868d2cd"
+  },
+  "name": "Repair, Replace or Calibrate Valves",
+  "measure": {
+    "ecm": {
+      "description": "Repair, replace or calibrate valves",
+      "name": "Repair, Replace or Calibrate Valves",
+      "attachedTo": [
+        "customsystemsair",
+        "terminals"
+      ]
+    },
+    "name": "Repair, Replace or Calibrate Valves"
+  },
+  "created": {
+    "$date": "2018-02-22T06:03:16.654Z"
+  },
+  "config": {
+    "projectType": "building"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "5a8e5d242ff0d7005868d2ce"
+  },
+  "name": "Repair, Replace or Calibrate Dampers",
+  "measure": {
+    "ecm": {
+      "description": "Repair, replace or calibrate dampers",
+      "name": "Repair, Replace or Calibrate Dampers",
+      "attachedTo": [
+        "zones",
+        "customsystemsair",
+        "terminals"
+      ]
+    },
+    "name": "Repair, Replace or Calibrate Dampers"
+  },
+  "created": {
+    "$date": "2018-02-22T06:03:16.654Z"
+  },
+  "config": {
+    "projectType": "building"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "5a8e5d242ff0d7005868d2cf"
+  },
+  "name": "Insulate Piping",
+  "measure": {
+    "ecm": {
+      "description": "Insulate DHW/Heating/Cooling pipe",
+      "name": "Insulate Piping",
+      "attachedTo": [
+        "cw",
+        "chw",
+        "hw",
+        "swh",
+        "customsystemschw",
+        "customsystemshw",
+        "customsystemsair",
+        "packagedunits",
+        "terminals"
+      ]
+    },
+    "name": "Insulate Piping"
+  },
+  "created": {
+    "$date": "2018-02-22T06:03:16.655Z"
+  },
+  "config": {
+    "projectType": "building"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "5a8e5d242ff0d7005868d2d0"
+  },
+  "name": "Adjust DHW Temperature",
+  "measure": {
+    "ecm": {
+      "description": "Adjust DHW temperature of aquastat, storage tank or heater.",
+      "name": "Adjust DHW Temperature",
+      "attachedTo": [
+        "swh"
+      ]
+    },
+    "name": "Adjust DHW Temperature"
+  },
+  "created": {
+    "$date": "2018-02-22T06:03:16.656Z"
+  },
+  "config": {
+    "projectType": "building"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "5a8e5d242ff0d7005868d2d1"
+  },
+  "name": "Repair Mixing Valve/ Circulator",
+  "measure": {
+    "ecm": {
+      "description": "Repair mixing valve/ circulator ",
+      "name": "Repair Mixing Valve/ Circulator",
+      "attachedTo": [
+        "swh"
+      ]
+    },
+    "name": "Repair Mixing Valve/ Circulator"
+  },
+  "created": {
+    "$date": "2018-02-22T06:03:16.656Z"
+  },
+  "config": {
+    "projectType": "building"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "5a8e5d242ff0d7005868d2d2"
+  },
+  "name": "Replace Mixing Valve/ Circulator",
+  "measure": {
+    "ecm": {
+      "description": "Replace mixing valve/ circulator ",
+      "name": "Replace Mixing Valve/ Circulator",
+      "attachedTo": [
+        "swh"
+      ]
+    },
+    "name": "Replace Mixing Valve/ Circulator"
+  },
+  "created": {
+    "$date": "2018-02-22T06:03:16.657Z"
+  },
+  "config": {
+    "projectType": "building"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "5a8e5d242ff0d7005868d2d3"
+  },
+  "name": "Tune Hot Water Heater",
+  "measure": {
+    "ecm": {
+      "description": "Tune DHW heaters",
+      "name": "Tune Hot Water Heater",
+      "attachedTo": [
+        "swh",
+        "dhws"
+      ]
+    },
+    "name": "Tune Hot Water Heater"
+  },
+  "created": {
+    "$date": "2018-02-22T06:03:16.657Z"
+  },
+  "config": {
+    "projectType": "building"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "5a8e5d242ff0d7005868d2d4"
+  },
+  "name": "Tune Boiler",
+  "measure": {
+    "ecm": {
+      "description": "Tune heating boiler",
+      "name": "Tune Boiler",
+      "attachedTo": [
+        "hw",
+        "customsystemshw",
+        "boilers"
+      ]
+    },
+    "name": "Tune Boiler"
+  },
+  "created": {
+    "$date": "2018-02-22T06:03:16.660Z"
+  },
+  "config": {
+    "projectType": "building"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "5a8e5d242ff0d7005868d2d5"
+  },
+  "name": "Repair Oil Heater",
+  "measure": {
+    "ecm": {
+      "description": "Repair oil heaters",
+      "name": "Repair Oil Heater",
+      "attachedTo": [
+        "hw",
+        "customsystemshw",
+        "boilers"
+      ]
+    },
+    "name": "Repair Oil Heater"
+  },
+  "created": {
+    "$date": "2018-02-22T06:03:16.660Z"
+  },
+  "config": {
+    "projectType": "building"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "5a8e5d242ff0d7005868d2d6"
+  },
+  "name": "Replace Oil Heater",
+  "measure": {
+    "ecm": {
+      "description": "Replace oil heaters",
+      "name": "Replace Oil Heater",
+      "attachedTo": [
+        "hw",
+        "customsystemshw",
+        "boilers"
+      ]
+    },
+    "name": "Replace Oil Heater"
+  },
+  "created": {
+    "$date": "2018-02-22T06:03:16.661Z"
+  },
+  "config": {
+    "projectType": "building"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "5a8e5d242ff0d7005868d2d7"
+  },
+  "name": "Repair Oil Pump",
+  "measure": {
+    "ecm": {
+      "description": "Repair oil pumps",
+      "name": "Repair Oil Pump",
+      "attachedTo": [
+        "hw",
+        "customsystemshw",
+        "boilers"
+      ]
+    },
+    "name": "Repair Oil Pump"
+  },
+  "created": {
+    "$date": "2018-02-22T06:03:16.662Z"
+  },
+  "config": {
+    "projectType": "building"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "5a8e5d242ff0d7005868d2d8"
+  },
+  "name": "Replace Oil Pump",
+  "measure": {
+    "ecm": {
+      "description": "Replace oil pumps",
+      "name": "Replace Oil Pump",
+      "attachedTo": [
+        "hw",
+        "customsystemshw",
+        "boilers"
+      ]
+    },
+    "name": "Replace Oil Pump"
+  },
+  "created": {
+    "$date": "2018-02-22T06:03:16.662Z"
+  },
+  "config": {
+    "projectType": "building"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "5a8e5d242ff0d7005868d2d9"
+  },
+  "name": "TAB",
+  "measure": {
+    "ecm": {
+      "description": "Perform testing, adjusting and balancing of air or water distribution system",
+      "name": "TAB",
+      "attachedTo": [
+        "cw",
+        "chw",
+        "hw",
+        "swh",
+        "coolingtowers",
+        "chillers",
+        "boilers",
+        "dhws",
+        "customsystemschw",
+        "customsystemshw",
+        "customsystemsair",
+        "pumps",
+        "fans",
+        "packagedunits",
+        "terminals"
+      ]
+    },
+    "name": "TAB"
+  },
+  "created": {
+    "$date": "2018-02-22T06:03:16.662Z"
+  },
+  "config": {
+    "projectType": "building"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "5a8e5d242ff0d7005868d2da"
+  },
+  "name": "HVAC Cleaning",
+  "measure": {
+    "ecm": {
+      "description": "Clean heating or cooling coils of AHU, fan coils or HV units",
+      "name": "HVAC Cleaning",
+      "attachedTo": [
+        "coolingcoils",
+        "heatingcoils",
+        "customsystemsair",
+        "fans",
+        "packagedunits"
+      ]
+    },
+    "name": "HVAC Cleaning"
+  },
+  "created": {
+    "$date": "2018-02-22T06:03:16.663Z"
+  },
+  "config": {
+    "projectType": "building"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "5a8e5d242ff0d7005868d2db"
+  },
+  "name": "Repair, Replace or Calibrate HVAC Control Sensors and Sequences",
+  "measure": {
+    "ecm": {
+      "description": "Calibrate, repair or replace temperature sensors. Verify sequences",
+      "name": "Repair, Replace or Calibrate HVAC Control Sensors and Sequences",
+      "attachedTo": [
+        "cw",
+        "chw",
+        "hw",
+        "swh",
+        "coolingtowers",
+        "chillers",
+        "boilers",
+        "dhws",
+        "customsystemschw",
+        "customsystemshw",
+        "customsystemsair",
+        "pumps",
+        "fans",
+        "packagedunits",
+        "terminals"
+      ]
+    },
+    "name": "Repair, Replace or Calibrate HVAC Control Sensors and Sequences"
+  },
+  "created": {
+    "$date": "2018-02-22T06:03:16.664Z"
+  },
+  "config": {
+    "projectType": "building"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "5a8e5d242ff0d7005868d2dc"
+  },
+  "name": "Adjust Ventilation Rates",
+  "measure": {
+    "ecm": {
+      "description": "Adjust ventilation rates",
+      "name": "Adjust Ventilation Rates",
+      "attachedTo": [
+        "outdoorairintakes",
+        "customsystemsair",
+        "packagedunits",
+        "terminals"
+      ]
+    },
+    "name": "Adjust Ventilation Rates"
+  },
+  "created": {
+    "$date": "2018-02-22T06:03:16.665Z"
+  },
+  "config": {
+    "projectType": "building"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "5a8e5d242ff0d7005868d2dd"
+  },
+  "name": "Replace Ventilation Control Timers",
+  "measure": {
+    "ecm": {
+      "description": "Replace Ventilation Control Timers",
+      "name": "Replace Ventilation Control Timers",
+      "attachedTo": [
+        "outdoorairintakes",
+        "customsystemsair",
+        "fans",
+        "packagedunits",
+        "terminals"
+      ]
+    },
+    "name": "Replace Ventilation Control Timers"
+  },
+  "created": {
+    "$date": "2018-02-22T06:03:16.665Z"
+  },
+  "config": {
+    "projectType": "building"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "5a8e5d242ff0d7005868d2de"
+  },
+  "name": "Steam Trap Maintenance",
+  "measure": {
+    "ecm": {
+      "description": "Inspection, testing and replacement of steam traps or their elements. Develop a steam trap maintenance protocol",
+      "name": "Steam Trap Maintenance",
+      "attachedTo": [
+        "hw",
+        "boilers",
+        "customsystemshw",
+        "terminals"
+      ]
+    },
+    "name": "Steam Trap Maintenance"
+  },
+  "created": {
+    "$date": "2018-02-22T06:03:16.666Z"
+  },
+  "config": {
+    "projectType": "building"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "5a8e5d242ff0d7005868d2df"
+  },
+  "name": "Repair Vacuum Pumps",
+  "measure": {
+    "ecm": {
+      "description": "Repair vacuum pumps of the steam distribution system",
+      "name": "Repair Vacuum Pumps",
+      "attachedTo": [
+        "hw",
+        "boilers",
+        "customsystemshw",
+        "terminals"
+      ]
+    },
+    "name": "Repair Vacuum Pumps"
+  },
+  "created": {
+    "$date": "2018-02-22T06:03:16.666Z"
+  },
+  "config": {
+    "projectType": "building"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "5a8e5d242ff0d7005868d2e0"
+  },
+  "name": "Replace Vacuum Pumps",
+  "measure": {
+    "ecm": {
+      "description": "Replace vacuum pumps of the steam distribution system",
+      "name": "Replace Vacuum Pumps",
+      "attachedTo": [
+        "hw",
+        "boilers",
+        "customsystemshw",
+        "terminals"
+      ]
+    },
+    "name": "Replace Vacuum Pumps"
+  },
+  "created": {
+    "$date": "2018-02-22T06:03:16.667Z"
+  },
+  "config": {
+    "projectType": "building"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "5a8e5d242ff0d7005868d2e1"
+  },
+  "name": "Repair or Replace Measurement Instruments",
+  "measure": {
+    "ecm": {
+      "description": "Repair or replace thermometers, pressure gauges, level indicators, flow meters, smoke detectors etc.",
+      "name": "Repair or Replace Measurement Instruments",
+      "attachedTo": [
+        "zones",
+        "cw",
+        "coolingtowers",
+        "chw",
+        "chillers",
+        "hw",
+        "boilers",
+        "swh",
+        "dhws",
+        "customsystemschw",
+        "customsystemshw",
+        "customsystemsair",
+        "pumps",
+        "fans",
+        "packagedunits",
+        "terminals"
+      ]
+    },
+    "name": "Repair or Replace Measurement Instruments"
+  },
+  "created": {
+    "$date": "2018-02-22T06:03:16.667Z"
+  },
+  "config": {
+    "projectType": "building"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "5a8e5d242ff0d7005868d2e2"
+  },
+  "name": "Reduce Air Infiltration",
+  "measure": {
+    "ecm": {
+      "description": "Weather seal and/or repair windows/doors as necessary. Seal air penetrations in wall, roof, floor, basement",
+      "name": "Reduce Air Infiltration",
+      "attachedTo": [
+        "building",
+        "levels",
+        "spaces",
+        "constructions"
+      ]
+    },
+    "name": "Reduce Air Infiltration"
+  },
+  "created": {
+    "$date": "2018-02-22T06:03:16.667Z"
+  },
+  "config": {
+    "projectType": "building"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "5a8e5d242ff0d7005868d2e3"
+  },
+  "name": "Fix Steam Leaks",
+  "measure": {
+    "ecm": {
+      "description": "Fix pipes, valves, pumps, compressors, as necessary",
+      "name": "Fix Steam Leaks",
+      "attachedTo": [
+        "cw",
+        "coolingtowers",
+        "chw",
+        "chillers",
+        "hw",
+        "boilers",
+        "swh",
+        "dhws",
+        "customsystemschw",
+        "customsystemshw",
+        "customsystemsair",
+        "pumps",
+        "fans",
+        "packagedunits",
+        "terminals"
+      ]
+    },
+    "name": "Fix Steam Leaks"
+  },
+  "created": {
+    "$date": "2018-02-22T06:03:16.668Z"
+  },
+  "config": {
+    "projectType": "building"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "5a8e5d242ff0d7005868d2e4"
+  },
+  "name": "Fix Water/Air/Oil/Fuel Oil/Gas Leaks",
+  "measure": {
+    "ecm": {
+      "description": "Fix pipes, valves, pumps, compressors, as necessary",
+      "name": "Fix Water/Air/Oil/Fuel Oil/Gas Leaks",
+      "attachedTo": [
+        "cw",
+        "coolingtowers",
+        "chw",
+        "chillers",
+        "hw",
+        "boilers",
+        "swh",
+        "dhws",
+        "customsystemschw",
+        "customsystemshw",
+        "customsystemsair",
+        "pumps",
+        "fans",
+        "packagedunits",
+        "terminals"
+      ]
+    },
+    "name": "Fix Water/Air/Oil/Fuel Oil/Gas Leaks"
+  },
+  "created": {
+    "$date": "2018-02-22T06:03:16.668Z"
+  },
+  "config": {
+    "projectType": "building"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "5a8e5d242ff0d7005868d2e5"
+  },
+  "name": "Delamp Light Fixtures",
+  "measure": {
+    "ecm": {
+      "description": "Delamp to meet minimum foot-candles required",
+      "name": "Delamp Light Fixtures",
+      "attachedTo": [
+        "levels",
+        "spaces",
+        "lightfixtures"
+      ]
+    },
+    "name": "Delamp Light Fixtures"
+  },
+  "created": {
+    "$date": "2018-02-22T06:03:16.669Z"
+  },
+  "config": {
+    "projectType": "building"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "5a8e5d242ff0d7005868d2e6"
+  },
+  "name": "Clean Light Fixtures",
+  "measure": {
+    "ecm": {
+      "description": "Clean light fixtures covers and lamps",
+      "name": "Clean Light Fixtures",
+      "attachedTo": [
+        "levels",
+        "spaces",
+        "lightfixtures"
+      ]
+    },
+    "name": "Clean Light Fixtures"
+  },
+  "created": {
+    "$date": "2018-02-22T06:03:16.669Z"
+  },
+  "config": {
+    "projectType": "building"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "5a8e5d242ff0d7005868d2e7"
+  },
+  "name": "Reset HVAC Temperature",
+  "measure": {
+    "ecm": {
+      "description": "Reset heating/cooling/DHW temperature",
+      "name": "Reset HVAC Temperature",
+      "attachedTo": [
+        "zones",
+        "terminals"
+      ]
+    },
+    "name": "Reset HVAC Temperature"
+  },
+  "created": {
+    "$date": "2018-02-22T06:03:16.669Z"
+  },
+  "config": {
+    "projectType": "building"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "5a8e5d242ff0d7005868d2e8"
+  },
+  "name": "Repair Air Compressor",
+  "measure": {
+    "ecm": {
+      "description": "Repair air compressor or components",
+      "name": "Repair Air Compressor",
+      "attachedTo": [
+        "building"
+      ]
+    },
+    "name": "Repair Air Compressor"
+  },
+  "created": {
+    "$date": "2018-02-22T06:03:16.670Z"
+  },
+  "config": {
+    "projectType": "building"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "5a8e5d242ff0d7005868d2e9"
+  },
+  "name": "Repair Pneumatic Control System",
+  "measure": {
+    "ecm": {
+      "description": "Repair valves/lines/filter",
+      "name": "Repair Pneumatic Control System",
+      "attachedTo": [
+        "building",
+        "customsystemsair"
+      ]
+    },
+    "name": "Repair Pneumatic Control System"
+  },
+  "created": {
+    "$date": "2018-02-22T06:03:16.670Z"
+  },
+  "config": {
+    "projectType": "building"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "5a8e5d242ff0d7005868d2ea"
+  },
+  "name": "Electrical Wiring Maintenance",
+  "measure": {
+    "ecm": {
+      "description": "Rewire, adjust connections, fix voltage imbalance, fix interlocking problems",
+      "name": "Electrical Wiring Maintenance",
+      "attachedTo": [
+        "building"
+      ]
+    },
+    "name": "Electrical Wiring Maintenance"
+  },
+  "created": {
+    "$date": "2018-02-22T06:03:16.671Z"
+  },
+  "config": {
+    "projectType": "building"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "5a8e5d242ff0d7005868d2eb"
+  },
+  "name": "Reprogram BMS/EMS",
+  "measure": {
+    "ecm": {
+      "description": "Reprogram and reset key parameters values",
+      "name": "Reprogram BMS/EMS",
+      "attachedTo": [
+        "zones",
+        "cw",
+        "chw",
+        "hw",
+        "swh",
+        "coolingtowers",
+        "customsystemschw",
+        "customsystemshw",
+        "customsystemsair",
+        "terminals"
+      ]
+    },
+    "name": "Reprogram BMS/EMS"
+  },
+  "created": {
+    "$date": "2018-02-22T06:03:16.671Z"
+  },
+  "config": {
+    "projectType": "building"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "5a8e5d242ff0d7005868d2ec"
+  },
+  "name": "Replace Coils",
+  "measure": {
+    "ecm": {
+      "description": "Replace coils",
+      "name": "Replace Coils",
+      "attachedTo": [
+        "customsystemsair",
+        "packagedunits",
+        "coolingcoils",
+        "heatingcoils"
+      ]
+    },
+    "name": "Replace Coils"
+  },
+  "created": {
+    "$date": "2018-02-22T06:03:16.671Z"
+  },
+  "config": {
+    "projectType": "building"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "5a8e5d242ff0d7005868d2ed"
+  },
+  "name": "Replace HW Storage/Expansion/Condensate/Receiver Tank",
+  "measure": {
+    "ecm": {
+      "description": "Replace HW storage/expansion/condensate or receiver tank",
+      "name": "Replace HW Storage/Expansion/Condensate/Receiver Tank",
+      "attachedTo": [
+        "zones",
+        "cw",
+        "chw",
+        "hw",
+        "swh",
+        "coolingtowers",
+        "customsystemschw",
+        "customsystemshw",
+        "customsystemsair",
+        "terminals"
+      ]
+    },
+    "name": "Replace HW Storage/Expansion/Condensate/Receiver Tank"
+  },
+  "created": {
+    "$date": "2018-02-22T06:03:16.672Z"
+  },
+  "config": {
+    "projectType": "building"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "5a8e5d242ff0d7005868d2ee"
+  },
+  "name": "Clean Ductwork",
+  "measure": {
+    "ecm": {
+      "description": "Clean air ductwork and grilles",
+      "name": "Clean Ductwork",
+      "attachedTo": [
+        "customsystemsair",
+        "packagedunits",
+        "terminals"
+      ]
+    },
+    "name": "Clean Ductwork"
+  },
+  "created": {
+    "$date": "2018-02-22T06:03:16.672Z"
+  },
+  "config": {
+    "projectType": "building"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "5a8e5d242ff0d7005868d2ef"
+  },
+  "name": "Replace Air Filters",
+  "measure": {
+    "ecm": {
+      "description": "Replace air filters (recommend high efficiency filters)",
+      "name": "Replace Air Filters",
+      "attachedTo": [
+        "customsystemsair",
+        "packagedunits",
+        "terminals"
+      ]
+    },
+    "name": "Replace Air Filters"
+  },
+  "created": {
+    "$date": "2018-02-22T06:03:16.673Z"
+  },
+  "config": {
+    "projectType": "building"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "5a8e5d242ff0d7005868d2f0"
+  },
+  "name": "Repair VAV Box",
+  "measure": {
+    "ecm": {
+      "description": "Repair VAV Box",
+      "name": "Repair VAV Box",
+      "attachedTo": [
+        "zones",
+        "terminals"
+      ]
+    },
+    "name": "Repair VAV Box"
+  },
+  "created": {
+    "$date": "2018-02-22T06:03:16.673Z"
+  },
+  "config": {
+    "projectType": "building"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "5a8e5d242ff0d7005868d2f1"
+  },
+  "name": "Optimize Reset Schedule on DOA Units",
+  "measure": {
+    "ecm": {
+      "description": "Optimize Reset Schedule on DOA Units",
+      "name": "Optimize Reset Schedule on DOA Units",
+      "attachedTo": [
+        "customsystemsair",
+        "packagedunits",
+        "terminals"
+      ]
+    },
+    "name": "Optimize Reset Schedule on DOA Units"
+  },
+  "created": {
+    "$date": "2018-02-22T06:03:16.674Z"
+  },
+  "config": {
+    "projectType": "building"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "5a8e5d242ff0d7005868d2f2"
+  },
+  "name": "Balance Dampers",
+  "measure": {
+    "ecm": {
+      "description": "Replace balance damper. Install new if needed for TAB.",
+      "name": "Balance Dampers",
+      "attachedTo": [
+        "zones",
+        "customsystemsair",
+        "packagedunits",
+        "terminals"
+      ]
+    },
+    "name": "Balance Dampers"
+  },
+  "created": {
+    "$date": "2018-02-22T06:03:16.674Z"
+  },
+  "config": {
+    "projectType": "building"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "5a8e5d242ff0d7005868d2f3"
+  },
+  "name": "Balance Valves",
+  "measure": {
+    "ecm": {
+      "description": "Replace balance valve. Install new if needed for TAB.",
+      "name": "Balance Valves",
+      "attachedTo": [
+        "zones",
+        "cw",
+        "coolingtowers",
+        "chw",
+        "chillers",
+        "hw",
+        "boilers",
+        "swh",
+        "dhws",
+        "customsystemschw",
+        "customsystemshw",
+        "customsystemsair",
+        "pumps",
+        "fans",
+        "packagedunits",
+        "terminals"
+      ]
+    },
+    "name": "Balance Valves"
+  },
+  "created": {
+    "$date": "2018-02-22T06:03:16.675Z"
+  },
+  "config": {
+    "projectType": "building"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "5a8e5d242ff0d7005868d2f4"
+  },
+  "name": "Recharge Refrigerant",
+  "measure": {
+    "ecm": {
+      "description": "Recover and recharge refrigerant - converting to environmentally friendly options if viable.",
+      "name": "Recharge Refrigerant",
+      "attachedTo": [
+        "customsystemsair",
+        "coolingcoils",
+        "packagedunits",
+        "terminals"
+      ]
+    },
+    "name": "Recharge Refrigerant"
+  },
+  "created": {
+    "$date": "2018-02-22T06:03:16.676Z"
+  },
+  "config": {
+    "projectType": "building"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "5a8e5d242ff0d7005868d2f5"
+  },
+  "name": "Recharge Glycol",
+  "measure": {
+    "ecm": {
+      "description": "Recharge with more efficient option - if viable",
+      "name": "Recharge Glycol",
+      "attachedTo": [
+        "cw",
+        "coolingtowers",
+        "chw",
+        "chillers",
+        "hw",
+        "boilers",
+        "swh",
+        "dhws",
+        "customsystemschw",
+        "customsystemshw",
+        "packagedunits",
+        "terminals"
+      ]
+    },
+    "name": "Recharge Glycol"
+  },
+  "created": {
+    "$date": "2018-02-22T06:03:16.679Z"
+  },
+  "config": {
+    "projectType": "building"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "5a8e5d242ff0d7005868d2f6"
+  },
+  "name": "Replace Radiators",
+  "measure": {
+    "ecm": {
+      "description": "Replace Radiators.",
+      "name": "Replace Radiators",
+      "attachedTo": [
+        "zones",
+        "terminals"
+      ]
+    },
+    "name": "Replace Radiators"
+  },
+  "created": {
+    "$date": "2018-02-22T06:03:16.679Z"
+  },
+  "config": {
+    "projectType": "building"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "5a8e5d242ff0d7005868d2f7"
+  },
+  "name": "Replace Convectors",
+  "measure": {
+    "ecm": {
+      "description": "Replace Convectors.",
+      "name": "Replace Convectors",
+      "attachedTo": [
+        "zones",
+        "terminals"
+      ]
+    },
+    "name": "Replace Convectors"
+  },
+  "created": {
+    "$date": "2018-02-22T06:03:16.680Z"
+  },
+  "config": {
+    "projectType": "building"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "5a8e5d242ff0d7005868d2f8"
+  },
+  "name": "Replace Fan Coil Units",
+  "measure": {
+    "ecm": {
+      "description": "Replace Fan Coil Units.",
+      "name": "Replace Fan Coil Units",
+      "attachedTo": [
+        "zones",
+        "terminals"
+      ]
+    },
+    "name": "Replace Fan Coil Units"
+  },
+  "created": {
+    "$date": "2018-02-22T06:03:16.680Z"
+  },
+  "config": {
+    "projectType": "building"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "5a8e5d242ff0d7005868d2f9"
+  },
+  "name": "Replace Unit Heater",
+  "measure": {
+    "ecm": {
+      "description": "Replace Unit Heater",
+      "name": "Replace Unit Heater",
+      "attachedTo": [
+        "zones",
+        "terminals"
+      ]
+    },
+    "name": "Replace Unit Heater"
+  },
+  "created": {
+    "$date": "2018-02-22T06:03:16.680Z"
+  },
+  "config": {
+    "projectType": "building"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "5a8e5d242ff0d7005868d2fa"
+  },
+  "name": "Improve Training and Documentation",
+  "measure": {
+    "ecm": {
+      "description": "Verify specific critical operation training and documentation (permits, maintenance protocols, maintenance contract). Remark missing information and recommend development",
+      "name": "Improve Training and Documentation",
+      "attachedTo": [
+        "building"
+      ]
+    },
+    "name": "Improve Training and Documentation"
+  },
+  "created": {
+    "$date": "2018-02-22T06:03:16.681Z"
+  },
+  "config": {
+    "projectType": "building"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "5a8e5d242ff0d7005868d2fb"
+  },
+  "name": "Develop an O\u0026M Manual",
+  "measure": {
+    "ecm": {
+      "description": "Develop an O\u0026M manual and protocols and recent RCx reports",
+      "name": "Develop an O\u0026M Manual",
+      "attachedTo": [
+        "building"
+      ]
+    },
+    "name": "Develop an O\u0026M Manual"
+  },
+  "created": {
+    "$date": "2018-02-22T06:03:16.681Z"
+  },
+  "config": {
+    "projectType": "building"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "5a8e5d242ff0d7005868d2fc"
+  },
+  "name": "Asbestos Remediation",
+  "measure": {
+    "ecm": {
+      "description": "Asbestos remediation",
+      "name": "Asbestos Remediation",
+      "attachedTo": [
+        "building",
+        "levels",
+        "spaces",
+        "constructions"
+      ]
+    },
+    "name": "Asbestos Remediation"
+  },
+  "created": {
+    "$date": "2018-02-22T06:03:16.682Z"
+  },
+  "config": {
+    "projectType": "building"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "5a8e5d242ff0d7005868d2fd"
+  },
+  "name": "PCB Remediation",
+  "measure": {
+    "ecm": {
+      "description": "PCB remediation",
+      "name": "PCB Remediation",
+      "attachedTo": [
+        "building",
+        "levels",
+        "spaces",
+        "constructions"
+      ]
+    },
+    "name": "PCB Remediation"
+  },
+  "created": {
+    "$date": "2018-02-22T06:03:16.682Z"
+  },
+  "config": {
+    "projectType": "building"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "5a8e5d242ff0d7005868d2fe"
+  },
+  "name": "Lead Paint Remediation",
+  "measure": {
+    "ecm": {
+      "description": "Lead paint remediation",
+      "name": "Lead Paint Remediation",
+      "attachedTo": [
+        "building",
+        "levels",
+        "spaces",
+        "constructions"
+      ]
+    },
+    "name": "Lead Paint Remediation"
+  },
+  "created": {
+    "$date": "2018-02-22T06:03:16.682Z"
+  },
+  "config": {
+    "projectType": "building"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "5a8e5d242ff0d7005868d2ff"
+  },
+  "name": "Multiple conductors on single breaker pole.",
+  "measure": {
+    "ecm": {
+      "description": "Re-locate circuits doubled landed on same breaker to spare breaker.",
+      "name": "Multiple conductors on single breaker pole.",
+      "attachedTo": [
+        "lvsb",
+        "lvp",
+        "mvsb"
+      ]
+    },
+    "name": "Multiple conductors on single breaker pole."
+  },
+  "created": {
+    "$date": "2018-02-22T06:03:16.689Z"
+  },
+  "config": {
+    "projectType": "building"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "5a8e5d242ff0d7005868d300"
+  },
+  "name": "Multiple Wires on Panel Lugs",
+  "measure": {
+    "ecm": {
+      "description": "Provide feed-through lugs on new panelboard.",
+      "name": "Multiple Wires on Panel Lugs",
+      "attachedTo": [
+        "lvp"
+      ]
+    },
+    "name": "Multiple Wires on Panel Lugs"
+  },
+  "created": {
+    "$date": "2018-02-22T06:03:16.689Z"
+  },
+  "config": {
+    "projectType": "building"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "5a8e5d242ff0d7005868d301"
+  },
+  "name": "Missing Directory / Label Name",
+  "measure": {
+    "ecm": {
+      "description": "Replace missing directory /name label.",
+      "name": "Missing Directory / Label Name",
+      "attachedTo": [
+        "mvt",
+        "mvsb",
+        "mvs",
+        "lvt",
+        "lvsb",
+        "lvp"
+      ]
+    },
+    "name": "Missing Directory / Label Name"
+  },
+  "created": {
+    "$date": "2018-02-22T06:03:16.689Z"
+  },
+  "config": {
+    "projectType": "building"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "5a8e5d242ff0d7005868d302"
+  },
+  "name": "Missing Conduit Bushings",
+  "measure": {
+    "ecm": {
+      "description": "Replace missing conduit bushings.",
+      "name": "Missing Conduit Bushings",
+      "attachedTo": [
+        "mvt",
+        "mvsb",
+        "mvs",
+        "lvt",
+        "lvsb",
+        "lvp"
+      ]
+    },
+    "name": "Missing Conduit Bushings"
+  },
+  "created": {
+    "$date": "2018-02-22T06:03:16.690Z"
+  },
+  "config": {
+    "projectType": "building"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "5a8e5d242ff0d7005868d303"
+  },
+  "name": "Missing Panelboard Can Knockouts",
+  "measure": {
+    "ecm": {
+      "description": "Cover missing knockout holes.",
+      "name": "Missing Panelboard Can Knockouts",
+      "attachedTo": [
+        "lvp"
+      ]
+    },
+    "name": "Missing Panelboard Can Knockouts"
+  },
+  "created": {
+    "$date": "2018-02-22T06:03:16.690Z"
+  },
+  "config": {
+    "projectType": "building"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "5a8e5d242ff0d7005868d304"
+  },
+  "name": "Missing Filler Plates",
+  "measure": {
+    "ecm": {
+      "description": "Replace missing filler plates.",
+      "name": "Missing Filler Plates",
+      "attachedTo": [
+        "lvsb",
+        "lvp"
+      ]
+    },
+    "name": "Missing Filler Plates"
+  },
+  "created": {
+    "$date": "2018-02-22T06:03:16.690Z"
+  },
+  "config": {
+    "projectType": "building"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "5a8e5d242ff0d7005868d305"
+  },
+  "name": "Cable Splices in Equipment",
+  "measure": {
+    "ecm": {
+      "description": "Locate J-box next to panelboard to splice existing conductors. ",
+      "name": "Cable Splices in Equipment",
+      "attachedTo": [
+        "mvt",
+        "mvsb",
+        "mvs",
+        "lvt",
+        "lvsb",
+        "lvp"
+      ]
+    },
+    "name": "Cable Splices in Equipment"
+  },
+  "created": {
+    "$date": "2018-02-22T06:03:16.691Z"
+  },
+  "config": {
+    "projectType": "building"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "5a8e5d242ff0d7005868d306"
+  },
+  "name": "Ground Conductors Missing",
+  "measure": {
+    "ecm": {
+      "description": "Replace missing ground conductors.",
+      "name": "Ground Conductors Missing",
+      "attachedTo": [
+        "mvt",
+        "mvsb",
+        "mvs",
+        "lvt",
+        "lvsb",
+        "lvp"
+      ]
+    },
+    "name": "Ground Conductors Missing"
+  },
+  "created": {
+    "$date": "2018-02-22T06:03:16.691Z"
+  },
+  "config": {
+    "projectType": "building"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "5a8e5d242ff0d7005868d307"
+  },
+  "name": "Missing Neutral / Ground Busses",
+  "measure": {
+    "ecm": {
+      "description": "Replace missing neutral / ground busses",
+      "name": "Missing Neutral / Ground Busses",
+      "attachedTo": [
+        "mvt",
+        "mvsb",
+        "mvs",
+        "lvt",
+        "lvsb",
+        "lvp"
+      ]
+    },
+    "name": "Missing Neutral / Ground Busses"
+  },
+  "created": {
+    "$date": "2018-02-22T06:03:16.692Z"
+  },
+  "config": {
+    "projectType": "building"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "5a8e5d242ff0d7005868d308"
+  },
+  "name": "Conductor Color Code",
+  "measure": {
+    "ecm": {
+      "description": "Correctly identify each conductor with color coded marking tape.",
+      "name": "Conductor Color Code",
+      "attachedTo": [
+        "mvt",
+        "mvsb",
+        "mvs",
+        "lvt",
+        "lvsb",
+        "lvp"
+      ]
+    },
+    "name": "Conductor Color Code"
+  },
+  "created": {
+    "$date": "2018-02-22T06:03:16.692Z"
+  },
+  "config": {
+    "projectType": "building"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "5a8e5d242ff0d7005868d309"
+  },
+  "name": "Replace Medium Voltage Transformer",
+  "measure": {
+    "ecm": {
+      "description": "Replace equipment and feeder conductors.",
+      "name": "Replace Medium Voltage Transformer",
+      "attachedTo": [
+        "mvt"
+      ]
+    },
+    "name": "Replace Medium Voltage Transformer"
+  },
+  "created": {
+    "$date": "2018-02-22T06:03:16.693Z"
+  },
+  "config": {
+    "projectType": "building"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "5a8e5d242ff0d7005868d30a"
+  },
+  "name": "Replace Medium Voltage Switchboard",
+  "measure": {
+    "ecm": {
+      "description": "Replace equipment and feeder conductors.",
+      "name": "Replace Medium Voltage Switchboard",
+      "attachedTo": [
+        "mvsb"
+      ]
+    },
+    "name": "Replace Medium Voltage Switchboard"
+  },
+  "created": {
+    "$date": "2018-02-22T06:03:16.693Z"
+  },
+  "config": {
+    "projectType": "building"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "5a8e5d242ff0d7005868d30b"
+  },
+  "name": "Replace Medium Voltage Switch",
+  "measure": {
+    "ecm": {
+      "description": "Replace equipment and feeder conductors.",
+      "name": "Replace Medium Voltage Switch",
+      "attachedTo": [
+        "mvs"
+      ]
+    },
+    "name": "Replace Medium Voltage Switch"
+  },
+  "created": {
+    "$date": "2018-02-22T06:03:16.694Z"
+  },
+  "config": {
+    "projectType": "building"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "5a8e5d242ff0d7005868d30c"
+  },
+  "name": "Replace Low Voltage Transformer",
+  "measure": {
+    "ecm": {
+      "description": "Replace equipment and feeder conductors.",
+      "name": "Replace Low Voltage Transformer",
+      "attachedTo": [
+        "mvt"
+      ]
+    },
+    "name": "Replace Low Voltage Transformer"
+  },
+  "created": {
+    "$date": "2018-02-22T06:03:16.694Z"
+  },
+  "config": {
+    "projectType": "building"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "5a8e5d242ff0d7005868d30d"
+  },
+  "name": "Replace Low Voltage Switchboard",
+  "measure": {
+    "ecm": {
+      "description": "Replace equipment and feeder conductors.",
+      "name": "Replace Low Voltage Switchboard",
+      "attachedTo": [
+        "lvsb"
+      ]
+    },
+    "name": "Replace Low Voltage Switchboard"
+  },
+  "created": {
+    "$date": "2018-02-22T06:03:16.694Z"
+  },
+  "config": {
+    "projectType": "building"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "5a8e5d242ff0d7005868d30e"
+  },
+  "name": "Replace Low Voltage Panelboard",
+  "measure": {
+    "ecm": {
+      "description": "Replace equipment and feeder conductors.",
+      "name": "Replace Low Voltage Panelboard",
+      "attachedTo": [
+        "lvp"
+      ]
+    },
+    "name": "Replace Low Voltage Panelboard"
+  },
+  "created": {
+    "$date": "2018-02-22T06:03:16.695Z"
+  },
+  "config": {
+    "projectType": "building"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "5a8e5d242ff0d7005868d30f"
+  },
+  "name": "Supporting mixed loads of life-safety and optional standby.",
+  "measure": {
+    "ecm": {
+      "description": "Relocate optional standby loads to \"Normal Power\" panel with available capacity.",
+      "name": "Supporting mixed loads of life-safety and optional standby.",
+      "attachedTo": [
+        "lvsb",
+        "lvp"
+      ]
+    },
+    "name": "Supporting mixed loads of life-safety and optional standby."
+  },
+  "created": {
+    "$date": "2018-02-22T06:03:16.695Z"
+  },
+  "config": {
+    "projectType": "building"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "5a8e5d242ff0d7005868d310"
+  },
+  "name": "Working clearance violation.",
+  "measure": {
+    "ecm": {
+      "description": "Install new equipment so that it no longer has working clearance code violation.",
+      "name": "Working clearance violation.",
+      "attachedTo": [
+        "mvt",
+        "mvsb",
+        "mvs",
+        "mvt",
+        "lvsb",
+        "lvp"
+      ]
+    },
+    "name": "Working clearance violation."
+  },
+  "created": {
+    "$date": "2018-02-22T06:03:16.695Z"
+  },
+  "config": {
+    "projectType": "building"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "5a8e5d242ff0d7005868d311"
+  },
+  "name": "Cloth type conductors.",
+  "measure": {
+    "ecm": {
+      "description": "Replace cloth type conductors.",
+      "name": "Cloth type conductors.",
+      "attachedTo": [
+        "mvt",
+        "lvsb",
+        "lvp"
+      ]
+    },
+    "name": "Cloth type conductors."
+  },
+  "created": {
+    "$date": "2018-02-22T06:03:16.696Z"
+  },
+  "config": {
+    "projectType": "building"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "5a8e5d242ff0d7005868d312"
+  },
+  "name": "Disconnected conductors loose in equipment.",
+  "measure": {
+    "ecm": {
+      "description": "Remove disconnected conductors. ",
+      "name": "Disconnected conductors loose in equipment.",
+      "attachedTo": [
+        "lvsb",
+        "lvp"
+      ]
+    },
+    "name": "Disconnected conductors loose in equipment."
+  },
+  "created": {
+    "$date": "2018-02-22T06:03:16.696Z"
+  },
+  "config": {
+    "projectType": "building"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "5a8e5d242ff0d7005868d313"
+  },
+  "name": "Equipment corrosion.",
+  "measure": {
+    "ecm": {
+      "description": "Replace equipment and feeder conductors.",
+      "name": "Equipment corrosion.",
+      "attachedTo": [
+        "mvt",
+        "mvsb",
+        "mvs",
+        "mvt",
+        "lvsb",
+        "lvp"
+      ]
+    },
+    "name": "Equipment corrosion."
+  },
+  "created": {
+    "$date": "2018-02-22T06:03:16.696Z"
+  },
+  "config": {
+    "projectType": "building"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "5a8e5d242ff0d7005868d314"
+  },
+  "name": "Pass-through conductors.",
+  "measure": {
+    "ecm": {
+      "description": "Install conduit to re-route pass-through conductors.",
+      "name": "Pass-through conductors.",
+      "attachedTo": [
+        "lvp"
+      ]
+    },
+    "name": "Pass-through conductors."
+  },
+  "created": {
+    "$date": "2018-02-22T06:03:16.697Z"
+  },
+  "config": {
+    "projectType": "building"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "5a8e5d242ff0d7005868d315"
+  },
+  "name": "Single-phase feed with jumper on 3rd pole of three-phase breaker.",
+  "measure": {
+    "ecm": {
+      "description": "Replace three-phase breaker with single-phase breaker.",
+      "name": "Single-phase feed with jumper on 3rd pole of three-phase breaker.",
+      "attachedTo": [
+        "lvsb",
+        "lvp"
+      ]
+    },
+    "name": "Single-phase feed with jumper on 3rd pole of three-phase breaker."
+  },
+  "created": {
+    "$date": "2018-02-22T06:03:16.697Z"
+  },
+  "config": {
+    "projectType": "building"
+  },
+  "__v": 0
+}]

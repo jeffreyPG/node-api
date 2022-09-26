@@ -1,0 +1,1 @@
+Make sure to register in ./index.js whenever a new feature repo is added

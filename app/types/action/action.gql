@@ -1,0 +1,258 @@
+type Action {
+  _id: ID!
+  name: String!
+  description: String!
+  templateId: ID!
+  type: ActionType!
+  date: String
+  fields: [ActionField]
+  contacts: [ActionContact]
+  projects: [ActionProject]
+  comments: String
+  buildingId: ID!
+  createdByUserId: ID!
+  updated: String
+}
+
+type ActionContact {
+  firstName: String
+  lastName: String
+  phoneNumber: String
+  emailAddress: String
+  title: String
+  certificateNumber: String
+  company: String
+  expirationDate: String
+  qualification: String
+  role: String
+  yearsOfExperience: String
+  address: String
+  city: String
+  state: String
+  zip: String
+  certificationState: String
+}
+
+type ActionField {
+  name: String!
+  type: ActionFieldType!
+  default: String
+  value: String
+  values: [String]
+}
+
+enum ActionFieldType {
+  TEXT
+  DATE
+  OPTIONS
+}
+
+type ActionMeasure {
+  _id: ID!
+  displayName: String!
+}
+
+type ActionProject {
+  _id: ID!
+  applicable_building_types: [String]
+  category: String
+  created: String
+  createdByUserId: ID
+  description: String
+  displayName: String
+  eaAttachedTo: [String]
+  eaDisplayName: String
+  eaSavedToLibrary: Boolean
+  fields: [ProjectField]
+  fuel: String
+  imageUrls: [String]
+  incentive: ProjectIncentive
+  initialValues: ProjectInitialValues
+  isComplete: Boolean
+  location: [String]
+  measureId: ID!
+  name: String
+  organizationFirebaseId: String
+  originalDisplayName: String
+  project_application: String
+  project_category: String
+  project_technology: String
+  source: String
+  status: ActionProjectStatus
+  updated: String
+}
+
+enum ActionProjectStatus {
+  NOT_STARTED
+  EVALUATED
+  INITIATED
+  IN_PROGRESS
+  COMPLETED
+  VERIFIED
+}
+
+type ActionTemplate {
+  _id: ID!
+  name: String!
+  description: String!
+  type: ActionType!
+  date: String
+  contacts: [ActionContact]
+  fields: [ActionField]
+  measures: [Measure]
+  updated: String
+}
+
+enum ActionType {
+  BENCHMARKING
+  BUILDING_USE_CHANGE
+  LEVEL1_ENERGY_AUDIT
+  LEVEL2_ENERGY_AUDIT
+  LEVEL3_ENERGY_AUDIT
+  LL84_BENCHMARKING
+  LL87_ENERGY_AUDIT
+  LL87_RCX
+  O_M
+  RETROCOMMISSIONING
+  RETROFIT
+}
+
+input CreateActionInput {
+  name: String
+  type: ActionType
+  date: String
+  description: String
+  templateId: ID!
+  fields: [ActionFieldInput]
+  contacts: [ActionContactInput]
+  projects: [ActionProjectInput]
+  comments: String
+  buildingId: ID!
+  createdByUserId: ID!
+}
+
+input CreateActionInputForTemplate {
+  _id: ID!
+}
+
+input ActionContactInput {
+  firstName: String
+  lastName: String
+  phoneNumber: String
+  emailAddress: String
+  title: String
+  certificateNumber: String
+  company: String
+  expirationDate: String
+  qualification: String
+  role: String
+  yearsOfExperience: String
+  address: String
+  city: String
+  state: String
+  zip: String
+  certificationState: String
+}
+
+input ActionFieldInput {
+  name: String!
+  type: ActionFieldType!
+  default: String
+  value: String
+  values: [String]
+}
+
+input ActionProjectInput {
+  _id: ID
+  status: ActionProjectStatus
+  measureId: ID!
+}
+
+input CreateActionTemplateInput {
+  name: String!
+  description: String!
+  type: ActionType!
+  fields: [ActionFieldInput]!
+  contacts: [ActionContactInput]
+  measures: [UpdateMeasureInput]
+}
+
+input DeleteActionInput {
+  _id: ID!
+}
+
+input DeleteActionTemplateInput {
+  _id: ID!
+}
+
+input FetchActionInput {
+  _id: ID!
+  type: ActionType
+  createdByUserId: ID
+}
+
+input FetchActionTemplateInput {
+  _id: ID!
+}
+
+input SearchActionInput {
+  _id: ID
+  type: ActionType
+  name: String
+  buildingId: ID!
+  templateId: ID
+  createdByUserId: ID
+}
+
+input SearchActionTemplateInput {
+  _id: ID
+  type: ActionType
+  name: String
+}
+
+input UpdateActionInput {
+  _id: ID!
+  name: String
+  type: ActionType
+  date: String
+  description: String
+  fields: [ActionFieldInput]
+  contacts: [ActionContactInput]
+  projects: [ActionProjectInput]
+  comments: String
+  buildingId: ID
+}
+
+input UpdateActionTemplateInput {
+  _id: ID!
+  name: String
+  fields: [ActionFieldInput]
+  contacts: [ActionContactInput]
+  projects: [ActionProjectInput]
+  comments: String
+}
+
+extend type Query {
+  action(action: FetchActionInput): Action!
+  actions(action: SearchActionInput, search: SearchInput): [Action]
+  actionTemplate(actionTemplate: FetchActionTemplateInput): ActionTemplate!
+  actionTemplates(
+    actionTemplate: SearchActionTemplateInput
+    search: SearchInput
+  ): [ActionTemplate]
+}
+
+extend type Mutation {
+  createAction(action: CreateActionInput): Action!
+  createActionTemplate(
+    actionTemplate: CreateActionTemplateInput
+  ): ActionTemplate!
+  deleteAction(action: DeleteActionInput): Action!
+  deleteActionTemplate(
+    actionTemplate: DeleteActionTemplateInput
+  ): ActionTemplate!
+  updateAction(action: UpdateActionInput): Action!
+  updateActionTemplate(
+    actionTemplate: UpdateActionTemplateInput
+  ): ActionTemplate!
+}

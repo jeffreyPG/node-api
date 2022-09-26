@@ -1,0 +1,109 @@
+[
+  {
+   "name": "Public Lightfixture All Fields 1",
+   "comment": "This is a comment",
+   "conditionRating": "Excellent - Plan Preventative Maintenance",
+   "configuration": {
+     "ballastPerFixture": "31",
+     "lampPerFixture": "30",
+     "fixHeight": "29",
+     "mounting": "Recessed",
+     "controlType": "Manual switch",
+     "purpose": "General Area"
+   },
+   "dataBallast": {
+     "inputVoltage": "120-277",
+     "ballastFactor": "28",
+     "ballastPower": "27",
+     "startingMethod": "Instant Start",
+     "ballastType": "Fluorescent Electronic Dimming",
+     "model": "Lamp Ballast Model",
+     "manufacturer": "Lamp Ballast Manufacturer"
+   },
+   "dataLamp": {
+     "illuminance": "26",
+     "luminousFlux": "25",
+     "cri": "24",
+     "cct": "23",
+     "length": "22",
+     "inputPower": "7",
+     "ansiLampDesignation": "A19",
+     "lightSourceType": "Linear Fluorescent",
+     "model": "Lamp Model",
+     "manufacturer": "Lamp Manufacturer"
+   }
+  },
+  {
+   "name": "Public Lightfixture All Fields 2",
+   "comment": "This is a comment",
+   "conditionRating": "Excellent - Plan Preventative Maintenance",
+   "configuration": {
+     "ballastPerFixture": "31",
+     "lampPerFixture": "30",
+     "fixHeight": "29",
+     "mounting": "Recessed",
+     "controlType": "Manual switch",
+     "purpose": "General Area"
+   },
+   "dataBallast": {
+     "inputVoltage": "120-277",
+     "ballastFactor": "28",
+     "ballastPower": "27",
+     "startingMethod": "Instant Start",
+     "ballastType": "Fluorescent Electronic Dimming",
+     "model": "Lamp Ballast Model",
+     "manufacturer": "Lamp Ballast Manufacturer"
+   },
+   "dataLamp": {
+     "illuminance": "26",
+     "luminousFlux": "25",
+     "cri": "24",
+     "cct": "23",
+     "length": "22",
+     "inputPower": "7",
+     "ansiLampDesignation": "A19",
+     "lightSourceType": "Linear Fluorescent",
+     "model": "Lamp Model",
+     "manufacturer": "Lamp Manufacturer"
+   }
+  },
+  {
+   "name": "Public Lightfixture 1",
+   "comment": "This is a comment",
+   "conditionRating": "Excellent - Plan Preventative Maintenance",
+   "dataBallast": {
+     "inputVoltage": "120-277",
+     "ballastFactor": "28",
+     "ballastPower": "27",
+     "startingMethod": "Instant Start",
+     "ballastType": "Fluorescent Electronic Dimming",
+     "model": "Lamp Ballast Model",
+     "manufacturer": "Lamp Ballast Manufacturer"
+   }
+  },
+  {
+   "name": "Public Lightfixture 2",
+   "comment": "This is a comment",
+   "conditionRating": "Excellent - Plan Preventative Maintenance",
+   "configuration": {
+     "ballastPerFixture": "31",
+     "lampPerFixture": "30",
+     "fixHeight": "29",
+     "mounting": "Recessed",
+     "controlType": "Manual switch",
+     "purpose": "General Area"
+   },
+   "dataLamp": {
+     "illuminance": "26",
+     "luminousFlux": "25",
+     "cri": "24",
+     "cct": "23",
+     "length": "22",
+     "inputPower": "7",
+     "ansiLampDesignation": "A19",
+     "lightSourceType": "Linear Fluorescent",
+     "model": "Lamp Model",
+     "manufacturer": "Lamp Manufacturer"
+   }
+ }
+]

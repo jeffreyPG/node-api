@@ -1,0 +1,10 @@
+"measure","measure","test csv measure upload 1-2"
+"component","door","test csv component upload 1-2",'N','Yes',2,2,'door manufacturer','door model','Swinging','Aluminum','Single Clear',1984
+measure,"measure","test csv measure upload 2-2"
+component,"door","test csv component upload 2-2",'N','Yes',2,2,'door manufacturer','door model','Swinging','Aluminum','Single Clear',1984
+component,door,"test csv component upload 3-2",'N','Yes',2,2,'door manufacturer','door model','Swinging','Aluminum','Single Clear',1984
+measure,measure,"test csv measure upload 3-2"
+"component",door,"test csv component upload 4-2",'N','Yes',2,2,'door manufacturer','door model','Swinging','Aluminum','Single Clear',1984
+"measure",measure,"test csv measure upload 4-2"
+"component","door","test csv component upload 5-2",'N','Yes',2,2,'door manufacturer','door model','Swinging','Aluminum','Single Clear',1984
+"measure","measure","test csv measure upload 5-2"

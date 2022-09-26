@@ -1,0 +1,230 @@
+{
+    "building": {
+        "Overview & Property": [
+            {
+                "name": "Building Name"
+            },
+            {
+                "name": "Year Built"
+            },
+            {
+                "name": "Building Use Type"
+            },
+            {
+                "name": "Square Footage"
+            },
+            {
+                "name": "Total Electricity usage"
+            },
+            {
+                "name": "Total GHG Emissions"
+            },
+            {
+                "name": "Energy Star Benchmark Score"
+            },
+            {
+                "name": "EUI"
+            },
+            {
+                "name": "Total Cost"
+            },
+            {
+                "name": "Cost - Median"
+            },
+            {
+                "name": "Cost - 75th Percentile"
+            },
+            {
+                "name": "Cost - 90th Percentile"
+            },
+            {
+                "name": "Usage - Median"
+            },
+            {
+                "name": "Usage - 75th Percentile"
+            },
+            {
+                "name": "Usage - 90th Percentile"
+            },
+            {
+                "name": "Main Building Image"
+            }
+        ],
+        "Systems": [
+            {
+                "name": "Name"
+            },
+            {
+                "name": "System Type"
+            },
+            {
+                "name": "Comments"
+            },
+            {
+                "name": "Media"
+            }
+        ],
+        "Construction": [
+            {
+                "name": "Name"
+            },
+            {
+                "name": "Application"
+            },
+            {
+                "name": "R-Value"
+            },
+            {
+                "name": "U-Value"
+            },
+            {
+                "name": "Comments"
+            },
+            {
+                "name": "Media"
+            }
+        ],
+        "Locations": [
+            {
+                "name": "Use Type"
+            },
+            {
+                "name": "Space Type"
+            },
+            {
+                "name": "Name"
+            },
+            {
+                "name": "Floor"
+            },
+            {
+                "name": "Area (sq.ft)"
+            },
+            {
+                "name": "Conditioning"
+            },
+            {
+                "name": "User"
+            }
+        ],
+        "Equipment": [
+            {
+                "name": "Application"
+            },
+            {
+                "name": "Technology"
+            },
+            {
+                "name": "Location"
+            },
+            {
+                "name": "Name"
+            },
+            {
+                "name": "Total Input Power"
+            },
+            {
+                "name": "Category"
+            },
+            {
+                "name": "Manufacturer"
+            },
+            {
+                "name": "Model"
+            },
+            {
+                "name": "Lamp Light Source Type"
+            },
+            {
+                "name": "Lamp ANSI Designation"
+            },
+            {
+                "name": "Number of Lamps"
+            },
+            {
+                "name": "Lamp Length"
+            },
+            {
+                "name": "Ballast Factor"
+            },
+            {
+                "name": "Year Of Installation"
+            }
+        ],
+        "Utilities": [
+            {
+                "name": "Meter Name"
+            },
+            {
+                "name": "Start Date"
+            },
+            {
+                "name": "End Date"
+            },
+            {
+                "name": "Total Usage"
+            },
+            {
+                "name": "Total Cost"
+            },
+            {
+                "name": "Fuel Type"
+            },
+            {
+                "name": "Demand"
+            },
+            {
+                "name": "Demand Cost"
+            }
+        ]
+    },
+    "project": {
+        "Project": [
+            {
+                "name": "Application"
+            },
+            {
+                "name": "Technology"
+            },
+            {
+                "name": "Location"
+            },
+            {
+                "name": "Name"
+            },
+            {
+                "name": "Total Incentive"
+            },
+            {
+                "name": "Total Project Cost"
+            },
+            {
+                "name": "Comments"
+            },
+            {
+                "name": "Category"
+            },
+            {
+                "name": "Description"
+            },
+            {
+                "name": "Calculation Source"
+            },
+            {
+                "name": "Material Cost"
+            },
+            {
+                "name": "Labor Cost"
+            },
+            {
+                "name": "Design Fees"
+            },
+            {
+                "name": "Construction Management"
+            },
+            {
+                "name": "Maintenance Savings"
+            }
+        ]
+    }
+}

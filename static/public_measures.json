@@ -1,0 +1,1681 @@
+{
+  "measuresList": [
+    {
+      "name": "Reduce Stack Effect",
+      "description": "Reduce the stack effect though passive strategies",
+      "attachedTo": [
+        "building"
+      ]
+    },
+    {
+      "name": "Install CHP",
+      "description": "Install cogeneration system",
+      "attachedTo": [
+        "building"
+      ]
+    },
+    {
+      "name": "Install Geothermal",
+      "description": "Install geothermal system",
+      "attachedTo": [
+        "building"
+      ]
+    },
+    {
+      "name": "Upgrade Electrical System",
+      "description": "Replace electrical system with more efficient options",
+      "attachedTo": [
+        "building",
+        "levels",
+        "spaces"
+      ]
+    },
+    {
+      "name": "Replace with High Efficiency Transformer",
+      "description": "Replace with High Efficiency Transformer",
+      "attachedTo": [
+        "building"
+      ]
+    },
+    {
+      "name": "Install Photovoltaic (PV) System",
+      "description": "Install photovoltaic system for in-house electricity generation",
+      "attachedTo": [
+        "building"
+      ]
+    },
+    {
+      "name": "Install Pool Cover",
+      "description": "Install pool covers to reduce vaporization",
+      "attachedTo": [
+        "building",
+        "spaces"
+      ]
+    },
+    {
+      "name": "Replace Lamp(s) with LED",
+      "description": "Replace existing lamp(s) with LED lamps",
+      "attachedTo": [
+        "levels",
+        "spaces",
+        "lightfixtures"
+      ]
+    },
+    {
+      "name": "Replace Lamp(s) with T5",
+      "description": "Replace existing lamp(s) with T5 lamps",
+      "attachedTo": [
+        "levels",
+        "spaces",
+        "lightfixtures"
+      ]
+    },
+    {
+      "name": "Replace Lamp(s) with T8",
+      "description": "Replace existing lamp(s) with T8 lamps",
+      "attachedTo": [
+        "levels",
+        "spaces",
+        "lightfixtures"
+      ]
+    },
+    {
+      "name": "Install Lighting Occupancy Sensors",
+      "description": "Install occupancy sensors",
+      "attachedTo": [
+        "levels",
+        "spaces",
+        "lightfixtures"
+      ]
+    },
+    {
+      "name": "Install Bi-Level Lighting",
+      "description": "Install bi-level lighting",
+      "attachedTo": [
+        "levels",
+        "spaces",
+        "lightfixtures"
+      ]
+    },
+    {
+      "name": "Install Daylighting Control",
+      "description": "Install daylighting controls",
+      "attachedTo": [
+        "levels",
+        "spaces",
+        "lightfixtures"
+      ]
+    },
+    {
+      "name": "Replace with Energy Star Appliances",
+      "description": "Replace appliances and computers with Energy Star models (front loading washers, refrigerators, window-AC or split system, printers, computers, etc.)",
+      "attachedTo": [
+        "levels",
+        "spaces",
+        "plugloads"
+      ]
+    },
+    {
+      "name": "Install controls for plug load equipment",
+      "description": "Install occupancy sensors and controls on plug load equipment to reduce equipment operation hours",
+      "attachedTo": [
+        "levels",
+        "spaces",
+        "plugloads"
+      ]
+    },
+    {
+      "name": "Plug Load Management",
+      "description": "Plug load management",
+      "attachedTo": [
+        "levels",
+        "spaces",
+        "plugloads"
+      ]
+    },
+    {
+      "name": "Install Computer Power Management System",
+      "description": "Install Computer Power Management System",
+      "attachedTo": [
+        "levels",
+        "spaces",
+        "plugloads"
+      ]
+    },
+    {
+      "name": "Desktop Computer Virtualization",
+      "description": "Desktop Computer Virtualization",
+      "attachedTo": [
+        "levels",
+        "spaces",
+        "plugloads"
+      ]
+    },
+    {
+      "name": "Install schedule timer plug strips",
+      "description": "Install schedule timer plug strips",
+      "attachedTo": [
+        "levels",
+        "spaces",
+        "plugloads"
+      ]
+    },
+    {
+      "name": "Network Infrastructure",
+      "description": "Network Infrastructure",
+      "attachedTo": [
+        "levels",
+        "spaces",
+        "plugloads",
+        "processloads"
+      ]
+    },
+    {
+      "name": "Install Vending Misers",
+      "description": "Install Vending Misers",
+      "attachedTo": [
+        "levels",
+        "spaces",
+        "plugloads"
+      ]
+    },
+    {
+      "name": "Replace Desktop Computers with Laptops",
+      "description": "Replace Desktop Computers with Laptops",
+      "attachedTo": [
+        "levels",
+        "spaces",
+        "plugloads"
+      ]
+    },
+    {
+      "name": "Replace with Reflective Roof or Green Roof",
+      "description": "Install green roof or reflective coating",
+      "attachedTo": [
+        "building",
+        "levels",
+        "spaces",
+        "constructions"
+      ]
+    },
+    {
+      "name": "Add Insulation to Envelope",
+      "description": "Install or add wall or roof insulation to improve their thermal resistant",
+      "attachedTo": [
+        "levels",
+        "spaces",
+        "constructions"
+      ]
+    },
+    {
+      "name": "Weatherization",
+      "description": "Weatherize the building envelope",
+      "attachedTo": [
+        "levels",
+        "spaces",
+        "constructions",
+        "windows",
+        "doors"
+      ]
+    },
+    {
+      "name": "Replace with Double Pane, Low-E, Argon Windows",
+      "description": "Replace windows with double pane, low-emissivity, thermal broken, argon filled, low assembly U-value (0.4 or less) windows.",
+      "attachedTo": [
+        "levels",
+        "spaces",
+        "windows"
+      ]
+    },
+    {
+      "name": "Install Solar Film on Windows",
+      "description": "Install Solar Film on Windows",
+      "attachedTo": [
+        "levels",
+        "spaces",
+        "windows"
+      ]
+    },
+    {
+      "name": "Install Skylights/ Solar Tubes",
+      "description": "Install Skylights/ Solar Tubes",
+      "attachedTo": [
+        "levels",
+        "spaces",
+        "windows"
+      ]
+    },
+    {
+      "name": "Replace Door with Insulated Types",
+      "description": "Replace door with insulated types.",
+      "attachedTo": [
+        "levels",
+        "spaces",
+        "doors"
+      ]
+    },
+    {
+      "name": "Replace with Rapid Roll-up Doors",
+      "description": "Replace existing garage doors with rapid roll-up doors",
+      "attachedTo": [
+        "levels",
+        "spaces",
+        "doors"
+      ]
+    },
+    {
+      "name": "Replace with Rapid Roll-up Garage Doors ",
+      "description": "Install rapid roll-up garage door to reduce heat loss",
+      "attachedTo": [
+        "levels",
+        "spaces",
+        "doors"
+      ]
+    },
+    {
+      "name": "Install Sink Aerators",
+      "description": "Install sink aerators (2.0 gpm or less)",
+      "attachedTo": [
+        "levels",
+        "spaces",
+        "waterfixtures"
+      ]
+    },
+    {
+      "name": "Install Low Flow Shower Heads",
+      "description": "Install shower heads (1 gpm or less)",
+      "attachedTo": [
+        "levels",
+        "spaces",
+        "waterfixtures"
+      ]
+    },
+    {
+      "name": "Install Low Flow Toilets",
+      "description": "Install low flow toilets",
+      "attachedTo": [
+        "levels",
+        "spaces",
+        "waterfixtures"
+      ]
+    },
+    {
+      "name": "Install Temperature/ Smoke Controlled Dampers",
+      "description": "Reduce in/exfiltration of elevator shaft by installing temperature or smoke controlled motorized dampers",
+      "attachedTo": [
+        "building",
+        "levels",
+        "spaces",
+        "zones"
+      ]
+    },
+    {
+      "name": "Install Destratification Fans",
+      "description": "Install Destratification Fans",
+      "attachedTo": [
+        "building",
+        "levels",
+        "spaces",
+        "zones"
+      ]
+    },
+    {
+      "name": "Install Programmable Thermostats",
+      "description": "Install programmable thermostats",
+      "attachedTo": [
+        "building",
+        "zones",
+        "terminals",
+        "boilers",
+        "chillers",
+        "customsystemsair"
+      ]
+    },
+    {
+      "name": "Implement Thermostat Setbacks at Night",
+      "description": "Implement Thermostat Setbacks at Night",
+      "attachedTo": [
+        "building",
+        "levels",
+        "spaces",
+        "zones"
+      ]
+    },
+    {
+      "name": "Install Thermostatic Radiator Valves (TRVs)",
+      "description": "Install thermostatic radiator valves (TRVs)",
+      "attachedTo": [
+        "zones",
+        "terminals"
+      ]
+    },
+    {
+      "name": "Install Heat Recovery Ventilators",
+      "description": "Install Energy or Heat Recovery Ventilators to recover thermal/cooling load from exhaust ventilation",
+      "attachedTo": [
+        "zones",
+        "customsystemsair",
+        "fans"
+      ]
+    },
+    {
+      "name": "Install Demand Controlled Ventilation",
+      "description": "Install DCV in areas of variable occupancy",
+      "attachedTo": [
+        "zones",
+        "customsystemsair"
+      ]
+    },
+    {
+      "name": "Install Bipolar Ionization System in Return Air Ducts",
+      "description": "Install Bipolar Ionization System in Return Air Ducts",
+      "attachedTo": [
+        "zones",
+        "customsystemsair"
+      ]
+    },
+    {
+      "name": "Full Mechanical Retrofit",
+      "description": "Full Mechanical Retrofit",
+      "attachedTo": [
+        "building",
+        "zones",
+        "cw",
+        "chw",
+        "hw",
+        "swh",
+        "customsystemschw",
+        "customsystemshw",
+        "customsystemsair",
+        "terminals"
+      ]
+    },
+    {
+      "name": "Decentralize HVAC",
+      "description": "Decentralize HVAC",
+      "attachedTo": [
+        "zones",
+        "cw",
+        "chw",
+        "hw",
+        "swh",
+        "customsystemschw",
+        "customsystemshw",
+        "customsystemsair",
+        "terminals"
+      ]
+    },
+    {
+      "name": "Install BMS Controls",
+      "description": "Install advanced energy management system or BMS for heating, ventilation and/or cooling control",
+      "attachedTo": [
+        "building",
+        "zones",
+        "cw",
+        "chw",
+        "hw",
+        "swh",
+        "customsystemsair",
+        "customsystemshw",
+        "customsystemschw",
+        "terminals"
+      ]
+    },
+    {
+      "name": "Install DDC Controls",
+      "description": "Replace pneumatic compressed air devices with electronic thermostats and actuators",
+      "attachedTo": [
+        "building",
+        "zones",
+        "cw",
+        "chw",
+        "hw",
+        "swh",
+        "customsystemsair",
+        "customsystemshw",
+        "customsystemschw",
+        "terminals"
+      ]
+    },
+    {
+      "name": "Optimize Start/Stop Programming",
+      "description": "Optimize Start/Stop Programming",
+      "attachedTo": [
+        "building",
+        "zones",
+        "cw",
+        "chw",
+        "hw",
+        "swh",
+        "customsystemsair",
+        "customsystemshw",
+        "customsystemschw",
+        "terminals"
+      ]
+    },
+    {
+      "name": "Install VFD to Motor",
+      "description": "Install VFD to control pump/fan motors",
+      "attachedTo": [
+        "cw",
+        "chw",
+        "hw",
+        "swh",
+        "pumps",
+        "customsystemsair",
+        "customsystemshw",
+        "customsystemschw",
+        "fans",
+        "packagedunits",
+        "terminals",
+        "processloads"
+      ]
+    },
+    {
+      "name": "Replace with Premium Efficiency Motor",
+      "description": "Replace standard efficiency motors with Premium Efficiency units",
+      "attachedTo": [
+        "cw",
+        "chw",
+        "hw",
+        "swh",
+        "pumps",
+        "customsystemsair",
+        "customsystemshw",
+        "customsystemschw",
+        "fans",
+        "packagedunits",
+        "terminals",
+        "processloads"
+      ]
+    },
+    {
+      "name": "Replace Motor Belt",
+      "description": "Replace Motor Belt",
+      "attachedTo": [
+        "cw",
+        "chw",
+        "hw",
+        "swh",
+        "pumps",
+        "customsystemsair",
+        "customsystemshw",
+        "customsystemschw",
+        "fans",
+        "packagedunits",
+        "terminals",
+        "processloads"
+      ]
+    },
+    {
+      "name": "Replace Motor Belts with Cogged V-Belts",
+      "description": "Replace Motor Belts with Cogged V-Belts",
+      "attachedTo": [
+        "cw",
+        "chw",
+        "hw",
+        "swh",
+        "pumps",
+        "customsystemsair",
+        "customsystemshw",
+        "customsystemschw",
+        "fans",
+        "packagedunits",
+        "terminals",
+        "processloads"
+      ]
+    },
+    {
+      "name": "Replace Fan with More Efficient Unit",
+      "description": "Replace fan with more efficient units including Premium Efficiency motors",
+      "attachedTo": [
+        "cw",
+        "coolingtowers",
+        "customsystemsair",
+        "customsystemschw",
+        "packagedunits",
+        "fans",
+        "terminals"
+      ]
+    },
+    {
+      "name": "Replace Pump with More Efficient Unit",
+      "description": "Replace pump with more efficient units including Premium Efficiency motors",
+      "attachedTo": [
+        "cw",
+        "chw",
+        "hw",
+        "swh",
+        "customsystemschw",
+        "customsystemshw",
+        "pumps"
+      ]
+    },
+    {
+      "name": "Convert Constant Volume (CV) Pumping System to Variable Volume (VV)",
+      "description": "Convert Constant Volume (CV) Pumping System to Variable Volume (VV)",
+      "attachedTo": [
+        "cw",
+        "chw",
+        "hw",
+        "swh",
+        "customsystemschw",
+        "customsystemshw",
+        "pumps"
+      ]
+    },
+    {
+      "name": "CHW Plant Optimization",
+      "description": "CHW Plant Optimization",
+      "attachedTo": [
+        "cw",
+        "chw",
+        "customsystemschw",
+        "customsystemsair",
+        "coolingcoils"
+      ]
+    },
+    {
+      "name": "Refurbish Cooling Tower",
+      "description": "Refurbish Cooling Tower",
+      "attachedTo": [
+        "cw",
+        "customsystemschw",
+        "coolingtowers"
+      ]
+    },
+    {
+      "name": "Replace Cooling Tower",
+      "description": "Replace Cooling Tower",
+      "attachedTo": [
+        "cw",
+        "customsystemschw",
+        "coolingtowers"
+      ]
+    },
+    {
+      "name": "Install Water Sub-Meter on Cooling Tower",
+      "description": "Install Water Sub-Meter on Cooling Tower",
+      "attachedTo": [
+        "cw",
+        "customsystemschw",
+        "coolingtowers"
+      ]
+    },
+    {
+      "name": "Replace Chiller with High Efficiency Unit",
+      "description": "Replace chiller with the most efficient units available on the market",
+      "attachedTo": [
+        "chw",
+        "chillers",
+        "customsystemschw",
+        "processloads"
+      ]
+    },
+    {
+      "name": "Install Waterside Economizer",
+      "description": "Install waterside economizer to reduce energy",
+      "attachedTo": [
+        "chw",
+        "customsystemschw",
+        "packagedunits"
+      ]
+    },
+    {
+      "name": "Replace with Gas-Fired Engine-Driven Chiller",
+      "description": "Install gas driven chillers",
+      "attachedTo": [
+        "chw",
+        "customsystemschw",
+        "chillers"
+      ]
+    },
+    {
+      "name": "Replace with Absorption Chiller",
+      "description": "Install absorption chillers to reduce peak demand",
+      "attachedTo": [
+        "chw",
+        "customsystemschw",
+        "chillers"
+      ]
+    },
+    {
+      "name": "Install Heat Timer for Boiler",
+      "description": "Install heat timer for boiler",
+      "attachedTo": [
+        "hw",
+        "customsystemshw",
+        "boilers"
+      ]
+    },
+    {
+      "name": "Replace Boiler with High Thermal Efficiency Unit",
+      "description": "Replace boiler with higher thermal efficiency boiler (84% or greater for steam and 87% or greater or condensing for hot water) equipped with duel fuel burner (Natural Gas and No.1 Oil) of turndown ratio of 13:1 or greater",
+      "attachedTo": [
+        "hw",
+        "customsystemshw",
+        "boilers"
+      ]
+    },
+    {
+      "name": "Install Outdoor Reset for Boiler",
+      "description": "Install outdoor reset control for boiler",
+      "attachedTo": [
+        "hw",
+        "customsystemshw",
+        "boilers"
+      ]
+    },
+    {
+      "name": "Insulate Storage/Receiver/Expansion Tank",
+      "description": "Insulate HW storage/receiver/expansion/condensate tank",
+      "attachedTo": [
+        "hw",
+        "customsystemshw",
+        "boilers"
+      ]
+    },
+    {
+      "name": "Convert to Dual Fuel (No. 2 Oil and Natural Gas)",
+      "description": "Convert from electricity or No. 6 Oil to dual fuel (No. 2 Oil and Natural Gas) the heating system",
+      "attachedTo": [
+        "hw",
+        "customsystemshw",
+        "boilers"
+      ]
+    },
+    {
+      "name": "Convert Steam Heating to Hydronic Heating",
+      "description": "Convert steam heating system to HW through heat exchanger installation or boiler replacement",
+      "attachedTo": [
+        "hw",
+        "customsystemshw",
+        "boilers"
+      ]
+    },
+    {
+      "name": "Replace Burner and Controllers, Connect to BAS",
+      "description": "Replace Burner and Controllers, Connect to BAS",
+      "attachedTo": [
+        "hw",
+        "customsystemshw",
+        "boilers"
+      ]
+    },
+    {
+      "name": "Replace Burner with Dual Fuel (No. 2 Oil and Natural Gas)",
+      "description": "Replace the burner with a dual fuel(No. 2 Oil and Natural Gas) burner of turndown ratio of 13:1 or greater",
+      "attachedTo": [
+        "hw",
+        "customsystemshw",
+        "boilers"
+      ]
+    },
+    {
+      "name": "Condensate Recovery",
+      "description": "Install heat exchangers to recover the thermal load of condensate in building served by steam.",
+      "attachedTo": [
+        "hw",
+        "customsystemshw",
+        "boilers",
+        "swh",
+        "dhws",
+        "terminals"
+      ]
+    },
+    {
+      "name": "Replace DHW Heater with High Efficiency Unit",
+      "description": "Replace DHW heater with higher thermal efficiency unit (87% or greater or condensing) equipped with burner of turndown ratio of 13:1 or greater.",
+      "attachedTo": [
+        "swh",
+        "dhws"
+      ]
+    },
+    {
+      "name": "Replace DHW Heater with Natural Gas Heater",
+      "description": "Replace DHW Heater with Natural Gas Heater",
+      "attachedTo": [
+        "swh",
+        "dhws"
+      ]
+    },
+    {
+      "name": "Install Solar Thermal System",
+      "description": "Install solar thermal system for DHW",
+      "attachedTo": [
+        "swh",
+        "dhws"
+      ]
+    },
+    {
+      "name": "Replace DX Unit with High Efficiency Unit",
+      "description": "Replace DX cooling units with the most efficient units available in the market (the highest EER, COP) and environmentally friendly refrigerant.",
+      "attachedTo": [
+        "customsystemsair",
+        "coolingcoils",
+        "customsystemschw",
+        "packagedunits",
+        "terminals"
+      ]
+    },
+    {
+      "name": "Replace CAV System with VAV System",
+      "description": "Replace CAV System with VAV System",
+      "attachedTo": [
+        "customsystemsair",
+        "zones",
+        "terminals"
+      ]
+    },
+    {
+      "name": "Install Efficient Air Filters",
+      "description": "Install efficient air filters for HVAC ",
+      "attachedTo": [
+        "customsystemsair",
+        "packagedunits",
+        "terminals"
+      ]
+    },
+    {
+      "name": "Replace Evap Cooler with High Efficiency Unit",
+      "description": "Replace Evap Cooler with High Efficiency Unit",
+      "attachedTo": [
+        "customsystemsair",
+        "evapcoolers",
+        "packagedunits",
+        "terminals"
+      ]
+    },
+    {
+      "name": "Install Airside Economizer",
+      "description": "Install airside economizer to reduce energy",
+      "attachedTo": [
+        "customsystemsair",
+        "packagedunits"
+      ]
+    },
+    {
+      "name": "Replace Energy Recovery Unit (ERU)",
+      "description": "Replace Energy Recovery Unit (ERU)",
+      "attachedTo": [
+        "customsystemsair",
+        "packagedunits"
+      ]
+    },
+    {
+      "name": "Install Enthalpy Heat Recovery Wheel",
+      "description": "Upgrade to Enthalpy Heat Recovery Wheel",
+      "attachedTo": [
+        "customsystemsair",
+        "packagedunits"
+      ]
+    },
+    {
+      "name": "Install Static Pressure Reset Control",
+      "description": "Install Static Pressure Reset Control",
+      "attachedTo": [
+        "customsystemsair",
+        "packagedunits"
+      ]
+    },
+    {
+      "name": "Install Ventilation Controls",
+      "description": "Install timers or programmable control for supply and/or exhaust fans",
+      "attachedTo": [
+        "customsystemsair",
+        "packagedunits",
+        "fans",
+        "terminals"
+      ]
+    },
+    {
+      "name": "Replace Packaged Unit with High Efficiency Unit",
+      "description": "Replace RTU cooling units with the most efficient units available in the market (the highest EER, COP) and environmentally friendly refrigerant.",
+      "attachedTo": [
+        "packagedunits"
+      ]
+    },
+    {
+      "name": "Replace Unit Heaters with Infrared Heaters",
+      "description": "Replace Unit Heaters with Infrared Heaters",
+      "attachedTo": [
+        "zones",
+        "terminals"
+      ]
+    },
+    {
+      "name": "Install Mini-Split in Server Room",
+      "description": "Install Mini-Split in Server Room",
+      "attachedTo": [
+        "levels",
+        "spaces",
+        "zones",
+        "packagedunits",
+        "terminals"
+      ]
+    },
+    {
+      "name": "Replace with VRF Heat Pump",
+      "description": "Install variable refrigerant flow heat pumps",
+      "attachedTo": [
+        "packagedunits",
+        "terminals"
+      ]
+    },
+    {
+      "name": "Replace VAV Box",
+      "description": "Replace VAV Box",
+      "attachedTo": [
+        "zones",
+        "customsystemsair",
+        "terminals"
+      ]
+    },
+    {
+      "name": "Replace Motor Bearings",
+      "description": "Replace Motor Bearings",
+      "attachedTo": [
+        "cw",
+        "chw",
+        "hw",
+        "swh",
+        "pumps",
+        "customsystemsair",
+        "customsystemshw",
+        "customsystemschw",
+        "fans",
+        "packagedunits",
+        "terminals",
+        "processloads"
+      ]
+    },
+    {
+      "name": "Clean Motor",
+      "description": "Clean Motor",
+      "attachedTo": [
+        "cw",
+        "chw",
+        "hw",
+        "swh",
+        "pumps",
+        "customsystemsair",
+        "customsystemshw",
+        "customsystemschw",
+        "fans",
+        "packagedunits",
+        "terminals",
+        "processloads"
+      ]
+    },
+    {
+      "name": "Repair, Replace or Calibrate Actuator",
+      "description": "Repair, replace or calibrate actuator",
+      "attachedTo": [
+        "customsystemsair",
+        "terminals"
+      ]
+    },
+    {
+      "name": "Repair, Replace or Calibrate Thermostat",
+      "description": "Repair, replace or calibrate thermostat",
+      "attachedTo": [
+        "zones",
+        "terminals"
+      ]
+    },
+    {
+      "name": "Repair, Replace or Calibrate Valves",
+      "description": "Repair, replace or calibrate valves",
+      "attachedTo": [
+        "customsystemsair",
+        "terminals"
+      ]
+    },
+    {
+      "name": "Repair, Replace or Calibrate Dampers",
+      "description": "Repair, replace or calibrate dampers",
+      "attachedTo": [
+        "zones",
+        "customsystemsair",
+        "terminals"
+      ]
+    },
+    {
+      "name": "Insulate Piping",
+      "description": "Insulate DHW/Heating/Cooling pipe",
+      "attachedTo": [
+        "cw",
+        "chw",
+        "hw",
+        "swh",
+        "customsystemschw",
+        "customsystemshw",
+        "customsystemsair",
+        "packagedunits",
+        "terminals"
+      ]
+    },
+    {
+      "name": "Adjust DHW Temperature",
+      "description": "Adjust DHW temperature of aquastat, storage tank or heater.",
+      "attachedTo": [
+        "swh"
+      ]
+    },
+    {
+      "name": "Repair Mixing Valve/ Circulator",
+      "description": "Repair mixing valve/ circulator ",
+      "attachedTo": [
+        "swh"
+      ]
+    },
+    {
+      "name": "Replace Mixing Valve/ Circulator",
+      "description": "Replace mixing valve/ circulator ",
+      "attachedTo": [
+        "swh"
+      ]
+    },
+    {
+      "name": "Tune Hot Water Heater",
+      "description": "Tune DHW heaters",
+      "attachedTo": [
+        "swh",
+        "dhws"
+      ]
+    },
+    {
+      "name": "Tune Boiler",
+      "description": "Tune heating boiler",
+      "attachedTo": [
+        "hw",
+        "customsystemshw",
+        "boilers"
+      ]
+    },
+    {
+      "name": "Repair Oil Heater",
+      "description": "Repair oil heaters",
+      "attachedTo": [
+        "hw",
+        "customsystemshw",
+        "boilers"
+      ]
+    },
+    {
+      "name": "Replace Oil Heater",
+      "description": "Replace oil heaters",
+      "attachedTo": [
+        "hw",
+        "customsystemshw",
+        "boilers"
+      ]
+    },
+    {
+      "name": "Repair Oil Pump",
+      "description": "Repair oil pumps",
+      "attachedTo": [
+        "hw",
+        "customsystemshw",
+        "boilers"
+      ]
+    },
+    {
+      "name": "Replace Oil Pump",
+      "description": "Replace oil pumps",
+      "attachedTo": [
+        "hw",
+        "customsystemshw",
+        "boilers"
+      ]
+    },
+    {
+      "name": "TAB",
+      "description": "Perform testing, adjusting and balancing of air or water distribution system",
+      "attachedTo": [
+        "cw",
+        "chw",
+        "hw",
+        "swh",
+        "coolingtowers",
+        "chillers",
+        "boilers",
+        "dhws",
+        "customsystemschw",
+        "customsystemshw",
+        "customsystemsair",
+        "pumps",
+        "fans",
+        "packagedunits",
+        "terminals"
+      ]
+    },
+    {
+      "name": "HVAC Cleaning",
+      "description": "Clean heating or cooling coils of AHU, fan coils or HV units",
+      "attachedTo": [
+        "coolingcoils",
+        "heatingcoils",
+        "customsystemsair",
+        "fans",
+        "packagedunits"
+      ]
+    },
+    {
+      "name": "Repair, Replace or Calibrate HVAC Control Sensors and Sequences",
+      "description": "Calibrate, repair or replace temperature sensors. Verify sequences",
+      "attachedTo": [
+        "cw",
+        "chw",
+        "hw",
+        "swh",
+        "coolingtowers",
+        "chillers",
+        "boilers",
+        "dhws",
+        "customsystemschw",
+        "customsystemshw",
+        "customsystemsair",
+        "pumps",
+        "fans",
+        "packagedunits",
+        "terminals"
+      ]
+    },
+    {
+      "name": "Adjust Ventilation Rates",
+      "description": "Adjust ventilation rates",
+      "attachedTo": [
+        "outdoorairintakes",
+        "customsystemsair",
+        "packagedunits",
+        "terminals"
+      ]
+    },
+    {
+      "name": "Replace Ventilation Control Timers",
+      "description": "Replace Ventilation Control Timers",
+      "attachedTo": [
+        "outdoorairintakes",
+        "customsystemsair",
+        "fans",
+        "packagedunits",
+        "terminals"
+      ]
+    },
+    {
+      "name": "Steam Trap Maintenance",
+      "description": "Inspection, testing and replacement of steam traps or their elements. Develop a steam trap maintenance protocol",
+      "attachedTo": [
+        "hw",
+        "boilers",
+        "customsystemshw",
+        "terminals"
+      ]
+    },
+    {
+      "name": "Repair Vacuum Pumps",
+      "description": "Repair vacuum pumps of the steam distribution system",
+      "attachedTo": [
+        "hw",
+        "boilers",
+        "customsystemshw",
+        "terminals"
+      ]
+    },
+    {
+      "name": "Replace Vacuum Pumps",
+      "description": "Replace vacuum pumps of the steam distribution system",
+      "attachedTo": [
+        "hw",
+        "boilers",
+        "customsystemshw",
+        "terminals"
+      ]
+    },
+    {
+      "name": "Repair or Replace Measurement Instruments",
+      "description": "Repair or replace thermometers, pressure gauges, level indicators, flow meters, smoke detectors etc.",
+      "attachedTo": [
+        "zones",
+        "cw",
+        "coolingtowers",
+        "chw",
+        "chillers",
+        "hw",
+        "boilers",
+        "swh",
+        "dhws",
+        "customsystemschw",
+        "customsystemshw",
+        "customsystemsair",
+        "pumps",
+        "fans",
+        "packagedunits",
+        "terminals"
+      ]
+    },
+    {
+      "name": "Reduce Air Infiltration",
+      "description": "Weather seal and/or repair windows/doors as necessary. Seal air penetrations in wall, roof, floor, basement",
+      "attachedTo": [
+        "building",
+        "levels",
+        "spaces",
+        "constructions"
+      ]
+    },
+    {
+      "name": "Fix Steam Leaks",
+      "description": "Fix pipes, valves, pumps, compressors, as necessary",
+      "attachedTo": [
+        "cw",
+        "coolingtowers",
+        "chw",
+        "chillers",
+        "hw",
+        "boilers",
+        "swh",
+        "dhws",
+        "customsystemschw",
+        "customsystemshw",
+        "customsystemsair",
+        "pumps",
+        "fans",
+        "packagedunits",
+        "terminals"
+      ]
+    },
+    {
+      "name": "Fix Water/Air/Oil/Fuel Oil/Gas Leaks",
+      "description": "Fix pipes, valves, pumps, compressors, as necessary",
+      "attachedTo": [
+        "cw",
+        "coolingtowers",
+        "chw",
+        "chillers",
+        "hw",
+        "boilers",
+        "swh",
+        "dhws",
+        "customsystemschw",
+        "customsystemshw",
+        "customsystemsair",
+        "pumps",
+        "fans",
+        "packagedunits",
+        "terminals"
+      ]
+    },
+    {
+      "name": "Delamp Light Fixtures",
+      "description": "Delamp to meet minimum foot-candles required",
+      "attachedTo": [
+        "levels",
+        "spaces",
+        "lightfixtures"
+      ]
+    },
+    {
+      "name": "Clean Light Fixtures",
+      "description": "Clean light fixtures covers and lamps",
+      "attachedTo": [
+        "levels",
+        "spaces",
+        "lightfixtures"
+      ]
+    },
+    {
+      "name": "Reset HVAC Temperature",
+      "description": "Reset heating/cooling/DHW temperature",
+      "attachedTo": [
+        "zones",
+        "terminals"
+      ]
+    },
+    {
+      "name": "Repair Air Compressor",
+      "description": "Repair air compressor or components",
+      "attachedTo": [
+        "building"
+      ]
+    },
+    {
+      "name": "Repair Pneumatic Control System",
+      "description": "Repair valves/lines/filter",
+      "attachedTo": [
+        "building",
+        "customsystemsair"
+      ]
+    },
+    {
+      "name": "Electrical Wiring Maintenance",
+      "description": "Rewire, adjust connections, fix voltage imbalance, fix interlocking problems",
+      "attachedTo": [
+        "building"
+      ]
+    },
+    {
+      "name": "Reprogram BMS/EMS",
+      "description": "Reprogram and reset key parameters values",
+      "attachedTo": [
+        "zones",
+        "cw",
+        "chw",
+        "hw",
+        "swh",
+        "coolingtowers",
+        "customsystemschw",
+        "customsystemshw",
+        "customsystemsair",
+        "terminals"
+      ]
+    },
+    {
+      "name": "Replace Coils",
+      "description": "Replace coils",
+      "attachedTo": [
+        "customsystemsair",
+        "packagedunits",
+        "coolingcoils",
+        "heatingcoils"
+      ]
+    },
+    {
+      "name": "Replace HW Storage/Expansion/Condensate/Receiver Tank",
+      "description": "Replace HW storage/expansion/condensate or receiver tank",
+      "attachedTo": [
+        "zones",
+        "cw",
+        "chw",
+        "hw",
+        "swh",
+        "coolingtowers",
+        "customsystemschw",
+        "customsystemshw",
+        "customsystemsair",
+        "terminals"
+      ]
+    },
+    {
+      "name": "Clean Ductwork",
+      "description": "Clean air ductwork and grilles",
+      "attachedTo": [
+        "customsystemsair",
+        "packagedunits",
+        "terminals"
+      ]
+    },
+    {
+      "name": "Replace Air Filters",
+      "description": "Replace air filters (recommend high efficiency filters)",
+      "attachedTo": [
+        "customsystemsair",
+        "packagedunits",
+        "terminals"
+      ]
+    },
+    {
+      "name": "Repair VAV Box",
+      "description": "Repair VAV Box",
+      "attachedTo": [
+        "zones",
+        "terminals"
+      ]
+    },
+    {
+      "name": "Optimize Reset Schedule on DOA Units",
+      "description": "Optimize Reset Schedule on DOA Units",
+      "attachedTo": [
+        "customsystemsair",
+        "packagedunits",
+        "terminals"
+      ]
+    },
+    {
+      "name": "Balance Dampers",
+      "description": "Replace balance damper. Install new if needed for TAB.",
+      "attachedTo": [
+        "zones",
+        "customsystemsair",
+        "packagedunits",
+        "terminals"
+      ]
+    },
+    {
+      "name": "Balance Valves",
+      "description": "Replace balance valve. Install new if needed for TAB.",
+      "attachedTo": [
+        "zones",
+        "cw",
+        "coolingtowers",
+        "chw",
+        "chillers",
+        "hw",
+        "boilers",
+        "swh",
+        "dhws",
+        "customsystemschw",
+        "customsystemshw",
+        "customsystemsair",
+        "pumps",
+        "fans",
+        "packagedunits",
+        "terminals"
+      ]
+    },
+    {
+      "name": "Recharge Refrigerant",
+      "description": "Recover and recharge refrigerant - converting to environmentally friendly options if viable.",
+      "attachedTo": [
+        "customsystemsair",
+        "coolingcoils",
+        "packagedunits",
+        "terminals"
+      ]
+    },
+    {
+      "name": "Recharge Glycol",
+      "description": "Recharge with more efficient option - if viable",
+      "attachedTo": [
+        "cw",
+        "coolingtowers",
+        "chw",
+        "chillers",
+        "hw",
+        "boilers",
+        "swh",
+        "dhws",
+        "customsystemschw",
+        "customsystemshw",
+        "packagedunits",
+        "terminals"
+      ]
+    },
+    {
+      "name": "Replace Radiators",
+      "description": "Replace Radiators.",
+      "attachedTo": [
+        "zones",
+        "terminals"
+      ]
+    },
+    {
+      "name": "Replace Convectors",
+      "description": "Replace Convectors.",
+      "attachedTo": [
+        "zones",
+        "terminals"
+      ]
+    },
+    {
+      "name": "Replace Fan Coil Units",
+      "description": "Replace Fan Coil Units.",
+      "attachedTo": [
+        "zones",
+        "terminals"
+      ]
+    },
+    {
+      "name": "Replace Unit Heater",
+      "description": "Replace Unit Heater",
+      "attachedTo": [
+        "zones",
+        "terminals"
+      ]
+    },
+    {
+      "name": "Improve Training and Documentation",
+      "description": "Verify specific critical operation training and documentation (permits, maintenance protocols, maintenance contract). Remark missing information and recommend development",
+      "attachedTo": [
+        "building"
+      ]
+    },
+    {
+      "name": "Develop an O&M Manual",
+      "description": "Develop an O&M manual and protocols and recent RCx reports",
+      "attachedTo": [
+        "building"
+      ]
+    },
+    {
+      "name": "Asbestos Remediation",
+      "description": "Asbestos remediation",
+      "attachedTo": [
+        "building",
+        "levels",
+        "spaces",
+        "constructions"
+      ]
+    },
+    {
+      "name": "PCB Remediation",
+      "description": "PCB remediation",
+      "attachedTo": [
+        "building",
+        "levels",
+        "spaces",
+        "constructions"
+      ]
+    },
+    {
+      "name": "Lead Paint Remediation",
+      "description": "Lead paint remediation",
+      "attachedTo": [
+        "building",
+        "levels",
+        "spaces",
+        "constructions"
+      ]
+    },
+    {
+      "name": "Multiple conductors on single breaker pole.",
+      "description": "Re-locate circuits doubled landed on same breaker to spare breaker.",
+      "attachedTo": [
+        "lvsb",
+        "lvp",
+        "mvsb"
+      ]
+    },
+    {
+      "name": "Multiple Wires on Panel Lugs",
+      "description": "Provide feed-through lugs on new panelboard.",
+      "attachedTo": [
+        "lvp"
+      ]
+    },
+    {
+      "name": "Missing Directory / Label Name",
+      "description": "Replace missing directory /name label.",
+      "attachedTo": [
+        "mvt",
+        "mvsb",
+        "mvs",
+        "lvt",
+        "lvsb",
+        "lvp"
+      ]
+    },
+    {
+      "name": "Missing Conduit Bushings",
+      "description": "Replace missing conduit bushings.",
+      "attachedTo": [
+        "mvt",
+        "mvsb",
+        "mvs",
+        "lvt",
+        "lvsb",
+        "lvp"
+      ]
+    },
+    {
+      "name": "Missing Panelboard Can Knockouts",
+      "description": "Cover missing knockout holes.",
+      "attachedTo": [
+        "lvp"
+      ]
+    },
+    {
+      "name": "Missing Filler Plates",
+      "description": "Replace missing filler plates.",
+      "attachedTo": [
+        "lvsb",
+        "lvp"
+      ]
+    },
+    {
+      "name": "Cable Splices in Equipment",
+      "description": "Locate J-box next to panelboard to splice existing conductors. ",
+      "attachedTo": [
+        "mvt",
+        "mvsb",
+        "mvs",
+        "lvt",
+        "lvsb",
+        "lvp"
+      ]
+    },
+    {
+      "name": "Ground Conductors Missing",
+      "description": "Replace missing ground conductors.",
+      "attachedTo": [
+        "mvt",
+        "mvsb",
+        "mvs",
+        "lvt",
+        "lvsb",
+        "lvp"
+      ]
+    },
+    {
+      "name": "Missing Neutral / Ground Busses",
+      "description": "Replace missing neutral / ground busses",
+      "attachedTo": [
+        "mvt",
+        "mvsb",
+        "mvs",
+        "lvt",
+        "lvsb",
+        "lvp"
+      ]
+    },
+    {
+      "name": "Conductor Color Code",
+      "description": "Correctly identify each conductor with color coded marking tape.",
+      "attachedTo": [
+        "mvt",
+        "mvsb",
+        "mvs",
+        "lvt",
+        "lvsb",
+        "lvp"
+      ]
+    },
+    {
+      "name": "Replace Medium Voltage Transformer",
+      "description": "Replace equipment and feeder conductors.",
+      "attachedTo": [
+        "mvt"
+      ]
+    },
+    {
+      "name": "Replace Medium Voltage Switchboard",
+      "description": "Replace equipment and feeder conductors.",
+      "attachedTo": [
+        "mvsb"
+      ]
+    },
+    {
+      "name": "Replace Medium Voltage Switch",
+      "description": "Replace equipment and feeder conductors.",
+      "attachedTo": [
+        "mvs"
+      ]
+    },
+    {
+      "name": "Replace Low Voltage Transformer",
+      "description": "Replace equipment and feeder conductors.",
+      "attachedTo": [
+        "mvt"
+      ]
+    },
+    {
+      "name": "Replace Low Voltage Switchboard",
+      "description": "Replace equipment and feeder conductors.",
+      "attachedTo": [
+        "lvsb"
+      ]
+    },
+    {
+      "name": "Replace Low Voltage Panelboard",
+      "description": "Replace equipment and feeder conductors.",
+      "attachedTo": [
+        "lvp"
+      ]
+    },
+    {
+      "name": "Supporting mixed loads of life-safety and optional standby.",
+      "description": "Relocate optional standby loads to \"Normal Power\" panel with available capacity.",
+      "attachedTo": [
+        "lvsb",
+        "lvp"
+      ]
+    },
+    {
+      "name": "Working clearance violation.",
+      "description": "Install new equipment so that it no longer has working clearance code violation.",
+      "attachedTo": [
+        "mvt",
+        "mvsb",
+        "mvs",
+        "mvt",
+        "lvsb",
+        "lvp"
+      ]
+    },
+    {
+      "name": "Cloth type conductors.",
+      "description": "Replace cloth type conductors.",
+      "attachedTo": [
+        "mvt",
+        "lvsb",
+        "lvp"
+      ]
+    },
+    {
+      "name": "Disconnected conductors loose in equipment.",
+      "description": "Remove disconnected conductors. ",
+      "attachedTo": [
+        "lvsb",
+        "lvp"
+      ]
+    },
+    {
+      "name": "Equipment corrosion.",
+      "description": "Replace equipment and feeder conductors.",
+      "attachedTo": [
+        "mvt",
+        "mvsb",
+        "mvs",
+        "mvt",
+        "lvsb",
+        "lvp"
+      ]
+    },
+    {
+      "name": "Pass-through conductors.",
+      "description": "Install conduit to re-route pass-through conductors.",
+      "attachedTo": [
+        "lvp"
+      ]
+    },
+    {
+      "name": "Single-phase feed with jumper on 3rd pole of three-phase breaker.",
+      "description": "Replace three-phase breaker with single-phase breaker.",
+      "attachedTo": [
+        "lvsb",
+        "lvp"
+      ]
+    }
+  ]
+}

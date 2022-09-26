@@ -1,0 +1,530 @@
+[
+  {
+    "displayName": "Reduce plug loads",
+    "fuel": "",
+    "base_measure": "loadReduction",
+    "measure_schema": "plug-loads",
+    "measure_type": "Plug Loads",
+    "category": "calculated",
+    "project_category": "Plug Load",
+    "project_application": "",
+    "project_technology": ""
+  },
+  {
+    "displayName": "Replace desktop printers with office printer",
+    "fuel": "",
+    "base_measure": "loadReduction",
+    "measure_schema": "plug-loads",
+    "measure_type": "Plug Loads",
+    "category": "calculated",
+    "project_category": "Plug Load",
+    "project_application": "",
+    "project_technology": ""
+  },
+  {
+    "displayName": "Install EnergyStar Monitors",
+    "fuel": "",
+    "base_measure": "loadReduction",
+    "measure_schema": "plug-loads",
+    "measure_type": "Plug Loads",
+    "category": "calculated",
+    "project_category": "Plug Load",
+    "project_application": "",
+    "project_technology": ""
+  },
+  {
+    "displayName": "Replace desktop PCs with laptops",
+    "fuel": "",
+    "base_measure": "loadReduction",
+    "measure_schema": "plug-loads",
+    "measure_type": "Plug Loads",
+    "category": "calculated",
+    "project_category": "Plug Load",
+    "project_application": "",
+    "project_technology": ""
+  },
+  {
+    "displayName": "Reduce electrical process loads",
+    "fuel": "",
+    "base_measure": "loadReduction",
+    "measure_schema": "plug-loads",
+    "measure_type": "Process Loads",
+    "category": "calculated",
+    "project_category": "Plug Load",
+    "project_application": "",
+    "project_technology": ""
+  },
+  {
+    "displayName": "Replace electric air compressor",
+    "fuel": "",
+    "base_measure": "loadReduction",
+    "measure_schema": "plug-loads",
+    "measure_type": "Process Loads",
+    "category": "calculated",
+    "project_category": "Plug Load",
+    "project_application": "",
+    "project_technology": ""
+  },
+  {
+    "displayName": "Replace single speed fan",
+    "fuel": "",
+    "base_measure": "changeFanMotor",
+    "measure_schema": "mechanical",
+    "measure_type": "Fans",
+    "category": "calculated",
+    "project_category": "Ventilation",
+    "project_application": "Fan",
+    "project_technology": ""
+  },
+  {
+    "displayName": "Reduce fan motor speed",
+    "fuel": "",
+    "base_measure": "changeFanSpeed",
+    "measure_schema": "mechanical",
+    "measure_type": "Fans",
+    "category": "calculated",
+    "project_category": "Ventilation",
+    "project_application": "Fan",
+    "project_technology": ""
+  },
+  {
+    "displayName": "Replace single speed blower motor",
+    "fuel": "",
+    "base_measure": "changeFanMotor",
+    "measure_schema": "mechanical",
+    "measure_type": "Process Loads",
+    "category": "calculated",
+    "project_category": "Ventilation",
+    "project_application": "Fan",
+    "project_technology": ""
+  },
+  {
+    "displayName": "Replace single speed pump",
+    "fuel": "",
+    "base_measure": "changePumpMotor",
+    "measure_schema": "mechanical",
+    "measure_type": "Pumps",
+    "category": "calculated",
+    "project_category": "Process",
+    "project_application": "Pump",
+    "project_technology": ""
+  },
+  {
+    "displayName": "Reduce pump speed",
+    "fuel": "",
+    "base_measure": "changePumpSpeed",
+    "measure_schema": "mechanical",
+    "measure_type": "Pumps",
+    "category": "calculated",
+    "project_category": "Process",
+    "project_application": "Pump",
+    "project_technology": ""
+  },
+  {
+    "displayName": "Replace booster pump",
+    "fuel": "",
+    "base_measure": "changePumpMotor",
+    "measure_schema": "mechanical",
+    "measure_type": "Pumps",
+    "category": "calculated",
+    "project_category": "Process",
+    "project_application": "Pump",
+    "project_technology": ""
+  },
+  {
+    "displayName": "Replace sump pump",
+    "fuel": "",
+    "base_measure": "changePumpMotor",
+    "measure_schema": "mechanical",
+    "measure_type": "Pumps",
+    "category": "calculated",
+    "project_category": "Process",
+    "project_application": "Pump",
+    "project_technology": ""
+  },
+  {
+    "displayName": "Replace single speed pump for process water",
+    "fuel": "",
+    "base_measure": "changePumpMotor",
+    "measure_schema": "mechanical",
+    "measure_type": "Pumps",
+    "category": "calculated",
+    "project_category": "Process",
+    "project_application": "Pump",
+    "project_technology": ""
+  },
+  {
+    "displayName": "Replace Heat Pump Split System",
+    "fuel": "",
+    "base_measure": "replaceHeatPumpRTU",
+    "measure_schema": "mechanical",
+    "measure_type": "HVAC",
+    "category": "calculated",
+    "project_category": "Heating & Cooling",
+    "project_application": "Heat Pump",
+    "project_technology": ""
+  },
+  {
+    "displayName": "Replace Heat Pump Unit",
+    "fuel": "",
+    "base_measure": "replaceHeatPumpRTU",
+    "measure_schema": "mechanical",
+    "measure_type": "HVAC",
+    "category": "calculated",
+    "project_category": "Heating & Cooling",
+    "project_application": "Heat Pump",
+    "project_technology": ""
+  },
+  {
+    "displayName": "Replace Heat Pump RTU",
+    "fuel": "",
+    "base_measure": "replaceHeatPumpRTU",
+    "measure_schema": "mechanical",
+    "measure_type": "HVAC",
+    "category": "calculated",
+    "project_category": "Heating & Cooling",
+    "project_application": "Heat Pump",
+    "project_technology": ""
+  },
+  {
+    "displayName": "Replace DX Mini-Split System",
+    "fuel": "",
+    "base_measure": "replaceHeatPumpRTU",
+    "measure_schema": "mechanical",
+    "measure_type": "HVAC",
+    "category": "calculated",
+    "project_category": "Heating & Cooling",
+    "project_application": "Heat Pump",
+    "project_technology": ""
+  },
+  {
+    "displayName": "Replace DX CRAC Unit",
+    "fuel": "",
+    "base_measure": "replaceHeatPumpRTU",
+    "measure_schema": "mechanical",
+    "measure_type": "HVAC",
+    "category": "calculated",
+    "project_category": "Heating & Cooling",
+    "project_application": "Heat Pump",
+    "project_technology": ""
+  },
+  {
+    "displayName": "Replace Single Speed Process Load Motor with VSD",
+    "fuel": "",
+    "base_measure": "installVFD",
+    "measure_schema": "mechanical",
+    "measure_type": "Process Loads",
+    "category": "calculated",
+    "project_category": "Heating & Cooling",
+    "project_application": "",
+    "project_technology": ""
+  },
+  {
+    "displayName": "Reduce Lighting System Wattage",
+    "fuel": "",
+    "base_measure": "reduceWattage",
+    "measure_schema": "",
+    "measure_type": "Light Fixtures",
+    "category": "",
+    "project_category": "Lighting",
+    "project_application": "",
+    "project_technology": ""
+  },
+  {
+    "displayName": "Reduce Lighting System Wattage UMP",
+    "fuel": "",
+    "base_measure": "reduceWattageUMP",
+    "measure_schema": "",
+    "measure_type": "Light Fixtures",
+    "category": "",
+    "project_category": "Lighting",
+    "project_application": "",
+    "project_technology": ""
+  },
+  {
+    "displayName": "Reduced Lighting Hours of Operation",
+    "fuel": "",
+    "base_measure": "timeClock",
+    "measure_schema": "",
+    "measure_type": "Lighting Controls",
+    "category": "",
+    "project_category": "Lighting",
+    "project_application": "",
+    "project_technology": ""
+  },
+  {
+    "displayName": "Step Dimming of Lighting",
+    "fuel": "",
+    "base_measure": "stepControl",
+    "measure_schema": "",
+    "measure_type": "Lighting Controls",
+    "category": "",
+    "project_category": "Lighting",
+    "project_application": "",
+    "project_technology": ""
+  },
+  {
+    "displayName": "Replace Fan Impellor",
+    "fuel": "",
+    "base_measure": "changeImpellorSize",
+    "measure_schema": "",
+    "measure_type": "Fans",
+    "category": "",
+    "project_category": "Ventilation",
+    "project_application": "Fan",
+    "project_technology": ""
+  },
+  {
+    "displayName": "Change Fan Speed",
+    "fuel": "",
+    "base_measure": "changeFanSpeed",
+    "measure_schema": "",
+    "measure_type": "Fans",
+    "category": "",
+    "project_category": "Ventilation",
+    "project_application": "Fan",
+    "project_technology": ""
+  },
+  {
+    "displayName": "Change Fan Motor",
+    "fuel": "",
+    "base_measure": "changeFanMotor",
+    "measure_schema": "",
+    "measure_type": "Fans",
+    "category": "",
+    "project_category": "Ventilation",
+    "project_application": "Fan",
+    "project_technology": ""
+  },
+  {
+    "displayName": "Install Electronically Commutated Motor",
+    "fuel": "",
+    "base_measure": "installECM",
+    "measure_schema": "",
+    "measure_type": "Fans",
+    "category": "",
+    "project_category": "Process",
+    "project_application": "",
+    "project_technology": ""
+  },
+  {
+    "displayName": "Replace PTAC Units",
+    "fuel": "",
+    "base_measure": "replacePTAC",
+    "measure_schema": "",
+    "measure_type": "Packaged Units",
+    "category": "",
+    "project_category": "Heating & Cooling",
+    "project_application": "",
+    "project_technology": ""
+  },
+  {
+    "displayName": "Replace Heat Pump Units",
+    "fuel": "",
+    "base_measure": "replaceHeatPumpRTU",
+    "measure_schema": "",
+    "measure_type": "Packaged Units",
+    "category": "",
+    "project_category": "Heating & Cooling",
+    "project_application": "Heat Pump",
+    "project_technology": ""
+  },
+  {
+    "displayName": "Install Programmable Thermostat",
+    "fuel": "",
+    "base_measure": "programmableThermostats",
+    "measure_schema": "",
+    "measure_type": "HVAC",
+    "category": "",
+    "project_category": "Heating & Cooling",
+    "project_application": "HVAC Controls",
+    "project_technology": ""
+  },
+  {
+    "displayName": "Replace Pump Impellor",
+    "fuel": "",
+    "base_measure": "changePumpImpellorSize",
+    "measure_schema": "",
+    "measure_type": "Pumps",
+    "category": "",
+    "project_category": "Process",
+    "project_application": "Pump",
+    "project_technology": ""
+  },
+  {
+    "displayName": "Change Pump Speed",
+    "fuel": "",
+    "base_measure": "changePumpSpeed",
+    "measure_schema": "",
+    "measure_type": "Pumps",
+    "category": "",
+    "project_category": "Process",
+    "project_application": "Pump",
+    "project_technology": ""
+  },
+  {
+    "displayName": "Low Flow Faucet Water Savings",
+    "fuel": "",
+    "base_measure": "sinkLowFlowGallons",
+    "measure_schema": "",
+    "measure_type": "Water Fixtures",
+    "category": "",
+    "project_category": "Water Use",
+    "project_application": "Plumbing",
+    "project_technology": ""
+  },
+  {
+    "displayName": "Low Flow Faucets (Electric Water Heaters)",
+    "fuel": "",
+    "base_measure": "sinkLowFlowEnergy",
+    "measure_schema": "",
+    "measure_type": "Water Fixtures",
+    "category": "",
+    "project_category": "Water Heating",
+    "project_application": "",
+    "project_technology": ""
+  },
+  {
+    "displayName": "Low Flow Faucets (Gas Water Heaters)",
+    "fuel": "",
+    "base_measure": "sinkLowFlowEnergy",
+    "measure_schema": "",
+    "measure_type": "Water Fixtures",
+    "category": "",
+    "project_category": "Water Heating",
+    "project_application": "",
+    "project_technology": ""
+  },
+  {
+    "displayName": "Plug Load Reduction",
+    "fuel": "",
+    "base_measure": "loadReduction",
+    "measure_schema": "",
+    "measure_type": "Plug Loads",
+    "category": "",
+    "project_category": "Plug Load",
+    "project_application": "",
+    "project_technology": ""
+  },
+  {
+    "displayName": "Replace Electric Hot Water Heater",
+    "fuel": "",
+    "base_measure": "waterHeaterEfficiency",
+    "measure_schema": "",
+    "measure_type": "DHW",
+    "category": "",
+    "project_category": "Water Heating",
+    "project_application": "",
+    "project_technology": ""
+  },
+  {
+    "displayName": "Replace Gas Hot Water Heater",
+    "fuel": "",
+    "base_measure": "waterHeaterEfficiency",
+    "measure_schema": "",
+    "measure_type": "DHW",
+    "category": "",
+    "project_category": "Water Heating",
+    "project_application": "",
+    "project_technology": ""
+  },
+  {
+    "displayName": "Dry Bulb Economizer",
+    "fuel": "",
+    "base_measure": "dryBulbEconomizer",
+    "measure_schema": "",
+    "measure_type": "HVAC",
+    "category": "",
+    "project_category": "Heating & Cooling",
+    "project_application": "HVAC Controls",
+    "project_technology": ""
+  },
+  {
+    "displayName": "Replace PTAC UMP",
+    "fuel": "",
+    "base_measure": "replacePTACUMP",
+    "measure_schema": "",
+    "measure_type": "HVAC",
+    "category": "",
+    "project_category": "Heating & Cooling",
+    "project_application": "Heat Pump",
+    "project_technology": ""
+  },
+  {
+    "displayName": "Advanced Power Strip",
+    "fuel": "",
+    "base_measure": "advancedPowerStrip",
+    "measure_schema": "",
+    "measure_type": "Plug Loads",
+    "category": "",
+    "project_category": "Plug Load",
+    "project_application": "",
+    "project_technology": ""
+  },
+  {
+		"base_measure":"nveVFDPumps",
+		"project_category":"Process",
+		"project_application":"Pumps",
+		"project_technology":"VFD"
+	},
+	{
+		"base_measure":"customMeasureNVE",
+		"project_category":"Custom",
+		"project_application":"",
+		"project_technology":""
+	},
+	{
+		"base_measure":"nveVFD",
+		"project_category":"Ventilation",
+		"project_application":"",
+		"project_technology":""
+	},
+	{
+		"base_measure":"customControlsWithTimeReduction",
+		"project_category":"Custom",
+		"project_application":"",
+		"project_technology":""
+  },
+  {
+		"base_measure":"installOccupancySensors",
+		"project_category":"Lighting",
+		"project_application":"Lighting Controls",
+		"project_technology":""
+	},
+	{
+		"base_measure":"customMeasureWithTimeOfUseNVE",
+		"project_category":"Custom",
+		"project_application":"",
+		"project_technology":""
+	},
+	{
+		"base_measure":"advancedPOWERSTRIP",
+		"project_category":"Plug Load",
+		"project_application":"",
+		"project_technology":""
+	},
+	{
+		"base_measure":"installVFDPoolPump",
+		"project_category":"Process",
+		"project_application":"Pump",
+		"project_technology":"VFD"
+	},
+	{
+		"base_measure":"nveDRThermostats",
+		"project_category":"Heating & Cooling",
+		"project_application":"HVAC Controls",
+		"project_technology":""
+	},
+	{
+		"base_measure":"customMeasureWithProductionNVE",
+		"project_category":"Custom",
+		"project_application":"",
+		"project_technology":""
+	},
+	{
+		"base_measure":"nevadaWindowFilm",
+		"project_category":"Envelope",
+		"project_application":"Window",
+		"project_technology":""
+	}
+]

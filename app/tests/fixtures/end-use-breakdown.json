@@ -1,0 +1,188 @@
+{
+  "total_cost_proposed": {
+    "electric": 2490839.092858892,
+    "gas": 79.437010016
+  },
+  "eub_results": {
+    "end_uses": {
+      "Lighting": {
+        "estimated_consumption": 73905450.48174845,
+        "percentage": 99.73200851534952
+      },
+      "Process loads": {
+        "estimated_consumption": 0,
+        "percentage": 0
+      },
+      "Plug loads": {
+        "estimated_consumption": 0,
+        "percentage": 0
+      },
+      "Cooking": {
+        "estimated_consumption": 0,
+        "percentage": 0
+      },
+      "Space heating": {
+        "estimated_consumption": 0,
+        "percentage": 0
+      },
+      "Air distribution (fans)": {
+        "estimated_consumption": 0,
+        "percentage": 0
+      },
+      "Space cooling": {
+        "estimated_consumption": 0,
+        "percentage": 0
+      },
+      "SHW/DHW": {
+        "estimated_consumption": 198592.52503999998,
+        "percentage": 0.26799148465058475
+      }
+    },
+    "fuel_uses": {
+      "electric": {
+        "Lighting": {
+          "estimated_consumption": 21659470.372686017,
+          "percentage": 100
+        },
+        "Process loads": {
+          "estimated_consumption": 0,
+          "percentage": 0
+        },
+        "Plug loads": {
+          "estimated_consumption": 0,
+          "percentage": 0
+        },
+        "Cooking": {
+          "estimated_consumption": 0,
+          "percentage": 0
+        },
+        "Air distribution (fans)": {
+          "estimated_consumption": 0,
+          "percentage": 0
+        },
+        "Space cooling": {
+          "estimated_consumption": 0,
+          "percentage": 0
+        }
+      },
+      "gas": {
+        "Space heating": {
+          "estimated_consumption": 0,
+          "percentage": 0
+        },
+        "Cooking": {
+          "estimated_consumption": 0,
+          "percentage": 0
+        },
+        "SHW/DHW": {
+          "estimated_consumption": 1985.9252503999999,
+          "percentage": 100
+        }
+      }
+    }
+  },
+  "msg": "Baseline: Error during HVAC consumption calculation",
+  "total_ghg_proposed": {
+    "electric": 5154.6415699452855,
+    "gas": 10.559287651671974
+  },
+  "total_energy": {
+    "total_kbtu": 74104043.00678837,
+    "total_kwh": 21659470.372686017,
+    "total_therm": 1985.9252503999999
+  },
+  "msg_proposed": "Proposed: Error during HVAC consumption calculation",
+  "total_energy_proposed": {
+    "total_therm_proposed": 1985.9252503999999,
+    "total_kbtu_proposed": 74104043.00678837,
+    "total_kwh_proposed": 21659470.372686017
+  },
+  "eui_proposed": 9037.078415461996,
+  "total_ghg": {
+    "electric": 5154.6415699452855,
+    "gas": 10.559287651671974
+  },
+  "eui": 9037.078415461996,
+  "total_cost": {
+    "electric": 2490839.092858892,
+    "gas": 79.437010016
+  },
+  "eub_results_proposed": {
+    "end_uses": {
+      "Lighting": {
+        "estimated_consumption": 73905450.48174845,
+        "percentage": 99.73200851534952
+      },
+      "Process loads": {
+        "estimated_consumption": 0,
+        "percentage": 0
+      },
+      "Plug loads": {
+        "estimated_consumption": 0,
+        "percentage": 0
+      },
+      "Cooking": {
+        "estimated_consumption": 0,
+        "percentage": 0
+      },
+      "Space heating": {
+        "estimated_consumption": 0,
+        "percentage": 0
+      },
+      "Air distribution (fans)": {
+        "estimated_consumption": 0,
+        "percentage": 0
+      },
+      "Space cooling": {
+        "estimated_consumption": 0,
+        "percentage": 0
+      },
+      "SHW/DHW": {
+        "estimated_consumption": 198592.52503999998,
+        "percentage": 0.26799148465058475
+      }
+    },
+    "fuel_uses": {
+      "electric": {
+        "Lighting": {
+          "estimated_consumption": 21659470.372686017,
+          "percentage": 100
+        },
+        "Process loads": {
+          "estimated_consumption": 0,
+          "percentage": 0
+        },
+        "Plug loads": {
+          "estimated_consumption": 0,
+          "percentage": 0
+        },
+        "Cooking": {
+          "estimated_consumption": 0,
+          "percentage": 0
+        },
+        "Air distribution (fans)": {
+          "estimated_consumption": 0,
+          "percentage": 0
+        },
+        "Space cooling": {
+          "estimated_consumption": 0,
+          "percentage": 0
+        }
+      },
+      "gas": {
+        "Space heating": {
+          "estimated_consumption": 0,
+          "percentage": 0
+        },
+        "Cooking": {
+          "estimated_consumption": 0,
+          "percentage": 0
+        },
+        "SHW/DHW": {
+          "estimated_consumption": 1985.9252503999999,
+          "percentage": 100
+        }
+      }
+    }
+  }
+}

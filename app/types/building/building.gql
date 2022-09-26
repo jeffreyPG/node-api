@@ -1,0 +1,337 @@
+type Building {
+  _id: ID!
+  locations: [BuildingLocation]
+  constructions: [BuildingConstruction]
+  operations: [BuildingOperation]
+}
+
+enum ConditionRating {
+  EXCELLENT
+  GOOD
+  FAIR
+  POOR
+  VERY_POOR
+}
+
+type BuildingConstruction {
+  """
+  The id (objectID) is the resource identifier.
+  """
+  _id: ID!
+
+  """
+  The construction (Construction) is a reference to the construction.
+  """
+  construction: Construction
+
+  """
+  The application (application enum) denotes what the construction applies to.
+  """
+  application: Application
+
+  """
+  The comments (string) contain any additional information about the construction.
+  """
+  comments: String
+
+  """
+  The images ([string]) is a list of any images of the construction.
+  """
+  images: [String]
+
+  """
+  The materials (string) is an array of strings.
+  """
+  materials: [String]
+
+  """
+  The name (string) is the name of the construction.
+  """
+  name: String
+
+  """
+  The rvalue (string) is R-value for the construction.
+  """
+  rvalue: String
+  uvalue: String
+  createdAt: String
+  updatedAt: String
+  createdByUserId: BuildingConstructionUser
+}
+
+type BuildingConstructionUser {
+  name: String
+}
+
+input addBuildingConstructionInput {
+  building: ID!
+  construction: ID!
+  comments: String
+  images: [String]
+}
+
+input removeBuildingConstructionInput {
+  building: ID!
+  _id: ID!
+}
+
+input updateBuildingConstructionInput {
+  building: ID!
+  _id: ID!
+  construction: ID
+  comments: String
+  images: [String]
+}
+
+type BuildingOperation {
+  """
+  The id (objectID) is the resource identifier.
+  """
+  _id: ID!
+
+  """
+  The schedule (Schedule) is a reference to the schedule.
+  """
+  schedule: Schedule
+
+  """
+  The name (string) is the name of the schedule
+  """
+  name: String
+
+  """
+  The schedule type (ScheduleType enum) denotes what the type for schedule values.
+  """
+  scheduleType: ScheduleType
+
+  """
+  The monday ([DaySchedule]) contain any array of the values every hour on Monday
+  """
+  monday: [DaySchedule]
+
+  """
+  The tuesday ([DaySchedule]) contain any array of the values every hour on Tuesday
+  """
+  tuesday: [DaySchedule]
+
+  """
+  The wednesday ([DaySchedule]) contain any array of the values every hour on Wednesday
+  """
+  wednesday: [DaySchedule]
+
+  """
+  The thursday ([DaySchedule]) contain any array of the values every hour on Thursday
+  """
+  thursday: [DaySchedule]
+
+  """
+  The friday ([DaySchedule]) contain any array of the values every hour on Friday
+  """
+  friday: [DaySchedule]
+
+  """
+  The saturday ([DaySchedule]) contain any array of the values every hour on Saturday
+  """
+  saturday: [DaySchedule]
+
+  """
+  The sunday ([DaySchedule]) contain an array of the values every hour on Sunday
+  """
+  sunday: [DaySchedule]
+
+  """
+  The holiday ([DaySchedule]) contain an array of the values every hour on a Holiday
+  """
+  holiday: [DaySchedule]
+
+  """
+  The applicable holidays ([string]) are all of the holidays where the holiday schedule applies.
+  """
+  applicableHolidays: [String]
+
+  comments: String
+
+  """
+  The start date (string) is the date the schedule begins.
+  """
+  startDate: String
+
+  """
+  The end date (string) is the date the schedule ends
+  """
+  endDate: String
+
+  """
+  The name for schedule.
+  """
+  scheduleName: String
+
+  """
+  hours for weekly, annual and number of holidays
+  """
+  weeklyHours: Float
+  holidays: Int
+  annualHours: Float
+  equipmentIds: [ID]
+  createdAt: String
+  updatedAt: String
+  createdByUserId: BuildingOperationUser
+}
+
+type BuildingOperationUser {
+  name: String
+}
+
+input addBuildingOperationInput {
+  building: ID!
+  schedule: ID!
+  scheduleName: String
+  monday: [DayScheduleInput]
+  tuesday: [DayScheduleInput]
+  wednesday: [DayScheduleInput]
+  thursday: [DayScheduleInput]
+  friday: [DayScheduleInput]
+  saturday: [DayScheduleInput]
+  sunday: [DayScheduleInput]
+  holiday: [DayScheduleInput]
+  applicableHolidays: [String]
+  comments: String
+  startDate: String
+  endDate: String
+  weeklyHours: Float
+  holidays: Int
+  annualHours: Float
+  equipmentIds: [ID]
+}
+
+input removeBuildingOperationInput {
+  building: ID!
+  _id: ID!
+}
+
+input updateBuildingOperationInput {
+  building: ID!
+  _id: ID!
+  schedule: ID
+  scheduleName: String
+  monday: [DayScheduleInput]
+  tuesday: [DayScheduleInput]
+  wednesday: [DayScheduleInput]
+  thursday: [DayScheduleInput]
+  friday: [DayScheduleInput]
+  saturday: [DayScheduleInput]
+  sunday: [DayScheduleInput]
+  holiday: [DayScheduleInput]
+  applicableHolidays: [String]
+  comments: String
+  startDate: String
+  endDate: String
+  weeklyHours: Float
+  holidays: Int
+  annualHours: Float
+  equipmentIds: [ID]
+}
+
+type BuildingLocation {
+  _id: ID
+  location: Location
+  equipment: [BuildingEquipment]
+}
+
+input addBuildingLocationInput {
+  buildingId: ID!
+  usetype: String
+  spaceType: String
+  name: String
+  floor: Int
+  conditioning: String
+  user: String
+  area: Float
+  length: Float
+  width: Float
+  height: Float
+  equipment: [ID!]
+}
+
+input updateBuildingLocationInput {
+  _id: ID!
+  locationId: ID!
+  buildingId: ID!
+  usetype: String
+  spaceType: String
+  name: String
+  floor: Int
+  conditioning: String
+  user: String
+  area: Float
+  length: Float
+  width: Float
+  height: Float
+  equipment: [ID!]
+}
+
+input addBuildingLocationEquipmentInput {
+  locationId: ID!
+  buildingId: ID!
+  buildingEquipmentId: ID!
+}
+
+input removeBuildingLocationEquipmentInput {
+  locationId: ID!
+  buildingId: ID!
+  buildingEquipmentId: ID!
+}
+
+input removeBuildingLocationInput {
+  buildingId: ID!
+  _id: ID!
+  locationId: ID!
+}
+
+input AddBuildingLocationsInput {
+  buildingId: ID!
+  usetype: String!
+  namefrom: Int!
+  nameto: Int!
+  floor: Int
+  conditioning: String
+  user: String
+}
+
+input CopyBuildingLocationsInput {
+  buildingId: ID!
+  buildingLocationId: ID!
+  usetype: String
+  namefrom: Int!
+  nameto: Int!
+  floor: Int
+  conditioning: String
+  user: String
+}
+
+extend type Query {
+  building(id: ID!): Building!
+}
+
+extend type Mutation {
+  addBuildingConstruction(input: addBuildingConstructionInput!): Building!
+  removeBuildingConstruction(input: removeBuildingConstructionInput!): Building!
+  updateBuildingConstruction(input: updateBuildingConstructionInput!): Building!
+
+  addBuildingOperation(input: addBuildingOperationInput!): Building!
+  removeBuildingOperation(input: removeBuildingOperationInput!): Building!
+  updateBuildingOperation(input: updateBuildingOperationInput!): Building!
+
+  addBuildingLocationEquipment(
+    input: addBuildingLocationEquipmentInput!
+  ): BuildingLocation!
+  removeBuildingLocationEquipment(
+    input: removeBuildingLocationEquipmentInput!
+  ): BuildingLocation!
+
+  addBuildingLocation(input: addBuildingLocationInput!): Location!
+  updateBuildingLocation(input: updateBuildingLocationInput!): Location!
+  removeBuildingLocation(input: removeBuildingLocationInput!): Building!
+  addBuildingLocations(input: AddBuildingLocationsInput): Building!
+  copyBuildingLocations(input: CopyBuildingLocationsInput): Building!
+}

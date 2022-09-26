@@ -1,0 +1,90 @@
+[
+  {
+    "name": "Public Construction All Fields 1",
+    "comment": "Construction Comment",
+    "conditionRating": "Good - Condition Based Maintenance",
+    "rvalue": "22",
+    "materials": [
+      {
+        "Category": "Asbestos Cement Board",
+        "OpenStudio Type": "OS:Material",
+        "Typical Application": "Exterior Wall",
+        "Specific Heat": "1000",
+        "Density": "1900",
+        "Resistance": "0.010948276",
+        "Conductivity": "0.58",
+        "Thickness": "6.35",
+        "Name": "Asbestos-cement Board- 1/4 in."
+      },
+      {
+        "Category": "Batt and Blanket",
+        "OpenStudio Type": "OS:Material",
+        "Typical Application": "Exterior Wall",
+        "Specific Heat": "960",
+        "Density": "19",
+        "Resistance": "5.08",
+        "Conductivity": "0.05",
+        "Thickness": "254",
+        "Name": "Mineral Fiber Batt Insulation- 10 in."
+      }
+    ],
+    "type": "Interior Wall"
+  },
+  {
+    "name": "Public Construction All Fields 2",
+    "comment": "Construction Comment",
+    "conditionRating": "Good - Condition Based Maintenance",
+    "rvalue": "22",
+    "materials": [
+      {
+        "Category": "Asbestos Cement Board",
+        "OpenStudio Type": "OS:Material",
+        "Typical Application": "Exterior Wall",
+        "Specific Heat": "1000",
+        "Density": "1900",
+        "Resistance": "0.010948276",
+        "Conductivity": "0.58",
+        "Thickness": "6.35",
+        "Name": "Asbestos-cement Board- 1/4 in."
+      },
+      {
+        "Category": "Batt and Blanket",
+        "OpenStudio Type": "OS:Material",
+        "Typical Application": "Exterior Wall",
+        "Specific Heat": "960",
+        "Density": "19",
+        "Resistance": "5.08",
+        "Conductivity": "0.05",
+        "Thickness": "254",
+        "Name": "Mineral Fiber Batt Insulation- 10 in."
+      }
+    ],
+    "type": "Interior Wall"
+  },
+  {
+    "name": "Public Construction 1",
+    "comment": "Construction Comment",
+    "conditionRating": "Good - Condition Based Maintenance",
+    "materials": [
+      {
+        "Category": "Asbestos Cement Board",
+        "OpenStudio Type": "OS:Material",
+        "Typical Application": "Exterior Wall",
+        "Specific Heat": "1000",
+        "Density": "1900",
+        "Resistance": "0.010948276",
+        "Conductivity": "0.58",
+        "Thickness": "6.35",
+        "Name": "Asbestos-cement Board- 1/4 in."
+      }
+    ],
+    "type": "Interior Wall"
+  },
+  {
+    "name": "Public Construction 2",
+    "comment": "Construction Comment",
+    "conditionRating": "Good - Condition Based Maintenance",
+    "rvalue": "22",
+    "type": "Interior Wall"
+  }
+]

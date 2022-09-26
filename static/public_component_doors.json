@@ -1,0 +1,79 @@
+[
+  {
+   "name": "Public Door All Fields 1",
+   "comment": "Door Comment",
+   "conditionRating": "Good - Condition Based Maintenance",
+   "configuration": {
+     "vestibule": "No",
+     "exposure": "N",
+     "gapWidth": "23",
+     "gapLength": "22"
+   },
+   "data": {
+     "glazingType": "Single Tinted",
+     "frameType": "Aluminum",
+     "doorType": "Swinging",
+     "yearBuilt": "1984",
+     "model": "Door Model",
+     "manufacturer": "Door Manufacturer"
+   }
+  },
+  {
+   "name": "Public Door All Fields 2",
+   "comment": "Door Comment",
+   "conditionRating": "Good - Condition Based Maintenance",
+   "configuration": {
+     "vestibule": "No",
+     "exposure": "N",
+     "gapWidth": "23",
+     "gapLength": "22"
+   },
+   "data": {
+     "glazingType": "Single Tinted",
+     "frameType": "Aluminum",
+     "doorType": "Swinging",
+     "yearBuilt": "1984",
+     "model": "Door Model",
+     "manufacturer": "Door Manufacturer"
+   }
+  },
+  {
+   "name": "Public Door 1",
+   "comment": "Door Comment",
+   "conditionRating": "Good - Condition Based Maintenance",
+   "configuration": {
+     "vestibule": "No",
+     "exposure": "N",
+     "gapWidth": "23",
+     "gapLength": "22"
+   }
+  },
+   {
+    "name": "Public Door 2",
+    "comment": "Door Comment",
+    "conditionRating": "Good - Condition Based Maintenance",
+    "data": {
+      "glazingType": "Single Tinted",
+      "frameType": "Aluminum",
+      "doorType": "Swinging",
+      "yearBuilt": "1984",
+      "model": "Door Model",
+      "manufacturer": "Door Manufacturer"
+    }
+  },
+  {
+   "name": "Public Door 3",
+   "comment": "Door Comment",
+   "conditionRating": "Good - Condition Based Maintenance",
+   "configuration": {
+     "vestibule": "No",
+     "gapLength": "22"
+   },
+   "data": {
+     "glazingType": "Single Tinted",
+     "frameType": "Aluminum",
+     "model": "Door Model",
+     "manufacturer": "Door Manufacturer"
+   }
+  }
+]

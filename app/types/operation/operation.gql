@@ -1,0 +1,140 @@
+enum ScheduleType {
+  setpoint
+  operational
+}
+
+enum Period {
+  unoccupied
+  warmup
+  occupied
+  cooldown
+}
+
+type DaySchedule {
+  hour: Float!,
+  period: Period!,
+  value: Float!
+}
+
+"""A Schedule represents a building schedule schedule."""
+type Schedule {
+
+  """ The id (objectID) is the resource identifier. """
+  _id: ID!
+
+
+  """ The name (string) is the name of the schedule. """
+  name: String!
+
+
+  """ The schedule type (ScheduleType enum) denotes what the type for schedule values. """
+  scheduleType: ScheduleType
+
+
+  """ The monday ([DaySchedule]) contain any array of the values every hour on Monday"""
+  monday: [DaySchedule]
+
+
+  """ The tuesday ([DaySchedule]) contain any array of the values every hour on Tuesday"""
+  tuesday: [DaySchedule]
+
+
+  """ The wednesday ([DaySchedule]) contain any array of the values every hour on Wednesday """
+  wednesday: [DaySchedule]
+
+
+  """ The thursday ([DaySchedule]) contain any array of the values every hour on Thursday """
+  thursday: [DaySchedule]
+
+
+  """ The friday ([DaySchedule]) contain any array of the values every hour on Friday """
+  friday: [DaySchedule]
+
+
+  """ The saturday ([DaySchedule]) contain any array of the values every hour on Saturday """
+  saturday: [DaySchedule]
+
+
+  """ The sunday ([DaySchedule]) contain an array of the values every hour on Sunday"""
+  sunday: [DaySchedule]
+
+
+  """ The holiday ([DaySchedule]) contain an array of the values every hour on a Holiday"""
+  holiday: [DaySchedule]
+
+
+  """ The applicable holidays ([string]) are all of the holidays where the holiday schedule applies. """
+  applicableHolidays: [String]
+
+
+  """ The start date (string) is the date the schedule begins. """
+  startDate: String
+
+
+  """ The end date (string) is the date the schedule ends """
+  endDate: String
+}
+
+input DayScheduleInput {
+  hour: Float!,
+  period: Period!,
+  value: Float!
+}
+
+input FetchScheduleInput {
+  _id: ID!
+}
+
+input SearchSchedulesInput {
+  _ids: [ ID ]
+  name: String
+  scheduleType: String
+}
+
+input CreateScheduleInput {
+  name: String!
+  scheduleType: ScheduleType
+  monday: [DayScheduleInput]
+  tuesday: [DayScheduleInput]
+  wednesday: [DayScheduleInput]
+  thursday: [DayScheduleInput]
+  friday: [DayScheduleInput]
+  saturday: [DayScheduleInput]
+  sunday: [DayScheduleInput]
+  holiday: [DayScheduleInput]
+  applicableHolidays: [String]
+  startDate: String
+  endDate: String
+}
+
+input DeleteScheduleInput {
+  _id: ID!
+}
+
+input UpdateScheduleInput {
+  _id: ID!
+  name: String
+  scheduleType: ScheduleType
+  monday: [DayScheduleInput]
+  tuesday: [DayScheduleInput]
+  wednesday: [DayScheduleInput]
+  thursday: [DayScheduleInput]
+  friday: [DayScheduleInput]
+  saturday: [DayScheduleInput]
+  sunday: [DayScheduleInput]
+  holiday: [DayScheduleInput]
+  applicableHolidays: [String]
+  startDate: String
+  endDate: String
+}
+
+extend type Query {
+  schedule(schedule: FetchScheduleInput!): Schedule!
+  schedules(schedules: CreateScheduleInput, search: SearchInput): [Schedule]
+}
+
+extend type Mutation {
+  createSchedule(schedule: CreateScheduleInput): Schedule!
+  deleteSchedule(schedule: DeleteScheduleInput): Schedule!
+  updateSchedule(schedule: UpdateScheduleInput): Schedule!
+}

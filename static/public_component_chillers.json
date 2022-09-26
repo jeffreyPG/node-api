@@ -1,0 +1,135 @@
+[
+  {
+    "name": "Public Chiller All Fields 1",
+    "comment": "Chiller Comment",
+    "conditionRating": "Excellent - Plan Preventative Maintenance",
+    "info": {
+      "configurationData": {
+        "pipingInsulated": "Yes",
+        "insulationJacket": "Yes",
+        "condLWT": "31",
+        "condEWT": "30",
+        "condlowRateGpm": "29",
+        "evapLWT": "29",
+        "evapEWT": "28",
+        "evapFlowRateGpm": "27"
+      },
+      "data": {
+        "eerARIConditions": "25",
+        "ahriRatedCop": "25",
+        "capacityUnits": "Btuh",
+        "capacity": "24",
+        "refrigerantType": "134a",
+        "glycol": "23",
+        "fluidType": "Water",
+        "fuelType": "Electricity",
+        "compressorType": "Centrifugal",
+        "condenserType": "Air Cooled",
+        "model": "Chiller Model",
+        "valveType": "2-Way",
+        "yearBuilt": "1984",
+        "manufacturer": "Chiller Manufacturer"
+      }
+    },
+    "serialNumbers": [
+      {
+        "value": "22"
+      }
+    ]
+  },
+  {
+    "name": "Public Chiller All Fields 2",
+    "comment": "Chiller Comment",
+    "conditionRating": "Excellent - Plan Preventative Maintenance",
+    "info": {
+      "configurationData": {
+        "pipingInsulated": "Yes",
+        "insulationJacket": "Yes",
+        "condLWT": "31",
+        "condEWT": "30",
+        "condlowRateGpm": "29",
+        "evapLWT": "29",
+        "evapEWT": "28",
+        "evapFlowRateGpm": "27"
+      },
+      "data": {
+        "eerARIConditions": "25",
+        "ahriRatedCop": "25",
+        "capacityUnits": "Btuh",
+        "capacity": "24",
+        "refrigerantType": "134a",
+        "glycol": "23",
+        "fluidType": "Water",
+        "fuelType": "Electricity",
+        "compressorType": "Centrifugal",
+        "condenserType": "Air Cooled",
+        "model": "Chiller Model",
+        "valveType": "2-Way",
+        "yearBuilt": "1984",
+        "manufacturer": "Chiller Manufacturer"
+      }
+    },
+    "serialNumbers": [
+      {
+        "value": "22"
+      }
+    ]
+  },
+  {
+    "name": "Public Chiller 1",
+    "comment": "Chiller Comment",
+    "conditionRating": "Excellent - Plan Preventative Maintenance",
+    "info": {
+      "configurationData": {
+        "pipingInsulated": "Yes",
+        "insulationJacket": "Yes",
+        "condLWT": "31",
+        "evapEWT": "28",
+        "evapFlowRateGpm": "27"
+      },
+      "data": {
+        "eerARIConditions": "25",
+        "ahriRatedCop": "25",
+        "capacityUnits": "Btuh",
+        "capacity": "24",
+        "refrigerantType": "134a",
+        "glycol": "23",
+        "model": "Chiller Model",
+        "valveType": "2-Way",
+        "yearBuilt": "1984",
+        "manufacturer": "Chiller Manufacturer"
+      }
+    },
+    "serialNumbers": [
+      {
+        "value": "22"
+      }
+    ]
+  },
+  {
+    "name": "Public Chiller 2",
+    "comment": "Chiller Comment",
+    "conditionRating": "Excellent - Plan Preventative Maintenance",
+    "info": {
+      "configurationData": {
+        "pipingInsulated": "Yes",
+        "insulationJacket": "Yes",
+        "condLWT": "31",
+        "condEWT": "30",
+        "condlowRateGpm": "29",
+        "evapLWT": "29"
+      },
+      "data": {
+        "eerARIConditions": "25",
+        "ahriRatedCop": "25",
+        "capacityUnits": "Btuh",
+        "capacity": "24",
+        "refrigerantType": "134a",
+        "glycol": "23",
+        "fluidType": "Water",
+        "yearBuilt": "1984",
+        "manufacturer": "Chiller Manufacturer"
+      }
+    }
+  }
+]

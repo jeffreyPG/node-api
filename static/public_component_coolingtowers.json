@@ -1,0 +1,136 @@
+[
+  {
+    "name": "Public Cooling Tower All Fields 1",
+    "comment": "Cooling Tower Comment",
+    "conditionRating": "Excellent - Plan Preventative Maintenance",
+    "info": {
+      "configurationData": {
+        "externalInsulationJacket": "No",
+        "pipingInsulated": "Yes",
+        "noOfCells": "34",
+        "noOfBasins": "33",
+        "lwt": "32",
+        "ewt": "31",
+        "flowRate": "30",
+        "airFlowRate": "29",
+        "designRangeTemp": "28",
+        "designApproachTemp": "27",
+        "designInletAirWetBulbTemp": "26"
+      },
+      "data": {
+        "capacity": "25",
+        "glycol": "24",
+        "fluidType": "Water",
+        "basinHeater": "23",
+        "fluidCoolerType": "Air Cooled",
+        "fuelType": "Electricity",
+        "type": "Induced Draft",
+        "model": "Cooling Tower Model",
+        "yearBuilt": "1984",
+        "manufacturer": "Cooling Tower Manufacturer"
+      }
+    },
+    "serialNumbers": [
+      {
+        "value": "22"
+      }
+    ]
+  },
+  {
+    "name": "Public Cooling Tower All Fields 2",
+    "comment": "Cooling Tower Comment",
+    "conditionRating": "Excellent - Plan Preventative Maintenance",
+    "info": {
+      "configurationData": {
+        "externalInsulationJacket": "No",
+        "pipingInsulated": "Yes",
+        "noOfCells": "34",
+        "noOfBasins": "33",
+        "lwt": "32",
+        "ewt": "31",
+        "flowRate": "30",
+        "airFlowRate": "29",
+        "designRangeTemp": "28",
+        "designApproachTemp": "27",
+        "designInletAirWetBulbTemp": "26"
+      },
+      "data": {
+        "capacity": "25",
+        "glycol": "24",
+        "fluidType": "Water",
+        "basinHeater": "23",
+        "fluidCoolerType": "Air Cooled",
+        "fuelType": "Electricity",
+        "type": "Induced Draft",
+        "model": "Cooling Tower Model",
+        "yearBuilt": "1984",
+        "manufacturer": "Cooling Tower Manufacturer"
+      }
+    },
+    "serialNumbers": [
+      {
+        "value": "22"
+      }
+    ]
+  },
+  {
+    "name": "Public Cooling Tower 1",
+    "comment": "Cooling Tower Comment",
+    "conditionRating": "Excellent - Plan Preventative Maintenance",
+    "info": {
+      "configurationData": {
+        "externalInsulationJacket": "No",
+        "pipingInsulated": "Yes",
+        "noOfCells": "34",
+        "airFlowRate": "29",
+        "designRangeTemp": "28",
+        "designApproachTemp": "27",
+        "designInletAirWetBulbTemp": "26"
+      },
+      "data": {
+        "capacity": "25",
+        "glycol": "24",
+        "fluidType": "Water",
+        "basinHeater": "23",
+        "yearBuilt": "1984",
+        "manufacturer": "Cooling Tower Manufacturer"
+      }
+    },
+    "serialNumbers": [
+      {
+        "value": "22"
+      }
+    ]
+  },
+  {
+    "name": "Public Cooling Tower 2",
+    "comment": "Cooling Tower Comment",
+    "conditionRating": "Excellent - Plan Preventative Maintenance",
+    "info": {
+      "configurationData": {
+        "externalInsulationJacket": "No",
+        "pipingInsulated": "Yes",
+        "noOfCells": "34",
+        "noOfBasins": "33",
+        "lwt": "32",
+        "ewt": "31",
+        "flowRate": "30",
+        "airFlowRate": "29",
+        "designRangeTemp": "28"
+      },
+      "data": {
+        "fluidCoolerType": "Air Cooled",
+        "fuelType": "Electricity",
+        "type": "Induced Draft",
+        "model": "Cooling Tower Model",
+        "yearBuilt": "1984",
+        "manufacturer": "Cooling Tower Manufacturer"
+      }
+    },
+    "serialNumbers": [
+      {
+        "value": "22"
+      }
+    ]
+  }
+]

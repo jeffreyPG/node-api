@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Public Plug Load All Fields 1",
+    "comment": "Plug Load Comment",
+    "conditionRating": "Excellent - Plan Preventative Maintenance",
+    "plugLoadData": {
+      "energyStarRated": "true",
+      "standbyPower": "23",
+      "peakPower": "22",
+      "type": "Coffee Maker",
+      "yearBuilt": "1984",
+      "model": "Plug Load Model",
+      "manufacturer": "Plug Load Manufacturer"
+    }
+  },
+  {
+    "name": "Public Plug Load All Fields 2",
+    "comment": "Plug Load Comment",
+    "conditionRating": "Excellent - Plan Preventative Maintenance",
+    "plugLoadData": {
+      "energyStarRated": "true",
+      "standbyPower": "23",
+      "peakPower": "22",
+      "type": "Coffee Maker",
+      "yearBuilt": "1984",
+      "model": "Plug Load Model",
+      "manufacturer": "Plug Load Manufacturer"
+    }
+  },
+  {
+    "name": "Public Plug Load 1",
+    "comment": "Plug Load Comment",
+    "conditionRating": "Excellent - Plan Preventative Maintenance",
+    "plugLoadData": {
+      "energyStarRated": "true",
+      "standbyPower": "23",
+      "model": "Plug Load Model",
+      "manufacturer": "Plug Load Manufacturer"
+    }
+  },
+  {
+    "name": "Public Plug Load 2",
+    "comment": "Plug Load Comment",
+    "conditionRating": "Excellent - Plan Preventative Maintenance",
+    "plugLoadData": {
+      "model": "Plug Load Model",
+      "manufacturer": "Plug Load Manufacturer"
+    }
+  }
+]

@@ -1,0 +1,142 @@
+{% extends '../layout-report.server.view.html' %}
+
+{% block content %}
+
+{% if analysis %}
+<!-- Analysis - General Info -->
+<h1>Analysis</h1>
+<dl>
+  <dt>Created: </dt>
+    <dd>{{analysis.displayCreated}}</dd>
+  <dt>Last Updated: </dt>
+    <dd>{{analysis.displayUpdated}}</dd>
+  <dt>Revisions: </dt>
+    <dd>{{analysis.__v}}</dd>
+</dl>
+
+<!-- Analysis - Calibration -->
+<h3>Calibration</h3>
+<p>
+  <b>Calibraton ID:</b> {{analysis.meta.calibration.id}} <br>
+  <b>Project ID:</b> {{analysis.meta.calibration.project_id}}
+</p>
+
+<!-- Analysis - Project -->
+<h3>Project</h3>
+<p>
+  <b>ID:</b> {{analysis.meta.project.id}} <br>
+  <b>Name:</b> {{analysis.meta.project.name}} <br>
+  <b>Location:</b> {{analysis.meta.project.location || '-'}} <br>
+  <b>Size:</b> {{analysis.meta.project.size || '-'}}
+</p>
+
+<!-- Analysis - Measure Results -->
+  {% if ranMeasureResult.calculations.electric %}
+<h3>Analysis Measure Results - Electric</h3>
+<p>
+  <b>Total Consumption:</b> {{ranMeasureResult.calculations.electric.totalConsumption || '-'}} <br>
+  <b>Energy Use Intensity (EUI)</b> {{ranMeasureResult.calculations.electric.eui || '-'}}
+</p>
+  {% endif %}
+
+  {% if ranMeasureResult.calculations.gas %}
+<h3>Analysis Measure Results - Gas</h3>
+<p>
+  <b>Total Consumption:</b> {{ranMeasureResult.calculations.gas.totalConsumption || '-'}} <br>
+  <b>Energy Use Intensity (EUI)</b> {{ranMeasureResult.calculations.gas.eui || '-'}}
+</p>
+  {% endif %}
+
+{% endif %}
+
+<!-- Audit - General Info -->
+<h1>Audit {{name}} ({{createdDate}})</h1>
+<dl>
+  <dt>Levels: </dt>
+    <dd>{{levels.length || '0'}}</dd>
+  <dt>Spaces: </dt>
+    <dd>{{spaces.length || '0'}}</dd>
+  <dt>Zones: </dt>
+    <dd>{{zones.length || '0'}}</dd>
+</dl>
+
+<!-- Audit - Building Info -->
+<h3>Building Info</h3>
+<p>
+  <b>Building Type:</b> {{info.type.label}} <br>
+  <b>Year Built:</b> {{info.yearBuilt || '-'}}
+</p>
+<p>
+  <b>Address:</b> {{info.street || '-'}} <br>
+  <b>City:</b> {{info.city || '-'}} <br>
+  <b>State:</b> {{info.state || '-'}}
+</p>
+
+<p>____________________________________________________________</p>
+
+<!-- Audit - Level Info -->
+{% if levels.length %}
+  <h3>Level Info</h3>
+
+  <ol>
+  {% for level in levels %}
+    <li><b>{{level.name}}</b> | <i>Grade: {{level.info.grade.count}} {{level.info.grade.location}}</i></li>
+  {% endfor %}
+  </ol>
+
+  <p>____________________________________________________________</p>
+{% endif %}
+
+<!-- Audit - Space Info -->
+{% if spaces.length %}
+  <h3>Space Info</h3>
+
+  <ol>
+  {% for space in spaces %}
+    <li><b>{{space.name}}</b> | <i>{{space.info.label}} ({{space.info.buildingType.toUpperCase()}})</i></li>
+  {% endfor %}
+  </ol>
+
+  <p>____________________________________________________________</p>
+{% endif %}
+
+
+<!-- Audit - Zone Info -->
+{% if zones.length %}
+  <h3>Zone Info</h3>
+
+  <ol>
+  {% for zone in zones %}
+    <li><b>{{zone.name}}</b></li>
+  {% endfor %}
+  </ol>
+
+  <p>____________________________________________________________</p>
+{% endif %}
+
+<!-- Audit - Components Info -->
+
+{% for component in components %}
+  <h5>{{loop.key.toUpperCase()}} ({{components[loop.key].length}})</h5>
+  {% for item in components[loop.key] %}
+    <table>
+      <thead>
+        <tr>
+          <th>FIELD</th>
+          <th>VALUE</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for item in item.info %}
+        <tr>
+          <td>{{loop.key}}</td>
+          <td>{{JSON.stringify(item)}}</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+    <p>______________________________</p>
+  {% endfor %}
+{% endfor %}
+
+{% endblock %}

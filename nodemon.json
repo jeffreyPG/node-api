@@ -1,0 +1,34 @@
+{
+  "restartable": "rs",
+  "ignore": [
+    ".git",
+    "node_modules/**/node_modules",
+    "adapterfiles/**/**",
+    "adapterfiles",
+    "adapterfiles*/**/**",
+    "adapterfiles*",
+    "realm-object-server",
+    "dist"
+  ],
+  "verbose": true,
+  "execMap": {
+    "js": "node"
+  },
+  "runOnChangeOnly": false,
+  "watch": [
+    "src/**/*.js",
+    "config/**/*.js",
+    "app/views/**/*.*",
+    "*.js",
+    "app/**/*.js",
+    "app/**/**/*.js",
+    "app/types/**/*.gql",
+    "utils/*.js",
+    "utils/*.json"
+  ],
+  "env": {
+    "NODE_ENV": "development"
+  },
+  "ext": "js,json,gql"
+}
+

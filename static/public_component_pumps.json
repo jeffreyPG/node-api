@@ -1,0 +1,193 @@
+[
+  {
+    "name": "Public Pump All Fields 1",
+    "comment": "Pump Comment",
+    "conditionRating": "Excellent - Plan Preventative Maintenance",
+    "info": {
+      "configurationData": {
+        "pipingInsulated": "Yes",
+        "insulationJacket": "Yes",
+        "pumpAccessories": {
+          "items": {
+            "Throttling Valves": "true",
+            "Suction Diffusers": "true"
+          }
+        },
+        "driveType": "Belt",
+        "pumpsControlType": "Constant Volume",
+        "totalHead": "35",
+        "flowRateGpm": "34"
+      },
+      "motorData": {
+        "powerFactor": "33",
+        "amps": "32",
+        "phase": "31",
+        "volts": "30",
+        "efficiency": "29",
+        "synchronousSpeed": "28",
+        "speed": "27",
+        "ratedPower": "26",
+        "model": "Motor Model",
+        "yearBuilt": "1984",
+        "manufacturer": "Motor Manufacturer"
+      },
+      "data": {
+        "efficiency": "25",
+        "connectionType": "Flange",
+        "impellerSize": "24",
+        "stages": "Single-Stage",
+        "typePump": "Close-Coupled, End-Suction",
+        "model": "Pump Model",
+        "yearBuilt": "1984",
+        "manufacturer": "Pump Manufacturer"
+      }
+    },
+    "motorSerialNumbers": [
+      {
+        "value": "23"
+      }
+    ],
+    "serialNumbers": [
+      {
+        "value": "22"
+      }
+    ]
+  },
+  {
+    "name": "Public Pump All Fields 2",
+    "comment": "Pump Comment",
+    "conditionRating": "Excellent - Plan Preventative Maintenance",
+    "info": {
+      "configurationData": {
+        "pipingInsulated": "Yes",
+        "insulationJacket": "Yes",
+        "pumpAccessories": {
+          "items": {
+            "Throttling Valves": "true",
+            "Suction Diffusers": "true"
+          }
+        },
+        "driveType": "Belt",
+        "pumpsControlType": "Constant Volume",
+        "totalHead": "35",
+        "flowRateGpm": "34"
+      },
+      "motorData": {
+        "powerFactor": "33",
+        "amps": "32",
+        "phase": "31",
+        "volts": "30",
+        "efficiency": "29",
+        "synchronousSpeed": "28",
+        "speed": "27",
+        "ratedPower": "26",
+        "model": "Motor Model",
+        "yearBuilt": "1984",
+        "manufacturer": "Motor Manufacturer"
+      },
+      "data": {
+        "efficiency": "25",
+        "connectionType": "Flange",
+        "impellerSize": "24",
+        "stages": "Single-Stage",
+        "typePump": "Close-Coupled, End-Suction",
+        "model": "Pump Model",
+        "yearBuilt": "1984",
+        "manufacturer": "Pump Manufacturer"
+      }
+    },
+    "motorSerialNumbers": [
+      {
+        "value": "23"
+      }
+    ],
+    "serialNumbers": [
+      {
+        "value": "22"
+      }
+    ]
+  },
+  {
+    "name": "Public Pump 1",
+    "comment": "Pump Comment",
+    "conditionRating": "Excellent - Plan Preventative Maintenance",
+    "info": {
+      "configurationData": {
+        "pipingInsulated": "Yes",
+        "insulationJacket": "Yes",
+        "pumpAccessories": {
+          "items": {
+            "Throttling Valves": "true",
+            "Suction Diffusers": "true"
+          }
+        },
+        "driveType": "Belt",
+        "pumpsControlType": "Constant Volume",
+        "totalHead": "35",
+        "flowRateGpm": "34"
+      },
+      "motorData": {
+        "powerFactor": "33",
+        "amps": "32",
+        "phase": "31",
+        "model": "Motor Model",
+        "yearBuilt": "1984",
+        "manufacturer": "Motor Manufacturer"
+      },
+      "data": {
+        "efficiency": "25",
+        "yearBuilt": "1984",
+        "manufacturer": "Pump Manufacturer"
+      }
+    },
+    "motorSerialNumbers": [
+      {
+        "value": "23"
+      }
+    ],
+    "serialNumbers": [
+      {
+        "value": "22"
+      }
+    ]
+  },
+  {
+    "name": "Public Pump 2",
+    "comment": "Pump Comment",
+    "conditionRating": "Excellent - Plan Preventative Maintenance",
+    "info": {
+      "configurationData": {
+        "pipingInsulated": "Yes",
+        "insulationJacket": "Yes",
+        "pumpAccessories": {
+          "items": {
+            "Throttling Valves": "true",
+            "Suction Diffusers": "true"
+          }
+        },
+        "driveType": "Belt",
+        "pumpsControlType": "Constant Volume",
+        "flowRateGpm": "34"
+      },
+      "motorData": {
+        "efficiency": "29",
+        "synchronousSpeed": "28",
+        "speed": "27",
+        "ratedPower": "26",
+        "model": "Motor Model",
+        "yearBuilt": "1984",
+        "manufacturer": "Motor Manufacturer"
+      },
+      "data": {
+        "efficiency": "25",
+        "connectionType": "Flange",
+        "impellerSize": "24",
+        "stages": "Single-Stage",
+        "typePump": "Close-Coupled, End-Suction",
+        "model": "Pump Model",
+        "yearBuilt": "1984",
+        "manufacturer": "Pump Manufacturer"
+      }
+    }
+  }
+]

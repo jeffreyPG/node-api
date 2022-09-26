@@ -1,0 +1,85 @@
+[
+  {
+    "name": "Public Cold Water Fixture All Fields 1",
+    "comment": "Water Fixture Comment",
+    "conditionRating": "Excellent - Plan Preventative Maintenance",
+    "waterfixture": {
+      "Fixture Type": "Plumbing"
+    },
+    "ratedFlowRateUnits": "GPM",
+    "ratedFlowRate": "22",
+    "mixingType": "Cold Water"
+  },
+  {
+    "name": "Public Hot Water Fixture All Fields 1",
+    "comment": "Water Fixture Comment",
+    "conditionRating": "Excellent - Plan Preventative Maintenance",
+    "waterfixture": {
+      "Fixture Type": "Plumbing"
+    },
+    "ratedFlowRateUnits": "GPM",
+    "ratedFlowRate": "23",
+    "mixedHotWaterTemp": "22",
+    "mixingType": "Hot/Cold Water"
+  },
+  {
+    "name": "Public Cold Water Fixture All Fields 2",
+    "comment": "Water Fixture Comment",
+    "conditionRating": "Excellent - Plan Preventative Maintenance",
+    "waterfixture": {
+      "Fixture Type": "Plumbing"
+    },
+    "ratedFlowRateUnits": "GPM",
+    "ratedFlowRate": "22",
+    "mixingType": "Cold Water"
+  },
+  {
+    "name": "Public Hot Water Fixture All Fields 2",
+    "comment": "Water Fixture Comment",
+    "conditionRating": "Excellent - Plan Preventative Maintenance",
+    "waterfixture": {
+      "Fixture Type": "Plumbing"
+    },
+    "ratedFlowRateUnits": "GPM",
+    "ratedFlowRate": "23",
+    "mixedHotWaterTemp": "22",
+    "mixingType": "Hot/Cold Water"
+  },
+  {
+    "name": "Public Cold Water Fixture 1",
+    "comment": "Water Fixture Comment",
+    "conditionRating": "Excellent - Plan Preventative Maintenance",
+    "waterfixture": {
+      "Fixture Type": "Plumbing"
+    },
+    "mixingType": "Cold Water"
+  },
+  {
+    "name": "Public Hot Water Fixture 1",
+    "comment": "Water Fixture Comment",
+    "conditionRating": "Excellent - Plan Preventative Maintenance",
+    "waterfixture": {
+      "Fixture Type": "Plumbing"
+    },
+    "mixedHotWaterTemp": "22",
+    "mixingType": "Hot/Cold Water"
+  },
+  {
+    "name": "Public Cold Water Fixture 2",
+    "comment": "Water Fixture Comment",
+    "conditionRating": "Excellent - Plan Preventative Maintenance",
+    "waterfixture": {
+      "Fixture Type": "Plumbing"
+    },
+    "mixingType": "Cold Water"
+  },
+  {
+    "name": "Public Hot Water Fixture 2",
+    "comment": "Water Fixture Comment",
+    "conditionRating": "Excellent - Plan Preventative Maintenance",
+    "waterfixture": {
+      "Fixture Type": "Plumbing"
+    },
+    "mixingType": "Hot/Cold Water"
+  }
+]

@@ -1,0 +1,382 @@
+swagger: '2.0'
+info:
+  version: '1.0'
+  title: "buildee Public API"
+  description: The buildee Public API allows customers to create their own data integrations with the buildee platform.
+  license:
+    name: MIT
+    url: https://github.com/apiaryio/polls-api/blob/master/LICENSE
+host: app.buildee.com
+basePath: /api/v1/
+schemes:
+- https
+consumes:
+- application/json
+produces:
+- application/json
+paths:
+  /user/{userId}/organizations:
+    parameters:
+      - in: path
+        name: userId
+        type: string
+        required: true
+        description: User ID
+    x-summary: List User's Organizations
+    get:
+      summary: List All Buildings In Organization
+      responses:
+        200:
+          description: Successful Response
+  /organization/{organizationId}/user:
+    parameters:
+      - in: path
+        name: organizationId
+        type: string
+        required: true
+        description: Organization ID
+    x-summary: List Users in Organization
+    get:
+      summary: List All Users In Organization
+      responses:
+        200:
+          description: Successful Response
+  /organization/{organizationId}/building:
+    parameters:
+      - in: path
+        name: organizationId
+        type: string
+        required: true
+        description: Organization ID
+    x-summary: Create & List Buildings
+    get:
+      summary: List All Buildings In Organization
+      responses:
+        200:
+          description: Successful Response
+    post:
+      description: >-
+      summary: Create a Building
+      parameters:
+        - name: body
+          in: body
+          required: true
+          schema:
+            $ref: '#/definitions/Building'
+      responses:
+        200:
+          description: ''
+  /organization/{organizationId}/building/{buildingId}:
+    parameters:
+      - in: path
+        name: organizationId
+        type: string
+        required: true
+        description: Organization ID
+      - in: path
+        name: buildingId
+        type: string
+        required: true
+        description: Building ID
+    x-summary: Update Building
+    put:
+      summary: Update a building
+      description: >-
+        Only fields that are being updated are required
+      parameters:
+        - name: body
+          in: body
+          required: true
+          schema:
+            $ref: '#/definitions/Building'
+      responses:
+        200:
+          description: Successful Response
+  /building/{buildingId}/measure/custom:
+    x-summary: Create Custom Measure
+    parameters:
+      - in: path
+        name: buildingId
+        type: string
+        required: true
+        description: Building ID
+    put:
+      summary: Create Custom Measure
+      description: >-
+      parameters:
+        - name: body
+          in: body
+          required: true
+          schema: 
+            $ref: '#/definitions/CustomMeasure'
+      responses:
+        200:
+          description: Successful Response
+  /building/{buildingId}/measure/custom/{measureId}:
+    x-summary: Update Custom Measure
+    parameters:
+      - in: path
+        name: buildingId
+        type: string
+        required: true
+        description: Building ID
+      - in: path
+        name: measureId
+        type: string
+        required: true
+        description: Measure ID
+    put:
+      summary: Update Custom Measure
+      description: >-
+      parameters:
+        - name: body
+          in: body
+          required: true
+          schema: 
+            $ref: '#/definitions/CustomMeasure'
+      responses:
+        200:
+          description: Successful Response
+  /building/{buildingId}/projectPackage:
+    x-summary: Create Project
+    parameters:
+      - in: path
+        name: buildingId
+        type: string
+        required: true
+        description: Building ID
+    post:
+      summary: Create Project
+      description: >-
+      parameters:
+        - name: body
+          in: body
+          required: true
+          schema:
+            $ref: '#/definitions/Project'
+      responses:
+        200:
+          description: Successful Response
+  /equipment/categorizations:
+    x-summary: List Equipment Categorizations
+    get:
+      summary: List Equipment Categorizations
+      description: >-
+      responses:
+        200:
+          description: Successful Response
+definitions:
+  Building:
+    title: Building
+    type: object
+    properties:
+      buildingName:
+        type: string
+      buildYear:
+        type: integer
+        description: >-
+          4 digit year
+      squareFeet:
+        type: number
+      floorCount:
+        type: integer
+      location.address:
+        type: string
+      location.city:
+        type: string
+      location.zipCode:
+        type: string
+        description: >-
+          5 digit zipcode
+      location.state:
+        type: string
+        description: >-
+          USPS state abbreviation https://en.wikipedia.org/wiki/List_of_U.S._state_and_territory_abbreviations
+      buildingUse:
+        type: string
+        description: >-
+          Codified building name from this sheet https://docs.google.com/spreadsheets/d/1yMoA3xiSZolSX5nTiMhW8s6e0GDKXIsv0NKupVi50lo/edit?usp=sharing
+      open247:
+        type: string
+        enum:
+          - yes
+          - no
+      siteName:
+        type: string
+        description: Site name
+      clientName:
+        type: string
+        description: Client name
+      altCreatedByUserId:
+        type: string
+        description: >-
+          Alternative "created by" user ID. If none is provided, the authenticated user's ID will be used
+      nycFields.bin:
+        type: string
+        description: NYC BIN Number
+      nycFields.block:
+        type: string
+        description: NYC Block Number
+      nycFields.borough:
+        type: string
+        description: NYC Borough Number
+      nycFields.taxLot:
+        type: string
+        description: NYC Tax Lot Number
+      nycFields.historicBuilding:
+        type: string
+        description: NYC Historic Building
+        enum:
+          - yes
+          - no
+      nycFields.multiTenant:
+        type: string
+        description: NYC Multi-Tenant Building
+        enum:
+          - yes
+          - no
+      nycFields.percentLeased:
+        type: number
+        description: NYC Percent Leased
+      nycFields.percentOwned:
+        type: number
+        description: NYC Percent Owned
+      nycFields.sharedEnergySystemsOrMetersForMultipleBuildingsOnMultipleLots:
+        type: string
+        description: NYC Shared Energy Systems or Meters for Multiple Buildings on Multiple Lots
+        enum:
+          - yes
+          - no
+      nycFields.sharedEnergySystemsOrMetersForMultipleBuildingsOnSingleLot:
+        type: string
+        description: NYC Shared Energy Systems or Meters for Multiple Buildings on Single Lot
+        enum:
+          - yes
+          - no
+      nycFields.windowToWallRatio:
+        type: number
+        description: NYC Window to Wall Ratio
+  CustomMeasure:
+    title: Custom Measure
+    type: object
+    properties:
+      name:
+        type: string
+      description:
+        type: string
+      measureLife:
+        type: string
+        description: >-
+          Should be an integer passed as a string
+      incentive:
+        type: number
+      electric:
+        type: number
+        description: >-
+          Electricity savings (kWh)
+      demand:
+        type: number
+        description: >-
+          Electric demand savings (kW)
+      gas:
+        type: number
+        description: >-
+          Natural gas savings (therms)
+      steam:
+        type: number
+        description: >-
+          Steam savings (Mlb)
+      fueloil-2:
+        type: number
+        description: >-
+          Fuel oil #2 savings (gal)
+      fueloil-4:
+        type: number
+        description: >-
+          Fuel oil #4 savings (gal)
+      fueloil-5-6:
+        type: number
+        description: >-
+          Fuel oil #5 & #6 (gal)
+      propane:
+        type: number
+        description: >-
+          Propane savings (gal)
+      annualCostSavings:
+        type: number
+        description: >-
+          Annual cost savings ($)
+      simplePayback:
+        type: number
+        description: >-
+          Simple payback (years)
+      npv:
+        type: number
+        description: >-
+          NPV
+      sir:
+        type: number
+        description: >-
+          SIR
+      altCreatedByUserId:
+        type: string
+        description: >-
+          Alternative "created by" user ID. If none is provided, the authenticated user's ID will be used
+    required:
+      - name
+  Project:
+    title: Project
+    type: object
+    properties:
+      name:
+        type: string
+      description:
+        type: string
+      status:
+        type: string
+        enum:
+          - Identified
+          - Not Recommended
+          - Recommended
+          - Evaluated
+          - Selected
+          - Initiated
+          - Discarded
+          - In Progress
+          - On Hold
+          - Completed
+          - M&V
+          - Verified
+          - Unsatisfactory
+      constructionStatus:
+        type: string
+        enum:
+          - Conceptual design
+          - Schematic design
+          - Design development
+          - Construction administration
+          - Completed
+          - Occupancy
+      estimatedStartDate:
+        type: string
+        description: ISO 8601 timestamp
+      estimatedCompletionDate:
+        type: string
+        description: ISO 8601 timestamp
+      actualStartDate:
+        type: string
+        description: ISO 8601 timestamp
+      actualCompletionDate:
+        type: string
+        description: ISO 8601 timestamp
+      projects:
+        type: array
+        items:
+          description: Measure IDs
+          type: string
+      altCreatedByUserId:
+        type: string
+        description: >-
+          Alternative "created by" user ID. If none is provided, the authenticated user's ID will be used
+    required:
+      - name

@@ -1,0 +1,12 @@
+const PARTITION_KEYS = {
+    PUBLIC: 'PUBLIC',
+    USER: 'userId',
+    BUILDING_LIST: 'orgId',
+    BUILDING_EQUIPMENT_LIST: 'buildingId',
+    BUILDING_SYNC: 'BUILDING_SYNC',
+    ORGANIZATION_LIST: 'ORGANIZATION_LIST',
+}
+
+module.exports = {
+    PARTITION_KEYS
+}

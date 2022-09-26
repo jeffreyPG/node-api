@@ -1,0 +1,23 @@
+type Feature {
+  _id: ID!
+  name: String
+  enabled: Boolean
+}
+
+type FeatureUser {
+  feature: Feature
+  user: User
+}
+
+type User {
+  _id: ID!
+}
+
+input GetFeatureInput {
+  name: String!
+}
+
+extend type Query {
+  enabledFeatures: [Feature]
+  feature(feature: GetFeatureInput): Feature
+}

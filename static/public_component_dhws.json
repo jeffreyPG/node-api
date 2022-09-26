@@ -1,0 +1,116 @@
+[
+  {
+    "name": "Public Hot Water Heater All Fields 1",
+    "comment": "Hot Water Heater Comment",
+    "conditionRating": "Excellent - Plan Preventative Maintenance",
+    "info": {
+      "configurationData": {
+        "pipingInsulated": "Yes",
+        "insulationJacket": "Yes",
+        "steamPressure": "30",
+        "lwt": "29",
+        "ewt": "28"
+      },
+      "data": {
+        "turndownRatio": "27",
+        "combustionEfficiency": "26",
+        "thermalEfficiency": "25",
+        "storage": "24",
+        "unitsHeater": "Btu",
+        "inputCapacity": "23",
+        "fuelType": "Natural Gas",
+        "type": "Storage Water Heater",
+        "model": "Hot Water Heater Model",
+        "yearBuilt": "1984",
+        "manufacturer": "Hot Water Heater Manufacturer"
+      }
+    },
+    "serialNumbers": [
+      {
+        "value": "22"
+      }
+    ]
+  },
+  {
+    "name": "Public Hot Water Heater All Fields 2",
+    "comment": "Hot Water Heater Comment",
+    "conditionRating": "Excellent - Plan Preventative Maintenance",
+    "info": {
+      "configurationData": {
+        "pipingInsulated": "Yes",
+        "insulationJacket": "Yes",
+        "steamPressure": "30",
+        "lwt": "29",
+        "ewt": "28"
+      },
+      "data": {
+        "turndownRatio": "27",
+        "combustionEfficiency": "26",
+        "thermalEfficiency": "25",
+        "storage": "24",
+        "unitsHeater": "Btu",
+        "inputCapacity": "23",
+        "fuelType": "Natural Gas",
+        "type": "Storage Water Heater",
+        "model": "Hot Water Heater Model",
+        "yearBuilt": "1984",
+        "manufacturer": "Hot Water Heater Manufacturer"
+      }
+    },
+    "serialNumbers": [
+      {
+        "value": "22"
+      }
+    ]
+  },
+  {
+    "name": "Public Hot Water Heater 1",
+    "comment": "Hot Water Heater Comment",
+    "conditionRating": "Excellent - Plan Preventative Maintenance",
+    "info": {
+      "configurationData": {
+        "pipingInsulated": "Yes",
+        "insulationJacket": "Yes",
+        "ewt": "28"
+      },
+      "data": {
+        "turndownRatio": "27",
+        "combustionEfficiency": "26",
+        "type": "Storage Water Heater",
+        "model": "Hot Water Heater Model",
+        "yearBuilt": "1984",
+        "manufacturer": "Hot Water Heater Manufacturer"
+      }
+    },
+    "serialNumbers": [
+      {
+        "value": "22"
+      }
+    ]
+  },
+  {
+    "name": "Public Hot Water Heater 2",
+    "comment": "Hot Water Heater Comment",
+    "conditionRating": "Excellent - Plan Preventative Maintenance",
+    "info": {
+      "configurationData": {
+        "pipingInsulated": "Yes",
+        "insulationJacket": "Yes",
+        "steamPressure": "30",
+        "lwt": "29",
+        "ewt": "28"
+      },
+      "data": {
+        "fuelType": "Natural Gas",
+        "type": "Storage Water Heater",
+        "model": "Hot Water Heater Model",
+        "manufacturer": "Hot Water Heater Manufacturer"
+      }
+    },
+    "serialNumbers": [
+      {
+        "value": "22"
+      }
+    ]
+  }
+]

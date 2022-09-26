@@ -1,0 +1,143 @@
+type Measure {
+    _id: ID!
+    name: String
+    category: String
+    project_category: String
+    project_application: String
+    project_technology: String
+    applicable_building_types: [String]
+    displayName: String
+    description: String
+    fuel: String
+    source: String
+    fields: [MeasureField]
+    incentive: MeasureIncentive
+    eaAttachedTo: [String]
+    created: String
+}
+
+type MeasureField {
+  type: String
+  label:String
+  name: String
+  description:String
+  existing: Boolean
+  replacement: Boolean
+  options: [MeasureFieldOption]
+  firebase_input: String
+}
+
+type MeasureFieldOption {
+  label: String
+  value: String
+}
+
+type MeasureIncentive {
+  input_units: String
+  input_map: String
+  unit_rate: Int
+  incentive_type: String
+  design_requirements: String
+  existing_requirements: String
+  rebate_code: String
+  utility_company: String
+  state : [String]
+  input_description: String
+  input_label: String
+}
+
+input MeasureFieldInput {
+  type: String
+  label:String
+  name: String!
+  description:String
+  existing: Boolean
+  replacement: Boolean
+  options: [MeasureFieldOptionInput]
+  firebase_input: String
+}
+
+input MeasureFieldOptionInput {
+  label: String!
+  value: String
+}
+
+input MeasureIncentiveInput {
+  input_units: String
+  input_map: String
+  unit_rate: Int
+  incentive_type: String
+  design_requirements: String
+  existing_requirements: String
+  rebate_code: String
+  utility_company: String
+  state : [String]
+  input_description: String
+  input_label: String
+}
+
+input CreateMeasureInput {
+    name: String
+    category: String
+    project_category: String
+    project_application: String
+    project_technology: String
+    applicable_building_types: [String]
+    displayName: String
+    description: String
+    fuel: String
+    source: String
+    fields: [MeasureFieldInput]
+    incentive: MeasureIncentiveInput
+    eaAttachedTo: [String]
+    created: String
+}
+
+input FetchMeasureInput {
+    _id: ID!
+}
+
+input UpdateMeasureInput {
+    _id: ID!
+    name: String
+    category: String
+    project_category: String
+    project_application: String
+    project_technology: String
+    applicable_building_types: [String]
+    displayName: String
+    description: String
+    fuel: String
+    source: String
+    fields: [MeasureFieldInput]
+    incentive: MeasureIncentiveInput
+    eaAttachedTo: [String]
+    created: String
+}
+
+input DeleteMeasureInput {
+    _id: ID!
+}
+
+input SearchMeasureInput {
+    name: String
+    category: String
+    project_category: String
+    project_application: String
+    project_technology: String
+    displayName: String
+    description: String
+    fuel: String
+    source: String
+}
+
+extend type Query {
+    measure(measure: FetchMeasureInput): Measure!
+    measures(measure: SearchMeasureInput, search: SearchInput): [Measure]
+}
+
+extend type Mutation {
+    createMeasure(measure: CreateMeasureInput): Measure!
+    updateMeasure(measure: UpdateMeasureInput): Measure!
+    deleteMeasure(measure: DeleteMeasureInput): Measure!
+}

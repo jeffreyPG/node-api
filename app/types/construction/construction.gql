@@ -1,0 +1,92 @@
+enum Application {
+  WALL
+  ROOF
+  FOUNDATION
+  INTERIOR_FLOOR
+  EXTERIOR_FLOOR
+  WINDOW
+}
+
+"""
+A Construction represents a building construction object.
+"""
+type Construction {
+  """
+  The id (objectID) is the resource identifier.
+  """
+  _id: ID!
+
+  """
+  The application (application enum) denotes what the construction applies to.
+  """
+  application: Application
+
+  """
+  The name (string) is the name of the construction.
+  """
+  name: String!
+
+  fields: ConstructionFields
+  createdAt: String
+  updatedAt: String
+  archived: Boolean
+}
+
+type ConstructionFields {
+  """
+  The rvalue (string) is R-value for the construction.
+  """
+  rValue: ConstructionFieldFloat
+  uvalue: ConstructionFieldFloat
+}
+
+type ConstructionFieldFloat {
+  displayName: String
+  value: Float
+  display: Boolean
+}
+
+input FetchConstructionInput {
+  _id: ID!
+}
+
+input SearchConstructionsInput {
+  _ids: [ID]
+  name: String
+  application: String
+}
+
+input CreateConstructionInput {
+  application: Application
+  comments: String
+  image: [String]
+  materials: [String]
+  name: String!
+  rvalue: String
+  uvalue: String
+}
+
+input DeleteConstructionInput {
+  _id: ID!
+}
+
+input UpdateConstructionInput {
+  _id: ID
+  email: String
+  phone: String
+  username: String
+}
+
+extend type Query {
+  construction(construction: FetchConstructionInput!): Construction!
+  constructions(
+    constructions: SearchConstructionsInput
+    search: SearchInput
+  ): [Construction]
+}
+
+extend type Mutation {
+  createConstruction(construction: CreateConstructionInput): Construction!
+  deleteConstruction(construction: DeleteConstructionInput): Construction!
+  updateConstruction(construction: UpdateConstructionInput): Construction!
+}

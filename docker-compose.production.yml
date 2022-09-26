@@ -1,0 +1,96 @@
+version: "2"
+services:
+  web:
+    build:
+      context: ./nginx
+      dockerfile: Dockerfile-nginx
+    links:
+      - node-api
+    networks:
+      - mongo-cluster
+    ports:
+      - "443:443"
+      - "80:80"
+    environment:
+      - VIRTUAL_HOST=*
+      - VIRTUAL_HOST_WEIGHT=1
+    depends_on:
+      - node-api
+  mongo-middleware:
+    image: mongo:3.5
+    ports:
+      - "27017:27017"
+    volumes:
+      - ../mongo-data:/data/db
+      - ./mongodb-keyfile:/opt/keyfile/mongodb-keyfile
+    networks:
+      - mongo-cluster
+    environment:
+      - MONGODB_REPLICA_SET_MODE=primary
+      - MONGODB_ADVERTISED_HOSTNAME=mongo-middleware
+    command: [ "/usr/bin/mongod", "--auth", "--bind_ip_all", "--replSet", "rs0", "--keyFile", "/opt/keyfile/mongodb-keyfile" ]
+  mongo-node-1:
+    image: mongo:3.5
+    ports:
+      - "27018:27017"
+    volumes:
+      - ./mongodb-keyfile:/opt/keyfile/mongodb-keyfile
+    networks:
+      - mongo-cluster
+    environment:
+      - MONGODB_REPLICA_SET_MODE=secondary
+      - MONGODB_PRIMARY_HOST=mongo-middleware
+      - MONGODB_ADVERTISED_HOSTNAME=mongo-node-1
+    command: [ "/usr/bin/mongod", "--auth", "--bind_ip_all", "--replSet", "rs0", "--keyFile", "/opt/keyfile/mongodb-keyfile" ]
+  mongo-node-2:
+    image: mongo:3.5
+    ports:
+      - "27019:27017"
+    volumes:
+      - ./mongodb-keyfile:/opt/keyfile/mongodb-keyfile
+    networks:
+      - mongo-cluster
+    environment:
+      - MONGODB_REPLICA_SET_MODE=secondary
+      - MONGODB_PRIMARY_HOST=mongo-middleware
+      - MONGODB_ADVERTISED_HOSTNAME=mongo-node-2
+    command: [ "/usr/bin/mongod", "--auth", "--bind_ip_all", "--replSet", "rs0", "--keyFile", "/opt/keyfile/mongodb-keyfile" ]
+  mongo-arbiter:
+    image: mongo:3.5
+    volumes:
+      - ./mongodb-keyfile:/opt/keyfile/mongodb-keyfile
+    networks:
+      - mongo-cluster
+    environment:
+      - MONGODB_REPLICA_SET_MODE=arbiter
+      - MONGODB_PRIMARY_HOST=mongo-middleware
+    command: [ "/usr/bin/mongod", "--auth", "--bind_ip_all", "--replSet", "rs0", "--keyFile", "/opt/keyfile/mongodb-keyfile" ]
+  node-api:
+    image: node-api:latest
+    build: .
+    networks:
+      - mongo-cluster
+    ports:
+      - "8080:80"
+    env_file:
+      - .env
+    environment:
+      - VIRTUAL_HOST=*/api/*
+      - VIRTUAL_HOST_WEIGHT=3
+      - PORT=80
+      - HOST=http://localhost/api
+      - ROUTE_PREFIX=api/
+      - NODE_ENV=development
+    command: ../node_modules/.bin/nodemon ./server.js
+    volumes:
+      - .:/opt/node_app/app:delegated
+      - ./package.json:/opt/node_app/package.json
+      - ./yarn.lock:/opt/node_app/yarn.lock
+      - notused:/opt/node_app/app/node_modules
+
+volumes:
+  notused:
+
+networks:
+  mongo-cluster:
+    driver: bridge

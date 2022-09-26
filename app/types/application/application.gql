@@ -1,0 +1,9 @@
+type EquipmentApplication {
+  value: String
+  displayName: String
+}
+
+extend type Query {
+  application(id: ID!): EquipmentApplication
+  applications: [EquipmentApplication]
+}

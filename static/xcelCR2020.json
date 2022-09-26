@@ -1,0 +1,4341 @@
+{
+    "organizationId": "5e3b261f9b8c700032873346",
+    "userId": "5e3b261f9b8c700032873344",
+    "measures": [{
+            "name": "xcelPipeInsulation",
+            "displayName": "Pipe Insulation",
+            "description": "Deemed savings measure from Xcel Energy for pipe insulation measure.",
+            "fields": [{
+                    "type": "number",
+                    "label": "Linear feet of insulation installed",
+                    "name": "lf",
+                    "description": "Linear feet of insulation installed.",
+                    "default": "N/A"
+                },
+                {
+                    "type": "number",
+                    "label": "Average temperature of the fluid in the pipe receiving insulation in degrees F",
+                    "name": "t_fluid",
+                    "description": "Average temperature of the fluid in the pipe receiving insulation in degrees F.",
+                    "default": "N/A"
+                },
+                {
+                    "type": "select",
+                    "label": "Pipe Location (conditioned space or outside)",
+                    "name": "pipeLocation",
+                    "description": "Pipe is in a conditioned space or outside.",
+                    "default": "N/A",
+                    "options": [{
+                            "label": "Outside",
+                            "value": "outside"
+                        },
+                        {
+                            "label": "Inside",
+                            "value": "inside"
+                        }
+                    ]
+                },
+                {
+                    "type": "select",
+                    "label": "Pipe Use",
+                    "name": "pipeUse",
+                    "description": "Select if steam/hotwater is used for Space heating only or Domestic Water Heating Only.",
+                    "default": "N/A",
+                    "options": [{
+                            "label": "Space Heating",
+                            "value": "space-heating-only"
+                        },
+                        {
+                            "label": "Domestic Water Heating",
+                            "value": "domestic-water-heating-only"
+                        }
+                    ]
+                },
+                {
+                    "type": "select",
+                    "label": "Replacing existing pipe insulation (Yes) or Adding new insulation to existing bare pipe (No)",
+                    "name": "existingInsulationReplaced",
+                    "description": "Replacing existing deteriorated pipe insulation or Adding new insulation to existing bare pipe.",
+                    "default": "N/A",
+                    "options": [{
+                            "label": "Yes",
+                            "value": "yes"
+                        },
+                        {
+                            "label": "No",
+                            "value": "no"
+                        }
+                    ]
+                },
+                {
+                    "type": "select",
+                    "label": "Pipe Nominal Diameter (inches)",
+                    "name": "pipeDiameter",
+                    "description": "Pipe Nominal Diameter (inches)",
+                    "default": "N/A",
+                    "options": [{
+                            "label": "0.5",
+                            "value": "0.5"
+                        },
+                        {
+                            "label": "1",
+                            "value": "1"
+                        },
+                        {
+                            "label": "1.5",
+                            "value": "1.5"
+                        },
+                        {
+                            "label": "1.5",
+                            "value": "1.5"
+                        },
+                        {
+                            "label": "2.5",
+                            "value": "2.5"
+                        },
+                        {
+                            "label": "2.5",
+                            "value": "2.5"
+                        },
+                        {
+                            "label": "3.5",
+                            "value": "3.5"
+                        },
+                        {
+                            "label": "3.5",
+                            "value": "3.5"
+                        },
+                        {
+                            "label": "4.5",
+                            "value": "4.5"
+                        },
+                        {
+                            "label": "4.5",
+                            "value": "4.5"
+                        },
+                        {
+                            "label": "6",
+                            "value": "6"
+                        },
+                        {
+                            "label": "6",
+                            "value": "6"
+                        },
+                        {
+                            "label": "8",
+                            "value": "8"
+                        },
+                        {
+                            "label": "8",
+                            "value": "8"
+                        },
+                        {
+                            "label": "10",
+                            "value": "10"
+                        },
+                        {
+                            "label": "10",
+                            "value": "10"
+                        },
+                        {
+                            "label": "12",
+                            "value": "12"
+                        }
+                    ]
+                },
+                {
+                    "type": "select",
+                    "label": "Insulation Thickness (inches)",
+                    "name": "insulationThickness",
+                    "description": "Insulation Thickness (inches)",
+                    "default": "N/A",
+                    "options": [{
+                            "label": "0",
+                            "value": "0"
+                        },
+                        {
+                            "label": "0.5",
+                            "value": "0.5"
+                        },
+                        {
+                            "label": "1",
+                            "value": "1"
+                        },
+                        {
+                            "label": "1.5",
+                            "value": "1.5"
+                        },
+                        {
+                            "label": "2",
+                            "value": "2"
+                        },
+                        {
+                            "label": "2.5",
+                            "value": "2.5"
+                        },
+                        {
+                            "label": "3",
+                            "value": "3"
+                        },
+                        {
+                            "label": "3.5",
+                            "value": "3.5"
+                        },
+                        {
+                            "label": "4",
+                            "value": "4"
+                        },
+                        {
+                            "label": "4.5",
+                            "value": "4.5"
+                        },
+                        {
+                            "label": "5",
+                            "value": "5"
+                        },
+                        {
+                            "label": "5.5",
+                            "value": "5.5"
+                        },
+                        {
+                            "label": "6",
+                            "value": "6"
+                        }
+                    ]
+                }
+            ],
+            "projectId": "reciMSvuswl53WOEP",
+            "project_category": "Heating & Cooling",
+            "project_application": "Insulation",
+            "incentive": {
+                "input_label": null,
+                "input_description": null,
+                "state": [
+                    "CO"
+                ],
+                "utility_company": "Xcel Energy",
+                "rebate_code": null,
+                "product_code": null,
+                "rebate_cap": null,
+                "program_link": null,
+                "bonuses_available": null,
+                "bonus_comment": null,
+                "source_link": null,
+                "expiration": null,
+                "existing_requirements": "",
+                "design_requirements": "",
+                "incentive_type": "none",
+                "input_units": null
+            },
+            "category": "calculated",
+            "measureType": ""
+        },
+        {
+            "name": "xcelWaterHeaterNew",
+            "displayName": "New Water Heater",
+            "description": "Deemed savings measure from Xcel Energy for new water heater measure",
+            "fields": [{
+                    "type": "number",
+                    "label": "Rated Input Capacity of the hot water heater (Btu/hr)",
+                    "name": "inputCapacity",
+                    "description": "Rated BTUH input capacity of the hot water heater.",
+                    "default": "N/A"
+                },
+                {
+                    "type": "number",
+                    "label": "The rated efficiency of the new water heater",
+                    "name": "effh",
+                    "description": "The rated efficiency of the new water heater.",
+                    "default": "N/A"
+                }
+            ],
+            "projectId": "recZH7guFfu9Wkthn",
+            "project_category": "Water Heating",
+            "incentive": {
+                "input_label": null,
+                "input_description": null,
+                "state": [
+                    "CO"
+                ],
+                "utility_company": "Xcel Energy",
+                "rebate_code": null,
+                "product_code": null,
+                "rebate_cap": null,
+                "program_link": null,
+                "bonuses_available": null,
+                "bonus_comment": null,
+                "source_link": null,
+                "expiration": null,
+                "existing_requirements": "",
+                "design_requirements": "",
+                "incentive_type": "none",
+                "input_units": null
+            },
+            "category": "calculated",
+            "measureType": ""
+        },
+        {
+            "name": "xcelFurnaceNewHighEfficiency",
+            "displayName": "New Commercial Furnace",
+            "description": "Deemed savings measure from Xcel Energy for new commercial furnace measure.",
+            "fields": [{
+                "type": "number",
+                "label": "Rated Input Capacity of the new furnace (Btu/hr)",
+                "name": "inputCapacity",
+                "description": "Rated Input Capacity of the new furnace in Btu/hr.",
+                "default": "N/A"
+            }],
+            "projectId": "rec8igqjXD8Z3SVMC",
+            "project_category": "Heating",
+            "project_application": "Furnace",
+            "incentive": {
+                "input_label": null,
+                "input_description": null,
+                "state": [
+                    "CO"
+                ],
+                "utility_company": "Xcel Energy",
+                "rebate_code": null,
+                "product_code": null,
+                "rebate_cap": null,
+                "program_link": null,
+                "bonuses_available": null,
+                "bonus_comment": null,
+                "source_link": null,
+                "expiration": null,
+                "existing_requirements": "",
+                "design_requirements": "",
+                "incentive_type": "none",
+                "input_units": null
+            },
+            "category": "calculated",
+            "measureType": ""
+        },
+        {
+            "name": "xcelBoilerTuneUpSavings",
+            "displayName": "Boiler Tune Up",
+            "description": "Deemed savings measure from Xcel Energy for boiler tune up measure.",
+            "fields": [{
+                    "type": "number",
+                    "label": "Input capacity of boiler (MMBtu/hr)",
+                    "name": "inputCapacity",
+                    "description": "Rated million BTUH input capacity of the boiler.",
+                    "default": 0.2
+                },
+                {
+                    "type": "select",
+                    "label": "Boiler Type",
+                    "name": "boilerType",
+                    "description": "Type of replacement boiler",
+                    "default": "non-condensing",
+                    "options": [{
+                            "label": "Non-condensing boiler",
+                            "value": "non-condensing"
+                        },
+                        {
+                            "label": "Condensing boiler",
+                            "value": "condensing"
+                        }
+                    ]
+                },
+                {
+                    "type": "select",
+                    "label": "Boiler end use",
+                    "name": "usetype",
+                    "description": "General purpose of the boiler; space heating, water heating or both",
+                    "default": "space-heating",
+                    "options": [{
+                            "label": "Space heating only",
+                            "value": "space-heating-only"
+                        },
+                        {
+                            "label": "Domestic water heating only",
+                            "value": "domestic-hot-water-only"
+                        },
+                        {
+                            "label": "Space and domestic water heating",
+                            "value": "space-heating-and-domestic-hot-water"
+                        }
+                    ]
+                }
+            ],
+            "projectId": "recUVIKODancBsQXQ",
+            "project_category": "Heating",
+            "project_application": "Boiler",
+            "incentive": {
+                "input_label": null,
+                "input_description": null,
+                "state": [
+                    "CO"
+                ],
+                "utility_company": "Xcel Energy",
+                "rebate_code": null,
+                "product_code": null,
+                "rebate_cap": null,
+                "program_link": null,
+                "bonuses_available": null,
+                "bonus_comment": null,
+                "source_link": null,
+                "expiration": null,
+                "existing_requirements": "",
+                "design_requirements": "",
+                "incentive_type": "none",
+                "input_units": null
+            },
+            "category": "calculated",
+            "measureType": ""
+        },
+        {
+            "name": "xcelBoilerOutdoorAirReset",
+            "displayName": "Boiler Outdoor Air Reset",
+            "description": "Deemed savings measure from Xcel Energy for boiler outdoor air reset measure.",
+            "fields": [{
+                    "type": "number",
+                    "label": "Input capacity of boiler (MMBtu/hr)",
+                    "name": "inputCapacity",
+                    "description": "Rated million BTUH input capacity of the boiler.",
+                    "default": 0.2
+                },
+                {
+                    "type": "select",
+                    "label": "Boiler Type",
+                    "name": "boilerType",
+                    "description": "Type of replacement boiler",
+                    "default": "non-condensing",
+                    "options": [{
+                            "label": "Non-condensing boiler",
+                            "value": "non-condensing"
+                        },
+                        {
+                            "label": "Condensing boiler",
+                            "value": "condensing"
+                        }
+                    ]
+                },
+                {
+                    "type": "select",
+                    "label": "Boiler end use",
+                    "name": "usetype",
+                    "description": "General purpose of the boiler; space heating, water heating or both",
+                    "default": "space-heating",
+                    "options": [{
+                            "label": "Space heating only",
+                            "value": "space-heating-only"
+                        },
+                        {
+                            "label": "Domestic water heating only",
+                            "value": "domestic-hot-water-only"
+                        },
+                        {
+                            "label": "Space and domestic water heating",
+                            "value": "space-heating-and-domestic-hot-water"
+                        }
+                    ]
+                }
+            ],
+            "projectId": "recWPQFHJ71Eldy17",
+            "project_category": "Heating",
+            "project_application": "Boiler",
+            "incentive": {
+                "input_label": null,
+                "input_description": null,
+                "state": [
+                    "CO"
+                ],
+                "utility_company": "Xcel Energy",
+                "rebate_code": null,
+                "product_code": null,
+                "rebate_cap": null,
+                "program_link": null,
+                "bonuses_available": null,
+                "bonus_comment": null,
+                "source_link": null,
+                "expiration": null,
+                "existing_requirements": "",
+                "design_requirements": "",
+                "incentive_type": "none",
+                "input_units": null
+            },
+            "category": "calculated",
+            "measureType": ""
+        },
+        {
+            "name": "xcelBoilerO2TrimControl",
+            "displayName": "Boiler O2 Trim Control",
+            "description": "Deemed savings measure from Xcel Energy for boiler o2 trim control measure.",
+            "fields": [{
+                    "type": "number",
+                    "label": "Input capacity of boiler (MMBtu/hr)",
+                    "name": "inputCapacity",
+                    "description": "Rated million BTUH input capacity of the boiler.",
+                    "default": 0.2
+                },
+                {
+                    "type": "select",
+                    "label": "Boiler Type",
+                    "name": "boilerType",
+                    "description": "Type of replacement boiler",
+                    "default": "non-condensing",
+                    "options": [{
+                            "label": "Non-condensing boiler",
+                            "value": "non-condensing"
+                        },
+                        {
+                            "label": "Condensing boiler",
+                            "value": "condensing"
+                        }
+                    ]
+                },
+                {
+                    "type": "select",
+                    "label": "Boiler end use",
+                    "name": "usetype",
+                    "description": "General purpose of the boiler; space heating, water heating or both",
+                    "default": "space-heating",
+                    "options": [{
+                            "label": "Space heating only",
+                            "value": "space-heating-only"
+                        },
+                        {
+                            "label": "Domestic water heating only",
+                            "value": "domestic-hot-water-only"
+                        },
+                        {
+                            "label": "Space and domestic water heating",
+                            "value": "space-heating-and-domestic-hot-water"
+                        }
+                    ]
+                }
+            ],
+            "projectId": "recVrREe0eolAvbpu",
+            "project_category": "Heating",
+            "project_application": "Boiler",
+            "incentive": {
+                "input_label": null,
+                "input_description": null,
+                "state": [
+                    "CO"
+                ],
+                "utility_company": "Xcel Energy",
+                "rebate_code": null,
+                "product_code": null,
+                "rebate_cap": null,
+                "program_link": null,
+                "bonuses_available": null,
+                "bonus_comment": null,
+                "source_link": null,
+                "expiration": null,
+                "existing_requirements": "",
+                "design_requirements": "",
+                "incentive_type": "none",
+                "input_units": null
+            },
+            "category": "calculated",
+            "measureType": ""
+        },
+        {
+            "name": "xcelBoilerModulatingBurnerControl",
+            "displayName": "Boiler Modulating Burner Control",
+            "description": "Deemed savings measure from Xcel Energy for boiler modulating burner control measure.",
+            "fields": [{
+                    "type": "number",
+                    "label": "Input capacity of boiler (MMBtu/hr)",
+                    "name": "inputCapacity",
+                    "description": "Rated million BTUH input capacity of the boiler.",
+                    "default": 0.2
+                },
+                {
+                    "type": "select",
+                    "label": "Boiler Type",
+                    "name": "boilerType",
+                    "description": "Type of replacement boiler",
+                    "default": "non-condensing",
+                    "options": [{
+                            "label": "Non-condensing boiler",
+                            "value": "non-condensing"
+                        },
+                        {
+                            "label": "Condensing boiler",
+                            "value": "condensing"
+                        }
+                    ]
+                },
+                {
+                    "type": "select",
+                    "label": "Boiler end use",
+                    "name": "usetype",
+                    "description": "General purpose of the boiler; space heating, water heating or both",
+                    "default": "space-heating",
+                    "options": [{
+                            "label": "Space heating only",
+                            "value": "space-heating-only"
+                        },
+                        {
+                            "label": "Domestic water heating only",
+                            "value": "domestic-hot-water-only"
+                        },
+                        {
+                            "label": "Space and domestic water heating",
+                            "value": "space-heating-and-domestic-hot-water"
+                        }
+                    ]
+                }
+            ],
+            "projectId": "recuwoywDKLUXTeP1",
+            "project_category": "Heating",
+            "project_application": "Boiler",
+            "incentive": {
+                "input_label": null,
+                "input_description": null,
+                "state": [
+                    "CO"
+                ],
+                "utility_company": "Xcel Energy",
+                "rebate_code": null,
+                "product_code": null,
+                "rebate_cap": null,
+                "program_link": null,
+                "bonuses_available": null,
+                "bonus_comment": null,
+                "source_link": null,
+                "expiration": null,
+                "existing_requirements": "",
+                "design_requirements": "",
+                "incentive_type": "none",
+                "input_units": null
+            },
+            "category": "calculated",
+            "measureType": ""
+        },
+        {
+            "name": "xcelAntiSweatHeaterControls",
+            "displayName": "Anti-Sweat Heater Controls",
+            "description": "Deemed savings measure from Xcel Energy for anti-sweat heater controls measure.",
+            "fields": [{
+                    "type": "number",
+                    "label": "Number of doors being controlled",
+                    "name": "quantity",
+                    "description": "Number of doors being controlled.",
+                    "default": 1
+                },
+                {
+                    "type": "number",
+                    "label": "Coefficient of performance of compressor",
+                    "name": "cop",
+                    "description": "Coefficient of performance of compressor in medium and low temp applications.",
+                    "default": 2.28
+                },
+                {
+                    "type": "select",
+                    "label": "Anti-Sweat Heater Control Type",
+                    "name": "antiSweatHeaterControlType",
+                    "description": "Anti-Sweat Heater Controls",
+                    "default": "med-temp",
+                    "options": [{
+                            "label": "Medium Temp",
+                            "value": "med-temp"
+                        },
+                        {
+                            "label": "Low Temp",
+                            "value": "low-temp"
+                        }
+                    ]
+                }
+            ],
+            "projectId": "recw4anwiR2BOGzgp",
+            "project_category": "Refrigeration",
+            "project_application": "Refrigeration Controls",
+            "incentive": {
+                "input_label": null,
+                "input_description": null,
+                "state": [
+                    "CO"
+                ],
+                "utility_company": "Xcel Energy",
+                "rebate_code": null,
+                "product_code": null,
+                "rebate_cap": null,
+                "program_link": null,
+                "bonuses_available": null,
+                "bonus_comment": null,
+                "source_link": null,
+                "expiration": null,
+                "existing_requirements": "",
+                "design_requirements": "",
+                "incentive_type": "none",
+                "input_units": null
+            },
+            "category": "calculated",
+            "measureType": ""
+        },
+        {
+            "name": "xcelKitchenDCV",
+            "displayName": "Kitchen Demand Control Ventilation",
+            "description": "Deemed savings measure from Xcel Energy for kitchen demand control ventilation measure.",
+            "fields": [{
+                    "type": "number",
+                    "label": "Quantity of proposed equipment installed",
+                    "name": "quantity",
+                    "description": "Quantity of proposed equipment installed.",
+                    "default": 1
+                },
+                {
+                    "type": "number",
+                    "label": "Horsepower of proposed equipment installed",
+                    "name": "equipment_power",
+                    "description": "Horsepower of proposed equipment installed.",
+                    "default": "N/A"
+                }
+            ],
+            "projectId": "recrujgdGT8aFYNF3",
+            "project_category": "Ventilation",
+            "project_application": "Ventilation Controls",
+            "project_technology": "DCV",
+            "incentive": {
+                "input_label": null,
+                "input_description": null,
+                "state": [
+                    "CO"
+                ],
+                "utility_company": "Xcel Energy",
+                "rebate_code": null,
+                "product_code": null,
+                "rebate_cap": null,
+                "program_link": null,
+                "bonuses_available": null,
+                "bonus_comment": null,
+                "source_link": null,
+                "expiration": null,
+                "existing_requirements": "",
+                "design_requirements": "",
+                "incentive_type": "none",
+                "input_units": null
+            },
+            "category": "calculated",
+            "measureType": ""
+        },
+        {
+            "name": "xcelBoilerStackDamper",
+            "displayName": "Boiler Stack Damper",
+            "description": "Deemed savings measure from Xcel Energy for boiler stack damper measure.",
+            "fields": [{
+                    "type": "number",
+                    "label": "Input capacity of boiler (MMBtu/hr)",
+                    "name": "inputCapacity",
+                    "description": "Rated million BTUH input capacity of the boiler.",
+                    "default": 0.2
+                },
+                {
+                    "type": "select",
+                    "label": "Boiler Type",
+                    "name": "boilerType",
+                    "description": "Type of replacement boiler",
+                    "default": "non-condensing",
+                    "options": [{
+                            "label": "Non-condensing boiler",
+                            "value": "non-condensing"
+                        },
+                        {
+                            "label": "Condensing boiler",
+                            "value": "condensing"
+                        }
+                    ]
+                },
+                {
+                    "type": "select",
+                    "label": "Boiler end use",
+                    "name": "usetype",
+                    "description": "General purpose of the boiler; space heating, water heating or both",
+                    "default": "space-heating",
+                    "options": [{
+                            "label": "Space heating only",
+                            "value": "space-heating-only"
+                        },
+                        {
+                            "label": "Domestic water heating only",
+                            "value": "domestic-hot-water-only"
+                        },
+                        {
+                            "label": "Space and domestic water heating",
+                            "value": "space-heating-and-domestic-hot-water"
+                        }
+                    ]
+                }
+            ],
+            "projectId": "recKjo1cZa2Bfvm6u",
+            "project_category": "Heating",
+            "project_application": "Boiler",
+            "incentive": {
+                "input_label": null,
+                "input_description": null,
+                "state": [
+                    "CO"
+                ],
+                "utility_company": "Xcel Energy",
+                "rebate_code": null,
+                "product_code": null,
+                "rebate_cap": null,
+                "program_link": null,
+                "bonuses_available": null,
+                "bonus_comment": null,
+                "source_link": null,
+                "expiration": null,
+                "existing_requirements": "",
+                "design_requirements": "",
+                "incentive_type": "none",
+                "input_units": null
+            },
+            "category": "calculated",
+            "measureType": ""
+        },
+        {
+            "name": "xcelRefrigerationECMotors",
+            "displayName": "Commercial Refrigeration Electronically Commutated Motors",
+            "description": "Deemed savings measure from Xcel Energy for refrigeration EC motors measure.",
+            "fields": [{
+                    "type": "number",
+                    "label": "Quantity of proposed equipment installed",
+                    "name": "quantity",
+                    "description": "Quantity of proposed equipment installed.",
+                    "default": 1
+                },
+                {
+                    "type": "select",
+                    "label": "Motor Application",
+                    "name": "motor_application",
+                    "description": "EC Motors application types.",
+                    "default": "N/A",
+                    "options": [{
+                            "label": "EC Motors - Display Case Medium Temp",
+                            "value": "EC Motors - Display Case Medium Temp"
+                        },
+                        {
+                            "label": "EC Motors - Display Case Low Temp",
+                            "value": "EC Motors - Display Case Low Temp"
+                        },
+                        {
+                            "label": "EC Motors - walk in cooler Medium Temp up to 15 in",
+                            "value": "EC Motors - walk in cooler Medium Temp up to 15 in"
+                        },
+                        {
+                            "label": "EC Motors - walk in cooler Low Temp up to 15 in",
+                            "value": "EC Motors - walk in cooler Low Temp up to 15 in"
+                        },
+                        {
+                            "label": "EC Motors - walk in cooler Medium Temp over 15 in",
+                            "value": "EC Motors - walk in cooler Medium Temp over 15 in"
+                        },
+                        {
+                            "label": "EC Motors - walk in cooler Low Temp over 15 in",
+                            "value": "EC Motors - walk in cooler Low Temp over 15 in"
+                        }
+                    ]
+                }
+            ],
+            "projectId": "recLl0CeHlC5YHsKR",
+            "project_category": "Refrigeration",
+            "incentive": {
+                "input_label": null,
+                "input_description": null,
+                "state": [
+                    "CO"
+                ],
+                "utility_company": "Xcel Energy",
+                "rebate_code": null,
+                "product_code": null,
+                "rebate_cap": null,
+                "program_link": null,
+                "bonuses_available": null,
+                "bonus_comment": null,
+                "source_link": null,
+                "expiration": null,
+                "existing_requirements": "",
+                "design_requirements": "",
+                "incentive_type": "none",
+                "input_units": null
+            },
+            "category": "calculated",
+            "measureType": ""
+        },
+        {
+            "name": "xcelCompressedAirNoAirLossDrainSavings",
+            "displayName": "Compressed Air - No Air Loss Drain Savings",
+            "description": "Deemed savings measure from Xcel Energy for no air loss drain measure.",
+            "fields": [{
+                "type": "number",
+                "label": "Quantity of proposed equipment installed",
+                "name": "quantity",
+                "description": "Quantity of proposed equipment installed.",
+                "default": 1
+            }],
+            "projectId": "recyRQoaYDUgBpQkb",
+            "project_category": "Process",
+            "project_application": "Compressed Air",
+            "incentive": {
+                "input_label": null,
+                "input_description": null,
+                "state": [
+                    "CO"
+                ],
+                "utility_company": "Xcel Energy",
+                "rebate_code": null,
+                "product_code": null,
+                "rebate_cap": null,
+                "program_link": null,
+                "bonuses_available": null,
+                "bonus_comment": null,
+                "source_link": null,
+                "expiration": null,
+                "existing_requirements": "",
+                "design_requirements": "",
+                "incentive_type": "none",
+                "input_units": null
+            },
+            "category": "calculated",
+            "measureType": ""
+        },
+        {
+            "name": "xcelCompressedAirMistEliminatorsSavings",
+            "displayName": "Compressed Air - Mist Eliminators",
+            "description": "Deemed savings measure from Xcel Energy for mist eliminators measure.",
+            "fields": [{
+                    "type": "number",
+                    "label": "Quantity of proposed equipment installed",
+                    "name": "quantity",
+                    "description": "Quantity of proposed equipment installed.",
+                    "default": 1
+                },
+                {
+                    "type": "select",
+                    "label": "Select CFM Range",
+                    "name": "cfm",
+                    "description": "Rated CFM range of mist eliminator.",
+                    "default": "N/A",
+                    "options": [{
+                            "label": "500 CFM to 799 CFM",
+                            "value": "500 CFM to 799 CFM"
+                        },
+                        {
+                            "label": "800 CFM to 1099 CFM",
+                            "value": "800 CFM to 1099 CFM"
+                        },
+                        {
+                            "label": "1100 CFM to 1499 CFM",
+                            "value": "1100 CFM to 1499 CFM"
+                        },
+                        {
+                            "label": "1500 CFM to 1899 CFM",
+                            "value": "1500 CFM to 1899 CFM"
+                        },
+                        {
+                            "label": "1900 CFM to 2299 CFM",
+                            "value": "1900 CFM to 2299 CFM"
+                        }
+                    ]
+                }
+            ],
+            "projectId": "recKpG4rnhdxHWJrA",
+            "project_category": "Process",
+            "project_application": "Compressed Air",
+            "incentive": {
+                "input_label": null,
+                "input_description": null,
+                "state": [
+                    "CO"
+                ],
+                "utility_company": "Xcel Energy",
+                "rebate_code": null,
+                "product_code": null,
+                "rebate_cap": null,
+                "program_link": null,
+                "bonuses_available": null,
+                "bonus_comment": null,
+                "source_link": null,
+                "expiration": null,
+                "existing_requirements": "",
+                "design_requirements": "",
+                "incentive_type": "none",
+                "input_units": null
+            },
+            "category": "calculated",
+            "measureType": ""
+        },
+        {
+            "name": "xcelCompressedAirCyclingDryersSavings",
+            "displayName": "Compressed Air - Cycling Dryers",
+            "description": "Deemed savings measure from Xcel Energy for cycling dryers measure.",
+            "fields": [{
+                    "type": "number",
+                    "label": "Quantity of proposed equipment installed",
+                    "name": "quantity",
+                    "description": "Quantity of proposed equipment installed.",
+                    "default": 1
+                },
+                {
+                    "type": "select",
+                    "label": "Select CFM Range",
+                    "name": "cfm",
+                    "description": "Rated CFM range of cycling dryers.",
+                    "default": "N/A",
+                    "options": [{
+                            "label": "75 CFM to 99 CFM",
+                            "value": "75 CFM to 99 CFM"
+                        },
+                        {
+                            "label": "100 CFM to 124 CFM",
+                            "value": "100 CFM to 124 CFM"
+                        },
+                        {
+                            "label": "125 CFM to 149 CFM",
+                            "value": "125 CFM to 149 CFM"
+                        },
+                        {
+                            "label": "150 CFM to 199 CFM",
+                            "value": "150 CFM to 199 CFM"
+                        },
+                        {
+                            "label": "200 CFM to 249 CFM",
+                            "value": "200 CFM to 249 CFM"
+                        },
+                        {
+                            "label": "250 CFM to 299 CFM",
+                            "value": "250 CFM to 299 CFM"
+                        },
+                        {
+                            "label": "300 CFM to 399 CFM",
+                            "value": "300 CFM to 399 CFM"
+                        },
+                        {
+                            "label": "400 CFM to 499 CFM",
+                            "value": "400 CFM to 499 CFM"
+                        },
+                        {
+                            "label": "500 CFM to 599 CFM",
+                            "value": "500 CFM to 599 CFM"
+                        },
+                        {
+                            "label": "600 CFM to 699 CFM",
+                            "value": "600 CFM to 699 CFM"
+                        },
+                        {
+                            "label": "700 CFM to 799 CFM",
+                            "value": "700 CFM to 799 CFM"
+                        },
+                        {
+                            "label": "800 CFM to 999 CFM",
+                            "value": "800 CFM to 999 CFM"
+                        },
+                        {
+                            "label": "1000 CFM to 1199 CFM",
+                            "value": "1000 CFM to 1199 CFM"
+                        },
+                        {
+                            "label": "1200 CFM to 1599 CFM",
+                            "value": "1200 CFM to 1599 CFM"
+                        },
+                        {
+                            "label": "1600 CFM to 1999 CFM",
+                            "value": "1600 CFM to 1999 CFM"
+                        },
+                        {
+                            "label": "2000 CFM to 2399 CFM",
+                            "value": "2000 CFM to 2399 CFM"
+                        },
+                        {
+                            "label": "2400 CFM to 2799 CFM",
+                            "value": "2400 CFM to 2799 CFM"
+                        }
+                    ]
+                }
+            ],
+            "projectId": "recgw07JauN618j9Q",
+            "project_category": "Process",
+            "project_application": "Compressed Air",
+            "incentive": {
+                "input_label": null,
+                "input_description": null,
+                "state": [
+                    "CO"
+                ],
+                "utility_company": "Xcel Energy",
+                "rebate_code": null,
+                "product_code": null,
+                "rebate_cap": null,
+                "program_link": null,
+                "bonuses_available": null,
+                "bonus_comment": null,
+                "source_link": null,
+                "expiration": null,
+                "existing_requirements": "",
+                "design_requirements": "",
+                "incentive_type": "none",
+                "input_units": null
+            },
+            "category": "calculated",
+            "measureType": ""
+        },
+        {
+            "name": "xcelCompressedAirDewPointControlsSavings",
+            "displayName": "Compressed Air - Dew Point Control",
+            "description": "Deemed savings measure from Xcel Energy for dew point control measure.",
+            "fields": [{
+                    "type": "number",
+                    "label": "Quantity of proposed equipment installed",
+                    "name": "quantity",
+                    "description": "Quantity of proposed equipment installed.",
+                    "default": 1
+                },
+                {
+                    "type": "select",
+                    "label": "Select CFM Range",
+                    "name": "cfm",
+                    "description": "Rated CFM range of dryer.",
+                    "default": "N/A",
+                    "options": [{
+                            "label": "90 CFM to 119 CFM",
+                            "value": "90 CFM to 119 CFM"
+                        },
+                        {
+                            "label": "120 CFM to 159 CFM",
+                            "value": "120 CFM to 159 CFM"
+                        },
+                        {
+                            "label": "160 CFM to 199 CFM",
+                            "value": "160 CFM to 199 CFM"
+                        },
+                        {
+                            "label": "200 CFM to 249 CFM",
+                            "value": "200 CFM to 249 CFM"
+                        },
+                        {
+                            "label": "250 CFM to 299 CFM",
+                            "value": "250 CFM to 299 CFM"
+                        },
+                        {
+                            "label": "300 CFM to 399 CFM",
+                            "value": "300 CFM to 399 CFM"
+                        },
+                        {
+                            "label": "400 CFM to 499 CFM",
+                            "value": "400 CFM to 499 CFM"
+                        },
+                        {
+                            "label": "500 CFM to 599 CFM",
+                            "value": "500 CFM to 599 CFM"
+                        },
+                        {
+                            "label": "600 CFM to 799 CFM",
+                            "value": "600 CFM to 799 CFM"
+                        },
+                        {
+                            "label": "800 CFM to 999 CFM",
+                            "value": "800 CFM to 999 CFM"
+                        },
+                        {
+                            "label": "1000 CFM to 1249 CFM",
+                            "value": "1000 CFM to 1249 CFM"
+                        },
+                        {
+                            "label": "1250 CFM to 1499 CFM",
+                            "value": "1250 CFM to 1499 CFM"
+                        },
+                        {
+                            "label": "1500 CFM to 1999 CFM",
+                            "value": "1500 CFM to 1999 CFM"
+                        },
+                        {
+                            "label": "2000 CFM to 2499 CFM",
+                            "value": "2000 CFM to 2499 CFM"
+                        }
+                    ]
+                }
+            ],
+            "projectId": "recFXtN1x69joBhKU",
+            "project_category": "Process",
+            "project_application": "Compressed Air",
+            "incentive": {
+                "input_label": null,
+                "input_description": null,
+                "state": [
+                    "CO"
+                ],
+                "utility_company": "Xcel Energy",
+                "rebate_code": null,
+                "product_code": null,
+                "rebate_cap": null,
+                "program_link": null,
+                "bonuses_available": null,
+                "bonus_comment": null,
+                "source_link": null,
+                "expiration": null,
+                "existing_requirements": "",
+                "design_requirements": "",
+                "incentive_type": "none",
+                "input_units": null
+            },
+            "category": "calculated",
+            "measureType": ""
+        },
+        {
+            "name": "xcelRefrigerationCoilTuneUp",
+            "displayName": "Commercial Refrigeration Coil Cleaning Tune-up",
+            "description": "Deemed savings measure from Xcel Energy for coil cleaning tune-up measure.",
+            "fields": [{
+                    "type": "number",
+                    "label": "Quantity of proposed equipment installed",
+                    "name": "quantity",
+                    "description": "Quantity of proposed equipment installed.",
+                    "default": 1
+                },
+                {
+                    "type": "select",
+                    "label": "Coil Equipment Type",
+                    "name": "equipType",
+                    "description": "Coil Equipment Type. Select between Freezer or Refrigerator.",
+                    "default": "N/A",
+                    "options": [{
+                            "label": "Freezer",
+                            "value": "Freezer"
+                        },
+                        {
+                            "label": "Refrigerator",
+                            "value": "Refrigerator"
+                        }
+                    ]
+                }
+            ],
+            "projectId": "recjcguZnDs2ni26t",
+            "project_category": "Refrigeration",
+            "incentive": {
+                "input_label": null,
+                "input_description": null,
+                "state": [
+                    "CO"
+                ],
+                "utility_company": "Xcel Energy",
+                "rebate_code": null,
+                "product_code": null,
+                "rebate_cap": null,
+                "program_link": null,
+                "bonuses_available": null,
+                "bonus_comment": null,
+                "source_link": null,
+                "expiration": null,
+                "existing_requirements": "",
+                "design_requirements": "",
+                "incentive_type": "none",
+                "input_units": null
+            },
+            "category": "calculated",
+            "measureType": ""
+        },
+        {
+            "name": "xcelBoilerNewHighEfficiency",
+            "displayName": "New High Efficiency Boiler",
+            "description": "Deemed savings measure from Xcel Energy for new high efficiency boiler.",
+            "fields": [{
+                    "type": "number",
+                    "label": "Input capacity of boiler (MMBtu/hr)",
+                    "name": "inputCapacity",
+                    "description": "Rated million BTUH input capacity of the boiler.",
+                    "default": 0.2
+                },
+                {
+                    "type": "select",
+                    "label": "Boiler Type",
+                    "name": "boilerType",
+                    "description": "Type of replacement boiler",
+                    "default": "non-condensing",
+                    "options": [{
+                            "label": "Non-condensing boiler",
+                            "value": "non-condensing"
+                        },
+                        {
+                            "label": "Condensing boiler",
+                            "value": "condensing"
+                        }
+                    ]
+                },
+                {
+                    "type": "select",
+                    "label": "Boiler end use",
+                    "name": "usetype",
+                    "description": "General purpose of the boiler; space heating, water heating or both",
+                    "default": "space-heating",
+                    "options": [{
+                            "label": "Space heating only",
+                            "value": "space-heating-only"
+                        },
+                        {
+                            "label": "Domestic water heating only",
+                            "value": "domestic-hot-water-only"
+                        },
+                        {
+                            "label": "Space and domestic water heating",
+                            "value": "space-heating-and-domestic-hot-water"
+                        }
+                    ]
+                }
+            ],
+            "projectId": "recaMvv5HTk6VkcWd",
+            "project_category": "Heating",
+            "project_application": "Boiler",
+            "incentive": {
+                "input_label": null,
+                "input_description": null,
+                "state": [
+                    "CO"
+                ],
+                "utility_company": "Xcel Energy",
+                "rebate_code": null,
+                "product_code": null,
+                "rebate_cap": null,
+                "program_link": null,
+                "bonuses_available": null,
+                "bonus_comment": null,
+                "source_link": null,
+                "expiration": null,
+                "existing_requirements": "",
+                "design_requirements": "",
+                "incentive_type": "none",
+                "input_units": null
+            },
+            "category": "calculated",
+            "measureType": ""
+        },
+        {
+            "name": "xcelRefrigerationCaseDoors",
+            "displayName": "Commercial Refrigeration Open to Closed Refrigerated Case",
+            "description": "Deemed savings measure from Xcel Energy for refrigeration open to closed refrigerated case.",
+            "fields": [{
+                    "type": "number",
+                    "label": "Quantity of proposed equipment installed",
+                    "name": "quantity",
+                    "description": "Quantity of proposed equipment installed.",
+                    "default": 1
+                },
+                {
+                    "type": "select",
+                    "label": "Case Type",
+                    "name": "caseType",
+                    "description": "Select case type between freezer and cooler.",
+                    "default": "N/A",
+                    "options": [{
+                            "label": "Freezer",
+                            "value": "Freezer"
+                        },
+                        {
+                            "label": "Cooler",
+                            "value": "Cooler"
+                        }
+                    ]
+                }
+            ],
+            "projectId": "rec2zRwK7YN4PmuU8",
+            "project_category": "Refrigeration",
+            "incentive": {
+                "input_label": null,
+                "input_description": null,
+                "state": [
+                    "CO"
+                ],
+                "utility_company": "Xcel Energy",
+                "rebate_code": null,
+                "product_code": null,
+                "rebate_cap": null,
+                "program_link": null,
+                "bonuses_available": null,
+                "bonus_comment": null,
+                "source_link": null,
+                "expiration": null,
+                "existing_requirements": "",
+                "design_requirements": "",
+                "incentive_type": "none",
+                "input_units": null
+            },
+            "category": "calculated",
+            "measureType": ""
+        },
+        {
+            "name": "xcelRefrigerationNoHeatCaseDoors",
+            "displayName": "Commercial Refrigeration No Heat Case Doors",
+            "description": "Deemed savings measure from Xcel Energy for no heat case doors.",
+            "fields": [{
+                    "type": "number",
+                    "label": "Linear feet of equipment installed",
+                    "name": "linear_feet",
+                    "description": "Linear feet of equipment installed.",
+                    "default": "N/A"
+                },
+                {
+                    "type": "select",
+                    "label": "Case Type",
+                    "name": "caseType",
+                    "description": "Select case type between freezer and cooler.",
+                    "default": "N/A",
+                    "options": [{
+                            "label": "Freezer",
+                            "value": "Freezer"
+                        },
+                        {
+                            "label": "Cooler",
+                            "value": "Cooler"
+                        }
+                    ]
+                }
+            ],
+            "projectId": "recfHfvUoVQe1Lgu9",
+            "project_category": "Refrigeration",
+            "incentive": {
+                "input_label": null,
+                "input_description": null,
+                "state": [
+                    "CO"
+                ],
+                "utility_company": "Xcel Energy",
+                "rebate_code": null,
+                "product_code": null,
+                "rebate_cap": null,
+                "program_link": null,
+                "bonuses_available": null,
+                "bonus_comment": null,
+                "source_link": null,
+                "expiration": null,
+                "existing_requirements": "",
+                "design_requirements": "",
+                "incentive_type": "none",
+                "input_units": null
+            },
+            "category": "calculated",
+            "measureType": ""
+        },
+        {
+            "name": "xcelWaterOrAirCooledChillers",
+            "displayName": "Replacement of Water or Air Cooled Chillers",
+            "description": "Deemed savings measure from Xcel Energy for replacement of water or air cooled chillers.",
+            "fields": [{
+                    "type": "number",
+                    "label": "Quantity of proposed equipment installed",
+                    "name": "quantity",
+                    "description": "Quantity of proposed equipment installed.",
+                    "default": 1
+                },
+                {
+                    "type": "number",
+                    "label": "Equipment capacity (in tons)",
+                    "name": "size",
+                    "description": "The equipment capacity in tons.",
+                    "default": "N/A"
+                },
+                {
+                    "type": "number",
+                    "label": "Integrated Part Load Value (IPLV) cooling efficiency of High Efficiency equipment (in kW/ton)",
+                    "name": "iplv_eff",
+                    "description": "Integrated Part Load Value (representing the average efficiency over a range of loaded states) cooling efficiency in kW/ton of High Efficiency equipment, provided by customer.",
+                    "default": "N/A"
+                },
+                {
+                    "type": "number",
+                    "label": "Full Load Value (FLV) cooling efficiency (in kW/ton)",
+                    "name": "flv_eff",
+                    "description": "Full Load Value cooling efficiency in kW/ton, representing the efficiency at design conditions",
+                    "default": "N/A"
+                },
+                {
+                    "type": "select",
+                    "label": "Chiller Type",
+                    "name": "chiller_type",
+                    "description": "Select chiller type between Scroll/Screw i.e. positive displacement or centrifugal chiller",
+                    "default": "N/A",
+                    "options": [{
+                            "label": "Scroll Or Screw",
+                            "value": "scroll-or-screw"
+                        },
+                        {
+                            "label": "Centrifugal",
+                            "value": "centrifugal"
+                        }
+                    ]
+                },
+                {
+                    "type": "select",
+                    "label": "Building Type",
+                    "name": "building_type",
+                    "description": "Select building from the available options.",
+                    "default": "N/A",
+                    "options": [{
+                            "label": "Education",
+                            "value": "education"
+                        },
+                        {
+                            "label": "Health/Medical",
+                            "value": "health-medical"
+                        },
+                        {
+                            "label": "Lodging",
+                            "value": "lodging"
+                        },
+                        {
+                            "label": "Office",
+                            "value": "office"
+                        },
+                        {
+                            "label": "Retail",
+                            "value": "retail"
+                        },
+                        {
+                            "label": "Mixed Use Office and Retail",
+                            "value": "mixed-use_office-and-retail"
+                        },
+                        {
+                            "label": "Data Centers",
+                            "value": "data-centers"
+                        },
+                        {
+                            "label": "Process Loads",
+                            "value": "process-loads"
+                        }
+                    ]
+                }
+            ],
+            "projectId": "rec73iycCZKAtEWFE",
+            "project_category": "Cooling",
+            "project_application": "Chiller",
+            "incentive": {
+                "input_label": null,
+                "input_description": null,
+                "state": [
+                    "CO"
+                ],
+                "utility_company": "Xcel Energy",
+                "rebate_code": null,
+                "product_code": null,
+                "rebate_cap": null,
+                "program_link": null,
+                "bonuses_available": null,
+                "bonus_comment": null,
+                "source_link": null,
+                "expiration": null,
+                "existing_requirements": "",
+                "design_requirements": "",
+                "incentive_type": "none",
+                "input_units": null
+            },
+            "category": "calculated",
+            "measureType": ""
+        },
+        {
+            "name": "xcelHVACUnitReplacement",
+            "displayName": "Replacement of Rooftop Units, Split Systems, Condensing Units, or PTACs",
+            "description": "Deemed savings measure from Xcel Energy for replacement of rooftop units, split systems, condensing units, or PTACs.",
+            "fields": [{
+                    "type": "number",
+                    "label": "Equipment capacity (in tons) (* Split Systems size should be between 5.4 to 63.3 tons and Condensing units size should be greater than 5.4 tons)",
+                    "name": "size",
+                    "description": "The equipment capacity in tons.",
+                    "default": "N/A"
+                },
+                {
+                    "type": "number",
+                    "label": "Seasonal Energy Efficiency Ratio (SEER) of High Efficiency equipment (in Btu/Wh)",
+                    "name": "seer_eff",
+                    "description": "Seasonal Energy Efficiency Ratio (SEER) of High Efficiency equipment in Btu/Wh that the customer will install.",
+                    "default": "N/A"
+                },
+                {
+                    "type": "number",
+                    "label": "Energy Efficiency Ratio (EER) of High Efficiency equipment (in Btu/Wh)",
+                    "name": "eer_eff",
+                    "description": "Energy Efficiency Ratio (EER) of High Efficiency equipment in Btu/Wh that the customer will install",
+                    "default": "N/A"
+                },
+                {
+                    "type": "select",
+                    "label": "Equipment Type",
+                    "name": "equipment_type",
+                    "description": "Select equipment type between Rooftop Units, Split Systems, Condensing Units, or PTACs.",
+                    "default": "N/A",
+                    "options": [{
+                            "label": "Rooftop Units",
+                            "value": "Rooftop Units"
+                        },
+                        {
+                            "label": "Split Systems",
+                            "value": "Split Systems"
+                        },
+                        {
+                            "label": "Condensing Units",
+                            "value": "Condensing Units"
+                        },
+                        {
+                            "label": "PTAC",
+                            "value": "PTAC"
+                        }
+                    ]
+                },
+                {
+                    "type": "select",
+                    "label": "Building Type",
+                    "name": "building_type",
+                    "description": "Select building from the available options.",
+                    "default": "N/A",
+                    "options": [{
+                            "label": "Education",
+                            "value": "education"
+                        },
+                        {
+                            "label": "Health/Medical",
+                            "value": "health-medical"
+                        },
+                        {
+                            "label": "Lodging",
+                            "value": "lodging"
+                        },
+                        {
+                            "label": "Office",
+                            "value": "office"
+                        },
+                        {
+                            "label": "Retail",
+                            "value": "retail"
+                        },
+                        {
+                            "label": "Mixed Use Office and Retail",
+                            "value": "mixed-use_office-and-retail"
+                        },
+                        {
+                            "label": "Data Centers",
+                            "value": "data-centers"
+                        },
+                        {
+                            "label": "Process Loads",
+                            "value": "process-loads"
+                        }
+                    ]
+                }
+            ],
+            "projectId": "recWl0pecF0Ik6F3X",
+            "project_category": "Heating & Cooling",
+            "incentive": {
+                "input_label": null,
+                "input_description": null,
+                "state": [
+                    "CO"
+                ],
+                "utility_company": "Xcel Energy",
+                "rebate_code": null,
+                "product_code": null,
+                "rebate_cap": null,
+                "program_link": null,
+                "bonuses_available": null,
+                "bonus_comment": null,
+                "source_link": null,
+                "expiration": null,
+                "existing_requirements": "",
+                "design_requirements": "",
+                "incentive_type": "none",
+                "input_units": null
+            },
+            "category": "calculated",
+            "measureType": ""
+        },
+        {
+            "name": "xcelVFDOnCentrifugalChillers",
+            "displayName": "VFD On Centrifugal Chillers",
+            "description": "Deemed savings measure from Xcel Energy for applying VFD on centrifugal chillers.",
+            "fields": [{
+                    "type": "number",
+                    "label": "Quantity of proposed equipment installed",
+                    "name": "quantity",
+                    "description": "Quantity of proposed equipment installed.",
+                    "default": 1
+                },
+                {
+                    "type": "number",
+                    "label": "Equipment capacity (in tons)",
+                    "name": "size",
+                    "description": "The equipment capacity in tons.",
+                    "default": "N/A"
+                },
+                {
+                    "type": "number",
+                    "label": "Integrated Part Load Value (IPLV) cooling efficiency of existing chiller without a VFD (in kW/ton)",
+                    "name": "iplv_vfd_baseline",
+                    "description": "Integrated Part Load Value (representing the average efficiency over a range of loaded states) cooling efficiency in kW/ton of existing chiller without a VFD, provided by customer.",
+                    "default": "N/A"
+                },
+                {
+                    "type": "number",
+                    "label": "Integrated Part Load Value (IPLV) cooling efficiency of existing chiller with a VFD (in kW/ton)",
+                    "name": "iplv_vfd_eff",
+                    "description": "Integrated Part Load Value (representing the average efficiency over a range of loaded states) cooling efficiency in kW/ton of existing chiller with VFD, provided by customer.",
+                    "default": "N/A"
+                },
+                {
+                    "type": "number",
+                    "label": "Full Load Value (FLV) cooling efficiency of existing chiller without VFD at 100% load (in kW/ton)",
+                    "name": "flv_vfd_baseline",
+                    "description": "Full Load Value cooling efficiency in kW/ton, representing the efficiency of existing chiller without a VFD at 100% load",
+                    "default": "N/A"
+                },
+                {
+                    "type": "number",
+                    "label": "Full Load Value (FLV) cooling efficiency of existing chiller wit VFD at 100% load (in kW/ton)",
+                    "name": "flv_vfd_eff",
+                    "description": "Full Load Value cooling efficiency in kW/ton, representing the efficiency of existing chiller with VFD at 100% load",
+                    "default": "N/A"
+                },
+                {
+                    "type": "select",
+                    "label": "Building Type",
+                    "name": "building_type",
+                    "description": "Select building from the available options.",
+                    "default": "N/A",
+                    "options": [{
+                            "label": "Education",
+                            "value": "education"
+                        },
+                        {
+                            "label": "Health/Medical",
+                            "value": "health-medical"
+                        },
+                        {
+                            "label": "Lodging",
+                            "value": "lodging"
+                        },
+                        {
+                            "label": "Office",
+                            "value": "office"
+                        },
+                        {
+                            "label": "Retail",
+                            "value": "retail"
+                        },
+                        {
+                            "label": "Mixed Use Office and Retail",
+                            "value": "mixed-use_office-and-retail"
+                        },
+                        {
+                            "label": "Data Centers",
+                            "value": "data-centers"
+                        },
+                        {
+                            "label": "Process Loads",
+                            "value": "process-loads"
+                        }
+                    ]
+                }
+            ],
+            "projectId": "recvfCV2I6qBVaa1Z",
+            "project_category": "Cooling",
+            "project_application": "Chiller",
+            "incentive": {
+                "input_label": null,
+                "input_description": null,
+                "state": [
+                    "CO"
+                ],
+                "utility_company": "Xcel Energy",
+                "rebate_code": null,
+                "product_code": null,
+                "rebate_cap": null,
+                "program_link": null,
+                "bonuses_available": null,
+                "bonus_comment": null,
+                "source_link": null,
+                "expiration": null,
+                "existing_requirements": "",
+                "design_requirements": "",
+                "incentive_type": "none",
+                "input_units": null
+            },
+            "category": "calculated",
+            "measureType": ""
+        },
+        {
+            "name": "xcelECFanMotorOnFurnace",
+            "displayName": "Electronically Commutated Motors On Commercial Furnace",
+            "description": "Deemed savings measure from Xcel Energy for EC motor on commercial furnace.",
+            "fields": [{
+                    "type": "number",
+                    "label": "HP of New Furnace Fan ECM",
+                    "name": "new_furnace_fan_motor_hp",
+                    "description": "HP of new Furnace Fan ECM.",
+                    "default": "N/A"
+                },
+                {
+                    "type": "select",
+                    "label": "Project has cooling",
+                    "name": "project_has_cooling",
+                    "description": "Indicates whether the project has cooling or not.",
+                    "default": "yes",
+                    "options": [{
+                            "label": "Yes",
+                            "value": "yes"
+                        },
+                        {
+                            "label": "No",
+                            "value": "no"
+                        }
+                    ]
+                },
+                {
+                    "type": "select",
+                    "label": "ECM Type",
+                    "name": "ecm_type",
+                    "description": "ECM Type",
+                    "default": "new",
+                    "options": [{
+                            "label": "New",
+                            "value": "new"
+                        },
+                        {
+                            "label": "Retrofit",
+                            "value": "retrofit"
+                        }
+                    ]
+                }
+            ],
+            "projectId": "recFeWhom6pRXLeOV",
+            "project_category": "Heating",
+            "project_application": "Furnace",
+            "incentive": {
+                "input_label": null,
+                "input_description": null,
+                "state": [
+                    "CO"
+                ],
+                "utility_company": "Xcel Energy",
+                "rebate_code": null,
+                "product_code": null,
+                "rebate_cap": null,
+                "program_link": null,
+                "bonuses_available": null,
+                "bonus_comment": null,
+                "source_link": null,
+                "expiration": null,
+                "existing_requirements": "",
+                "design_requirements": "",
+                "incentive_type": "none",
+                "input_units": null
+            },
+            "category": "calculated",
+            "measureType": ""
+        },
+        {
+            "name": "xcelLEDExitSign",
+            "displayName": "Replacement of LED Exit Sign",
+            "description": "Deemed savings measure from Xcel Energy for LED Exit Sign.",
+            "fields": [{
+                    "type": "number",
+                    "label": "Quantity of existing equipment",
+                    "name": "qty_existing_equip",
+                    "description": "Quantity of existing equipment.",
+                    "default": 1
+                },
+                {
+                    "type": "number",
+                    "label": "Quantity of proposed equipment",
+                    "name": "qty_prop_equip",
+                    "description": "Quantity of proposed equipment",
+                    "default": 1
+                },
+                {
+                    "type": "number",
+                    "label": "Existing equipment wattage determined from stipulated fixture or lamp wattage",
+                    "name": "existing_model_kw",
+                    "description": "Existing equipment wattage determined from stipulated fixture or lamp wattage",
+                    "default": "N/A"
+                },
+                {
+                    "type": "number",
+                    "label": "Proposed equipment wattage of fixture or lamp",
+                    "name": "equipment_model_kw",
+                    "description": "Proposed equipment wattage of fixture or lamp",
+                    "default": "N/A"
+                },
+                {
+                    "type": "select",
+                    "label": "HVAC Type",
+                    "name": "hvac_type",
+                    "description": "HVAC Type",
+                    "default": "N/A",
+                    "options": [{
+                            "label": "Heating Only",
+                            "value": "Heating Only"
+                        },
+                        {
+                            "label": "Heating and Cooling",
+                            "value": "Heating and Cooling"
+                        },
+                        {
+                            "label": "Cooler Door Retrofit to LED",
+                            "value": "Cooler Door Retrofit to LED"
+                        },
+                        {
+                            "label": "Freezer Door Retrofit to LED",
+                            "value": "Freezer Door Retrofit to LED"
+                        }
+                    ]
+                }
+            ],
+            "projectId": "rec3r9GOzHFXuNVIB",
+            "project_category": "Lighting",
+            "project_application": "Exit Signs",
+            "incentive": {
+                "input_label": null,
+                "input_description": null,
+                "state": [
+                    "CO"
+                ],
+                "utility_company": "Xcel Energy",
+                "rebate_code": null,
+                "product_code": null,
+                "rebate_cap": null,
+                "program_link": null,
+                "bonuses_available": null,
+                "bonus_comment": null,
+                "source_link": null,
+                "expiration": null,
+                "existing_requirements": "",
+                "design_requirements": "",
+                "incentive_type": "none",
+                "input_units": null
+            },
+            "category": "calculated",
+            "measureType": ""
+        },
+        {
+            "name": "xcelLEDLighting",
+            "displayName": "Replacement of lighting equipment (LED)",
+            "description": "Deemed savings measure from Xcel Energy for Lighting Efficiency.",
+            "fields": [{
+                    "type": "number",
+                    "label": "Quantity of existing equipment",
+                    "name": "qty_existing_equip",
+                    "description": "Quantity of existing equipment.",
+                    "default": 1
+                },
+                {
+                    "type": "number",
+                    "label": "Quantity of proposed equipment",
+                    "name": "qty_prop_equip",
+                    "description": "Quantity of proposed equipment",
+                    "default": 1
+                },
+                {
+                    "type": "number",
+                    "label": "Existing equipment wattage determined from stipulated fixture or lamp wattage",
+                    "name": "existing_model_kw",
+                    "description": "Existing equipment wattage determined from stipulated fixture or lamp wattage",
+                    "default": "N/A"
+                },
+                {
+                    "type": "number",
+                    "label": "Proposed equipment wattage of fixture or lamp",
+                    "name": "equipment_model_kw",
+                    "description": "Proposed equipment wattage of fixture or lamp",
+                    "default": "N/A"
+                },
+                {
+                    "type": "select",
+                    "label": "HVAC Type",
+                    "name": "hvac_type",
+                    "description": "HVAC Type",
+                    "default": "N/A",
+                    "options": [{
+                            "label": "Heating Only",
+                            "value": "Heating Only"
+                        },
+                        {
+                            "label": "Heating and Cooling",
+                            "value": "Heating and Cooling"
+                        },
+                        {
+                            "label": "Cooler Door Retrofit to LED",
+                            "value": "Cooler Door Retrofit to LED"
+                        },
+                        {
+                            "label": "Freezer Door Retrofit to LED",
+                            "value": "Freezer Door Retrofit to LED"
+                        }
+                    ]
+                },
+                {
+                    "type": "select",
+                    "label": "Facility Type",
+                    "name": "facility_type",
+                    "description": "Facility Type",
+                    "default": "N/A",
+                    "options": [{
+                            "label": "24-Hour Facility",
+                            "value": "24-Hour Facility"
+                        },
+                        {
+                            "label": "Assisted Living",
+                            "value": "Assisted Living"
+                        },
+                        {
+                            "label": "College",
+                            "value": "College"
+                        },
+                        {
+                            "label": "Elementary School",
+                            "value": "Elementary School"
+                        },
+                        {
+                            "label": "Exterior - Dusk to Dawn",
+                            "value": "Exterior - Dusk to Dawn"
+                        },
+                        {
+                            "label": "Grocery/Convenience Store",
+                            "value": "Grocery/Convenience Store"
+                        },
+                        {
+                            "label": "Healthcare Office/Outpatient",
+                            "value": "Healthcare Office/Outpatient"
+                        },
+                        {
+                            "label": "Hospital",
+                            "value": "Hospital"
+                        },
+                        {
+                            "label": "Hotel/Motel Common Areas",
+                            "value": "Hotel/Motel Common Areas"
+                        },
+                        {
+                            "label": "Hotel/Motel Guest Rooms",
+                            "value": "Hotel/Motel Guest Rooms"
+                        },
+                        {
+                            "label": "Manufacturing",
+                            "value": "Manufacturing"
+                        },
+                        {
+                            "label": "Office - Low Rise",
+                            "value": "Office - Low Rise"
+                        },
+                        {
+                            "label": "Office - Mid Rise",
+                            "value": "Office - Mid Rise"
+                        },
+                        {
+                            "label": "Office - High Rise",
+                            "value": "Office - High Rise"
+                        },
+                        {
+                            "label": "Other/Misc.",
+                            "value": "Other/Misc."
+                        },
+                        {
+                            "label": "Religious Building",
+                            "value": "Religious Building"
+                        },
+                        {
+                            "label": "Restaurant",
+                            "value": "Restaurant"
+                        },
+                        {
+                            "label": "Retail - Department Store",
+                            "value": "Retail - Department Store"
+                        },
+                        {
+                            "label": "Retail - Strip Mall",
+                            "value": "Retail - Strip Mall"
+                        },
+                        {
+                            "label": "Safety or Code Required (Including Exit Signs)",
+                            "value": "Safety or Code Required (Including Exit Signs)"
+                        },
+                        {
+                            "label": "Secondary School",
+                            "value": "Secondary School"
+                        },
+                        {
+                            "label": "Warehouse",
+                            "value": "Warehouse"
+                        }
+                    ]
+                }
+            ],
+            "projectId": "recaSHN16bkGCurLD",
+            "project_category": "Lighting",
+            "incentive": {
+                "input_label": null,
+                "input_description": null,
+                "state": [
+                    "CO"
+                ],
+                "utility_company": "Xcel Energy",
+                "rebate_code": null,
+                "product_code": null,
+                "rebate_cap": null,
+                "program_link": null,
+                "bonuses_available": null,
+                "bonus_comment": null,
+                "source_link": null,
+                "expiration": null,
+                "existing_requirements": "",
+                "design_requirements": "",
+                "incentive_type": "none",
+                "input_units": null
+            },
+            "category": "calculated",
+            "measureType": ""
+        },
+        {
+            "name": "xcelMotorUpgrade",
+            "displayName": "Replacement of Motor",
+            "description": "Deemed savings measure from Xcel Energy for Motor Efficiency.",
+            "fields": [{
+                    "type": "select",
+                    "label": "Motor Tag (* For Non-industrial application which have motor controller, HP values should be > 5.)",
+                    "name": "motor_tag",
+                    "description": "Motor Tag",
+                    "default": "N/A",
+                    "options": [{
+                            "label": "1-HP-900-RPM-ODP",
+                            "value": "1-HP-900-RPM-ODP"
+                        },
+                        {
+                            "label": "1.5-HP-900-RPM-ODP",
+                            "value": "1.5-HP-900-RPM-ODP"
+                        },
+                        {
+                            "label": "2-HP-900-RPM-ODP",
+                            "value": "2-HP-900-RPM-ODP"
+                        },
+                        {
+                            "label": "3-HP-900-RPM-ODP",
+                            "value": "3-HP-900-RPM-ODP"
+                        },
+                        {
+                            "label": "5-HP-900-RPM-ODP",
+                            "value": "5-HP-900-RPM-ODP"
+                        },
+                        {
+                            "label": "7.5-HP-900-RPM-ODP",
+                            "value": "7.5-HP-900-RPM-ODP"
+                        },
+                        {
+                            "label": "10-HP-900-RPM-ODP",
+                            "value": "10-HP-900-RPM-ODP"
+                        },
+                        {
+                            "label": "15-HP-900-RPM-ODP",
+                            "value": "15-HP-900-RPM-ODP"
+                        },
+                        {
+                            "label": "20-HP-900-RPM-ODP",
+                            "value": "20-HP-900-RPM-ODP"
+                        },
+                        {
+                            "label": "25-HP-900-RPM-ODP",
+                            "value": "25-HP-900-RPM-ODP"
+                        },
+                        {
+                            "label": "30-HP-900-RPM-ODP",
+                            "value": "30-HP-900-RPM-ODP"
+                        },
+                        {
+                            "label": "40-HP-900-RPM-ODP",
+                            "value": "40-HP-900-RPM-ODP"
+                        },
+                        {
+                            "label": "50-HP-900-RPM-ODP",
+                            "value": "50-HP-900-RPM-ODP"
+                        },
+                        {
+                            "label": "60-HP-900-RPM-ODP",
+                            "value": "60-HP-900-RPM-ODP"
+                        },
+                        {
+                            "label": "75-HP-900-RPM-ODP",
+                            "value": "75-HP-900-RPM-ODP"
+                        },
+                        {
+                            "label": "100-HP-900-RPM-ODP",
+                            "value": "100-HP-900-RPM-ODP"
+                        },
+                        {
+                            "label": "125-HP-900-RPM-ODP",
+                            "value": "125-HP-900-RPM-ODP"
+                        },
+                        {
+                            "label": "150-HP-900-RPM-ODP",
+                            "value": "150-HP-900-RPM-ODP"
+                        },
+                        {
+                            "label": "200-HP-900-RPM-ODP",
+                            "value": "200-HP-900-RPM-ODP"
+                        },
+                        {
+                            "label": "250-HP-900-RPM-ODP",
+                            "value": "250-HP-900-RPM-ODP"
+                        },
+                        {
+                            "label": "300-HP-900-RPM-ODP",
+                            "value": "300-HP-900-RPM-ODP"
+                        },
+                        {
+                            "label": "350-HP-900-RPM-ODP",
+                            "value": "350-HP-900-RPM-ODP"
+                        },
+                        {
+                            "label": "400-HP-900-RPM-ODP",
+                            "value": "400-HP-900-RPM-ODP"
+                        },
+                        {
+                            "label": "450-HP-900-RPM-ODP",
+                            "value": "450-HP-900-RPM-ODP"
+                        },
+                        {
+                            "label": "500-HP-900-RPM-ODP",
+                            "value": "500-HP-900-RPM-ODP"
+                        },
+                        {
+                            "label": "1-HP-1200-RPM-ODP",
+                            "value": "1-HP-1200-RPM-ODP"
+                        },
+                        {
+                            "label": "1.5-HP-1200-RPM-ODP",
+                            "value": "1.5-HP-1200-RPM-ODP"
+                        },
+                        {
+                            "label": "2-HP-1200-RPM-ODP",
+                            "value": "2-HP-1200-RPM-ODP"
+                        },
+                        {
+                            "label": "3-HP-1200-RPM-ODP",
+                            "value": "3-HP-1200-RPM-ODP"
+                        },
+                        {
+                            "label": "5-HP-1200-RPM-ODP",
+                            "value": "5-HP-1200-RPM-ODP"
+                        },
+                        {
+                            "label": "7.5-HP-1200-RPM-ODP",
+                            "value": "7.5-HP-1200-RPM-ODP"
+                        },
+                        {
+                            "label": "10-HP-1200-RPM-ODP",
+                            "value": "10-HP-1200-RPM-ODP"
+                        },
+                        {
+                            "label": "15-HP-1200-RPM-ODP",
+                            "value": "15-HP-1200-RPM-ODP"
+                        },
+                        {
+                            "label": "20-HP-1200-RPM-ODP",
+                            "value": "20-HP-1200-RPM-ODP"
+                        },
+                        {
+                            "label": "25-HP-1200-RPM-ODP",
+                            "value": "25-HP-1200-RPM-ODP"
+                        },
+                        {
+                            "label": "30-HP-1200-RPM-ODP",
+                            "value": "30-HP-1200-RPM-ODP"
+                        },
+                        {
+                            "label": "40-HP-1200-RPM-ODP",
+                            "value": "40-HP-1200-RPM-ODP"
+                        },
+                        {
+                            "label": "50-HP-1200-RPM-ODP",
+                            "value": "50-HP-1200-RPM-ODP"
+                        },
+                        {
+                            "label": "60-HP-1200-RPM-ODP",
+                            "value": "60-HP-1200-RPM-ODP"
+                        },
+                        {
+                            "label": "75-HP-1200-RPM-ODP",
+                            "value": "75-HP-1200-RPM-ODP"
+                        },
+                        {
+                            "label": "100-HP-1200-RPM-ODP",
+                            "value": "100-HP-1200-RPM-ODP"
+                        },
+                        {
+                            "label": "125-HP-1200-RPM-ODP",
+                            "value": "125-HP-1200-RPM-ODP"
+                        },
+                        {
+                            "label": "150-HP-1200-RPM-ODP",
+                            "value": "150-HP-1200-RPM-ODP"
+                        },
+                        {
+                            "label": "200-HP-1200-RPM-ODP",
+                            "value": "200-HP-1200-RPM-ODP"
+                        },
+                        {
+                            "label": "250-HP-1200-RPM-ODP",
+                            "value": "250-HP-1200-RPM-ODP"
+                        },
+                        {
+                            "label": "300-HP-1200-RPM-ODP",
+                            "value": "300-HP-1200-RPM-ODP"
+                        },
+                        {
+                            "label": "350-HP-1200-RPM-ODP",
+                            "value": "350-HP-1200-RPM-ODP"
+                        },
+                        {
+                            "label": "400-HP-1200-RPM-ODP",
+                            "value": "400-HP-1200-RPM-ODP"
+                        },
+                        {
+                            "label": "450-HP-1200-RPM-ODP",
+                            "value": "450-HP-1200-RPM-ODP"
+                        },
+                        {
+                            "label": "500-HP-1200-RPM-ODP",
+                            "value": "500-HP-1200-RPM-ODP"
+                        },
+                        {
+                            "label": "1-HP-1800-RPM-ODP",
+                            "value": "1-HP-1800-RPM-ODP"
+                        },
+                        {
+                            "label": "1.5-HP-1800-RPM-ODP",
+                            "value": "1.5-HP-1800-RPM-ODP"
+                        },
+                        {
+                            "label": "2-HP-1800-RPM-ODP",
+                            "value": "2-HP-1800-RPM-ODP"
+                        },
+                        {
+                            "label": "3-HP-1800-RPM-ODP",
+                            "value": "3-HP-1800-RPM-ODP"
+                        },
+                        {
+                            "label": "5-HP-1800-RPM-ODP",
+                            "value": "5-HP-1800-RPM-ODP"
+                        },
+                        {
+                            "label": "7.5-HP-1800-RPM-ODP",
+                            "value": "7.5-HP-1800-RPM-ODP"
+                        },
+                        {
+                            "label": "10-HP-1800-RPM-ODP",
+                            "value": "10-HP-1800-RPM-ODP"
+                        },
+                        {
+                            "label": "15-HP-1800-RPM-ODP",
+                            "value": "15-HP-1800-RPM-ODP"
+                        },
+                        {
+                            "label": "20-HP-1800-RPM-ODP",
+                            "value": "20-HP-1800-RPM-ODP"
+                        },
+                        {
+                            "label": "25-HP-1800-RPM-ODP",
+                            "value": "25-HP-1800-RPM-ODP"
+                        },
+                        {
+                            "label": "30-HP-1800-RPM-ODP",
+                            "value": "30-HP-1800-RPM-ODP"
+                        },
+                        {
+                            "label": "40-HP-1800-RPM-ODP",
+                            "value": "40-HP-1800-RPM-ODP"
+                        },
+                        {
+                            "label": "50-HP-1800-RPM-ODP",
+                            "value": "50-HP-1800-RPM-ODP"
+                        },
+                        {
+                            "label": "60-HP-1800-RPM-ODP",
+                            "value": "60-HP-1800-RPM-ODP"
+                        },
+                        {
+                            "label": "75-HP-1800-RPM-ODP",
+                            "value": "75-HP-1800-RPM-ODP"
+                        },
+                        {
+                            "label": "100-HP-1800-RPM-ODP",
+                            "value": "100-HP-1800-RPM-ODP"
+                        },
+                        {
+                            "label": "125-HP-1800-RPM-ODP",
+                            "value": "125-HP-1800-RPM-ODP"
+                        },
+                        {
+                            "label": "150-HP-1800-RPM-ODP",
+                            "value": "150-HP-1800-RPM-ODP"
+                        },
+                        {
+                            "label": "200-HP-1800-RPM-ODP",
+                            "value": "200-HP-1800-RPM-ODP"
+                        },
+                        {
+                            "label": "250-HP-1800-RPM-ODP",
+                            "value": "250-HP-1800-RPM-ODP"
+                        },
+                        {
+                            "label": "300-HP-1800-RPM-ODP",
+                            "value": "300-HP-1800-RPM-ODP"
+                        },
+                        {
+                            "label": "350-HP-1800-RPM-ODP",
+                            "value": "350-HP-1800-RPM-ODP"
+                        },
+                        {
+                            "label": "400-HP-1800-RPM-ODP",
+                            "value": "400-HP-1800-RPM-ODP"
+                        },
+                        {
+                            "label": "450-HP-1800-RPM-ODP",
+                            "value": "450-HP-1800-RPM-ODP"
+                        },
+                        {
+                            "label": "500-HP-1800-RPM-ODP",
+                            "value": "500-HP-1800-RPM-ODP"
+                        },
+                        {
+                            "label": "1-HP-3600-RPM-ODP",
+                            "value": "1-HP-3600-RPM-ODP"
+                        },
+                        {
+                            "label": "1.5-HP-3600-RPM-ODP",
+                            "value": "1.5-HP-3600-RPM-ODP"
+                        },
+                        {
+                            "label": "2-HP-3600-RPM-ODP",
+                            "value": "2-HP-3600-RPM-ODP"
+                        },
+                        {
+                            "label": "3-HP-3600-RPM-ODP",
+                            "value": "3-HP-3600-RPM-ODP"
+                        },
+                        {
+                            "label": "5-HP-3600-RPM-ODP",
+                            "value": "5-HP-3600-RPM-ODP"
+                        },
+                        {
+                            "label": "7.5-HP-3600-RPM-ODP",
+                            "value": "7.5-HP-3600-RPM-ODP"
+                        },
+                        {
+                            "label": "10-HP-3600-RPM-ODP",
+                            "value": "10-HP-3600-RPM-ODP"
+                        },
+                        {
+                            "label": "15-HP-3600-RPM-ODP",
+                            "value": "15-HP-3600-RPM-ODP"
+                        },
+                        {
+                            "label": "20-HP-3600-RPM-ODP",
+                            "value": "20-HP-3600-RPM-ODP"
+                        },
+                        {
+                            "label": "25-HP-3600-RPM-ODP",
+                            "value": "25-HP-3600-RPM-ODP"
+                        },
+                        {
+                            "label": "30-HP-3600-RPM-ODP",
+                            "value": "30-HP-3600-RPM-ODP"
+                        },
+                        {
+                            "label": "40-HP-3600-RPM-ODP",
+                            "value": "40-HP-3600-RPM-ODP"
+                        },
+                        {
+                            "label": "50-HP-3600-RPM-ODP",
+                            "value": "50-HP-3600-RPM-ODP"
+                        },
+                        {
+                            "label": "60-HP-3600-RPM-ODP",
+                            "value": "60-HP-3600-RPM-ODP"
+                        },
+                        {
+                            "label": "75-HP-3600-RPM-ODP",
+                            "value": "75-HP-3600-RPM-ODP"
+                        },
+                        {
+                            "label": "100-HP-3600-RPM-ODP",
+                            "value": "100-HP-3600-RPM-ODP"
+                        },
+                        {
+                            "label": "125-HP-3600-RPM-ODP",
+                            "value": "125-HP-3600-RPM-ODP"
+                        },
+                        {
+                            "label": "150-HP-3600-RPM-ODP",
+                            "value": "150-HP-3600-RPM-ODP"
+                        },
+                        {
+                            "label": "200-HP-3600-RPM-ODP",
+                            "value": "200-HP-3600-RPM-ODP"
+                        },
+                        {
+                            "label": "250-HP-3600-RPM-ODP",
+                            "value": "250-HP-3600-RPM-ODP"
+                        },
+                        {
+                            "label": "300-HP-3600-RPM-ODP",
+                            "value": "300-HP-3600-RPM-ODP"
+                        },
+                        {
+                            "label": "350-HP-3600-RPM-ODP",
+                            "value": "350-HP-3600-RPM-ODP"
+                        },
+                        {
+                            "label": "400-HP-3600-RPM-ODP",
+                            "value": "400-HP-3600-RPM-ODP"
+                        },
+                        {
+                            "label": "450-HP-3600-RPM-ODP",
+                            "value": "450-HP-3600-RPM-ODP"
+                        },
+                        {
+                            "label": "500-HP-3600-RPM-ODP",
+                            "value": "500-HP-3600-RPM-ODP"
+                        },
+                        {
+                            "label": "1-HP-900-RPM-TEFC",
+                            "value": "1-HP-900-RPM-TEFC"
+                        },
+                        {
+                            "label": "1.5-HP-900-RPM-TEFC",
+                            "value": "1.5-HP-900-RPM-TEFC"
+                        },
+                        {
+                            "label": "2-HP-900-RPM-TEFC",
+                            "value": "2-HP-900-RPM-TEFC"
+                        },
+                        {
+                            "label": "3-HP-900-RPM-TEFC",
+                            "value": "3-HP-900-RPM-TEFC"
+                        },
+                        {
+                            "label": "5-HP-900-RPM-TEFC",
+                            "value": "5-HP-900-RPM-TEFC"
+                        },
+                        {
+                            "label": "7.5-HP-900-RPM-TEFC",
+                            "value": "7.5-HP-900-RPM-TEFC"
+                        },
+                        {
+                            "label": "10-HP-900-RPM-TEFC",
+                            "value": "10-HP-900-RPM-TEFC"
+                        },
+                        {
+                            "label": "15-HP-900-RPM-TEFC",
+                            "value": "15-HP-900-RPM-TEFC"
+                        },
+                        {
+                            "label": "20-HP-900-RPM-TEFC",
+                            "value": "20-HP-900-RPM-TEFC"
+                        },
+                        {
+                            "label": "25-HP-900-RPM-TEFC",
+                            "value": "25-HP-900-RPM-TEFC"
+                        },
+                        {
+                            "label": "30-HP-900-RPM-TEFC",
+                            "value": "30-HP-900-RPM-TEFC"
+                        },
+                        {
+                            "label": "40-HP-900-RPM-TEFC",
+                            "value": "40-HP-900-RPM-TEFC"
+                        },
+                        {
+                            "label": "50-HP-900-RPM-TEFC",
+                            "value": "50-HP-900-RPM-TEFC"
+                        },
+                        {
+                            "label": "60-HP-900-RPM-TEFC",
+                            "value": "60-HP-900-RPM-TEFC"
+                        },
+                        {
+                            "label": "75-HP-900-RPM-TEFC",
+                            "value": "75-HP-900-RPM-TEFC"
+                        },
+                        {
+                            "label": "100-HP-900-RPM-TEFC",
+                            "value": "100-HP-900-RPM-TEFC"
+                        },
+                        {
+                            "label": "125-HP-900-RPM-TEFC",
+                            "value": "125-HP-900-RPM-TEFC"
+                        },
+                        {
+                            "label": "150-HP-900-RPM-TEFC",
+                            "value": "150-HP-900-RPM-TEFC"
+                        },
+                        {
+                            "label": "200-HP-900-RPM-TEFC",
+                            "value": "200-HP-900-RPM-TEFC"
+                        },
+                        {
+                            "label": "250-HP-900-RPM-TEFC",
+                            "value": "250-HP-900-RPM-TEFC"
+                        },
+                        {
+                            "label": "300-HP-900-RPM-TEFC",
+                            "value": "300-HP-900-RPM-TEFC"
+                        },
+                        {
+                            "label": "350-HP-900-RPM-TEFC",
+                            "value": "350-HP-900-RPM-TEFC"
+                        },
+                        {
+                            "label": "400-HP-900-RPM-TEFC",
+                            "value": "400-HP-900-RPM-TEFC"
+                        },
+                        {
+                            "label": "450-HP-900-RPM-TEFC",
+                            "value": "450-HP-900-RPM-TEFC"
+                        },
+                        {
+                            "label": "500-HP-900-RPM-TEFC",
+                            "value": "500-HP-900-RPM-TEFC"
+                        },
+                        {
+                            "label": "1-HP-1200-RPM-TEFC",
+                            "value": "1-HP-1200-RPM-TEFC"
+                        },
+                        {
+                            "label": "1.5-HP-1200-RPM-TEFC",
+                            "value": "1.5-HP-1200-RPM-TEFC"
+                        },
+                        {
+                            "label": "2-HP-1200-RPM-TEFC",
+                            "value": "2-HP-1200-RPM-TEFC"
+                        },
+                        {
+                            "label": "3-HP-1200-RPM-TEFC",
+                            "value": "3-HP-1200-RPM-TEFC"
+                        },
+                        {
+                            "label": "5-HP-1200-RPM-TEFC",
+                            "value": "5-HP-1200-RPM-TEFC"
+                        },
+                        {
+                            "label": "7.5-HP-1200-RPM-TEFC",
+                            "value": "7.5-HP-1200-RPM-TEFC"
+                        },
+                        {
+                            "label": "10-HP-1200-RPM-TEFC",
+                            "value": "10-HP-1200-RPM-TEFC"
+                        },
+                        {
+                            "label": "15-HP-1200-RPM-TEFC",
+                            "value": "15-HP-1200-RPM-TEFC"
+                        },
+                        {
+                            "label": "20-HP-1200-RPM-TEFC",
+                            "value": "20-HP-1200-RPM-TEFC"
+                        },
+                        {
+                            "label": "25-HP-1200-RPM-TEFC",
+                            "value": "25-HP-1200-RPM-TEFC"
+                        },
+                        {
+                            "label": "30-HP-1200-RPM-TEFC",
+                            "value": "30-HP-1200-RPM-TEFC"
+                        },
+                        {
+                            "label": "40-HP-1200-RPM-TEFC",
+                            "value": "40-HP-1200-RPM-TEFC"
+                        },
+                        {
+                            "label": "50-HP-1200-RPM-TEFC",
+                            "value": "50-HP-1200-RPM-TEFC"
+                        },
+                        {
+                            "label": "60-HP-1200-RPM-TEFC",
+                            "value": "60-HP-1200-RPM-TEFC"
+                        },
+                        {
+                            "label": "75-HP-1200-RPM-TEFC",
+                            "value": "75-HP-1200-RPM-TEFC"
+                        },
+                        {
+                            "label": "100-HP-1200-RPM-TEFC",
+                            "value": "100-HP-1200-RPM-TEFC"
+                        },
+                        {
+                            "label": "125-HP-1200-RPM-TEFC",
+                            "value": "125-HP-1200-RPM-TEFC"
+                        },
+                        {
+                            "label": "150-HP-1200-RPM-TEFC",
+                            "value": "150-HP-1200-RPM-TEFC"
+                        },
+                        {
+                            "label": "200-HP-1200-RPM-TEFC",
+                            "value": "200-HP-1200-RPM-TEFC"
+                        },
+                        {
+                            "label": "250-HP-1200-RPM-TEFC",
+                            "value": "250-HP-1200-RPM-TEFC"
+                        },
+                        {
+                            "label": "300-HP-1200-RPM-TEFC",
+                            "value": "300-HP-1200-RPM-TEFC"
+                        },
+                        {
+                            "label": "350-HP-1200-RPM-TEFC",
+                            "value": "350-HP-1200-RPM-TEFC"
+                        },
+                        {
+                            "label": "400-HP-1200-RPM-TEFC",
+                            "value": "400-HP-1200-RPM-TEFC"
+                        },
+                        {
+                            "label": "450-HP-1200-RPM-TEFC",
+                            "value": "450-HP-1200-RPM-TEFC"
+                        },
+                        {
+                            "label": "500-HP-1200-RPM-TEFC",
+                            "value": "500-HP-1200-RPM-TEFC"
+                        },
+                        {
+                            "label": "1-HP-1800-RPM-TEFC",
+                            "value": "1-HP-1800-RPM-TEFC"
+                        },
+                        {
+                            "label": "1.5-HP-1800-RPM-TEFC",
+                            "value": "1.5-HP-1800-RPM-TEFC"
+                        },
+                        {
+                            "label": "2-HP-1800-RPM-TEFC",
+                            "value": "2-HP-1800-RPM-TEFC"
+                        },
+                        {
+                            "label": "3-HP-1800-RPM-TEFC",
+                            "value": "3-HP-1800-RPM-TEFC"
+                        },
+                        {
+                            "label": "5-HP-1800-RPM-TEFC",
+                            "value": "5-HP-1800-RPM-TEFC"
+                        },
+                        {
+                            "label": "7.5-HP-1800-RPM-TEFC",
+                            "value": "7.5-HP-1800-RPM-TEFC"
+                        },
+                        {
+                            "label": "10-HP-1800-RPM-TEFC",
+                            "value": "10-HP-1800-RPM-TEFC"
+                        },
+                        {
+                            "label": "15-HP-1800-RPM-TEFC",
+                            "value": "15-HP-1800-RPM-TEFC"
+                        },
+                        {
+                            "label": "20-HP-1800-RPM-TEFC",
+                            "value": "20-HP-1800-RPM-TEFC"
+                        },
+                        {
+                            "label": "25-HP-1800-RPM-TEFC",
+                            "value": "25-HP-1800-RPM-TEFC"
+                        },
+                        {
+                            "label": "30-HP-1800-RPM-TEFC",
+                            "value": "30-HP-1800-RPM-TEFC"
+                        },
+                        {
+                            "label": "40-HP-1800-RPM-TEFC",
+                            "value": "40-HP-1800-RPM-TEFC"
+                        },
+                        {
+                            "label": "50-HP-1800-RPM-TEFC",
+                            "value": "50-HP-1800-RPM-TEFC"
+                        },
+                        {
+                            "label": "60-HP-1800-RPM-TEFC",
+                            "value": "60-HP-1800-RPM-TEFC"
+                        },
+                        {
+                            "label": "75-HP-1800-RPM-TEFC",
+                            "value": "75-HP-1800-RPM-TEFC"
+                        },
+                        {
+                            "label": "100-HP-1800-RPM-TEFC",
+                            "value": "100-HP-1800-RPM-TEFC"
+                        },
+                        {
+                            "label": "125-HP-1800-RPM-TEFC",
+                            "value": "125-HP-1800-RPM-TEFC"
+                        },
+                        {
+                            "label": "150-HP-1800-RPM-TEFC",
+                            "value": "150-HP-1800-RPM-TEFC"
+                        },
+                        {
+                            "label": "200-HP-1800-RPM-TEFC",
+                            "value": "200-HP-1800-RPM-TEFC"
+                        },
+                        {
+                            "label": "250-HP-1800-RPM-TEFC",
+                            "value": "250-HP-1800-RPM-TEFC"
+                        },
+                        {
+                            "label": "300-HP-1800-RPM-TEFC",
+                            "value": "300-HP-1800-RPM-TEFC"
+                        },
+                        {
+                            "label": "350-HP-1800-RPM-TEFC",
+                            "value": "350-HP-1800-RPM-TEFC"
+                        },
+                        {
+                            "label": "400-HP-1800-RPM-TEFC",
+                            "value": "400-HP-1800-RPM-TEFC"
+                        },
+                        {
+                            "label": "450-HP-1800-RPM-TEFC",
+                            "value": "450-HP-1800-RPM-TEFC"
+                        },
+                        {
+                            "label": "500-HP-1800-RPM-TEFC",
+                            "value": "500-HP-1800-RPM-TEFC"
+                        },
+                        {
+                            "label": "1-HP-3600-RPM-TEFC",
+                            "value": "1-HP-3600-RPM-TEFC"
+                        },
+                        {
+                            "label": "1.5-HP-3600-RPM-TEFC",
+                            "value": "1.5-HP-3600-RPM-TEFC"
+                        },
+                        {
+                            "label": "2-HP-3600-RPM-TEFC",
+                            "value": "2-HP-3600-RPM-TEFC"
+                        },
+                        {
+                            "label": "3-HP-3600-RPM-TEFC",
+                            "value": "3-HP-3600-RPM-TEFC"
+                        },
+                        {
+                            "label": "5-HP-3600-RPM-TEFC",
+                            "value": "5-HP-3600-RPM-TEFC"
+                        },
+                        {
+                            "label": "7.5-HP-3600-RPM-TEFC",
+                            "value": "7.5-HP-3600-RPM-TEFC"
+                        },
+                        {
+                            "label": "10-HP-3600-RPM-TEFC",
+                            "value": "10-HP-3600-RPM-TEFC"
+                        },
+                        {
+                            "label": "15-HP-3600-RPM-TEFC",
+                            "value": "15-HP-3600-RPM-TEFC"
+                        },
+                        {
+                            "label": "20-HP-3600-RPM-TEFC",
+                            "value": "20-HP-3600-RPM-TEFC"
+                        },
+                        {
+                            "label": "25-HP-3600-RPM-TEFC",
+                            "value": "25-HP-3600-RPM-TEFC"
+                        },
+                        {
+                            "label": "30-HP-3600-RPM-TEFC",
+                            "value": "30-HP-3600-RPM-TEFC"
+                        },
+                        {
+                            "label": "40-HP-3600-RPM-TEFC",
+                            "value": "40-HP-3600-RPM-TEFC"
+                        },
+                        {
+                            "label": "50-HP-3600-RPM-TEFC",
+                            "value": "50-HP-3600-RPM-TEFC"
+                        },
+                        {
+                            "label": "60-HP-3600-RPM-TEFC",
+                            "value": "60-HP-3600-RPM-TEFC"
+                        },
+                        {
+                            "label": "75-HP-3600-RPM-TEFC",
+                            "value": "75-HP-3600-RPM-TEFC"
+                        },
+                        {
+                            "label": "100-HP-3600-RPM-TEFC",
+                            "value": "100-HP-3600-RPM-TEFC"
+                        },
+                        {
+                            "label": "125-HP-3600-RPM-TEFC",
+                            "value": "125-HP-3600-RPM-TEFC"
+                        },
+                        {
+                            "label": "150-HP-3600-RPM-TEFC",
+                            "value": "150-HP-3600-RPM-TEFC"
+                        },
+                        {
+                            "label": "200-HP-3600-RPM-TEFC",
+                            "value": "200-HP-3600-RPM-TEFC"
+                        },
+                        {
+                            "label": "250-HP-3600-RPM-TEFC",
+                            "value": "250-HP-3600-RPM-TEFC"
+                        },
+                        {
+                            "label": "300-HP-3600-RPM-TEFC",
+                            "value": "300-HP-3600-RPM-TEFC"
+                        },
+                        {
+                            "label": "350-HP-3600-RPM-TEFC",
+                            "value": "350-HP-3600-RPM-TEFC"
+                        },
+                        {
+                            "label": "400-HP-3600-RPM-TEFC",
+                            "value": "400-HP-3600-RPM-TEFC"
+                        },
+                        {
+                            "label": "450-HP-3600-RPM-TEFC",
+                            "value": "450-HP-3600-RPM-TEFC"
+                        },
+                        {
+                            "label": "500-HP-3600-RPM-TEFC",
+                            "value": "500-HP-3600-RPM-TEFC"
+                        }
+                    ]
+                },
+                {
+                    "type": "select",
+                    "label": "Application Type",
+                    "name": "application_type",
+                    "description": "Application Type",
+                    "default": "N/A",
+                    "options": [{
+                            "label": "Industrial Application",
+                            "value": "Industrial Application"
+                        },
+                        {
+                            "label": "Non-Industrial Application",
+                            "value": "Non-Industrial Application"
+                        }
+                    ]
+                },
+                {
+                    "type": "select",
+                    "label": "Industrial Application Name",
+                    "name": "industrial_application_name",
+                    "description": "Industrial Application Name",
+                    "default": "N/A",
+                    "options": [{
+                            "label": "Fans",
+                            "value": "Fans"
+                        },
+                        {
+                            "label": "Pumps",
+                            "value": "Pumps"
+                        },
+                        {
+                            "label": "Air Compressor",
+                            "value": "Air Compressor"
+                        },
+                        {
+                            "label": "Other",
+                            "value": "Other"
+                        }
+                    ]
+                },
+                {
+                    "type": "select",
+                    "label": "Motor Controller",
+                    "name": "motor_controller",
+                    "description": "Motor Controller",
+                    "default": "N/A",
+                    "options": [{
+                            "label": "Yes",
+                            "value": "Yes"
+                        },
+                        {
+                            "label": "No",
+                            "value": "No"
+                        }
+                    ]
+                },
+                {
+                    "type": "select",
+                    "label": "Non-Industrial Application Name For Motor Controller",
+                    "name": "nonindustrial_application_name",
+                    "description": "Non-Industrial Application Name For Motor Controller",
+                    "default": "N/A",
+                    "options": [{
+                            "label": "Escalator",
+                            "value": "Escalator"
+                        },
+                        {
+                            "label": "Other",
+                            "value": "Other"
+                        }
+                    ]
+                },
+                {
+                    "type": "select",
+                    "label": "Building Type & Motor Application For No Motor Controller And Non Industrial Application",
+                    "name": "building_type_motor_application",
+                    "description": "Building Type & Motor Application For No Motor Controller And Non Industrial Application",
+                    "default": "N/A",
+                    "options": [{
+                            "label": "Office HVAC Pump",
+                            "value": "Office HVAC Pump"
+                        },
+                        {
+                            "label": "Retail HVAC Pump",
+                            "value": "Retail HVAC Pump"
+                        },
+                        {
+                            "label": "Hospitals HVAC Pump",
+                            "value": "Hospitals HVAC Pump"
+                        },
+                        {
+                            "label": "Elem/Sec Schools HVAC Pump",
+                            "value": "Elem/Sec Schools HVAC Pump"
+                        },
+                        {
+                            "label": "Restaurant HVAC Pump",
+                            "value": "Restaurant HVAC Pump"
+                        },
+                        {
+                            "label": "Warehouse HVAC Pump",
+                            "value": "Warehouse HVAC Pump"
+                        },
+                        {
+                            "label": "Hotels/Motels HVAC Pump",
+                            "value": "Hotels/Motels HVAC Pump"
+                        },
+                        {
+                            "label": "Grocery HVAC Pump",
+                            "value": "Grocery HVAC Pump"
+                        },
+                        {
+                            "label": "Health HVAC Pump",
+                            "value": "Health HVAC Pump"
+                        },
+                        {
+                            "label": "College/Univ HVAC Pump",
+                            "value": "College/Univ HVAC Pump"
+                        },
+                        {
+                            "label": "Office Ventilation Fan",
+                            "value": "Office Ventilation Fan"
+                        },
+                        {
+                            "label": "Retail Ventilation Fan",
+                            "value": "Retail Ventilation Fan"
+                        },
+                        {
+                            "label": "Hospitals Ventilation Fan",
+                            "value": "Hospitals Ventilation Fan"
+                        },
+                        {
+                            "label": "Elem/Sec Schools Ventilation Fan",
+                            "value": "Elem/Sec Schools Ventilation Fan"
+                        },
+                        {
+                            "label": "Restaurant Ventilation Fan",
+                            "value": "Restaurant Ventilation Fan"
+                        },
+                        {
+                            "label": "Warehouse Ventilation Fan",
+                            "value": "Warehouse Ventilation Fan"
+                        },
+                        {
+                            "label": "Hotels/Motels Ventilation Fan",
+                            "value": "Hotels/Motels Ventilation Fan"
+                        },
+                        {
+                            "label": "Grocery Ventilation Fan",
+                            "value": "Grocery Ventilation Fan"
+                        },
+                        {
+                            "label": "Health Ventilation Fan",
+                            "value": "Health Ventilation Fan"
+                        },
+                        {
+                            "label": "College/Univ Ventilation Fan",
+                            "value": "College/Univ Ventilation Fan"
+                        },
+                        {
+                            "label": "Office Other Application",
+                            "value": "Office Other Application"
+                        },
+                        {
+                            "label": "Retail Other Application",
+                            "value": "Retail Other Application"
+                        },
+                        {
+                            "label": "Hospitals Other Application",
+                            "value": "Hospitals Other Application"
+                        },
+                        {
+                            "label": "Elem/Sec Schools Other Application",
+                            "value": "Elem/Sec Schools Other Application"
+                        },
+                        {
+                            "label": "Restaurant Other Application",
+                            "value": "Restaurant Other Application"
+                        },
+                        {
+                            "label": "Warehouse Other Application",
+                            "value": "Warehouse Other Application"
+                        },
+                        {
+                            "label": "Hotels/Motels Other Application",
+                            "value": "Hotels/Motels Other Application"
+                        },
+                        {
+                            "label": "Grocery Other Application",
+                            "value": "Grocery Other Application"
+                        },
+                        {
+                            "label": "Health Other Application",
+                            "value": "Health Other Application"
+                        },
+                        {
+                            "label": "College/Univ Other Application",
+                            "value": "College/Univ Other Application"
+                        },
+                        {
+                            "label": "Data Center Pump",
+                            "value": "Data Center Pump"
+                        },
+                        {
+                            "label": "Data Center Fan",
+                            "value": "Data Center Fan"
+                        },
+                        {
+                            "label": "Low Temperature Case Fan",
+                            "value": "Low Temperature Case Fan"
+                        },
+                        {
+                            "label": "Medium Temperature Case Fan",
+                            "value": "Medium Temperature Case Fan"
+                        }
+                    ]
+                },
+                {
+                    "type": "select",
+                    "label": "Measure Enhancement Type",
+                    "name": "measure_enhancement_type",
+                    "description": "Measure Enhancement Type",
+                    "default": "N/A",
+                    "options": [{
+                            "label": "New",
+                            "value": "New"
+                        },
+                        {
+                            "label": "Upgraded",
+                            "value": "Upgraded"
+                        }
+                    ]
+                },
+                {
+                    "type": "select",
+                    "label": "COP Application Type",
+                    "name": "cop_application_type",
+                    "description": "Measure Enhancement Type to calculate Refrigeration Factor. This multiplier to include interactive effects of refrigeration or cooling energy to remove heat from the motors located in the refrigeration load. Reduction in motor energy results in a reduction in refrigeration/cooling energy.",
+                    "default": "N/A",
+                    "options": [{
+                            "label": "Low Temperature",
+                            "value": "Low Temperature"
+                        },
+                        {
+                            "label": "Medium Temperature",
+                            "value": "Medium Temperature"
+                        },
+                        {
+                            "label": "Data Center",
+                            "value": "Data Center"
+                        }
+                    ]
+                }
+            ],
+            "projectId": "recS27obgolQY5qJn",
+            "project_category": "Process",
+            "incentive": {
+                "input_label": null,
+                "input_description": null,
+                "state": [
+                    "CO"
+                ],
+                "utility_company": "Xcel Energy",
+                "rebate_code": null,
+                "product_code": null,
+                "rebate_cap": null,
+                "program_link": null,
+                "bonuses_available": null,
+                "bonus_comment": null,
+                "source_link": null,
+                "expiration": null,
+                "existing_requirements": "",
+                "design_requirements": "",
+                "incentive_type": "none",
+                "input_units": null
+            },
+            "category": "calculated",
+            "measureType": ""
+        },
+        {
+            "name": "xcelVFDOnMotor",
+            "displayName": "Installation of new variable frequency drives (VFD) on motor",
+            "description": "Deemed savings measure from Xcel Energy for VFD on Motor.",
+            "fields": [{
+                    "type": "select",
+                    "label": "Motor Tag (* For Non-industrial application which have motor controller, HP values should be > 5.)",
+                    "name": "motor_tag",
+                    "description": "Motor Tag",
+                    "default": "N/A",
+                    "options": [{
+                            "label": "1-HP-900-RPM-ODP",
+                            "value": "1-HP-900-RPM-ODP"
+                        },
+                        {
+                            "label": "1.5-HP-900-RPM-ODP",
+                            "value": "1.5-HP-900-RPM-ODP"
+                        },
+                        {
+                            "label": "2-HP-900-RPM-ODP",
+                            "value": "2-HP-900-RPM-ODP"
+                        },
+                        {
+                            "label": "3-HP-900-RPM-ODP",
+                            "value": "3-HP-900-RPM-ODP"
+                        },
+                        {
+                            "label": "5-HP-900-RPM-ODP",
+                            "value": "5-HP-900-RPM-ODP"
+                        },
+                        {
+                            "label": "7.5-HP-900-RPM-ODP",
+                            "value": "7.5-HP-900-RPM-ODP"
+                        },
+                        {
+                            "label": "10-HP-900-RPM-ODP",
+                            "value": "10-HP-900-RPM-ODP"
+                        },
+                        {
+                            "label": "15-HP-900-RPM-ODP",
+                            "value": "15-HP-900-RPM-ODP"
+                        },
+                        {
+                            "label": "20-HP-900-RPM-ODP",
+                            "value": "20-HP-900-RPM-ODP"
+                        },
+                        {
+                            "label": "25-HP-900-RPM-ODP",
+                            "value": "25-HP-900-RPM-ODP"
+                        },
+                        {
+                            "label": "30-HP-900-RPM-ODP",
+                            "value": "30-HP-900-RPM-ODP"
+                        },
+                        {
+                            "label": "40-HP-900-RPM-ODP",
+                            "value": "40-HP-900-RPM-ODP"
+                        },
+                        {
+                            "label": "50-HP-900-RPM-ODP",
+                            "value": "50-HP-900-RPM-ODP"
+                        },
+                        {
+                            "label": "60-HP-900-RPM-ODP",
+                            "value": "60-HP-900-RPM-ODP"
+                        },
+                        {
+                            "label": "75-HP-900-RPM-ODP",
+                            "value": "75-HP-900-RPM-ODP"
+                        },
+                        {
+                            "label": "100-HP-900-RPM-ODP",
+                            "value": "100-HP-900-RPM-ODP"
+                        },
+                        {
+                            "label": "125-HP-900-RPM-ODP",
+                            "value": "125-HP-900-RPM-ODP"
+                        },
+                        {
+                            "label": "150-HP-900-RPM-ODP",
+                            "value": "150-HP-900-RPM-ODP"
+                        },
+                        {
+                            "label": "200-HP-900-RPM-ODP",
+                            "value": "200-HP-900-RPM-ODP"
+                        },
+                        {
+                            "label": "250-HP-900-RPM-ODP",
+                            "value": "250-HP-900-RPM-ODP"
+                        },
+                        {
+                            "label": "300-HP-900-RPM-ODP",
+                            "value": "300-HP-900-RPM-ODP"
+                        },
+                        {
+                            "label": "350-HP-900-RPM-ODP",
+                            "value": "350-HP-900-RPM-ODP"
+                        },
+                        {
+                            "label": "400-HP-900-RPM-ODP",
+                            "value": "400-HP-900-RPM-ODP"
+                        },
+                        {
+                            "label": "450-HP-900-RPM-ODP",
+                            "value": "450-HP-900-RPM-ODP"
+                        },
+                        {
+                            "label": "500-HP-900-RPM-ODP",
+                            "value": "500-HP-900-RPM-ODP"
+                        },
+                        {
+                            "label": "1-HP-1200-RPM-ODP",
+                            "value": "1-HP-1200-RPM-ODP"
+                        },
+                        {
+                            "label": "1.5-HP-1200-RPM-ODP",
+                            "value": "1.5-HP-1200-RPM-ODP"
+                        },
+                        {
+                            "label": "2-HP-1200-RPM-ODP",
+                            "value": "2-HP-1200-RPM-ODP"
+                        },
+                        {
+                            "label": "3-HP-1200-RPM-ODP",
+                            "value": "3-HP-1200-RPM-ODP"
+                        },
+                        {
+                            "label": "5-HP-1200-RPM-ODP",
+                            "value": "5-HP-1200-RPM-ODP"
+                        },
+                        {
+                            "label": "7.5-HP-1200-RPM-ODP",
+                            "value": "7.5-HP-1200-RPM-ODP"
+                        },
+                        {
+                            "label": "10-HP-1200-RPM-ODP",
+                            "value": "10-HP-1200-RPM-ODP"
+                        },
+                        {
+                            "label": "15-HP-1200-RPM-ODP",
+                            "value": "15-HP-1200-RPM-ODP"
+                        },
+                        {
+                            "label": "20-HP-1200-RPM-ODP",
+                            "value": "20-HP-1200-RPM-ODP"
+                        },
+                        {
+                            "label": "25-HP-1200-RPM-ODP",
+                            "value": "25-HP-1200-RPM-ODP"
+                        },
+                        {
+                            "label": "30-HP-1200-RPM-ODP",
+                            "value": "30-HP-1200-RPM-ODP"
+                        },
+                        {
+                            "label": "40-HP-1200-RPM-ODP",
+                            "value": "40-HP-1200-RPM-ODP"
+                        },
+                        {
+                            "label": "50-HP-1200-RPM-ODP",
+                            "value": "50-HP-1200-RPM-ODP"
+                        },
+                        {
+                            "label": "60-HP-1200-RPM-ODP",
+                            "value": "60-HP-1200-RPM-ODP"
+                        },
+                        {
+                            "label": "75-HP-1200-RPM-ODP",
+                            "value": "75-HP-1200-RPM-ODP"
+                        },
+                        {
+                            "label": "100-HP-1200-RPM-ODP",
+                            "value": "100-HP-1200-RPM-ODP"
+                        },
+                        {
+                            "label": "125-HP-1200-RPM-ODP",
+                            "value": "125-HP-1200-RPM-ODP"
+                        },
+                        {
+                            "label": "150-HP-1200-RPM-ODP",
+                            "value": "150-HP-1200-RPM-ODP"
+                        },
+                        {
+                            "label": "200-HP-1200-RPM-ODP",
+                            "value": "200-HP-1200-RPM-ODP"
+                        },
+                        {
+                            "label": "250-HP-1200-RPM-ODP",
+                            "value": "250-HP-1200-RPM-ODP"
+                        },
+                        {
+                            "label": "300-HP-1200-RPM-ODP",
+                            "value": "300-HP-1200-RPM-ODP"
+                        },
+                        {
+                            "label": "350-HP-1200-RPM-ODP",
+                            "value": "350-HP-1200-RPM-ODP"
+                        },
+                        {
+                            "label": "400-HP-1200-RPM-ODP",
+                            "value": "400-HP-1200-RPM-ODP"
+                        },
+                        {
+                            "label": "450-HP-1200-RPM-ODP",
+                            "value": "450-HP-1200-RPM-ODP"
+                        },
+                        {
+                            "label": "500-HP-1200-RPM-ODP",
+                            "value": "500-HP-1200-RPM-ODP"
+                        },
+                        {
+                            "label": "1-HP-1800-RPM-ODP",
+                            "value": "1-HP-1800-RPM-ODP"
+                        },
+                        {
+                            "label": "1.5-HP-1800-RPM-ODP",
+                            "value": "1.5-HP-1800-RPM-ODP"
+                        },
+                        {
+                            "label": "2-HP-1800-RPM-ODP",
+                            "value": "2-HP-1800-RPM-ODP"
+                        },
+                        {
+                            "label": "3-HP-1800-RPM-ODP",
+                            "value": "3-HP-1800-RPM-ODP"
+                        },
+                        {
+                            "label": "5-HP-1800-RPM-ODP",
+                            "value": "5-HP-1800-RPM-ODP"
+                        },
+                        {
+                            "label": "7.5-HP-1800-RPM-ODP",
+                            "value": "7.5-HP-1800-RPM-ODP"
+                        },
+                        {
+                            "label": "10-HP-1800-RPM-ODP",
+                            "value": "10-HP-1800-RPM-ODP"
+                        },
+                        {
+                            "label": "15-HP-1800-RPM-ODP",
+                            "value": "15-HP-1800-RPM-ODP"
+                        },
+                        {
+                            "label": "20-HP-1800-RPM-ODP",
+                            "value": "20-HP-1800-RPM-ODP"
+                        },
+                        {
+                            "label": "25-HP-1800-RPM-ODP",
+                            "value": "25-HP-1800-RPM-ODP"
+                        },
+                        {
+                            "label": "30-HP-1800-RPM-ODP",
+                            "value": "30-HP-1800-RPM-ODP"
+                        },
+                        {
+                            "label": "40-HP-1800-RPM-ODP",
+                            "value": "40-HP-1800-RPM-ODP"
+                        },
+                        {
+                            "label": "50-HP-1800-RPM-ODP",
+                            "value": "50-HP-1800-RPM-ODP"
+                        },
+                        {
+                            "label": "60-HP-1800-RPM-ODP",
+                            "value": "60-HP-1800-RPM-ODP"
+                        },
+                        {
+                            "label": "75-HP-1800-RPM-ODP",
+                            "value": "75-HP-1800-RPM-ODP"
+                        },
+                        {
+                            "label": "100-HP-1800-RPM-ODP",
+                            "value": "100-HP-1800-RPM-ODP"
+                        },
+                        {
+                            "label": "125-HP-1800-RPM-ODP",
+                            "value": "125-HP-1800-RPM-ODP"
+                        },
+                        {
+                            "label": "150-HP-1800-RPM-ODP",
+                            "value": "150-HP-1800-RPM-ODP"
+                        },
+                        {
+                            "label": "200-HP-1800-RPM-ODP",
+                            "value": "200-HP-1800-RPM-ODP"
+                        },
+                        {
+                            "label": "250-HP-1800-RPM-ODP",
+                            "value": "250-HP-1800-RPM-ODP"
+                        },
+                        {
+                            "label": "300-HP-1800-RPM-ODP",
+                            "value": "300-HP-1800-RPM-ODP"
+                        },
+                        {
+                            "label": "350-HP-1800-RPM-ODP",
+                            "value": "350-HP-1800-RPM-ODP"
+                        },
+                        {
+                            "label": "400-HP-1800-RPM-ODP",
+                            "value": "400-HP-1800-RPM-ODP"
+                        },
+                        {
+                            "label": "450-HP-1800-RPM-ODP",
+                            "value": "450-HP-1800-RPM-ODP"
+                        },
+                        {
+                            "label": "500-HP-1800-RPM-ODP",
+                            "value": "500-HP-1800-RPM-ODP"
+                        },
+                        {
+                            "label": "1-HP-3600-RPM-ODP",
+                            "value": "1-HP-3600-RPM-ODP"
+                        },
+                        {
+                            "label": "1.5-HP-3600-RPM-ODP",
+                            "value": "1.5-HP-3600-RPM-ODP"
+                        },
+                        {
+                            "label": "2-HP-3600-RPM-ODP",
+                            "value": "2-HP-3600-RPM-ODP"
+                        },
+                        {
+                            "label": "3-HP-3600-RPM-ODP",
+                            "value": "3-HP-3600-RPM-ODP"
+                        },
+                        {
+                            "label": "5-HP-3600-RPM-ODP",
+                            "value": "5-HP-3600-RPM-ODP"
+                        },
+                        {
+                            "label": "7.5-HP-3600-RPM-ODP",
+                            "value": "7.5-HP-3600-RPM-ODP"
+                        },
+                        {
+                            "label": "10-HP-3600-RPM-ODP",
+                            "value": "10-HP-3600-RPM-ODP"
+                        },
+                        {
+                            "label": "15-HP-3600-RPM-ODP",
+                            "value": "15-HP-3600-RPM-ODP"
+                        },
+                        {
+                            "label": "20-HP-3600-RPM-ODP",
+                            "value": "20-HP-3600-RPM-ODP"
+                        },
+                        {
+                            "label": "25-HP-3600-RPM-ODP",
+                            "value": "25-HP-3600-RPM-ODP"
+                        },
+                        {
+                            "label": "30-HP-3600-RPM-ODP",
+                            "value": "30-HP-3600-RPM-ODP"
+                        },
+                        {
+                            "label": "40-HP-3600-RPM-ODP",
+                            "value": "40-HP-3600-RPM-ODP"
+                        },
+                        {
+                            "label": "50-HP-3600-RPM-ODP",
+                            "value": "50-HP-3600-RPM-ODP"
+                        },
+                        {
+                            "label": "60-HP-3600-RPM-ODP",
+                            "value": "60-HP-3600-RPM-ODP"
+                        },
+                        {
+                            "label": "75-HP-3600-RPM-ODP",
+                            "value": "75-HP-3600-RPM-ODP"
+                        },
+                        {
+                            "label": "100-HP-3600-RPM-ODP",
+                            "value": "100-HP-3600-RPM-ODP"
+                        },
+                        {
+                            "label": "125-HP-3600-RPM-ODP",
+                            "value": "125-HP-3600-RPM-ODP"
+                        },
+                        {
+                            "label": "150-HP-3600-RPM-ODP",
+                            "value": "150-HP-3600-RPM-ODP"
+                        },
+                        {
+                            "label": "200-HP-3600-RPM-ODP",
+                            "value": "200-HP-3600-RPM-ODP"
+                        },
+                        {
+                            "label": "250-HP-3600-RPM-ODP",
+                            "value": "250-HP-3600-RPM-ODP"
+                        },
+                        {
+                            "label": "300-HP-3600-RPM-ODP",
+                            "value": "300-HP-3600-RPM-ODP"
+                        },
+                        {
+                            "label": "350-HP-3600-RPM-ODP",
+                            "value": "350-HP-3600-RPM-ODP"
+                        },
+                        {
+                            "label": "400-HP-3600-RPM-ODP",
+                            "value": "400-HP-3600-RPM-ODP"
+                        },
+                        {
+                            "label": "450-HP-3600-RPM-ODP",
+                            "value": "450-HP-3600-RPM-ODP"
+                        },
+                        {
+                            "label": "500-HP-3600-RPM-ODP",
+                            "value": "500-HP-3600-RPM-ODP"
+                        },
+                        {
+                            "label": "1-HP-900-RPM-TEFC",
+                            "value": "1-HP-900-RPM-TEFC"
+                        },
+                        {
+                            "label": "1.5-HP-900-RPM-TEFC",
+                            "value": "1.5-HP-900-RPM-TEFC"
+                        },
+                        {
+                            "label": "2-HP-900-RPM-TEFC",
+                            "value": "2-HP-900-RPM-TEFC"
+                        },
+                        {
+                            "label": "3-HP-900-RPM-TEFC",
+                            "value": "3-HP-900-RPM-TEFC"
+                        },
+                        {
+                            "label": "5-HP-900-RPM-TEFC",
+                            "value": "5-HP-900-RPM-TEFC"
+                        },
+                        {
+                            "label": "7.5-HP-900-RPM-TEFC",
+                            "value": "7.5-HP-900-RPM-TEFC"
+                        },
+                        {
+                            "label": "10-HP-900-RPM-TEFC",
+                            "value": "10-HP-900-RPM-TEFC"
+                        },
+                        {
+                            "label": "15-HP-900-RPM-TEFC",
+                            "value": "15-HP-900-RPM-TEFC"
+                        },
+                        {
+                            "label": "20-HP-900-RPM-TEFC",
+                            "value": "20-HP-900-RPM-TEFC"
+                        },
+                        {
+                            "label": "25-HP-900-RPM-TEFC",
+                            "value": "25-HP-900-RPM-TEFC"
+                        },
+                        {
+                            "label": "30-HP-900-RPM-TEFC",
+                            "value": "30-HP-900-RPM-TEFC"
+                        },
+                        {
+                            "label": "40-HP-900-RPM-TEFC",
+                            "value": "40-HP-900-RPM-TEFC"
+                        },
+                        {
+                            "label": "50-HP-900-RPM-TEFC",
+                            "value": "50-HP-900-RPM-TEFC"
+                        },
+                        {
+                            "label": "60-HP-900-RPM-TEFC",
+                            "value": "60-HP-900-RPM-TEFC"
+                        },
+                        {
+                            "label": "75-HP-900-RPM-TEFC",
+                            "value": "75-HP-900-RPM-TEFC"
+                        },
+                        {
+                            "label": "100-HP-900-RPM-TEFC",
+                            "value": "100-HP-900-RPM-TEFC"
+                        },
+                        {
+                            "label": "125-HP-900-RPM-TEFC",
+                            "value": "125-HP-900-RPM-TEFC"
+                        },
+                        {
+                            "label": "150-HP-900-RPM-TEFC",
+                            "value": "150-HP-900-RPM-TEFC"
+                        },
+                        {
+                            "label": "200-HP-900-RPM-TEFC",
+                            "value": "200-HP-900-RPM-TEFC"
+                        },
+                        {
+                            "label": "250-HP-900-RPM-TEFC",
+                            "value": "250-HP-900-RPM-TEFC"
+                        },
+                        {
+                            "label": "300-HP-900-RPM-TEFC",
+                            "value": "300-HP-900-RPM-TEFC"
+                        },
+                        {
+                            "label": "350-HP-900-RPM-TEFC",
+                            "value": "350-HP-900-RPM-TEFC"
+                        },
+                        {
+                            "label": "400-HP-900-RPM-TEFC",
+                            "value": "400-HP-900-RPM-TEFC"
+                        },
+                        {
+                            "label": "450-HP-900-RPM-TEFC",
+                            "value": "450-HP-900-RPM-TEFC"
+                        },
+                        {
+                            "label": "500-HP-900-RPM-TEFC",
+                            "value": "500-HP-900-RPM-TEFC"
+                        },
+                        {
+                            "label": "1-HP-1200-RPM-TEFC",
+                            "value": "1-HP-1200-RPM-TEFC"
+                        },
+                        {
+                            "label": "1.5-HP-1200-RPM-TEFC",
+                            "value": "1.5-HP-1200-RPM-TEFC"
+                        },
+                        {
+                            "label": "2-HP-1200-RPM-TEFC",
+                            "value": "2-HP-1200-RPM-TEFC"
+                        },
+                        {
+                            "label": "3-HP-1200-RPM-TEFC",
+                            "value": "3-HP-1200-RPM-TEFC"
+                        },
+                        {
+                            "label": "5-HP-1200-RPM-TEFC",
+                            "value": "5-HP-1200-RPM-TEFC"
+                        },
+                        {
+                            "label": "7.5-HP-1200-RPM-TEFC",
+                            "value": "7.5-HP-1200-RPM-TEFC"
+                        },
+                        {
+                            "label": "10-HP-1200-RPM-TEFC",
+                            "value": "10-HP-1200-RPM-TEFC"
+                        },
+                        {
+                            "label": "15-HP-1200-RPM-TEFC",
+                            "value": "15-HP-1200-RPM-TEFC"
+                        },
+                        {
+                            "label": "20-HP-1200-RPM-TEFC",
+                            "value": "20-HP-1200-RPM-TEFC"
+                        },
+                        {
+                            "label": "25-HP-1200-RPM-TEFC",
+                            "value": "25-HP-1200-RPM-TEFC"
+                        },
+                        {
+                            "label": "30-HP-1200-RPM-TEFC",
+                            "value": "30-HP-1200-RPM-TEFC"
+                        },
+                        {
+                            "label": "40-HP-1200-RPM-TEFC",
+                            "value": "40-HP-1200-RPM-TEFC"
+                        },
+                        {
+                            "label": "50-HP-1200-RPM-TEFC",
+                            "value": "50-HP-1200-RPM-TEFC"
+                        },
+                        {
+                            "label": "60-HP-1200-RPM-TEFC",
+                            "value": "60-HP-1200-RPM-TEFC"
+                        },
+                        {
+                            "label": "75-HP-1200-RPM-TEFC",
+                            "value": "75-HP-1200-RPM-TEFC"
+                        },
+                        {
+                            "label": "100-HP-1200-RPM-TEFC",
+                            "value": "100-HP-1200-RPM-TEFC"
+                        },
+                        {
+                            "label": "125-HP-1200-RPM-TEFC",
+                            "value": "125-HP-1200-RPM-TEFC"
+                        },
+                        {
+                            "label": "150-HP-1200-RPM-TEFC",
+                            "value": "150-HP-1200-RPM-TEFC"
+                        },
+                        {
+                            "label": "200-HP-1200-RPM-TEFC",
+                            "value": "200-HP-1200-RPM-TEFC"
+                        },
+                        {
+                            "label": "250-HP-1200-RPM-TEFC",
+                            "value": "250-HP-1200-RPM-TEFC"
+                        },
+                        {
+                            "label": "300-HP-1200-RPM-TEFC",
+                            "value": "300-HP-1200-RPM-TEFC"
+                        },
+                        {
+                            "label": "350-HP-1200-RPM-TEFC",
+                            "value": "350-HP-1200-RPM-TEFC"
+                        },
+                        {
+                            "label": "400-HP-1200-RPM-TEFC",
+                            "value": "400-HP-1200-RPM-TEFC"
+                        },
+                        {
+                            "label": "450-HP-1200-RPM-TEFC",
+                            "value": "450-HP-1200-RPM-TEFC"
+                        },
+                        {
+                            "label": "500-HP-1200-RPM-TEFC",
+                            "value": "500-HP-1200-RPM-TEFC"
+                        },
+                        {
+                            "label": "1-HP-1800-RPM-TEFC",
+                            "value": "1-HP-1800-RPM-TEFC"
+                        },
+                        {
+                            "label": "1.5-HP-1800-RPM-TEFC",
+                            "value": "1.5-HP-1800-RPM-TEFC"
+                        },
+                        {
+                            "label": "2-HP-1800-RPM-TEFC",
+                            "value": "2-HP-1800-RPM-TEFC"
+                        },
+                        {
+                            "label": "3-HP-1800-RPM-TEFC",
+                            "value": "3-HP-1800-RPM-TEFC"
+                        },
+                        {
+                            "label": "5-HP-1800-RPM-TEFC",
+                            "value": "5-HP-1800-RPM-TEFC"
+                        },
+                        {
+                            "label": "7.5-HP-1800-RPM-TEFC",
+                            "value": "7.5-HP-1800-RPM-TEFC"
+                        },
+                        {
+                            "label": "10-HP-1800-RPM-TEFC",
+                            "value": "10-HP-1800-RPM-TEFC"
+                        },
+                        {
+                            "label": "15-HP-1800-RPM-TEFC",
+                            "value": "15-HP-1800-RPM-TEFC"
+                        },
+                        {
+                            "label": "20-HP-1800-RPM-TEFC",
+                            "value": "20-HP-1800-RPM-TEFC"
+                        },
+                        {
+                            "label": "25-HP-1800-RPM-TEFC",
+                            "value": "25-HP-1800-RPM-TEFC"
+                        },
+                        {
+                            "label": "30-HP-1800-RPM-TEFC",
+                            "value": "30-HP-1800-RPM-TEFC"
+                        },
+                        {
+                            "label": "40-HP-1800-RPM-TEFC",
+                            "value": "40-HP-1800-RPM-TEFC"
+                        },
+                        {
+                            "label": "50-HP-1800-RPM-TEFC",
+                            "value": "50-HP-1800-RPM-TEFC"
+                        },
+                        {
+                            "label": "60-HP-1800-RPM-TEFC",
+                            "value": "60-HP-1800-RPM-TEFC"
+                        },
+                        {
+                            "label": "75-HP-1800-RPM-TEFC",
+                            "value": "75-HP-1800-RPM-TEFC"
+                        },
+                        {
+                            "label": "100-HP-1800-RPM-TEFC",
+                            "value": "100-HP-1800-RPM-TEFC"
+                        },
+                        {
+                            "label": "125-HP-1800-RPM-TEFC",
+                            "value": "125-HP-1800-RPM-TEFC"
+                        },
+                        {
+                            "label": "150-HP-1800-RPM-TEFC",
+                            "value": "150-HP-1800-RPM-TEFC"
+                        },
+                        {
+                            "label": "200-HP-1800-RPM-TEFC",
+                            "value": "200-HP-1800-RPM-TEFC"
+                        },
+                        {
+                            "label": "250-HP-1800-RPM-TEFC",
+                            "value": "250-HP-1800-RPM-TEFC"
+                        },
+                        {
+                            "label": "300-HP-1800-RPM-TEFC",
+                            "value": "300-HP-1800-RPM-TEFC"
+                        },
+                        {
+                            "label": "350-HP-1800-RPM-TEFC",
+                            "value": "350-HP-1800-RPM-TEFC"
+                        },
+                        {
+                            "label": "400-HP-1800-RPM-TEFC",
+                            "value": "400-HP-1800-RPM-TEFC"
+                        },
+                        {
+                            "label": "450-HP-1800-RPM-TEFC",
+                            "value": "450-HP-1800-RPM-TEFC"
+                        },
+                        {
+                            "label": "500-HP-1800-RPM-TEFC",
+                            "value": "500-HP-1800-RPM-TEFC"
+                        },
+                        {
+                            "label": "1-HP-3600-RPM-TEFC",
+                            "value": "1-HP-3600-RPM-TEFC"
+                        },
+                        {
+                            "label": "1.5-HP-3600-RPM-TEFC",
+                            "value": "1.5-HP-3600-RPM-TEFC"
+                        },
+                        {
+                            "label": "2-HP-3600-RPM-TEFC",
+                            "value": "2-HP-3600-RPM-TEFC"
+                        },
+                        {
+                            "label": "3-HP-3600-RPM-TEFC",
+                            "value": "3-HP-3600-RPM-TEFC"
+                        },
+                        {
+                            "label": "5-HP-3600-RPM-TEFC",
+                            "value": "5-HP-3600-RPM-TEFC"
+                        },
+                        {
+                            "label": "7.5-HP-3600-RPM-TEFC",
+                            "value": "7.5-HP-3600-RPM-TEFC"
+                        },
+                        {
+                            "label": "10-HP-3600-RPM-TEFC",
+                            "value": "10-HP-3600-RPM-TEFC"
+                        },
+                        {
+                            "label": "15-HP-3600-RPM-TEFC",
+                            "value": "15-HP-3600-RPM-TEFC"
+                        },
+                        {
+                            "label": "20-HP-3600-RPM-TEFC",
+                            "value": "20-HP-3600-RPM-TEFC"
+                        },
+                        {
+                            "label": "25-HP-3600-RPM-TEFC",
+                            "value": "25-HP-3600-RPM-TEFC"
+                        },
+                        {
+                            "label": "30-HP-3600-RPM-TEFC",
+                            "value": "30-HP-3600-RPM-TEFC"
+                        },
+                        {
+                            "label": "40-HP-3600-RPM-TEFC",
+                            "value": "40-HP-3600-RPM-TEFC"
+                        },
+                        {
+                            "label": "50-HP-3600-RPM-TEFC",
+                            "value": "50-HP-3600-RPM-TEFC"
+                        },
+                        {
+                            "label": "60-HP-3600-RPM-TEFC",
+                            "value": "60-HP-3600-RPM-TEFC"
+                        },
+                        {
+                            "label": "75-HP-3600-RPM-TEFC",
+                            "value": "75-HP-3600-RPM-TEFC"
+                        },
+                        {
+                            "label": "100-HP-3600-RPM-TEFC",
+                            "value": "100-HP-3600-RPM-TEFC"
+                        },
+                        {
+                            "label": "125-HP-3600-RPM-TEFC",
+                            "value": "125-HP-3600-RPM-TEFC"
+                        },
+                        {
+                            "label": "150-HP-3600-RPM-TEFC",
+                            "value": "150-HP-3600-RPM-TEFC"
+                        },
+                        {
+                            "label": "200-HP-3600-RPM-TEFC",
+                            "value": "200-HP-3600-RPM-TEFC"
+                        },
+                        {
+                            "label": "250-HP-3600-RPM-TEFC",
+                            "value": "250-HP-3600-RPM-TEFC"
+                        },
+                        {
+                            "label": "300-HP-3600-RPM-TEFC",
+                            "value": "300-HP-3600-RPM-TEFC"
+                        },
+                        {
+                            "label": "350-HP-3600-RPM-TEFC",
+                            "value": "350-HP-3600-RPM-TEFC"
+                        },
+                        {
+                            "label": "400-HP-3600-RPM-TEFC",
+                            "value": "400-HP-3600-RPM-TEFC"
+                        },
+                        {
+                            "label": "450-HP-3600-RPM-TEFC",
+                            "value": "450-HP-3600-RPM-TEFC"
+                        },
+                        {
+                            "label": "500-HP-3600-RPM-TEFC",
+                            "value": "500-HP-3600-RPM-TEFC"
+                        }
+                    ]
+                },
+                {
+                    "type": "select",
+                    "label": "Application Type",
+                    "name": "application_type",
+                    "description": "Application Type",
+                    "default": "N/A",
+                    "options": [{
+                            "label": "Industrial Application",
+                            "value": "Industrial Application"
+                        },
+                        {
+                            "label": "Non-Industrial Application",
+                            "value": "Non-Industrial Application"
+                        }
+                    ]
+                },
+                {
+                    "type": "select",
+                    "label": "Industrial Application Name",
+                    "name": "industrial_application_name",
+                    "description": "Industrial Application Name",
+                    "default": "N/A",
+                    "options": [{
+                            "label": "Fans",
+                            "value": "Fans"
+                        },
+                        {
+                            "label": "Pumps",
+                            "value": "Pumps"
+                        },
+                        {
+                            "label": "Air Compressor",
+                            "value": "Air Compressor"
+                        },
+                        {
+                            "label": "Other",
+                            "value": "Other"
+                        }
+                    ]
+                },
+                {
+                    "type": "select",
+                    "label": "Motor Controller",
+                    "name": "motor_controller",
+                    "description": "Motor Controller",
+                    "default": "N/A",
+                    "options": [{
+                            "label": "Yes",
+                            "value": "Yes"
+                        },
+                        {
+                            "label": "No",
+                            "value": "No"
+                        }
+                    ]
+                },
+                {
+                    "type": "select",
+                    "label": "Non-Industrial Application Name For Motor Controller",
+                    "name": "nonindustrial_application_name",
+                    "description": "Non-Industrial Application Name For Motor Controller",
+                    "default": "N/A",
+                    "options": [{
+                            "label": "Escalator",
+                            "value": "Escalator"
+                        },
+                        {
+                            "label": "Other",
+                            "value": "Other"
+                        }
+                    ]
+                },
+                {
+                    "type": "select",
+                    "label": "Building Type & Motor Application For No Motor Controller And Non Industrial Application",
+                    "name": "building_type_motor_application",
+                    "description": "Building Type & Motor Application For No Motor Controller And Non Industrial Application",
+                    "default": "N/A",
+                    "options": [{
+                            "label": "Office HVAC Pump",
+                            "value": "Office HVAC Pump"
+                        },
+                        {
+                            "label": "Retail HVAC Pump",
+                            "value": "Retail HVAC Pump"
+                        },
+                        {
+                            "label": "Hospitals HVAC Pump",
+                            "value": "Hospitals HVAC Pump"
+                        },
+                        {
+                            "label": "Elem/Sec Schools HVAC Pump",
+                            "value": "Elem/Sec Schools HVAC Pump"
+                        },
+                        {
+                            "label": "Restaurant HVAC Pump",
+                            "value": "Restaurant HVAC Pump"
+                        },
+                        {
+                            "label": "Warehouse HVAC Pump",
+                            "value": "Warehouse HVAC Pump"
+                        },
+                        {
+                            "label": "Hotels/Motels HVAC Pump",
+                            "value": "Hotels/Motels HVAC Pump"
+                        },
+                        {
+                            "label": "Grocery HVAC Pump",
+                            "value": "Grocery HVAC Pump"
+                        },
+                        {
+                            "label": "Health HVAC Pump",
+                            "value": "Health HVAC Pump"
+                        },
+                        {
+                            "label": "College/Univ HVAC Pump",
+                            "value": "College/Univ HVAC Pump"
+                        },
+                        {
+                            "label": "Office Ventilation Fan",
+                            "value": "Office Ventilation Fan"
+                        },
+                        {
+                            "label": "Retail Ventilation Fan",
+                            "value": "Retail Ventilation Fan"
+                        },
+                        {
+                            "label": "Hospitals Ventilation Fan",
+                            "value": "Hospitals Ventilation Fan"
+                        },
+                        {
+                            "label": "Elem/Sec Schools Ventilation Fan",
+                            "value": "Elem/Sec Schools Ventilation Fan"
+                        },
+                        {
+                            "label": "Restaurant Ventilation Fan",
+                            "value": "Restaurant Ventilation Fan"
+                        },
+                        {
+                            "label": "Warehouse Ventilation Fan",
+                            "value": "Warehouse Ventilation Fan"
+                        },
+                        {
+                            "label": "Hotels/Motels Ventilation Fan",
+                            "value": "Hotels/Motels Ventilation Fan"
+                        },
+                        {
+                            "label": "Grocery Ventilation Fan",
+                            "value": "Grocery Ventilation Fan"
+                        },
+                        {
+                            "label": "Health Ventilation Fan",
+                            "value": "Health Ventilation Fan"
+                        },
+                        {
+                            "label": "College/Univ Ventilation Fan",
+                            "value": "College/Univ Ventilation Fan"
+                        },
+                        {
+                            "label": "Office Other Application",
+                            "value": "Office Other Application"
+                        },
+                        {
+                            "label": "Retail Other Application",
+                            "value": "Retail Other Application"
+                        },
+                        {
+                            "label": "Hospitals Other Application",
+                            "value": "Hospitals Other Application"
+                        },
+                        {
+                            "label": "Elem/Sec Schools Other Application",
+                            "value": "Elem/Sec Schools Other Application"
+                        },
+                        {
+                            "label": "Restaurant Other Application",
+                            "value": "Restaurant Other Application"
+                        },
+                        {
+                            "label": "Warehouse Other Application",
+                            "value": "Warehouse Other Application"
+                        },
+                        {
+                            "label": "Hotels/Motels Other Application",
+                            "value": "Hotels/Motels Other Application"
+                        },
+                        {
+                            "label": "Grocery Other Application",
+                            "value": "Grocery Other Application"
+                        },
+                        {
+                            "label": "Health Other Application",
+                            "value": "Health Other Application"
+                        },
+                        {
+                            "label": "College/Univ Other Application",
+                            "value": "College/Univ Other Application"
+                        },
+                        {
+                            "label": "Data Center Pump",
+                            "value": "Data Center Pump"
+                        },
+                        {
+                            "label": "Data Center Fan",
+                            "value": "Data Center Fan"
+                        },
+                        {
+                            "label": "Low Temperature Case Fan",
+                            "value": "Low Temperature Case Fan"
+                        },
+                        {
+                            "label": "Medium Temperature Case Fan",
+                            "value": "Medium Temperature Case Fan"
+                        }
+                    ]
+                },
+                {
+                    "type": "select",
+                    "label": "Measure Enhancement Type",
+                    "name": "measure_enhancement_type",
+                    "description": "Measure Enhancement Type",
+                    "default": "N/A",
+                    "options": [{
+                            "label": "New",
+                            "value": "New"
+                        },
+                        {
+                            "label": "Upgraded",
+                            "value": "Upgraded"
+                        }
+                    ]
+                },
+                {
+                    "type": "select",
+                    "label": "COP Application Type",
+                    "name": "cop_application_type",
+                    "description": "Measure Enhancement Type to calculate Refrigeration Factor. This multiplier to include interactive effects of refrigeration or cooling energy to remove heat from the motors located in the refrigeration load. Reduction in motor energy results in a reduction in refrigeration/cooling energy.",
+                    "default": "N/A",
+                    "options": [{
+                            "label": "Low Temperature",
+                            "value": "Low Temperature"
+                        },
+                        {
+                            "label": "Medium Temperature",
+                            "value": "Medium Temperature"
+                        },
+                        {
+                            "label": "Data Center",
+                            "value": "Data Center"
+                        }
+                    ]
+                },
+                {
+                    "type": "select",
+                    "label": "Pump Or Fan Drive For Load Factor",
+                    "name": "pump_or_fan_drive_load_factor",
+                    "description": "Pump Or Fan Drive For Load Factor",
+                    "default": "N/A",
+                    "options": [{
+                            "label": "Pump",
+                            "value": "Pump"
+                        },
+                        {
+                            "label": "Fan",
+                            "value": "Fan"
+                        }
+                    ]
+                }
+            ],
+            "projectId": "rec2YzynX394q9pK5",
+            "project_category": "Process",
+            "incentive": {
+                "input_label": null,
+                "input_description": null,
+                "state": [
+                    "CO"
+                ],
+                "utility_company": "Xcel Energy",
+                "rebate_code": null,
+                "product_code": null,
+                "rebate_cap": null,
+                "program_link": null,
+                "bonuses_available": null,
+                "bonus_comment": null,
+                "source_link": null,
+                "expiration": null,
+                "existing_requirements": "",
+                "design_requirements": "",
+                "incentive_type": "none",
+                "input_units": null
+            },
+            "category": "calculated",
+            "measureType": ""
+        },
+        {
+            "name": "xcelCustomMeasure",
+            "displayName": "Custom measures with known Existing Demand, Load Factor, Prescribed Reduction and Operating Hours",
+            "description": "Deemed savings custom measure",
+            "fields": [{
+                    "type": "number",
+                    "label": "Existing Demand",
+                    "name": "existing_demand",
+                    "description": "Existing Demand",
+                    "default": "N/A"
+                },
+                {
+                    "type": "number",
+                    "label": "Load Factor",
+                    "name": "load_factor",
+                    "description": "Load Factor",
+                    "default": "N/A"
+                },
+                {
+                    "type": "number",
+                    "label": "Prescribed Reduction",
+                    "name": "prescribed_reduction",
+                    "description": "Prescribed Reduction",
+                    "default": "N/A"
+                },
+                {
+                    "type": "number",
+                    "label": "Operating Hours",
+                    "name": "operating_hours",
+                    "description": "Operating Hours",
+                    "default": "N/A"
+                }
+            ],
+            "projectId": "recUzFWCuyT0tYOUW",
+            "project_category": "Custom",
+            "incentive": {
+                "input_label": null,
+                "input_description": null,
+                "state": [
+                    "CO"
+                ],
+                "utility_company": "Xcel Energy",
+                "rebate_code": null,
+                "product_code": null,
+                "rebate_cap": null,
+                "program_link": null,
+                "bonuses_available": null,
+                "bonus_comment": null,
+                "source_link": null,
+                "expiration": null,
+                "existing_requirements": "",
+                "design_requirements": "",
+                "incentive_type": "none",
+                "input_units": null
+            },
+            "category": "calculated",
+            "measureType": ""
+        }
+    ]
+}

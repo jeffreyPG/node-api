@@ -1,0 +1,78 @@
+type SystemType {
+    _id: ID
+    name: String
+    order: Int
+    measures: [ID]
+    sections: [SystemTypeSection]
+    images: [String]
+}
+
+type SystemTypeSection {
+    name: String
+    order: Int
+    category: String
+    application: String
+    technology: String
+    info: [SystemTypeSectionInfo]
+    equipment: [ID]
+}
+
+type SystemTypeSectionInfo {
+    name: String
+    label: String
+}
+
+input SystemTypeSectionInput {
+    name: String!
+    category: String
+    application: String
+    technology: String
+    info: [SystemTypeSectionInfoInput]
+    equipment: [ID]
+}
+
+input SystemTypeSectionInfoInput {
+    name: String
+    label: String
+}
+
+input CreateSystemTypeInput {
+    name: String
+    measures: [ID]
+    sections: [SystemTypeSectionInput]
+    images: [String]
+}
+
+input FetchSystemTypeInput {
+    _id: ID!
+}
+
+input UpdateSystemTypeInput {
+    _id: ID!
+    name: String
+    measures: [ID]
+    sections: [SystemTypeSectionInput]
+    images: [String]
+}
+
+input DeleteSystemTypeInput {
+    _id: ID!
+}
+
+input SearchSystemTypeInput {
+    name: String
+    category: String
+    application: String
+    technology: String
+}
+
+extend type Query {
+    systemType(systemType: FetchSystemTypeInput): SystemType!
+    systemTypes(systemType: SearchSystemTypeInput, search: SearchInput): [SystemType]
+}
+
+extend type Mutation {
+    createSystemType(systemType: CreateSystemTypeInput): SystemType!
+    updateSystemType(systemType: UpdateSystemTypeInput): SystemType!
+    deleteSystemType(systemType: DeleteSystemTypeInput): SystemType!
+}

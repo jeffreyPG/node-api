@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+  <body>
+
+    <h3><a href="{{'/' + prefix}}">Back to Index</a></h3>
+
+    {% if notFound %}
+
+    <table name="dev-logs" border="1">
+      {% for log in notFound %}
+      <tr>
+        <th>Timestamp</th>
+        <th>Request Path</th>
+        <th>IP</th>
+        <th>IPS (proxies)</th>
+      </tr>
+      <tr>
+        <td>{{ log.timestamp.toString() }}</td>
+        <td>{{ log.reqPath }}</td>
+        <td>{{ log.reqIp }}</td>
+        <td>{{ log.reqIps }}</td>
+      </tr>
+      {% endfor %}
+    </table>
+
+    {% endif %}
+
+  </body>
+</html>

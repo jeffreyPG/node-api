@@ -1,0 +1,119 @@
+[
+  {
+    "name": "Public Window All Fields 1",
+    "comment": "Window comment",
+    "conditionRating": "Excellent - Plan Preventative Maintenance",
+    "configuration": {
+      "angle": "30",
+      "orientation": "Vertical",
+      "gapLength": "29",
+      "gapWidth": "28",
+      "shadeOverhang": "27",
+      "shadeControl": "Automatic",
+      "shadeType": "None"
+    },
+    "data": {
+      "frameDepth": "26",
+      "frameWidth": "25",
+      "frameType": "Aluminum",
+      "vt": "24",
+      "shgc": "23",
+      "uFactor": "22",
+      "gasFill": "Air",
+      "tint": "Bronze",
+      "numberOfPanes": "Double pane",
+      "skylight": "Curb",
+      "style": "Double Hung",
+      "operability": "Fixed",
+      "yearBuilt": "1984",
+      "model": "Window Model",
+      "manufacturer": "Window Manufacturer"
+    }
+  },
+  {
+    "name": "Public Window All Fields 2",
+    "comment": "Window comment",
+    "conditionRating": "Excellent - Plan Preventative Maintenance",
+    "configuration": {
+      "angle": "30",
+      "orientation": "Vertical",
+      "gapLength": "29",
+      "gapWidth": "28",
+      "shadeOverhang": "27",
+      "shadeControl": "Automatic",
+      "shadeType": "None"
+    },
+    "data": {
+      "frameDepth": "26",
+      "frameWidth": "25",
+      "frameType": "Aluminum",
+      "vt": "24",
+      "shgc": "23",
+      "uFactor": "22",
+      "gasFill": "Air",
+      "tint": "Bronze",
+      "numberOfPanes": "Double pane",
+      "skylight": "Curb",
+      "style": "Double Hung",
+      "operability": "Fixed",
+      "yearBuilt": "1984",
+      "model": "Window Model",
+      "manufacturer": "Window Manufacturer"
+    }
+  },
+  {
+    "name": "Public Window 2",
+    "comment": "Window comment",
+    "conditionRating": "Excellent - Plan Preventative Maintenance",
+    "data": {
+      "frameDepth": "26",
+      "frameWidth": "25",
+      "frameType": "Aluminum",
+      "vt": "24",
+      "shgc": "23",
+      "uFactor": "22",
+      "gasFill": "Air",
+      "tint": "Bronze",
+      "numberOfPanes": "Double pane",
+      "skylight": "Curb",
+      "style": "Double Hung",
+      "operability": "Fixed",
+      "yearBuilt": "1984",
+      "model": "Window Model",
+      "manufacturer": "Window Manufacturer"
+    }
+  },
+  {
+    "name": "Public Window 3",
+    "comment": "Window comment",
+    "conditionRating": "Excellent - Plan Preventative Maintenance",
+    "configuration": {
+      "angle": "30",
+      "orientation": "Vertical",
+      "gapLength": "29",
+      "gapWidth": "28",
+      "shadeOverhang": "27",
+      "shadeControl": "Automatic",
+      "shadeType": "None"
+    }
+  },
+  {
+    "name": "Public Window 4",
+    "comment": "Window comment",
+    "conditionRating": "Excellent - Plan Preventative Maintenance",
+    "configuration": {
+      "angle": "30",
+      "shadeControl": "Automatic",
+      "shadeType": "None"
+    },
+    "data": {
+      "frameDepth": "26",
+      "frameWidth": "25",
+      "frameType": "Aluminum",
+      "operability": "Fixed",
+      "yearBuilt": "1984",
+      "model": "Window Model",
+      "manufacturer": "Window Manufacturer"
+    }
+  }
+]

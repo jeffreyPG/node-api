@@ -1,0 +1,102 @@
+type System {
+    _id: ID
+    name: String
+    building: ID!
+    template: SystemType
+    projects: [ID]
+    sections: [SystemSection]
+    images: [String]
+    comments: String
+    createdByUserId: SystemUser
+    createdAt: String
+    updatedAt: String
+}
+
+type SystemUser {
+  name: String
+}
+
+type SystemSection {
+    name: String
+    category: ProductCategory!
+    application: ProductApplication
+    technology: EquipmentTechnology
+    info: [SystemSectionInfo]
+    buildingEquipment: [SystemSectionBuildingEquipment]
+}
+
+type SystemSectionBuildingEquipment {
+    _id: ID!
+}
+
+type SystemSectionInfo {
+    name: String
+    label: String
+}
+
+input SystemSectionInput {
+    name: String!
+    category: ProductCategory!
+    application: ProductApplication
+    technology: EquipmentTechnology
+    info: [SystemSectionInfoInput]
+    buildingEquipment: [SystemSectionBuildingEquipmentInput]
+}
+
+input SystemSectionBuildingEquipmentInput {
+    _id: ID!
+}
+
+input SystemSectionInfoInput {
+    name: String
+    label: String
+}
+
+input CreateSystemInput {
+    name: String
+    building: ID!
+    template: ID!
+    projects: [ID]
+    sections: [SystemSectionInput]
+    images: [String]
+    comments: String
+}
+
+input FetchSystemInput {
+    _id: ID!
+}
+
+input UpdateSystemInput {
+    _id: ID!
+    name: String
+    building: ID
+    template: ID
+    projects: [ID]
+    sections: [SystemSectionInput]
+    images: [String]
+    comments: String
+}
+
+input DeleteSystemInput {
+    _id: ID!
+}
+
+input SearchSystemInput {
+    name: String
+    building: ID!
+    category: String
+    application: String
+    technology: String
+    template: ID
+}
+
+extend type Query {
+    system(system: FetchSystemInput): System!
+    systems(system: SearchSystemInput!, search: SearchInput): [System]
+}
+
+extend type Mutation {
+    createSystem(system: CreateSystemInput): System!
+    updateSystem(system: UpdateSystemInput): System!
+    deleteSystem(system: DeleteSystemInput): System!
+}

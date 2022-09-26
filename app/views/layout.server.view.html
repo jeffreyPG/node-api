@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<link rel="stylesheet" href="{{'/' + prefix + 'css/bootstrap.min.css'}}">
+	</head>
+
+	<style type="text/css">
+		body {
+			background-color: #F5F5F5;
+		}
+		td {
+			max-width: 400px;
+		}
+		hr {
+			margin-top: 2px;
+			margin-bottom: 2px;
+			border-color: #828282;
+		}
+		pre {
+			max-width: 500px;
+		}
+		.btn {
+			margin-top: 10px;
+			margin-bottom: 10px;
+		}
+		.tbl-header {
+			background-color: #929292;
+		}
+		.tbl-code {
+			background-color: #BDBDBD;
+		}
+		code {
+			color: #6D6D6D;
+		}
+	</style>
+
+	<body>
+
+		<div class="container">
+
+			{% if logs %}
+
+			<div class="row center-block text-center">
+				<div class="col-xs-4">
+					<span>
+						<a class="btn btn-default" href="{{'/' + prefix + 'test-coverage'}}">
+							<strong>Unit Test Code Coverage</strong>
+						</a>
+					</span>
+				</div>
+				<div class="col-xs-4">
+					<span>
+						<a class="btn btn-default" href="{{'/' + prefix + 'test-summary'}}">
+							<strong>Unit Test Summary Page</strong>
+						</a>
+					</span>
+				</div>
+				<div class="col-xs-4">
+					<span>
+						<a class="btn btn-default" href="{{'/' + prefix + '404-summary'}}">
+							<strong>404 Not Found Requests</strong>
+						</a>
+					</span>
+				</div>
+			</div>
+
+			{% endif %}
+
+			<div class="row">
+				<div class="col-xs-12 text-center">
+					<pre class="col-xs-offset-3" style="font: 10px/5px monospace;">
+							Simuwatt API
+					</pre>
+				</div>
+			</div>
+
+			{% if logs %}
+
+			<div class="row">
+				<div class="col-xs-12">
+					<table class="table table-bordered table-condensed" name="dev-logs">
+						{% for log in logs %}
+						<tr class="tbl-header">
+							<th>Message</th>
+							<th>Timestamp</th>
+							<th>Level</th>
+							<th>Label</th>
+						</tr>
+						<tr>
+							<td>{{ log.message || '-' }}</td>
+							<td>{{ log.timestamp.toString() }}</td>
+							<td>{{ log.level }}</td>
+							<td>{{ log.label }}</td>
+						</tr>
+						<tr>
+							<td class="tbl-header"><strong>Request</strong></td>
+							<td colspan="3" class="tbl-code">
+								<code>{{ JSON.stringify(log.meta.request) }}</code>
+							</td>
+						</tr>
+						<tr>
+							<td class="tbl-header"><strong>Response</strong></td>
+							<td colspan="3" class="tbl-code">
+								<code>{{ JSON.stringify(log.meta.response) }}</code>
+							</td>
+						</tr>
+						<tr>
+							<td colspan="4"><hr></td>
+						</tr>
+						{% endfor %}
+					</table>
+				</div>
+			</div>
+
+			{% endif %}
+
+		</div>
+
+	</body>
+</html>

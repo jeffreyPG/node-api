@@ -1,0 +1,76 @@
+{
+	"measures": [
+		{ 
+			"name": "chilled_water_pump_differential_pressure_reset", 
+			"displayName": "Chilled Water Pump Differential Pressure Reset",
+			"description": "Reset setpoint pressure based on flow rate for chilled water loops.",
+		    "fields": []
+	    },
+	    { 
+			"name": "chilled_water_supply_temperature_reset_based_on_outdoor_air_temperature", 
+			"displayName": "Chilled Water Supply Temperature Reset (based on outdoor air temperature)",
+			"description": "Reset setpoint temperature based on the ambient air temperature.",
+		    "fields": [
+		    	{"type": "number", "label": "CHW Temperature at High OAT (F)", "name": "chwt_at_hi_oat_f", "description": "Chilled water setpoint for hot outdoor air temperatures (low setpoint)", "default": 45},
+		    	{"type": "number", "label": "CHW Temperature at Low OAT (F)", "name": "chwt_at_lo_oat_f", "description": "Chilled water setpoint for cold outdoor air temperatures (high setpoint)", "default": 55},
+		    	{"type": "number", "label": "Low Outdoor Air Temperature (F)", "name": "lo_oat_f", "description": "Ambient temperature for which cooling is required.", "default": 60},
+		    	{"type": "select", "label": "Apply Measure To", "name": "object", "description": "Chilled water loops to apply measure to.", "default": "All Plant Loops",
+		    		"options": [
+		    			{"label":"All Plant Loops", "value":"*All Plant Loops*"}
+		    		]
+		    	}
+		    ]
+	    },
+	    { 
+			"name": "dx_characteristics", 
+			"displayName": "High Efficiency DX Units",
+			"description": "Modify existing DX cooling coil units with high efficiency coils",
+		    "fields": [
+		    	{"type": "number", "label": "Low Speed COP", "name": "low_spd_cop", "description": "Coefficient of performance (COP) at low speed for high efficiency coil replacement. If single speed, enter COP twice.", "default": 3},
+		    	{"type": "number", "label": "High Speed COP", "name": "hi_spd_cop", "description": "Coefficient of performance (COP) at high speed (for two speed coil) for high efficiency coil replacement. If single speed, enter COP twice.", "default": 3},
+		    	{"type": "select", "label": "Applicable Types of Cooling Coils", "name": "cat", "description": "Type of existing equipment to apply measure to.", "default": "CoilCoolingDXSingleSpeed",
+		    		"options": [
+		    			{"label":"Single Speed DX", "value":"CoilCoolingDXSingleSpeed"},
+		    			{"label":"Two Speed DX", "value":"CoilCoolingDXTwoSpeed"}
+		    		]
+		    	}
+		    ]
+	    },
+	    { 
+			"name": "supply_air_temperature_reset_based_on_warmest_zone", 
+			"displayName": "Supply Air Temperature Reset (Warmest Zone)",
+			"description": "Implement supply air temperature reset based on the warmest zone served by the equipment.",
+		    "fields": [
+		    	{"type": "number", "label": "Minimum Supply Air Temperature (F)", "name": "min_sat_f", "description": "Minimum acceptable SA temperature.", "default": 55},
+		    	{"type": "number", "label": "Maximum Supply Air Temperature (F)", "name": "max_sat_f", "description": "Maximum acceptable SA temperature.", "default": 65},
+		    	{"type": "select", "label": "Apply Measure To", "name": "object", "description": "Air loops to apply measure to.", "default": "All Plant Loops",
+		    		"options": [
+		    			{"label":"All Plant Loops", "value":"*All Plant Loops*"}
+		    		]
+		    	}
+		    ]
+	    },
+	    { 
+			"name": "supply_air_temperature_reset_based_on_outdoor_air_temperature", 
+			"displayName": "Supply Air Temperature Reset (Outdoor Air Temperature)",
+			"description": "Implement supply air temperature reset based on ambient temperature.",
+		    "fields": []
+	    },
+	    { 
+			"name": "load_characteristics", 
+			"displayName": "High Efficacy Lighting Retrofit",
+			"description": "Remove all existing lighting and replace with more efficient technologies.",
+		    "fields": [
+		    	{"type": "number", "label": "Per Area Power Density (W/sf)", "name": "per_area_val", "description": "Power density for the replacement equipment in Watts per square foot", "default": 2.0},
+		    	{"type": "number", "label": "Per Instance Power Density (W/each)", "name": "per_instance_val", "description": "Power density for the replacement equipment in Watts per instance", "default": 2.0},
+		    	{"type": "number", "label": "Per Person Power Density (W/person)", "name": "per_person_val", "description": "Power density for the replacement equipment in Watts per person", "default": 2.0},
+		    	{"type": "string", "label": "Name of New Equipment", "name": "new_name", "description": "Provide a new name for the equipment.", "default": "High Efficacy Lighting"},
+		    	{"type": "select", "label": "Apply Measure To", "name": "load_cat", "description": "Type of load to apply measure to.",
+		    		"options": [
+		    			{"label":"Lighting", "value":"Lights"}
+		    		]
+		    	}
+		    ]
+	    }
+	]
+}
